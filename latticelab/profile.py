@@ -10,7 +10,7 @@ beta >= 40 the deviation from the GSA line through the volume.
 from __future__ import annotations
 
 import math
-from typing import Dict, List
+from typing import Dict
 
 import numpy as np
 from fpylll import BKZ, GSO, IntegerMatrix, LLL

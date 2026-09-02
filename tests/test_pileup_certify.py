@@ -1,8 +1,14 @@
+import json
+import subprocess
+import sys
 from fractions import Fraction
+
+import pytest
 
 from factorlab.experiments.modfree_census import in_census_box, pooled_cluster, census
 from factorlab.experiments.pileup_certify import (
-    certify_boundary, high_precision_cluster, out_of_sample, pooled_high_precision, speed_error_bound,
+    certify_boundary, high_precision_cluster, out_of_sample, parse_log2r_j, pooled_high_precision,
+    recheck_e27_symmetric, speed_error_bound, symmetric_family_recheck,
 )
 
 
@@ -74,3 +80,27 @@ def test_out_of_sample_small_r():
     o = out_of_sample(3000, q_max=30, m_max=16)
     assert o["exact"] and o["exact_D_star"] >= o["census_max_sf"]
     assert o["agree"] == (o["exact_D_star"] == o["census_max_sf"])
+
+
+def test_symmetric_family_recheck_matches_archived_e27_row():
+    # the first row of results/e41_e27_recheck.json: r = 2^14, j = 9 -> float 8, 200-bit 8 (squarefree) / 18 (all), 18 members
+    row = symmetric_family_recheck(2 ** 14, 9)
+    assert row == {"log2_r": 14, "j": 9, "float_D_sym": 8, "mpfr_sf": 8, "mpfr_all": 18, "members": 18}
+    assert recheck_e27_symmetric([parse_log2r_j("14:9")], verbose=False) == [row]
+    assert parse_log2r_j("16:15") == (2 ** 16, 15)
+    for bad in ("14", "a:b", "0:9", "14:0"):
+        with pytest.raises(ValueError):
+            parse_log2r_j(bad)
+
+
+def test_cli_rejects_bare_list_flags_and_nothing_to_do(tmp_path):
+    out = tmp_path / "e41.json"
+    for args in (["--certify"], [], ["--recheck-e27", "14:9", "--recheck"], ["--recheck-e27", "14"]):
+        r = subprocess.run([sys.executable, "-m", "factorlab.experiments.pileup_certify", *args, "--out", str(out)],
+                           capture_output=True, text=True)
+        assert r.returncode == 2, (args, r.stderr)
+    assert not out.exists()
+    r = subprocess.run([sys.executable, "-m", "factorlab.experiments.pileup_certify", "--recheck-e27", "14:9", "--out", str(out)],
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr
+    assert json.loads(out.read_text()) == [{"log2_r": 14, "j": 9, "float_D_sym": 8, "mpfr_sf": 8, "mpfr_all": 18, "members": 18}]

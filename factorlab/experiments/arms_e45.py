@@ -157,7 +157,6 @@ def classify_hits(N: int, p: int, q: int, r: int) -> Dict:
     """All hits (a, b) with ab <= r via the necessary condition ||b xi|| < 2/b, classified against the CF of p/q."""
     if p > q:
         p, q = q, p
-    xi_num, xi_den = p, q
     cf = continued_fraction(p, q)
     b_max = isqrt(r * q // p) + 2
     conv, med = convergents_and_mediants(cf, b_max)

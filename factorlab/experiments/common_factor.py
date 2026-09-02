@@ -15,10 +15,10 @@ import argparse
 import json
 import math
 import os
-from typing import Dict, List, Tuple
+from typing import Dict, List
 
 import numpy as np
-from gmpy2 import gcd, is_prime, mpz, powmod
+from gmpy2 import is_prime, powmod
 from sympy import factorint
 
 from factorlab.experiments.harvey_residue import common_factor_attack

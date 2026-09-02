@@ -66,7 +66,7 @@ from __future__ import annotations
 
 import math
 from fractions import Fraction
-from typing import Dict, List, Sequence
+from typing import Dict, Sequence
 
 import numpy as np
 

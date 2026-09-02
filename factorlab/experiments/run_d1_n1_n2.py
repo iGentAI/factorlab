@@ -8,7 +8,6 @@ from __future__ import annotations
 import argparse
 import json
 import os
-import statistics
 
 from ..bench import run_suite, summarize, print_summary, RESULTS_DIR
 from ..gen import make_semiprime

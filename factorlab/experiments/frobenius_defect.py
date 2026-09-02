@@ -56,7 +56,6 @@ def leakage_over_ZN(N: int, a: int, r: int):
     """Run Euclid on (X^r - 1, F_a) over Z_N with explicit leading-coefficient
     unit checks.  Returns (leaked_factor_or_None, steps)."""
     N = int(N)
-    ctx = flint.fmpz_mod_poly_ctx(N)
     F, xr1 = frobenius_defect_poly(N, N, a, r)
     A, B = xr1, F
     steps = 0

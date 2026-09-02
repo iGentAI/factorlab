@@ -1,6 +1,5 @@
 import math
 
-import gmpy2
 
 from factorlab.experiments.olf_squares import (
     delta_k, olf_hits, lattice_parameter, random_square_parameter, delta_linear_complexity, convergent_denominators,

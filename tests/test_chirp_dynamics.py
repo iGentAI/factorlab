@@ -3,9 +3,9 @@ import math
 import numpy as np
 
 from factorlab.experiments.chirp_dynamics import (
-    speed_census, moving_point_cluster_max, _integer_centre_cluster_max, first_moment_bound, d_max_for_N,
+    speed_census, _integer_centre_cluster_max, first_moment_bound, d_max_for_N,
 )
-from factorlab.experiments.lehman_cover import approx_sidon, short_window_subfamily, squarefree_flags
+from factorlab.experiments.lehman_cover import approx_sidon, short_window_subfamily
 from factorlab.gen import make_semiprime
 
 

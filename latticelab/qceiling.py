@@ -27,7 +27,7 @@ import argparse
 import json
 import math
 import time
-from typing import Dict, List, Optional, Sequence, Tuple
+from typing import Dict, Sequence, Tuple
 
 import numpy as np
 

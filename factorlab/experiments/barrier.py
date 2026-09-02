@@ -25,7 +25,7 @@ from __future__ import annotations
 
 import math
 
-from ..numth import mpz, gcd, powmod, isqrt, isqrt_ceil
+from ..numth import mpz, gcd, powmod, isqrt_ceil
 
 
 # ---------------------------------------------------------------------------

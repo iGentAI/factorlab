@@ -282,7 +282,6 @@ def test_e20b_labels_match_scalar_orders_and_algorithm():
                 continue
             order = 0
             prev, cur = (X, Z), None
-            Xj, Zj = X, Z
             for j in range(2, B2 + 1):
                 if j == 2:
                     from factorlab.algorithms.ecm import xdbl
