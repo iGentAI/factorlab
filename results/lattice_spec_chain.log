@@ -1,0 +1,21 @@
+Kyber512: printed (d, b) = (1003, 403); GSA chain b = 406 (m = 513, d = 1026, 61 admissible m); floor chain (eps = 0, double precision, full m range) b = 408 (m = 509, d = 1022, 90 admissible m): +2 blocksizes, 0.6 classical core-SVP bits
+   b*=408 m*=509 d=1022: floor [1.003985776297954952292174690899092603640900053706756764878001823165536576347 +/- 3.02e-76] vs target [1.004022444244860650232735083156754341732835466805305882533432153236901348705 +/- 3.30e-77]: passes
+   b=403: 476 values of m rigorously fail (293 outside the condition's domain); first non-failing: None
+   b=404: 474 values of m rigorously fail (295 outside the condition's domain); first non-failing: None
+   b=405: 472 values of m rigorously fail (297 outside the condition's domain); first non-failing: None
+   b=406: 470 values of m rigorously fail (299 outside the condition's domain); first non-failing: None
+   b=407: 468 values of m rigorously fail (301 outside the condition's domain); first non-failing: None
+Kyber768: printed (d, b) = (1424, 625); GSA chain b = 624 (m = 694, d = 1463, 83 admissible m); floor chain (eps = 0, double precision, full m range) b = 626 (m = 688, d = 1457, 77 admissible m): +2 blocksizes, 0.6 classical core-SVP bits
+   b*=626 m*=688 d=1457: floor [1.002952312512438189612208394540516850833273499358408755387422303295964574770 +/- 4.98e-76] vs target [1.002966012081442732506874436362089110756766041702224811856510466981619305508 +/- 1.47e-76]: passes
+   b=621: 552 values of m rigorously fail (473 outside the condition's domain); first non-failing: None
+   b=622: 550 values of m rigorously fail (475 outside the condition's domain); first non-failing: None
+   b=623: 548 values of m rigorously fail (477 outside the condition's domain); first non-failing: None
+   b=624: 546 values of m rigorously fail (479 outside the condition's domain); first non-failing: None
+   b=625: 544 values of m rigorously fail (481 outside the condition's domain); first non-failing: None
+Kyber1024: printed (d, b) = (1885, 877); GSA chain b = 874 (m = 885, d = 1910, 105 admissible m); floor chain (eps = 0, double precision, full m range) b = 876 (m = 866, d = 1891, 105 admissible m): +2 blocksizes, 0.6 classical core-SVP bits
+   b*=876 m*=866 d=1891: floor [1.002313795204587083789239855524727991331382211078012224236779087003752372621 +/- 3.42e-76] vs target [1.002335280317190210348233038551288065467738954417132623073325494010333604005 +/- 4.58e-76]: passes
+   b=871: 564 values of m rigorously fail (717 outside the condition's domain); first non-failing: None
+   b=872: 562 values of m rigorously fail (719 outside the condition's domain); first non-failing: None
+   b=873: 560 values of m rigorously fail (721 outside the condition's domain); first non-failing: None
+   b=874: 558 values of m rigorously fail (723 outside the condition's domain); first non-failing: None
+   b=875: 556 values of m rigorously fail (725 outside the condition's domain); first non-failing: None

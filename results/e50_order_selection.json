@@ -1,0 +1,1599 @@
+{
+ "adversarial": [
+  {
+   "d": 11,
+   "p": 23,
+   "q": 89,
+   "N": 2047,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 11,
+   "trace": [
+    [
+     2,
+     "fail",
+     "11"
+    ],
+    [
+     3,
+     "divisor gcd",
+     "(88, 2, 23)"
+    ]
+   ]
+  },
+  {
+   "d": 23,
+   "p": 47,
+   "q": 178481,
+   "N": 8388607,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 23,
+   "trace": [
+    [
+     2,
+     "fail",
+     "23"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 25,
+   "p": 601,
+   "q": 1801,
+   "N": 1082401,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 25,
+   "trace": [
+    [
+     2,
+     "fail",
+     "25"
+    ],
+    [
+     3,
+     "divisor gcd",
+     "(450, 2, 601)"
+    ]
+   ]
+  },
+  {
+   "d": 28,
+   "p": 29,
+   "q": 113,
+   "N": 3277,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 2,
+   "candidates": 1,
+   "L": 28,
+   "trace": [
+    [
+     2,
+     "fail",
+     "28"
+    ],
+    [
+     2,
+     "recover",
+     "28"
+    ]
+   ]
+  },
+  {
+   "d": 29,
+   "p": 233,
+   "q": 1103,
+   "N": 256999,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 29,
+   "trace": [
+    [
+     2,
+     "fail",
+     "29"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 35,
+   "p": 71,
+   "q": 122921,
+   "N": 8727391,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 35,
+   "trace": [
+    [
+     2,
+     "fail",
+     "35"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 36,
+   "p": 37,
+   "q": 109,
+   "N": 4033,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 2,
+   "candidates": 1,
+   "L": 36,
+   "trace": [
+    [
+     2,
+     "fail",
+     "36"
+    ],
+    [
+     2,
+     "recover",
+     "36"
+    ]
+   ]
+  },
+  {
+   "d": 37,
+   "p": 223,
+   "q": 616318177,
+   "N": 137438953471,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 37,
+   "trace": [
+    [
+     2,
+     "fail",
+     "37"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 39,
+   "p": 79,
+   "q": 121369,
+   "N": 9588151,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 39,
+   "trace": [
+    [
+     2,
+     "fail",
+     "39"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 41,
+   "p": 13367,
+   "q": 164511353,
+   "N": 2199023255551,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 41,
+   "trace": [
+    [
+     2,
+     "fail",
+     "41"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 43,
+   "p": 431,
+   "q": 9719,
+   "N": 4188889,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 43,
+   "trace": [
+    [
+     2,
+     "fail",
+     "43"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 44,
+   "p": 397,
+   "q": 2113,
+   "N": 838861,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 44,
+   "trace": [
+    [
+     2,
+     "fail",
+     "44"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 45,
+   "p": 631,
+   "q": 23311,
+   "N": 14709241,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 45,
+   "trace": [
+    [
+     2,
+     "fail",
+     "45"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 47,
+   "p": 2351,
+   "q": 4513,
+   "N": 10610063,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 47,
+   "trace": [
+    [
+     2,
+     "fail",
+     "47"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 48,
+   "p": 97,
+   "q": 673,
+   "N": 65281,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 2,
+   "candidates": 1,
+   "L": 48,
+   "trace": [
+    [
+     2,
+     "fail",
+     "48"
+    ],
+    [
+     2,
+     "recover",
+     "48"
+    ]
+   ]
+  },
+  {
+   "d": 50,
+   "p": 251,
+   "q": 4051,
+   "N": 1016801,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 50,
+   "trace": [
+    [
+     2,
+     "fail",
+     "50"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 51,
+   "p": 103,
+   "q": 2143,
+   "N": 220729,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 51,
+   "trace": [
+    [
+     2,
+     "fail",
+     "51"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 52,
+   "p": 53,
+   "q": 157,
+   "N": 8321,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 2,
+   "candidates": 1,
+   "L": 52,
+   "trace": [
+    [
+     2,
+     "fail",
+     "52"
+    ],
+    [
+     2,
+     "recover",
+     "52"
+    ]
+   ]
+  },
+  {
+   "d": 53,
+   "p": 6361,
+   "q": 69431,
+   "N": 441650591,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 53,
+   "trace": [
+    [
+     2,
+     "fail",
+     "53"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 55,
+   "p": 881,
+   "q": 3191,
+   "N": 2811271,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 55,
+   "trace": [
+    [
+     2,
+     "fail",
+     "55"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 57,
+   "p": 32377,
+   "q": 1212847,
+   "N": 39268347319,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 57,
+   "trace": [
+    [
+     2,
+     "fail",
+     "57"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 58,
+   "p": 59,
+   "q": 3033169,
+   "N": 178956971,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 58,
+   "trace": [
+    [
+     2,
+     "fail",
+     "58"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 59,
+   "p": 179951,
+   "q": 3203431780337,
+   "N": 576460752303423487,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 59,
+   "trace": [
+    [
+     2,
+     "fail",
+     "59"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  },
+  {
+   "d": 60,
+   "p": 61,
+   "q": 1321,
+   "N": 80581,
+   "D": 1000,
+   "outcome": "factor",
+   "alpha": 2,
+   "candidates": 1,
+   "L": 60,
+   "trace": [
+    [
+     2,
+     "fail",
+     "60"
+    ],
+    [
+     2,
+     "recover",
+     "60"
+    ]
+   ]
+  },
+  {
+   "d": 63,
+   "p": 92737,
+   "q": 649657,
+   "N": 60247241209,
+   "D": 1000,
+   "outcome": "large order",
+   "alpha": 3,
+   "candidates": 2,
+   "L": 63,
+   "trace": [
+    [
+     2,
+     "fail",
+     "63"
+    ],
+    [
+     3,
+     "ord>D",
+     "None"
+    ]
+   ]
+  }
+ ],
+ "common_divisor": [
+  {
+   "L": 10159,
+   "k": 1,
+   "l": 3,
+   "p": 40637,
+   "q": 121909,
+   "N": 4954016033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "40636"
+    ],
+    [
+     2,
+     "recover",
+     "40636"
+    ]
+   ]
+  },
+  {
+   "L": 11689,
+   "k": 1,
+   "l": 3,
+   "p": 46757,
+   "q": 140269,
+   "N": 6558557633,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "46756"
+    ],
+    [
+     2,
+     "recover",
+     "46756"
+    ]
+   ]
+  },
+  {
+   "L": 13399,
+   "k": 1,
+   "l": 3,
+   "p": 53597,
+   "q": 160789,
+   "N": 8617808033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "53596"
+    ],
+    [
+     2,
+     "recover",
+     "53596"
+    ]
+   ]
+  },
+  {
+   "L": 14149,
+   "k": 1,
+   "l": 3,
+   "p": 56597,
+   "q": 169789,
+   "N": 9609548033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "56596"
+    ],
+    [
+     2,
+     "recover",
+     "56596"
+    ]
+   ]
+  },
+  {
+   "L": 17419,
+   "k": 1,
+   "l": 3,
+   "p": 69677,
+   "q": 209029,
+   "N": 14564513633,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "69676"
+    ],
+    [
+     2,
+     "recover",
+     "69676"
+    ]
+   ]
+  },
+  {
+   "L": 19273,
+   "k": 1,
+   "l": 3,
+   "p": 77093,
+   "q": 231277,
+   "N": 17829837761,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "77092"
+    ],
+    [
+     2,
+     "recover",
+     "77092"
+    ]
+   ]
+  },
+  {
+   "L": 19309,
+   "k": 1,
+   "l": 3,
+   "p": 77237,
+   "q": 231709,
+   "N": 17896508033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "77236"
+    ],
+    [
+     2,
+     "recover",
+     "77236"
+    ]
+   ]
+  },
+  {
+   "L": 20233,
+   "k": 1,
+   "l": 3,
+   "p": 80933,
+   "q": 242797,
+   "N": 19650289601,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "80932"
+    ],
+    [
+     2,
+     "recover",
+     "80932"
+    ]
+   ]
+  },
+  {
+   "L": 23899,
+   "k": 1,
+   "l": 3,
+   "p": 95597,
+   "q": 286789,
+   "N": 27416168033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "95596"
+    ],
+    [
+     2,
+     "recover",
+     "95596"
+    ]
+   ]
+  },
+  {
+   "L": 23929,
+   "k": 1,
+   "l": 3,
+   "p": 95717,
+   "q": 287149,
+   "N": 27485040833,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "95716"
+    ],
+    [
+     2,
+     "recover",
+     "95716"
+    ]
+   ]
+  },
+  {
+   "L": 24223,
+   "k": 1,
+   "l": 3,
+   "p": 96893,
+   "q": 290677,
+   "N": 28164566561,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "96892"
+    ],
+    [
+     2,
+     "recover",
+     "96892"
+    ]
+   ]
+  },
+  {
+   "L": 24709,
+   "k": 1,
+   "l": 3,
+   "p": 98837,
+   "q": 296509,
+   "N": 29306060033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "98836"
+    ],
+    [
+     2,
+     "recover",
+     "98836"
+    ]
+   ]
+  },
+  {
+   "L": 26959,
+   "k": 1,
+   "l": 3,
+   "p": 107837,
+   "q": 323509,
+   "N": 34886240033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "107836"
+    ],
+    [
+     2,
+     "recover",
+     "107836"
+    ]
+   ]
+  },
+  {
+   "L": 28933,
+   "k": 1,
+   "l": 3,
+   "p": 115733,
+   "q": 347197,
+   "N": 40182150401,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "115732"
+    ],
+    [
+     2,
+     "recover",
+     "115732"
+    ]
+   ]
+  },
+  {
+   "L": 29443,
+   "k": 1,
+   "l": 3,
+   "p": 117773,
+   "q": 353317,
+   "N": 41611203041,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "117772"
+    ],
+    [
+     2,
+     "recover",
+     "117772"
+    ]
+   ]
+  },
+  {
+   "L": 32803,
+   "k": 1,
+   "l": 3,
+   "p": 131213,
+   "q": 393637,
+   "N": 51650291681,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "131212"
+    ],
+    [
+     2,
+     "recover",
+     "131212"
+    ]
+   ]
+  },
+  {
+   "L": 40879,
+   "k": 1,
+   "l": 3,
+   "p": 163517,
+   "q": 490549,
+   "N": 80213100833,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "163516"
+    ],
+    [
+     2,
+     "recover",
+     "163516"
+    ]
+   ]
+  },
+  {
+   "L": 42373,
+   "k": 1,
+   "l": 3,
+   "p": 169493,
+   "q": 508477,
+   "N": 86183292161,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "169492"
+    ],
+    [
+     2,
+     "recover",
+     "169492"
+    ]
+   ]
+  },
+  {
+   "L": 43633,
+   "k": 1,
+   "l": 3,
+   "p": 174533,
+   "q": 523597,
+   "N": 91384955201,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "174532"
+    ],
+    [
+     2,
+     "recover",
+     "174532"
+    ]
+   ]
+  },
+  {
+   "L": 45013,
+   "k": 1,
+   "l": 3,
+   "p": 180053,
+   "q": 540157,
+   "N": 97256888321,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "180052"
+    ],
+    [
+     2,
+     "recover",
+     "180052"
+    ]
+   ]
+  },
+  {
+   "L": 45613,
+   "k": 1,
+   "l": 3,
+   "p": 182453,
+   "q": 547357,
+   "N": 99866926721,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "182452"
+    ],
+    [
+     2,
+     "recover",
+     "182452"
+    ]
+   ]
+  },
+  {
+   "L": 51913,
+   "k": 1,
+   "l": 3,
+   "p": 207653,
+   "q": 622957,
+   "N": 129358889921,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "207652"
+    ],
+    [
+     2,
+     "recover",
+     "207652"
+    ]
+   ]
+  },
+  {
+   "L": 52999,
+   "k": 1,
+   "l": 3,
+   "p": 211997,
+   "q": 635989,
+   "N": 134827760033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "211996"
+    ],
+    [
+     2,
+     "recover",
+     "211996"
+    ]
+   ]
+  },
+  {
+   "L": 57259,
+   "k": 1,
+   "l": 3,
+   "p": 229037,
+   "q": 687109,
+   "N": 157373384033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "229036"
+    ],
+    [
+     2,
+     "recover",
+     "229036"
+    ]
+   ]
+  },
+  {
+   "L": 58549,
+   "k": 1,
+   "l": 3,
+   "p": 234197,
+   "q": 702589,
+   "N": 164544236033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "234196"
+    ],
+    [
+     2,
+     "recover",
+     "234196"
+    ]
+   ]
+  },
+  {
+   "L": 59083,
+   "k": 1,
+   "l": 3,
+   "p": 236333,
+   "q": 708997,
+   "N": 167559388001,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "236332"
+    ],
+    [
+     2,
+     "recover",
+     "236332"
+    ]
+   ]
+  },
+  {
+   "L": 60703,
+   "k": 1,
+   "l": 3,
+   "p": 242813,
+   "q": 728437,
+   "N": 176873973281,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "242812"
+    ],
+    [
+     2,
+     "recover",
+     "242812"
+    ]
+   ]
+  },
+  {
+   "L": 62383,
+   "k": 1,
+   "l": 3,
+   "p": 249533,
+   "q": 748597,
+   "N": 186799655201,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "249532"
+    ],
+    [
+     2,
+     "recover",
+     "249532"
+    ]
+   ]
+  },
+  {
+   "L": 64609,
+   "k": 1,
+   "l": 3,
+   "p": 258437,
+   "q": 775309,
+   "N": 200368532033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "258436"
+    ],
+    [
+     2,
+     "recover",
+     "258436"
+    ]
+   ]
+  },
+  {
+   "L": 65179,
+   "k": 1,
+   "l": 3,
+   "p": 260717,
+   "q": 782149,
+   "N": 203919540833,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "260716"
+    ],
+    [
+     2,
+     "recover",
+     "260716"
+    ]
+   ]
+  },
+  {
+   "L": 66949,
+   "k": 1,
+   "l": 3,
+   "p": 267797,
+   "q": 803389,
+   "N": 215145164033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "267796"
+    ],
+    [
+     2,
+     "recover",
+     "267796"
+    ]
+   ]
+  },
+  {
+   "L": 67189,
+   "k": 1,
+   "l": 3,
+   "p": 268757,
+   "q": 806269,
+   "N": 216690437633,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "268756"
+    ],
+    [
+     2,
+     "recover",
+     "268756"
+    ]
+   ]
+  },
+  {
+   "L": 71119,
+   "k": 1,
+   "l": 3,
+   "p": 284477,
+   "q": 853429,
+   "N": 242780921633,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "284476"
+    ],
+    [
+     2,
+     "recover",
+     "284476"
+    ]
+   ]
+  },
+  {
+   "L": 72649,
+   "k": 1,
+   "l": 3,
+   "p": 290597,
+   "q": 871789,
+   "N": 253339268033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "290596"
+    ],
+    [
+     2,
+     "recover",
+     "290596"
+    ]
+   ]
+  },
+  {
+   "L": 72823,
+   "k": 1,
+   "l": 3,
+   "p": 291293,
+   "q": 873877,
+   "N": 254554252961,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "291292"
+    ],
+    [
+     2,
+     "recover",
+     "291292"
+    ]
+   ]
+  },
+  {
+   "L": 74713,
+   "k": 1,
+   "l": 3,
+   "p": 298853,
+   "q": 896557,
+   "N": 267938749121,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "298852"
+    ],
+    [
+     2,
+     "recover",
+     "298852"
+    ]
+   ]
+  },
+  {
+   "L": 80929,
+   "k": 1,
+   "l": 3,
+   "p": 323717,
+   "q": 971149,
+   "N": 314377440833,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "323716"
+    ],
+    [
+     2,
+     "recover",
+     "323716"
+    ]
+   ]
+  },
+  {
+   "L": 82903,
+   "k": 1,
+   "l": 3,
+   "p": 331613,
+   "q": 994837,
+   "N": 329900882081,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "331612"
+    ],
+    [
+     2,
+     "recover",
+     "331612"
+    ]
+   ]
+  },
+  {
+   "L": 84349,
+   "k": 1,
+   "l": 3,
+   "p": 337397,
+   "q": 1012189,
+   "N": 341509532033,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "337396"
+    ],
+    [
+     2,
+     "recover",
+     "337396"
+    ]
+   ]
+  },
+  {
+   "L": 84913,
+   "k": 1,
+   "l": 3,
+   "p": 339653,
+   "q": 1018957,
+   "N": 346091801921,
+   "outcome": "factor",
+   "alpha": 2,
+   "factor_ok": true,
+   "recovered": true,
+   "candidates": 1,
+   "trace": [
+    [
+     2,
+     "fail",
+     "339652"
+    ],
+    [
+     2,
+     "recover",
+     "339652"
+    ]
+   ]
+  }
+ ],
+ "random": [
+  {
+   "bits": 36,
+   "count": 30,
+   "D": "N^(1/6)",
+   "alpha2_accepted": 30,
+   "later_candidate": 0,
+   "factored": 0
+  },
+  {
+   "bits": 44,
+   "count": 30,
+   "D": "N^(1/6)",
+   "alpha2_accepted": 30,
+   "later_candidate": 0,
+   "factored": 0
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+[
+ {
+  "N_bits": 60,
+  "r": 954641,
+  "log_r_over_log_N": 0.3333333434876631,
+  "R": 35442,
+  "W": 1,
+  "D_max": 3,
+  "t": 452443868,
+  "null": [
+   3,
+   4
+  ],
+  "cap_symmetric": 2,
+  "resonance_members_limited": 571.5787100449531,
+  "resonance_range_limited": 30.320173812561,
+  "family": null,
+  "bits": 60,
+  "exponent": 0.3333333333333333,
+  "seconds": 129.86543321609497
+ },
+ {
+  "N_bits": 60,
+  "r": 240911,
+  "log_r_over_log_N": 0.30000004013485615,
+  "R": 9957,
+  "W": 3,
+  "D_max": 3,
+  "t": 2231595255,
+  "null": [
+   3,
+   3
+  ],
+  "cap_symmetric": 6,
+  "resonance_members_limited": 102.2343237788374,
+  "resonance_range_limited": 36.0146847938797,
+  "family": null,
+  "bits": 60,
+  "exponent": 0.3,
+  "seconds": 8.937403678894043
+ }
+]

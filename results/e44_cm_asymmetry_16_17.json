@@ -1,0 +1,36 @@
+{
+  "curve": "y^2 = x^3 - x (CM by Z[i], D = -4)",
+  "range_log2": [
+    16,
+    17
+  ],
+  "theta": "1/3",
+  "inert_supersingular": {
+    "n": 2872,
+    "p_smooth": 0.13509749303621169,
+    "se": 0.006378447792650911
+  },
+  "split_ordinary": {
+    "n": 2837,
+    "p_smooth": 0.16602044413112443,
+    "se": 0.006986003839936956
+  },
+  "control_random_hasse_order": {
+    "n": 2837,
+    "p_smooth": 0.045470567500881215,
+    "se": 0.003911381537411705
+  },
+  "dickman_rho_1_over_theta": 0.04860834252125403,
+  "split_orders_norms_from_Zi": 2837,
+  "inert_orders_norms_from_Zi": 571,
+  "inert_all_divisible_by_4": true,
+  "split_fraction_divisible_by_8": 1.0,
+  "comparison": {
+    "inert_minus_control_se": 11.978666368088652,
+    "split_minus_control_se": 15.05660534805628,
+    "split_minus_inert_se": 3.2688611979860305,
+    "inert_exceeds_control_2se": true,
+    "split_exceeds_control_2se": true,
+    "split_exceeds_inert_2se": true
+  }
+}

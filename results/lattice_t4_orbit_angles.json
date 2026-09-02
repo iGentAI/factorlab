@@ -1,0 +1,75 @@
+{
+ "note": "T4: exact orbit angles of NTRU short vectors (g, f) under the negacyclic group <X> of order 2n; ordinary vector angles; angular excess at 60 degrees normalised by (2n)^2 cap_{2n}(60)",
+ "rows": [
+  {
+   "n": 16,
+   "q": 257,
+   "seeds": 40,
+   "max_abs_cos_max": 0.5,
+   "max_abs_cos_mean": 0.27937421186907996,
+   "min_angle_deg_min": 60.00000000000001,
+   "min_angle_deg_mean": 73.69117529036114,
+   "pairs_within_60_total": 64,
+   "cap_2n_60": 0.0015236544870918722,
+   "uniform_expected_pairs_per_orbit": 1.5114652511951372,
+   "typical_abs_cos_scale_1_over_sqrt_norm2": 0.21587792084186183,
+   "mean_norm2": 21.65
+  },
+  {
+   "n": 32,
+   "q": 12289,
+   "seeds": 40,
+   "max_abs_cos_max": 0.37777777777777777,
+   "max_abs_cos_mean": 0.25566291802410057,
+   "min_angle_deg_min": 67.80389914317945,
+   "min_angle_deg_mean": 75.15919370707381,
+   "pairs_within_60_total": 0,
+   "cap_2n_60": 1.1137602195959307e-05,
+   "uniform_expected_pairs_per_orbit": 0.04490681205410793,
+   "typical_abs_cos_scale_1_over_sqrt_norm2": 0.15215838994782183,
+   "mean_norm2": 43.4
+  },
+  {
+   "n": 64,
+   "q": 12289,
+   "seeds": 40,
+   "max_abs_cos_max": 0.3058823529411765,
+   "max_abs_cos_mean": 0.198904322060245,
+   "min_angle_deg_min": 72.18874375913046,
+   "min_angle_deg_mean": 78.51623937403825,
+   "pairs_within_60_total": 0,
+   "cap_2n_60": 8.05368498660736e-10,
+   "uniform_expected_pairs_per_orbit": 1.3092070314228924e-05,
+   "typical_abs_cos_scale_1_over_sqrt_norm2": 0.10844924690795206,
+   "mean_norm2": 85.25
+  },
+  {
+   "n": 128,
+   "q": 12289,
+   "seeds": 40,
+   "max_abs_cos_max": 0.21965317919075145,
+   "max_abs_cos_mean": 0.157947561265678,
+   "min_angle_deg_min": 77.31133663661758,
+   "min_angle_deg_mean": 80.90899080871104,
+   "pairs_within_60_total": 0,
+   "cap_2n_60": 5.802626005024697e-18,
+   "uniform_expected_pairs_per_orbit": 3.7879542560801223e-13,
+   "typical_abs_cos_scale_1_over_sqrt_norm2": 0.0765806820736535,
+   "mean_norm2": 170.75
+  },
+  {
+   "n": 256,
+   "q": 12289,
+   "seeds": 40,
+   "max_abs_cos_max": 0.15615615615615616,
+   "max_abs_cos_mean": 0.12343583130243854,
+   "min_angle_deg_min": 81.01614433237955,
+   "min_angle_deg_mean": 82.90914142931345,
+   "pairs_within_60_total": 0,
+   "cap_2n_60": 4.199195974612909e-34,
+   "uniform_expected_pairs_per_orbit": 1.0986440412299248e-28,
+   "typical_abs_cos_scale_1_over_sqrt_norm2": 0.05419679513019739,
+   "mean_norm2": 340.7
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+# caches and build artefacts
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+cysignals_crash_logs/
+*.tmp
+# TeX artefacts, should any be produced alongside
+*.aux
+*.out
+*.toc
+*.synctex.gz
+# results/ is published: the archives are the certificates the reports cite

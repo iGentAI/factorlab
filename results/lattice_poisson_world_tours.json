@@ -1,0 +1,122 @@
+{
+ "note": "consistent uniform-completion Poisson world, tours schedule: fields report the ten-seed mean signed profile mass sum y_i v_i, its positive part, and the positive best-draw mass sum y_i (max_j eps_ij)^+ after T cyclic tours from the LLL-like line; 'attenuation' is mass_signed_mean / best_draw_positive_mean and is not a retention fraction when the numerator is negative; the strict-census (exact SVP) signed-mass means at (100,40) from results/lattice_l6_strict.json are approximately -0.017, 0.044, 0.082 at 2, 8, 32 tours; the pruned 8/32-tour census means there are 0.0449, 0.0783",
+ "rows": [
+  {
+   "d": 75,
+   "beta": 30,
+   "tours": 2,
+   "mass_signed_mean": -0.2750615305556863,
+   "mass_signed_sd": 0.03173912235117354,
+   "mass_positive_mean": 0.008722253195246499,
+   "best_draw_positive_mean": 0.06271998470196488,
+   "attenuation": -4.3855484318552325,
+   "head_minus_floor_mean": 0.2750615305556863,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 5.551115123125783e-16
+  },
+  {
+   "d": 75,
+   "beta": 30,
+   "tours": 8,
+   "mass_signed_mean": 0.06792106235847079,
+   "mass_signed_sd": 0.04203765418796357,
+   "mass_positive_mean": 0.08514825828436631,
+   "best_draw_positive_mean": 0.19453308579252399,
+   "attenuation": 0.3491491541490832,
+   "head_minus_floor_mean": -0.06792106235847083,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 5.551115123125783e-16
+  },
+  {
+   "d": 75,
+   "beta": 30,
+   "tours": 32,
+   "mass_signed_mean": 0.19666114410116137,
+   "mass_signed_sd": 0.02657085576573231,
+   "mass_positive_mean": 0.19690426905254096,
+   "best_draw_positive_mean": 0.30007528678168444,
+   "attenuation": 0.6553726773382689,
+   "head_minus_floor_mean": -0.19666114410116148,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 5.551115123125783e-16
+  },
+  {
+   "d": 100,
+   "beta": 40,
+   "tours": 2,
+   "mass_signed_mean": -0.33602909981008733,
+   "mass_signed_sd": 0.012567261430279064,
+   "mass_positive_mean": 0.005442734623240051,
+   "best_draw_positive_mean": 0.04386711476857126,
+   "attenuation": -7.660159588403943,
+   "head_minus_floor_mean": 0.3360290998100872,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 6.47051856539349e-16
+  },
+  {
+   "d": 100,
+   "beta": 40,
+   "tours": 8,
+   "mass_signed_mean": 0.018701707373013444,
+   "mass_signed_sd": 0.02274756181142666,
+   "mass_positive_mean": 0.040249293555416274,
+   "best_draw_positive_mean": 0.11629664449790096,
+   "attenuation": 0.16081037809608506,
+   "head_minus_floor_mean": -0.018701707373013486,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 6.522560269672795e-16
+  },
+  {
+   "d": 100,
+   "beta": 40,
+   "tours": 32,
+   "mass_signed_mean": 0.14165114049484612,
+   "mass_signed_sd": 0.027646113465972302,
+   "mass_positive_mean": 0.14170907513046188,
+   "best_draw_positive_mean": 0.21923975062803644,
+   "attenuation": 0.646101539930924,
+   "head_minus_floor_mean": -0.14165114049484612,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 6.522560269672795e-16
+  },
+  {
+   "d": 125,
+   "beta": 50,
+   "tours": 2,
+   "mass_signed_mean": -0.41886693336931274,
+   "mass_signed_sd": 0.03200763432465572,
+   "mass_positive_mean": 0.004460191882069679,
+   "best_draw_positive_mean": 0.045520125352810185,
+   "attenuation": -9.201796570699777,
+   "head_minus_floor_mean": 0.4188669333693128,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 9.332812300755222e-16
+  },
+  {
+   "d": 125,
+   "beta": 50,
+   "tours": 8,
+   "mass_signed_mean": 0.005032756210552492,
+   "mass_signed_sd": 0.010406217548592164,
+   "mass_positive_mean": 0.02775791529352325,
+   "best_draw_positive_mean": 0.10520775609019613,
+   "attenuation": 0.04783636109715939,
+   "head_minus_floor_mean": -0.005032756210552436,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 9.332812300755222e-16
+  },
+  {
+   "d": 125,
+   "beta": 50,
+   "tours": 32,
+   "mass_signed_mean": 0.12995652467707908,
+   "mass_signed_sd": 0.038765789539849944,
+   "mass_positive_mean": 0.1300636782385894,
+   "best_draw_positive_mean": 0.18916641126216657,
+   "attenuation": 0.6869957716593341,
+   "head_minus_floor_mean": -0.12995652467707897,
+   "seeds": 10,
+   "coordinatewise_worst_gap_over_seeds": 9.332812300755222e-16
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "bits": 40,
+  "N": 753618722741,
+  "n_primes": 20,
+  "B": 71,
+  "trials": 100,
+  "relations_read": 100,
+  "beta_mean": 0.7879438909257841,
+  "beta_min": 0.3844714481901675,
+  "beta_quantiles": [
+   0.5473067658647562,
+   0.7867509500273617,
+   1.03612783355847
+  ],
+  "fac_relations_B": 0,
+  "fac_relations_B2": 6,
+  "dixon_reference_beta": 1.0
+ },
+ {
+  "bits": 40,
+  "N": 753618722741,
+  "n_primes": 30,
+  "B": 113,
+  "trials": 100,
+  "relations_read": 100,
+  "beta_mean": 0.8253038659251178,
+  "beta_min": 0.48981705582345,
+  "beta_quantiles": [
+   0.5759491713713124,
+   0.7914867781270658,
+   1.0745143056776947
+  ],
+  "fac_relations_B": 0,
+  "fac_relations_B2": 16,
+  "dixon_reference_beta": 1.0
+ },
+ {
+  "bits": 48,
+  "N": 211476409236571,
+  "n_primes": 20,
+  "B": 71,
+  "trials": 100,
+  "relations_read": 100,
+  "beta_mean": 0.7938089669256173,
+  "beta_min": 0.4635910570521194,
+  "beta_quantiles": [
+   0.5167481486670852,
+   0.7978147430984136,
+   1.04769913445318
+  ],
+  "fac_relations_B": 0,
+  "fac_relations_B2": 9,
+  "dixon_reference_beta": 1.0
+ },
+ {
+  "bits": 48,
+  "N": 211476409236571,
+  "n_primes": 30,
+  "B": 113,
+  "trials": 100,
+  "relations_read": 100,
+  "beta_mean": 0.7942759373391118,
+  "beta_min": 0.3655377411731673,
+  "beta_quantiles": [
+   0.5329937197196206,
+   0.7817513385865522,
+   1.0490047189224252
+  ],
+  "fac_relations_B": 0,
+  "fac_relations_B2": 12,
+  "dixon_reference_beta": 1.0
+ }
+]

@@ -1,0 +1,323 @@
+[
+ {
+  "bits": 64,
+  "index": 0,
+  "N": "10523729282258332331",
+  "rows": [
+   {
+    "exponent": 0.2,
+    "r": 6374,
+    "W": 2254,
+    "planar_cap": 4508,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 6374,
+     "j": 9,
+     "W": 2254,
+     "members": 11,
+     "links": 6,
+     "cluster": 6,
+     "planar_cap": 4508,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 6,
+    "modulus_free_j": 9,
+    "r_third_law": 7.045648123173712
+   },
+   {
+    "exponent": 0.25,
+    "r": 56956,
+    "W": 85,
+    "planar_cap": 170,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 56956,
+     "j": 15,
+     "W": 85,
+     "members": 26,
+     "links": 12,
+     "cluster": 12,
+     "planar_cap": 170,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 12,
+    "modulus_free_j": 9,
+    "r_third_law": 14.620540351300617
+   },
+   {
+    "exponent": 0.2727272727272727,
+    "r": 154122,
+    "W": 19,
+    "planar_cap": 38,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 154122,
+     "j": 33,
+     "W": 19,
+     "members": 28,
+     "links": 13,
+     "cluster": 13,
+     "planar_cap": 38,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 19,
+    "modulus_free_j": 15,
+    "r_third_law": 20.3737892135083
+   },
+   {
+    "exponent": 0.3,
+    "r": 508922,
+    "W": 4,
+    "planar_cap": 8,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 508922,
+     "j": 15,
+     "W": 4,
+     "members": 76,
+     "links": 36,
+     "cluster": 5,
+     "planar_cap": 8,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 28,
+    "modulus_free_j": 15,
+    "r_third_law": 30.33895876518188
+   },
+   {
+    "exponent": 0.3333333333333333,
+    "r": 2191408,
+    "W": 1,
+    "planar_cap": 2,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 2191408,
+     "j": 1,
+     "W": 1,
+     "members": 613,
+     "links": 192,
+     "cluster": 2,
+     "planar_cap": 2,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 47,
+    "modulus_free_j": 33,
+    "r_third_law": 49.35805196384968
+   }
+  ]
+ },
+ {
+  "bits": 64,
+  "index": 1,
+  "N": "14618128823289212449",
+  "rows": [
+   {
+    "exponent": 0.2,
+    "r": 6807,
+    "W": 2407,
+    "planar_cap": 4814,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 6807,
+     "j": 7,
+     "W": 2407,
+     "members": 13,
+     "links": 6,
+     "cluster": 6,
+     "planar_cap": 4814,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 6,
+    "modulus_free_j": 7,
+    "r_third_law": 7.201708082407622
+   },
+   {
+    "exponent": 0.25,
+    "r": 61833,
+    "W": 88,
+    "planar_cap": 176,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 61833,
+     "j": 15,
+     "W": 88,
+     "members": 26,
+     "links": 12,
+     "cluster": 12,
+     "planar_cap": 176,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 12,
+    "modulus_free_j": 15,
+    "r_third_law": 15.026472329124728
+   },
+   {
+    "exponent": 0.2727272727272727,
+    "r": 168573,
+    "W": 20,
+    "planar_cap": 40,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 168573,
+     "j": 27,
+     "W": 20,
+     "members": 32,
+     "links": 14,
+     "cluster": 13,
+     "planar_cap": 40,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 20,
+    "modulus_free_j": 15,
+    "r_third_law": 20.991635108379707
+   },
+   {
+    "exponent": 0.3,
+    "r": 561652,
+    "W": 4,
+    "planar_cap": 8,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 561652,
+     "j": 15,
+     "W": 4,
+     "members": 80,
+     "links": 37,
+     "cluster": 5,
+     "planar_cap": 8,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 31,
+    "modulus_free_j": 21,
+    "r_third_law": 31.352537780481086
+   },
+   {
+    "exponent": 0.3333333333333333,
+    "r": 2445104,
+    "W": 1,
+    "planar_cap": 2,
+    "with_modulus": {
+     "N_bits": 64,
+     "r": 2445104,
+     "j": 1,
+     "W": 1,
+     "members": 646,
+     "links": 195,
+     "cluster": 2,
+     "planar_cap": 2,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 48,
+    "modulus_free_j": 33,
+    "r_third_law": 51.193643758460894
+   }
+  ]
+ },
+ {
+  "bits": 72,
+  "index": 0,
+  "N": "4206036227984907854437",
+  "rows": [
+   {
+    "exponent": 0.2,
+    "r": 21124,
+    "W": 7469,
+    "planar_cap": 14938,
+    "with_modulus": {
+     "N_bits": 72,
+     "r": 21124,
+     "j": 5,
+     "W": 7469,
+     "members": 26,
+     "links": 11,
+     "cluster": 9,
+     "planar_cap": 14938,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 9,
+    "modulus_free_j": 5,
+    "r_third_law": 10.504506389178738
+   },
+   {
+    "exponent": 0.25,
+    "r": 254664,
+    "W": 179,
+    "planar_cap": 358,
+    "with_modulus": {
+     "N_bits": 72,
+     "r": 254664,
+     "j": 15,
+     "W": 179,
+     "members": 54,
+     "links": 27,
+     "cluster": 24,
+     "planar_cap": 358,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 25,
+    "modulus_free_j": 15,
+    "r_third_law": 24.086449231545473
+   },
+   {
+    "exponent": 0.2727272727272727,
+    "r": 789623,
+    "W": 33,
+    "planar_cap": 66,
+    "with_modulus": {
+     "N_bits": 72,
+     "r": 789623,
+     "j": 39,
+     "W": 33,
+     "members": 59,
+     "links": 25,
+     "cluster": 22,
+     "planar_cap": 66,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 36,
+    "modulus_free_j": 21,
+    "r_third_law": 35.12288593205826
+   },
+   {
+    "exponent": 0.3,
+    "r": 3070166,
+    "W": 5,
+    "planar_cap": 10,
+    "with_modulus": {
+     "N_bits": 72,
+     "r": 3070166,
+     "j": 71,
+     "W": 5,
+     "members": 87,
+     "links": 34,
+     "cluster": 7,
+     "planar_cap": 10,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 51,
+    "modulus_free_j": 45,
+    "r_third_law": 55.22947088511332
+   },
+   {
+    "exponent": 0.3333333333333333,
+    "r": 16142012,
+    "W": 1,
+    "planar_cap": 2,
+    "with_modulus": {
+     "N_bits": 72,
+     "r": 16142012,
+     "j": 1,
+     "W": 1,
+     "members": 1663,
+     "links": 516,
+     "cluster": 2,
+     "planar_cap": 2,
+     "monotone": true
+    },
+    "modulus_free_D_sym": 88,
+    "modulus_free_j": 75,
+    "r_third_law": 96.0364619331389
+   }
+  ]
+ }
+]

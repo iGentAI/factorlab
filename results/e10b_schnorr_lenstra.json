@@ -1,0 +1,44 @@
+{
+ "nbits": 40,
+ "count": 400,
+ "ks": [
+  1,
+  2,
+  3,
+  5,
+  6
+ ],
+ "c": 0.16666666666666666,
+ "B1": 101,
+ "B2": 10201,
+ "runs": 2000,
+ "predicate_rate": 0.6565,
+ "actual_success_rate": 0.394,
+ "success_given_predicate": 0.5993907083015994,
+ "success_given_not_predicate": 0.001455604075691412,
+ "failure_reasons": {
+  "useless_ambiguous_form": 382,
+  "odd_part_not_semismooth": 689,
+  "trivial_2_part": 141
+ },
+ "useless_ambiguous_rate_by_2rank": {
+  "1": {
+   "useless": 0,
+   "ambiguous_reached": 96,
+   "rate": 0.0,
+   "naive_pred": 0.0
+  },
+  "2": {
+   "useless": 178,
+   "ambiguous_reached": 537,
+   "rate": 0.33147113594040967,
+   "naive_pred": 0.3333333333333333
+  },
+  "3": {
+   "useless": 204,
+   "ambiguous_reached": 537,
+   "rate": 0.37988826815642457,
+   "naive_pred": 0.42857142857142855
+  }
+ }
+}

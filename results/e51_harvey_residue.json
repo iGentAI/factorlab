@@ -1,0 +1,435 @@
+{
+ "bits": 40,
+ "count": 6,
+ "moduli": [
+  1,
+  4,
+  16,
+  64,
+  256
+ ],
+ "summary": {
+  "1": {
+   "successes": 6,
+   "runs": 6,
+   "mean_total_work": 2966.0,
+   "mean_tested": 133573.16666666666
+  },
+  "4": {
+   "successes": 6,
+   "runs": 6,
+   "mean_total_work": 1550.1666666666667,
+   "mean_tested": 39019.666666666664
+  },
+  "16": {
+   "successes": 6,
+   "runs": 6,
+   "mean_total_work": 802.5,
+   "mean_tested": 11252.666666666666
+  },
+  "64": {
+   "successes": 6,
+   "runs": 6,
+   "mean_total_work": 409.3333333333333,
+   "mean_tested": 3195.3333333333335
+  },
+  "256": {
+   "successes": 6,
+   "runs": 6,
+   "mean_total_work": 209.0,
+   "mean_tested": 888.3333333333334
+  }
+ },
+ "rows": [
+  {
+   "N": 765002238823,
+   "runs": [
+    {
+     "M": 1,
+     "r": 238,
+     "m": 238,
+     "ok": true,
+     "how": "collision",
+     "babies": 238,
+     "giants": 1388,
+     "cells": 1341,
+     "tested": 133860,
+     "total": 2967
+    },
+    {
+     "M": 4,
+     "r": 137,
+     "m": 137,
+     "ok": true,
+     "how": "collision",
+     "babies": 137,
+     "giants": 720,
+     "cells": 697,
+     "tested": 39092,
+     "total": 1554
+    },
+    {
+     "M": 16,
+     "r": 79,
+     "m": 79,
+     "ok": true,
+     "how": "collision",
+     "babies": 79,
+     "giants": 367,
+     "cells": 358,
+     "tested": 11226,
+     "total": 804
+    },
+    {
+     "M": 64,
+     "r": 45,
+     "m": 45,
+     "ok": true,
+     "how": "collision",
+     "babies": 45,
+     "giants": 185,
+     "cells": 182,
+     "tested": 3223,
+     "total": 412
+    },
+    {
+     "M": 256,
+     "r": 26,
+     "m": 26,
+     "ok": true,
+     "how": "collision",
+     "babies": 26,
+     "giants": 92,
+     "cells": 91,
+     "tested": 892,
+     "total": 209
+    }
+   ]
+  },
+  {
+   "N": 770122553087,
+   "runs": [
+    {
+     "M": 1,
+     "r": 238,
+     "m": 238,
+     "ok": true,
+     "how": "collision",
+     "babies": 238,
+     "giants": 1392,
+     "cells": 1341,
+     "tested": 134381,
+     "total": 2971
+    },
+    {
+     "M": 4,
+     "r": 137,
+     "m": 137,
+     "ok": true,
+     "how": "collision",
+     "babies": 137,
+     "giants": 720,
+     "cells": 697,
+     "tested": 39170,
+     "total": 1554
+    },
+    {
+     "M": 16,
+     "r": 79,
+     "m": 79,
+     "ok": true,
+     "how": "collision",
+     "babies": 79,
+     "giants": 367,
+     "cells": 358,
+     "tested": 11265,
+     "total": 804
+    },
+    {
+     "M": 64,
+     "r": 45,
+     "m": 45,
+     "ok": true,
+     "how": "collision",
+     "babies": 45,
+     "giants": 185,
+     "cells": 182,
+     "tested": 3232,
+     "total": 412
+    },
+    {
+     "M": 256,
+     "r": 26,
+     "m": 26,
+     "ok": true,
+     "how": "exact",
+     "babies": 26,
+     "giants": 92,
+     "cells": 91,
+     "tested": 893,
+     "total": 209
+    }
+   ]
+  },
+  {
+   "N": 598812558713,
+   "runs": [
+    {
+     "M": 1,
+     "r": 227,
+     "m": 227,
+     "ok": true,
+     "how": "exact",
+     "babies": 227,
+     "giants": 1314,
+     "cells": 1267,
+     "tested": 120063,
+     "total": 2808
+    },
+    {
+     "M": 4,
+     "r": 130,
+     "m": 130,
+     "ok": true,
+     "how": "exact",
+     "babies": 130,
+     "giants": 680,
+     "cells": 657,
+     "tested": 35141,
+     "total": 1467
+    },
+    {
+     "M": 16,
+     "r": 75,
+     "m": 75,
+     "ok": true,
+     "how": "exact",
+     "babies": 75,
+     "giants": 347,
+     "cells": 338,
+     "tested": 10112,
+     "total": 760
+    },
+    {
+     "M": 64,
+     "r": 43,
+     "m": 43,
+     "ok": true,
+     "how": "exact",
+     "babies": 43,
+     "giants": 173,
+     "cells": 170,
+     "tested": 2854,
+     "total": 386
+    },
+    {
+     "M": 256,
+     "r": 25,
+     "m": 25,
+     "ok": true,
+     "how": "exact",
+     "babies": 25,
+     "giants": 88,
+     "cells": 87,
+     "tested": 797,
+     "total": 200
+    }
+   ]
+  },
+  {
+   "N": 668905610419,
+   "runs": [
+    {
+     "M": 1,
+     "r": 232,
+     "m": 232,
+     "ok": true,
+     "how": "exact",
+     "babies": 232,
+     "giants": 1352,
+     "cells": 1305,
+     "tested": 126307,
+     "total": 2889
+    },
+    {
+     "M": 4,
+     "r": 133,
+     "m": 133,
+     "ok": true,
+     "how": "exact",
+     "babies": 133,
+     "giants": 698,
+     "cells": 675,
+     "tested": 36879,
+     "total": 1506
+    },
+    {
+     "M": 16,
+     "r": 76,
+     "m": 76,
+     "ok": true,
+     "how": "exact",
+     "babies": 76,
+     "giants": 353,
+     "cells": 344,
+     "tested": 10639,
+     "total": 773
+    },
+    {
+     "M": 64,
+     "r": 44,
+     "m": 44,
+     "ok": true,
+     "how": "exact",
+     "babies": 44,
+     "giants": 179,
+     "cells": 176,
+     "tested": 3018,
+     "total": 399
+    },
+    {
+     "M": 256,
+     "r": 25,
+     "m": 25,
+     "ok": true,
+     "how": "exact",
+     "babies": 25,
+     "giants": 88,
+     "cells": 87,
+     "tested": 837,
+     "total": 200
+    }
+   ]
+  },
+  {
+   "N": 867601899251,
+   "runs": [
+    {
+     "M": 1,
+     "r": 244,
+     "m": 244,
+     "ok": true,
+     "how": "exact",
+     "babies": 244,
+     "giants": 1434,
+     "cells": 1383,
+     "tested": 141634,
+     "total": 3061
+    },
+    {
+     "M": 4,
+     "r": 140,
+     "m": 140,
+     "ok": true,
+     "how": "exact",
+     "babies": 140,
+     "giants": 742,
+     "cells": 719,
+     "tested": 41462,
+     "total": 1601
+    },
+    {
+     "M": 16,
+     "r": 81,
+     "m": 81,
+     "ok": true,
+     "how": "exact",
+     "babies": 81,
+     "giants": 382,
+     "cells": 373,
+     "tested": 11960,
+     "total": 836
+    },
+    {
+     "M": 64,
+     "r": 46,
+     "m": 46,
+     "ok": true,
+     "how": "exact",
+     "babies": 46,
+     "giants": 189,
+     "cells": 186,
+     "tested": 3395,
+     "total": 421
+    },
+    {
+     "M": 256,
+     "r": 27,
+     "m": 27,
+     "ok": true,
+     "how": "exact",
+     "babies": 27,
+     "giants": 96,
+     "cells": 95,
+     "tested": 939,
+     "total": 218
+    }
+   ]
+  },
+  {
+   "N": 919978433897,
+   "runs": [
+    {
+     "M": 1,
+     "r": 247,
+     "m": 247,
+     "ok": true,
+     "how": "collision",
+     "babies": 247,
+     "giants": 1452,
+     "cells": 1401,
+     "tested": 145194,
+     "total": 3100
+    },
+    {
+     "M": 4,
+     "r": 142,
+     "m": 142,
+     "ok": true,
+     "how": "collision",
+     "babies": 142,
+     "giants": 750,
+     "cells": 727,
+     "tested": 42374,
+     "total": 1619
+    },
+    {
+     "M": 16,
+     "r": 81,
+     "m": 81,
+     "ok": true,
+     "how": "collision",
+     "babies": 81,
+     "giants": 384,
+     "cells": 373,
+     "tested": 12314,
+     "total": 838
+    },
+    {
+     "M": 64,
+     "r": 47,
+     "m": 47,
+     "ok": true,
+     "how": "collision",
+     "babies": 47,
+     "giants": 191,
+     "cells": 188,
+     "tested": 3450,
+     "total": 426
+    },
+    {
+     "M": 256,
+     "r": 27,
+     "m": 27,
+     "ok": true,
+     "how": "exact",
+     "babies": 27,
+     "giants": 96,
+     "cells": 95,
+     "tested": 972,
+     "total": 218
+    }
+   ]
+  }
+ ]
+}

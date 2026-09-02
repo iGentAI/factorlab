@@ -1,0 +1,1476 @@
+{
+ "bits": [
+  30,
+  34,
+  38,
+  42
+ ],
+ "count": 2,
+ "seed": 5,
+ "rows": [
+  {
+   "N": 880634351,
+   "r": 958,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 357,
+     "n_prime": 400,
+     "W_max": 8,
+     "D_exact": 29,
+     "D_W": 37,
+     "t_star": 880574994,
+     "a_diff": 1,
+     "t_residual": -59357,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 10.26327791369625,
+     "trivial": 40.0,
+     "lemma_d_starts": 20.63745519186744,
+     "trivial_starts": 37.78888725538237,
+     "energy_starts": 21.167135465826373,
+     "energy_m": 10,
+     "energy_sigma_bar": 27.0,
+     "spectrum_top": [
+      29,
+      29,
+      28,
+      28,
+      27,
+      27,
+      26,
+      26
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 204,
+     "n_prime": 230,
+     "W_max": 8,
+     "D_exact": 3,
+     "D_W": 14,
+     "t_star": 1761123318,
+     "a_diff": 2,
+     "t_residual": -145384,
+     "random_D_W": [
+      1,
+      1,
+      2
+     ],
+     "lemma_d": 9.81196254414339,
+     "trivial": 30.331501776206203,
+     "lemma_d_starts": 30.27306257565503,
+     "trivial_starts": 28.5657137141714,
+     "energy_starts": 30.274305295158747,
+     "energy_m": 15,
+     "energy_sigma_bar": 3.0,
+     "spectrum_top": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 151,
+     "n_prime": 151,
+     "W_max": 1,
+     "D_exact": 3,
+     "D_W": 3,
+     "t_star": 24229,
+     "a_diff": 0,
+     "t_residual": 24229,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 24.77160874003687,
+     "trivial": 24.576411454889016,
+     "lemma_d_starts": 24.77160874003687,
+     "trivial_starts": 24.576411454889016,
+     "energy_starts": 24.78401249103065,
+     "energy_m": 12,
+     "energy_sigma_bar": 3.0,
+     "spectrum_top": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 201,
+     "n_prime": 227,
+     "W_max": 8,
+     "D_exact": 3,
+     "D_W": 14,
+     "t_star": 1761123318,
+     "a_diff": 2,
+     "t_residual": -145384,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 9.726454565875311,
+     "trivial": 30.133038346638727,
+     "lemma_d_starts": 29.975535610767196,
+     "trivial_starts": 28.35489375751565,
+     "energy_starts": 29.975545585872872,
+     "energy_m": 15,
+     "energy_sigma_bar": 3.0,
+     "spectrum_top": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 479,
+     "n_prime": 479,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 29499,
+     "a_diff": 0,
+     "t_residual": 29499,
+     "random_D_W": [
+      6,
+      5,
+      5
+     ],
+     "lemma_d": 42.44728566230915,
+     "trivial": 43.77213725647858,
+     "lemma_d_starts": 42.44728566230915,
+     "trivial_starts": 43.77213725647858,
+     "energy_starts": 44.31658842029775,
+     "energy_m": 22,
+     "energy_sigma_bar": 5.2727272727272725,
+     "spectrum_top": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 400,
+    "D_max": 43,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 5.564160324528444,
+    "1/6": 30.959880117056485,
+    "1/5": 61.51189752732074,
+    "2/9": 97.21479404895608
+   }
+  },
+  {
+   "N": 964728493,
+   "r": 988,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 369,
+     "n_prime": 414,
+     "W_max": 8,
+     "D_exact": 26,
+     "D_W": 37,
+     "t_star": 964666368,
+     "a_diff": 1,
+     "t_residual": -62125,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 10.501378748899716,
+     "trivial": 40.69397989875161,
+     "lemma_d_starts": 21.87945299194611,
+     "trivial_starts": 38.41874542459709,
+     "energy_starts": 23.094958467258763,
+     "energy_m": 11,
+     "energy_sigma_bar": 22.181818181818183,
+     "spectrum_top": [
+      26,
+      26,
+      24,
+      24,
+      22,
+      22,
+      21,
+      21
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 209,
+     "n_prime": 236,
+     "W_max": 8,
+     "D_exact": 4,
+     "D_W": 14,
+     "t_star": 1929304819,
+     "a_diff": 2,
+     "t_residual": -152167,
+     "random_D_W": [
+      2,
+      1,
+      1
+     ],
+     "lemma_d": 9.981871919030741,
+     "trivial": 30.72458299147443,
+     "lemma_d_starts": 27.952513046846562,
+     "trivial_starts": 28.91366458960192,
+     "energy_starts": 32.06414921271771,
+     "energy_m": 15,
+     "energy_sigma_bar": 2.6666666666666665,
+     "spectrum_top": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 154,
+     "n_prime": 154,
+     "W_max": 1,
+     "D_exact": 4,
+     "D_W": 4,
+     "t_star": 25360,
+     "a_diff": 0,
+     "t_residual": 25360,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 22.80362105204838,
+     "trivial": 24.819347291981714,
+     "lemma_d_starts": 22.80362105204838,
+     "trivial_starts": 24.819347291981714,
+     "energy_starts": 26.819937828741494,
+     "energy_m": 12,
+     "energy_sigma_bar": 2.5,
+     "spectrum_top": [
+      4,
+      4,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 206,
+     "n_prime": 233,
+     "W_max": 8,
+     "D_exact": 4,
+     "D_W": 14,
+     "t_star": 1929304819,
+     "a_diff": 2,
+     "t_residual": -152167,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 9.89709954338049,
+     "trivial": 30.528675044947494,
+     "lemma_d_starts": 27.68438084292118,
+     "trivial_starts": 28.705400188814647,
+     "energy_starts": 31.72357075259746,
+     "energy_m": 14,
+     "energy_sigma_bar": 2.7142857142857144,
+     "spectrum_top": [
+      4,
+      4,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 494,
+     "n_prime": 494,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 37919,
+     "a_diff": 0,
+     "t_residual": 37919,
+     "random_D_W": [
+      6,
+      6,
+      5
+     ],
+     "lemma_d": 43.32888843297049,
+     "trivial": 44.45222154178574,
+     "lemma_d_starts": 43.32888843297049,
+     "trivial_starts": 44.45222154178574,
+     "energy_starts": 46.69360331459529,
+     "energy_m": 22,
+     "energy_sigma_bar": 4.818181818181818,
+     "spectrum_top": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 414,
+    "D_max": 45,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 5.606611008998162,
+    "1/6": 31.434087006219396,
+    "1/5": 62.64422216471645,
+    "2/9": 99.20520705653999
+   }
+  },
+  {
+   "N": 16577631001,
+   "r": 2549,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 926,
+     "n_prime": 1039,
+     "W_max": 13,
+     "D_exact": 42,
+     "D_W": 62,
+     "t_star": 16577373482,
+     "a_diff": 1,
+     "t_residual": -257519,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 13.88807382184996,
+     "trivial": 64.4670458451448,
+     "lemma_d_starts": 34.43506387215129,
+     "trivial_starts": 60.860496218811754,
+     "energy_starts": 36.32520306715949,
+     "energy_m": 17,
+     "energy_sigma_bar": 36.0,
+     "spectrum_top": [
+      42,
+      42,
+      40,
+      40,
+      39,
+      39,
+      37,
+      37
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 538,
+     "n_prime": 603,
+     "W_max": 13,
+     "D_exact": 5,
+     "D_W": 24,
+     "t_star": 33154631225,
+     "a_diff": 2,
+     "t_residual": -630777,
+     "random_D_W": [
+      2,
+      1,
+      2
+     ],
+     "lemma_d": 13.258773205892064,
+     "trivial": 49.1121166312347,
+     "lemma_d_starts": 48.7388017232802,
+     "trivial_starts": 46.389654018972806,
+     "energy_starts": 55.61019758309004,
+     "energy_m": 27,
+     "energy_sigma_bar": 3.3703703703703702,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 403,
+     "n_prime": 403,
+     "W_max": 1,
+     "D_exact": 5,
+     "D_W": 5,
+     "t_star": 105128,
+     "a_diff": 0,
+     "t_residual": 105128,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 40.19975082970562,
+     "trivial": 40.149719799769464,
+     "lemma_d_starts": 40.19975082970562,
+     "trivial_starts": 40.149719799769464,
+     "energy_starts": 45.91872508628019,
+     "energy_m": 22,
+     "energy_sigma_bar": 3.3636363636363638,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 525,
+     "n_prime": 590,
+     "W_max": 13,
+     "D_exact": 5,
+     "D_W": 24,
+     "t_star": 33154631225,
+     "a_diff": 2,
+     "t_residual": -630777,
+     "random_D_W": [
+      2,
+      2,
+      1
+     ],
+     "lemma_d": 13.067519042563667,
+     "trivial": 48.579831205964474,
+     "lemma_d_starts": 47.95046974161089,
+     "trivial_starts": 45.8257569495584,
+     "energy_starts": 55.10548934318791,
+     "energy_m": 27,
+     "energy_sigma_bar": 3.2962962962962963,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 1275,
+     "n_prime": 1275,
+     "W_max": 1,
+     "D_exact": 7,
+     "D_W": 7,
+     "t_star": 95043,
+     "a_diff": 0,
+     "t_residual": 95043,
+     "random_D_W": [
+      6,
+      6,
+      7
+     ],
+     "lemma_d": 77.44334593936459,
+     "trivial": 71.4142842854285,
+     "lemma_d_starts": 77.44334593936459,
+     "trivial_starts": 71.4142842854285,
+     "energy_starts": 83.75740971704136,
+     "energy_m": 40,
+     "energy_sigma_bar": 5.55,
+     "spectrum_top": [
+      7,
+      7,
+      7,
+      7,
+      6,
+      6,
+      6,
+      6
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 1039,
+    "D_max": 113,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 7.106027312157454,
+    "1/6": 50.49562416112769,
+    "1/5": 110.63804515741481,
+    "2/9": 186.64011483773157
+   }
+  },
+  {
+   "N": 14048619007,
+   "r": 2412,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 878,
+     "n_prime": 988,
+     "W_max": 13,
+     "D_exact": 44,
+     "D_W": 61,
+     "t_star": 14048381944,
+     "a_diff": 1,
+     "t_residual": -237063,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 13.502791629991744,
+     "trivial": 62.864934582006846,
+     "lemma_d_starts": 32.72317616139147,
+     "trivial_starts": 59.262129560116215,
+     "energy_starts": 35.15982925355405,
+     "energy_m": 17,
+     "energy_sigma_bar": 35.529411764705884,
+     "spectrum_top": [
+      44,
+      44,
+      39,
+      39,
+      36,
+      36,
+      36,
+      36
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 509,
+     "n_prime": 571,
+     "W_max": 13,
+     "D_exact": 6,
+     "D_W": 22,
+     "t_star": 28096657343,
+     "a_diff": 2,
+     "t_residual": -580671,
+     "random_D_W": [
+      2,
+      2,
+      1
+     ],
+     "lemma_d": 13.161702186577411,
+     "trivial": 47.791212581394085,
+     "lemma_d_starts": 44.20161151985821,
+     "trivial_starts": 45.12205669071391,
+     "energy_starts": 52.67007745981378,
+     "energy_m": 25,
+     "energy_sigma_bar": 3.56,
+     "spectrum_top": [
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 380,
+     "n_prime": 380,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 96777,
+     "a_diff": 0,
+     "t_residual": 96777,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 36.37603112822512,
+     "trivial": 38.98717737923585,
+     "lemma_d_starts": 36.37603112822512,
+     "trivial_starts": 38.98717737923585,
+     "energy_starts": 42.83005667215509,
+     "energy_m": 20,
+     "energy_sigma_bar": 3.7,
+     "spectrum_top": [
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 497,
+     "n_prime": 559,
+     "W_max": 13,
+     "D_exact": 6,
+     "D_W": 22,
+     "t_star": 28096657343,
+     "a_diff": 2,
+     "t_residual": -580671,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 12.976648054625615,
+     "trivial": 47.286361670147556,
+     "lemma_d_starts": 43.50413196022791,
+     "trivial_starts": 44.58699361921591,
+     "energy_starts": 51.79921139192402,
+     "energy_m": 24,
+     "energy_sigma_bar": 3.5833333333333335,
+     "spectrum_top": [
+      6,
+      6,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 1206,
+     "n_prime": 1206,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 91690,
+     "a_diff": 0,
+     "t_residual": 91690,
+     "random_D_W": [
+      6,
+      6,
+      6
+     ],
+     "lemma_d": 78.55812698872045,
+     "trivial": 69.45502141674135,
+     "lemma_d_starts": 78.55812698872045,
+     "trivial_starts": 69.45502141674135,
+     "energy_starts": 81.63519185018855,
+     "energy_m": 40,
+     "energy_sigma_bar": 5.35,
+     "spectrum_top": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 988,
+    "D_max": 110,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 7.008678461533793,
+    "1/6": 49.121573777167704,
+    "1/5": 107.03522515226832,
+    "2/9": 179.8993924297267
+   }
+  },
+  {
+   "N": 197762968751,
+   "r": 5826,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 2083,
+     "n_prime": 2333,
+     "W_max": 20,
+     "D_exact": 73,
+     "D_W": 96,
+     "t_star": 197762079323,
+     "a_diff": 1,
+     "t_residual": -889428,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 17.83142624281787,
+     "trivial": 96.60227740586657,
+     "lemma_d_starts": 49.16943582111615,
+     "trivial_starts": 91.27978965795221,
+     "energy_starts": 53.4186657586248,
+     "energy_m": 25,
+     "energy_sigma_bar": 57.28,
+     "spectrum_top": [
+      73,
+      73,
+      70,
+      70,
+      67,
+      67,
+      64,
+      64
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 1226,
+     "n_prime": 1369,
+     "W_max": 20,
+     "D_exact": 5,
+     "D_W": 36,
+     "t_star": 395523758875,
+     "a_diff": 2,
+     "t_residual": -2178627,
+     "random_D_W": [
+      1,
+      1,
+      2
+     ],
+     "lemma_d": 17.33144600588127,
+     "trivial": 74.0,
+     "lemma_d_starts": 84.4008804741821,
+     "trivial_starts": 70.02856560004639,
+     "energy_starts": 92.81185836577424,
+     "energy_m": 43,
+     "energy_sigma_bar": 3.7906976744186047,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 918,
+     "n_prime": 918,
+     "W_max": 1,
+     "D_exact": 5,
+     "D_W": 5,
+     "t_star": 363102,
+     "a_diff": 0,
+     "t_residual": 363102,
+     "random_D_W": [
+      1,
+      1,
+      2
+     ],
+     "lemma_d": 69.59560019749415,
+     "trivial": 60.597029630172464,
+     "lemma_d_starts": 69.59560019749415,
+     "trivial_starts": 60.597029630172464,
+     "energy_starts": 76.9492747953943,
+     "energy_m": 36,
+     "energy_sigma_bar": 3.7222222222222223,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 1180,
+     "n_prime": 1323,
+     "W_max": 20,
+     "D_exact": 5,
+     "D_W": 34,
+     "t_star": 395523758875,
+     "a_diff": 2,
+     "t_residual": -2178627,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 17.266868853769978,
+     "trivial": 72.74613391789285,
+     "lemma_d_starts": 82.27628400894643,
+     "trivial_starts": 68.70225614927067,
+     "energy_starts": 92.78705947254733,
+     "energy_m": 44,
+     "energy_sigma_bar": 3.5,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 2913,
+     "n_prime": 2913,
+     "W_max": 1,
+     "D_exact": 12,
+     "D_W": 12,
+     "t_star": 7699127,
+     "a_diff": 0,
+     "t_residual": 7699127,
+     "random_D_W": [
+      7,
+      7,
+      7
+     ],
+     "lemma_d": 112.24747308726364,
+     "trivial": 107.94443014810908,
+     "lemma_d_starts": 112.24747308726364,
+     "trivial_starts": 107.94443014810908,
+     "energy_starts": 137.6965235496928,
+     "energy_m": 67,
+     "energy_sigma_bar": 6.507462686567164,
+     "spectrum_top": [
+      12,
+      12,
+      8,
+      8,
+      8,
+      8,
+      7,
+      7
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 2333,
+    "D_max": 250,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 8.736659589230369,
+    "1/6": 76.32922077809097,
+    "1/5": 181.64731994314266,
+    "2/9": 323.7832950417218
+   }
+  },
+  {
+   "N": 187452546833,
+   "r": 5723,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 2048,
+     "n_prime": 2290,
+     "W_max": 19,
+     "D_exact": 67,
+     "D_W": 94,
+     "t_star": 187451680902,
+     "a_diff": 1,
+     "t_residual": -865931,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 18.04152184833175,
+     "trivial": 95.70788891204319,
+     "lemma_d_starts": 50.02706594306576,
+     "trivial_starts": 90.50966799187809,
+     "energy_starts": 53.67165791536296,
+     "energy_m": 25,
+     "energy_sigma_bar": 54.64,
+     "spectrum_top": [
+      67,
+      67,
+      60,
+      60,
+      60,
+      60,
+      59,
+      59
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 1208,
+     "n_prime": 1347,
+     "W_max": 19,
+     "D_exact": 5,
+     "D_W": 36,
+     "t_star": 374902972591,
+     "a_diff": 2,
+     "t_residual": -2121075,
+     "random_D_W": [
+      2,
+      1,
+      2
+     ],
+     "lemma_d": 17.440932252883986,
+     "trivial": 73.40299721401027,
+     "lemma_d_starts": 83.57273593368562,
+     "trivial_starts": 69.51258878793107,
+     "energy_starts": 91.02341817768377,
+     "energy_m": 42,
+     "energy_sigma_bar": 3.9047619047619047,
+     "spectrum_top": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 905,
+     "n_prime": 905,
+     "W_max": 1,
+     "D_exact": 5,
+     "D_W": 5,
+     "t_star": 353509,
+     "a_diff": 0,
+     "t_residual": 353509,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 68.93700053777684,
+     "trivial": 60.166435825965294,
+     "lemma_d_starts": 68.93700053777684,
+     "trivial_starts": 60.166435825965294,
+     "energy_starts": 75.35644642801046,
+     "energy_m": 35,
+     "energy_sigma_bar": 3.857142857142857,
+     "spectrum_top": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 1162,
+     "n_prime": 1301,
+     "W_max": 19,
+     "D_exact": 5,
+     "D_W": 34,
+     "t_star": 374902972591,
+     "a_diff": 2,
+     "t_residual": -2121075,
+     "random_D_W": [
+      1,
+      1,
+      2
+     ],
+     "lemma_d": 17.36936828220832,
+     "trivial": 72.13875518748573,
+     "lemma_d_starts": 81.437434260809,
+     "trivial_starts": 68.17624219623724,
+     "energy_starts": 90.95761304859786,
+     "energy_m": 43,
+     "energy_sigma_bar": 3.604651162790698,
+     "spectrum_top": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 2862,
+     "n_prime": 2862,
+     "W_max": 1,
+     "D_exact": 9,
+     "D_W": 9,
+     "t_star": 612141,
+     "a_diff": 0,
+     "t_residual": 612141,
+     "random_D_W": [
+      7,
+      7,
+      6
+     ],
+     "lemma_d": 122.09810258507912,
+     "trivial": 106.99532700076205,
+     "lemma_d_starts": 122.09810258507912,
+     "trivial_starts": 106.99532700076205,
+     "energy_starts": 136.47663026067607,
+     "energy_m": 67,
+     "energy_sigma_bar": 6.447761194029851,
+     "spectrum_top": [
+      9,
+      9,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 2290,
+    "D_max": 242,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 8.69776385008711,
+    "1/6": 75.65109599188216,
+    "1/5": 179.71249309993664,
+    "2/9": 319.9535739065295
+   }
+  },
+  {
+   "N": 3890830613443,
+   "r": 15728,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 5554,
+     "n_prime": 6195,
+     "W_max": 32,
+     "D_exact": 115,
+     "D_W": 159,
+     "t_star": 3890826668377,
+     "a_diff": 1,
+     "t_residual": -3945066,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 24.70900011908381,
+     "trivial": 157.4166446091391,
+     "lemma_d_starts": 81.25460224681346,
+     "trivial_starts": 149.05032707109368,
+     "energy_starts": 87.54015562933157,
+     "energy_m": 42,
+     "energy_sigma_bar": 92.19047619047619,
+     "spectrum_top": [
+      115,
+      115,
+      110,
+      110,
+      106,
+      106,
+      105,
+      105
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 3315,
+     "n_prime": 3681,
+     "W_max": 32,
+     "D_exact": 10,
+     "D_W": 58,
+     "t_star": 7781651563515,
+     "a_diff": 2,
+     "t_residual": -9663371,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 24.441501729851073,
+     "trivial": 121.3424904969401,
+     "lemma_d_starts": 130.01666453037095,
+     "trivial_starts": 115.15207336387826,
+     "energy_starts": 161.52881956541,
+     "energy_m": 74,
+     "energy_sigma_bar": 5.27027027027027,
+     "spectrum_top": [
+      10,
+      10,
+      9,
+      9,
+      7,
+      7,
+      7,
+      7
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 2486,
+     "n_prime": 2486,
+     "W_max": 1,
+     "D_exact": 9,
+     "D_W": 9,
+     "t_star": 1610557,
+     "a_diff": 0,
+     "t_residual": 1610557,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 111.15523255144151,
+     "trivial": 99.71960689854328,
+     "lemma_d_starts": 111.15523255144151,
+     "trivial_starts": 99.71960689854328,
+     "energy_starts": 136.63263235766516,
+     "energy_m": 64,
+     "energy_sigma_bar": 4.875,
+     "spectrum_top": [
+      9,
+      9,
+      9,
+      9,
+      6,
+      6,
+      6,
+      6
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 3149,
+     "n_prime": 3512,
+     "W_max": 32,
+     "D_exact": 7,
+     "D_W": 52,
+     "t_star": 7781651563515,
+     "a_diff": 2,
+     "t_residual": -9663371,
+     "random_D_W": [
+      2,
+      1,
+      2
+     ],
+     "lemma_d": 24.565667127535157,
+     "trivial": 118.52425912023243,
+     "lemma_d_starts": 141.50086421185165,
+     "trivial_starts": 112.2319027727856,
+     "energy_starts": 165.6613083755153,
+     "energy_m": 78,
+     "energy_sigma_bar": 4.384615384615385,
+     "spectrum_top": [
+      7,
+      7,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 7864,
+     "n_prime": 7864,
+     "W_max": 1,
+     "D_exact": 14,
+     "D_W": 14,
+     "t_star": 3873304,
+     "a_diff": 0,
+     "t_residual": 3873304,
+     "random_D_W": [
+      8,
+      7,
+      8
+     ],
+     "lemma_d": 206.72658157454333,
+     "trivial": 177.3583942191629,
+     "lemma_d_starts": 206.72658157454333,
+     "trivial_starts": 177.3583942191629,
+     "energy_starts": 252.03194911464905,
+     "energy_m": 122,
+     "energy_sigma_bar": 7.737704918032787,
+     "spectrum_top": [
+      14,
+      14,
+      13,
+      13,
+      9,
+      9,
+      9,
+      9
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 6195,
+    "D_max": 641,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 11.198766608613859,
+    "1/6": 125.41237355420476,
+    "1/5": 329.61613668124596,
+    "2/9": 627.7506674942783
+   }
+  },
+  {
+   "N": 3072789281321,
+   "r": 14538,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 5143,
+     "n_prime": 5742,
+     "W_max": 31,
+     "D_exact": 115,
+     "D_W": 154,
+     "t_star": 3072785775418,
+     "a_diff": 1,
+     "t_residual": -3505903,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 23.99337374673722,
+     "trivial": 151.55197128378106,
+     "lemma_d_starts": 77.19486309388462,
+     "trivial_starts": 143.42942515397598,
+     "energy_starts": 84.79691674615809,
+     "energy_m": 41,
+     "energy_sigma_bar": 86.90243902439025,
+     "spectrum_top": [
+      115,
+      115,
+      110,
+      110,
+      105,
+      105,
+      100,
+      100
+     ]
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 3066,
+     "n_prime": 3406,
+     "W_max": 31,
+     "D_exact": 9,
+     "D_W": 56,
+     "t_star": 6145569975003,
+     "a_diff": 2,
+     "t_residual": -8587639,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 23.73139059059851,
+     "trivial": 116.72189169131899,
+     "lemma_d_starts": 127.83327903271233,
+     "trivial_starts": 110.74294559925703,
+     "energy_starts": 155.96089134406242,
+     "energy_m": 72,
+     "energy_sigma_bar": 5.0,
+     "spectrum_top": [
+      9,
+      9,
+      8,
+      8,
+      7,
+      7,
+      7,
+      7
+     ]
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 2300,
+     "n_prime": 2300,
+     "W_max": 1,
+     "D_exact": 8,
+     "D_W": 8,
+     "t_star": 1431269,
+     "a_diff": 0,
+     "t_residual": 1431269,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 109.76533998250058,
+     "trivial": 95.91663046625439,
+     "lemma_d_starts": 109.76533998250058,
+     "trivial_starts": 95.91663046625439,
+     "energy_starts": 130.84963946063777,
+     "energy_m": 62,
+     "energy_sigma_bar": 4.741935483870968,
+     "spectrum_top": [
+      8,
+      8,
+      8,
+      8,
+      6,
+      6,
+      6,
+      6
+     ]
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 2916,
+     "n_prime": 3253,
+     "W_max": 31,
+     "D_exact": 6,
+     "D_W": 50,
+     "t_star": 6145569975003,
+     "a_diff": 2,
+     "t_residual": -8587639,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 23.90133402991781,
+     "trivial": 114.0701538527936,
+     "lemma_d_starts": 141.5200352872804,
+     "trivial_starts": 108.0,
+     "energy_starts": 161.07483443264636,
+     "energy_m": 72,
+     "energy_sigma_bar": 4.138888888888889,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+     ]
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 7269,
+     "n_prime": 7269,
+     "W_max": 1,
+     "D_exact": 13,
+     "D_W": 13,
+     "t_star": 2478783,
+     "a_diff": 0,
+     "t_residual": 2478783,
+     "random_D_W": [
+      7,
+      7,
+      7
+     ],
+     "lemma_d": 201.0690967724664,
+     "trivial": 170.51686133634996,
+     "lemma_d_starts": 201.0690967724664,
+     "trivial_starts": 170.51686133634996,
+     "energy_starts": 239.83599465051284,
+     "energy_m": 116,
+     "energy_sigma_bar": 7.672413793103448,
+     "spectrum_top": [
+      13,
+      13,
+      12,
+      12,
+      10,
+      10,
+      9,
+      9
+     ]
+    }
+   },
+   "balanced_windowed": {
+    "size": 5742,
+    "D_max": 599,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 10.980641976133416,
+    "1/6": 120.5744982080232,
+    "1/5": 314.41738824403234,
+    "2/9": 595.6721344506051
+   }
+  }
+ ]
+}

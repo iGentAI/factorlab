@@ -1,0 +1,20 @@
+{
+ "Kyber512": {
+  "gsa_b": 406,
+  "floor_b_from_300": 408,
+  "floor_m": null,
+  "floor_d": null
+ },
+ "Kyber768": {
+  "gsa_b": 624,
+  "floor_b_from_300": 626,
+  "floor_m": null,
+  "floor_d": null
+ },
+ "Kyber1024": {
+  "gsa_b": 874,
+  "floor_b_from_300": 876,
+  "floor_m": null,
+  "floor_d": null
+ }
+}

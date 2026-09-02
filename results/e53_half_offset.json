@@ -1,0 +1,191 @@
+{
+ "bits": [
+  42,
+  48
+ ],
+ "count": 1,
+ "rows": [
+  {
+   "N": 3890830613443,
+   "r": 15728,
+   "N_pow_1_12": 11.198766608613859,
+   "rows": [
+    {
+     "m": 5,
+     "k": 3,
+     "d": 4,
+     "alpha": 1,
+     "beta": 1,
+     "family": 35,
+     "in_uniq": 31,
+     "max_cluster": 3,
+     "max_cluster_top_half": 3,
+     "top_half_values": 11,
+     "V_top_half": 11.22074653208443,
+     "lam_max": 35
+    },
+    {
+     "m": 9,
+     "k": 5,
+     "d": 8,
+     "alpha": 2,
+     "beta": 3,
+     "family": 19,
+     "in_uniq": 19,
+     "max_cluster": 5,
+     "max_cluster_top_half": 5,
+     "top_half_values": 4,
+     "V_top_half": 3.1709325738829635,
+     "lam_max": 19
+    },
+    {
+     "m": 13,
+     "k": 7,
+     "d": 12,
+     "alpha": 3,
+     "beta": 5,
+     "family": 13,
+     "in_uniq": 13,
+     "max_cluster": 4,
+     "max_cluster_top_half": 4,
+     "top_half_values": 2,
+     "V_top_half": 1.43649715225743,
+     "lam_max": 13
+    },
+    {
+     "m": 17,
+     "k": 9,
+     "d": 16,
+     "alpha": 4,
+     "beta": 7,
+     "family": 9,
+     "in_uniq": 9,
+     "max_cluster": 5,
+     "max_cluster_top_half": 5,
+     "top_half_values": 1,
+     "V_top_half": 0.9316801901748321,
+     "lam_max": 9
+    },
+    {
+     "m": 21,
+     "k": 11,
+     "d": 20,
+     "alpha": 5,
+     "beta": 9,
+     "family": 7,
+     "in_uniq": 7,
+     "max_cluster": 4,
+     "max_cluster_top_half": 3,
+     "top_half_values": 2,
+     "V_top_half": 0.6071858480182483,
+     "lam_max": 7
+    },
+    {
+     "m": 25,
+     "k": 13,
+     "d": 24,
+     "alpha": 6,
+     "beta": 11,
+     "family": 6,
+     "in_uniq": 6,
+     "max_cluster": 5,
+     "max_cluster_top_half": 4,
+     "top_half_values": 1,
+     "V_top_half": 0.5974938623019372,
+     "lam_max": 6
+    }
+   ]
+  },
+  {
+   "N": 176552314063291,
+   "r": 56099,
+   "N_pow_1_12": 15.390029460508448,
+   "rows": [
+    {
+     "m": 5,
+     "k": 3,
+     "d": 4,
+     "alpha": 1,
+     "beta": 1,
+     "family": 67,
+     "in_uniq": 58,
+     "max_cluster": 5,
+     "max_cluster_top_half": 5,
+     "top_half_values": 21,
+     "V_top_half": 21.385601956251215,
+     "lam_max": 67
+    },
+    {
+     "m": 9,
+     "k": 5,
+     "d": 8,
+     "alpha": 2,
+     "beta": 3,
+     "family": 36,
+     "in_uniq": 35,
+     "max_cluster": 6,
+     "max_cluster_top_half": 6,
+     "top_half_values": 8,
+     "V_top_half": 6.838888137057128,
+     "lam_max": 36
+    },
+    {
+     "m": 13,
+     "k": 7,
+     "d": 12,
+     "alpha": 3,
+     "beta": 5,
+     "family": 25,
+     "in_uniq": 25,
+     "max_cluster": 4,
+     "max_cluster_top_half": 4,
+     "top_half_values": 4,
+     "V_top_half": 2.882836244784926,
+     "lam_max": 25
+    },
+    {
+     "m": 17,
+     "k": 9,
+     "d": 16,
+     "alpha": 4,
+     "beta": 7,
+     "family": 19,
+     "in_uniq": 19,
+     "max_cluster": 6,
+     "max_cluster_top_half": 6,
+     "top_half_values": 3,
+     "V_top_half": 1.6407889113372895,
+     "lam_max": 19
+    },
+    {
+     "m": 21,
+     "k": 11,
+     "d": 20,
+     "alpha": 5,
+     "beta": 9,
+     "family": 15,
+     "in_uniq": 15,
+     "max_cluster": 6,
+     "max_cluster_top_half": 6,
+     "top_half_values": 2,
+     "V_top_half": 1.086432358898061,
+     "lam_max": 15
+    },
+    {
+     "m": 25,
+     "k": 13,
+     "d": 24,
+     "alpha": 6,
+     "beta": 11,
+     "family": 12,
+     "in_uniq": 12,
+     "max_cluster": 6,
+     "max_cluster_top_half": 6,
+     "top_half_values": 2,
+     "V_top_half": 1.0062108639132226,
+     "lam_max": 12
+    }
+   ]
+  }
+ ]
+}

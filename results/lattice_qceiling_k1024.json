@@ -1,0 +1,158 @@
+{
+ "Kyber1024,qaware": {
+  "set": "Kyber1024",
+  "b_range": [
+   897,
+   910
+  ],
+  "m_stride": 2,
+  "least_passing_qaware": {
+   "b": 900,
+   "m": 1064,
+   "d": 2089,
+   "margin": 0.003960743899422248,
+   "clip_depth": 174,
+   "n_above_ceiling": 0
+  },
+  "per_b": [
+   {
+    "b": 897,
+    "best_qaware": {
+     "m": 1078,
+     "d": 2103,
+     "margin": -0.008518367365373702,
+     "clip_depth": 190,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 888,
+     "d": 1913,
+     "margin": -0.008518367365383916
+    }
+   },
+   {
+    "b": 898,
+    "best_qaware": {
+     "m": 988,
+     "d": 2013,
+     "margin": -0.004352956276854947,
+     "clip_depth": 99,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 888,
+     "d": 1913,
+     "margin": -0.00435360446198052
+    }
+   },
+   {
+    "b": 899,
+    "best_qaware": {
+     "m": 988,
+     "d": 2013,
+     "margin": -0.00019339304137933055,
+     "clip_depth": 98,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 890,
+     "d": 1915,
+     "margin": -0.00019339304139887048
+    }
+   },
+   {
+    "b": 900,
+    "best_qaware": {
+     "m": 1064,
+     "d": 2089,
+     "margin": 0.003960743899422248,
+     "clip_depth": 174,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 890,
+     "d": 1915,
+     "margin": 0.00396074389940404
+    }
+   },
+   {
+    "b": 901,
+    "best_qaware": {
+     "m": 1086,
+     "d": 2111,
+     "margin": 0.008109177678841561,
+     "clip_depth": 195,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 892,
+     "d": 1917,
+     "margin": 0.008108242224944107
+    }
+   },
+   {
+    "b": 902,
+    "best_qaware": {
+     "m": 1114,
+     "d": 2139,
+     "margin": 0.012251801874309631,
+     "clip_depth": 222,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 892,
+     "d": 1917,
+     "margin": 0.012251801874287427
+    }
+   }
+  ],
+  "note": "clipped extremal = k entries at log q then the tight profile of the rest; margins are the floor-side reading in double precision"
+ },
+ "Kyber1024,dual": {
+  "set": "Kyber1024",
+  "b_range": [
+   300,
+   1100
+  ],
+  "m_stride": 4,
+  "best": {
+   "gsa": {
+    "b": 868,
+    "m": 841,
+    "d": 1865,
+    "log_l": 8.685746883418819,
+    "l": 5917.958872757282,
+    "tau": 1.7776986700983124,
+    "log2_eps": -89.99545459258167,
+    "log2_R": 0.0,
+    "cost_bits": 253.8737253129817,
+    "head_minus_log_q": 0.6810471579614799
+   },
+   "floor": {
+    "b": 892,
+    "m": 933,
+    "d": 1957,
+    "log_l": 8.700303676443053,
+    "l": 6004.735437111565,
+    "tau": 1.8037655263176826,
+    "log2_eps": -92.65405795921248,
+    "log2_R": 0.2013912400607012,
+    "cost_bits": 261.0946665616963,
+    "head_minus_log_q": 0.5898764388680284
+   },
+   "floor_capped": {
+    "b": 300,
+    "m": 1,
+    "d": 1025,
+    "log_l": 8.110427237575024,
+    "l": 3328.9999999999973,
+    "tau": 0.9999999999999992,
+    "log2_eps": -28.477658649974963,
+    "log2_R": 0.0,
+    "cost_bits": 87.7443751081734,
+    "head_minus_log_q": 4.975021981595663
+   }
+  },
+  "note": "the script's LWE_dual_cost (classical core-SVP 0.292 b, sieve reuse 0.2075 b) with the first length from the unclipped GSA, the class head floor, and the floor capped at log q; the floor's cost is a lower bound over admissible profiles; double precision"
+ }
+}

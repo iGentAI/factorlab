@@ -1,0 +1,221 @@
+{
+ "set": "kyber768",
+ "eps": "1/100",
+ "prec": 256,
+ "b_range": [
+  621,
+  638
+ ],
+ "b_star": 639,
+ "rows": [
+  {
+   "b": 621,
+   "admissible_m": 552,
+   "rigorous_fail": 552,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 232.7537202835083
+  },
+  {
+   "b": 622,
+   "admissible_m": 550,
+   "rigorous_fail": 550,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 499.15996050834656
+  },
+  {
+   "b": 623,
+   "admissible_m": 548,
+   "rigorous_fail": 548,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 688.5417342185974
+  },
+  {
+   "b": 624,
+   "admissible_m": 546,
+   "rigorous_fail": 546,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 886.7685973644257
+  },
+  {
+   "b": 625,
+   "admissible_m": 544,
+   "rigorous_fail": 544,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 1036.1600675582886
+  },
+  {
+   "b": 626,
+   "admissible_m": 542,
+   "rigorous_fail": 542,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 1243.4457516670227
+  },
+  {
+   "b": 627,
+   "admissible_m": 540,
+   "rigorous_fail": 540,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 1435.2332129478455
+  },
+  {
+   "b": 628,
+   "admissible_m": 538,
+   "rigorous_fail": 538,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 1638.3021759986877
+  },
+  {
+   "b": 629,
+   "admissible_m": 536,
+   "rigorous_fail": 536,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 1815.716490983963
+  },
+  {
+   "b": 630,
+   "admissible_m": 534,
+   "rigorous_fail": 534,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2018.9745206832886
+  },
+  {
+   "b": 631,
+   "admissible_m": 532,
+   "rigorous_fail": 532,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2207.8566291332245
+  },
+  {
+   "b": 632,
+   "admissible_m": 530,
+   "rigorous_fail": 530,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2411.59942483902
+  },
+  {
+   "b": 633,
+   "admissible_m": 528,
+   "rigorous_fail": 528,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2574.482506752014
+  },
+  {
+   "b": 634,
+   "admissible_m": 526,
+   "rigorous_fail": 526,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2784.4002170562744
+  },
+  {
+   "b": 635,
+   "admissible_m": 524,
+   "rigorous_fail": 524,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 2979.105509996414
+  },
+  {
+   "b": 636,
+   "admissible_m": 522,
+   "rigorous_fail": 522,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 3182.0646374225616
+  },
+  {
+   "b": 637,
+   "admissible_m": 520,
+   "rigorous_fail": 520,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 3354.58163022995
+  },
+  {
+   "b": 638,
+   "admissible_m": 518,
+   "rigorous_fail": 518,
+   "non_failing_m": [],
+   "rigorous_pass_m": [],
+   "seconds": 3552.9156250953674
+  }
+ ],
+ "crossing": {
+  "b": 639,
+  "passing_m": [
+   672,
+   673,
+   674,
+   675,
+   676,
+   677,
+   678,
+   679,
+   680,
+   681,
+   682,
+   683,
+   684,
+   685,
+   686,
+   687,
+   688,
+   689,
+   690,
+   691,
+   692,
+   693,
+   694,
+   695,
+   696,
+   697,
+   698,
+   699,
+   700,
+   701,
+   702,
+   703,
+   704,
+   705,
+   706,
+   707,
+   708,
+   709,
+   710,
+   711,
+   712,
+   713,
+   714,
+   715,
+   716,
+   717,
+   718,
+   719,
+   720,
+   721,
+   722,
+   723,
+   724,
+   725,
+   726,
+   727,
+   728,
+   729
+  ],
+  "passes": true
+ },
+ "all_fail_below": true
+}

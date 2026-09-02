@@ -1,0 +1,4 @@
+Kyber512 {'gsa_b': 406, 'floor_b_from_300': 408, 'floor_m': None, 'floor_d': None} [48s]
+Kyber768 {'gsa_b': 624, 'floor_b_from_300': 626, 'floor_m': None, 'floor_d': None} [293s]
+Kyber1024 {'gsa_b': 874, 'floor_b_from_300': 876, 'floor_m': None, 'floor_d': None} [874s]
+FLOOR_SCREEN_DONE

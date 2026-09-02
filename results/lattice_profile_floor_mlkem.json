@@ -1,0 +1,172 @@
+{
+ "rows": [
+  {
+   "d": 1003,
+   "beta_spec": 403,
+   "rhf_floor_at_spec": 1.004021,
+   "pure_gsa_delta": 1.0039615,
+   "kappa_log": -0.05932,
+   "dual_min": 3.36e-06,
+   "floors": [
+    {
+     "eps": 0.0,
+     "beta_floor": 413,
+     "minimality": "certified: every beta in the range decided rigorously (exact dual, arb enclosures)",
+     "range": [
+      400,
+      415
+     ],
+     "root_hermite_floor_at_beta": 1.0039576971112583
+    },
+    {
+     "eps": 0.01,
+     "beta_floor": 409,
+     "minimality": "certified: every beta in the range decided rigorously (exact dual, arb enclosures)",
+     "range": [
+      400,
+      415
+     ],
+     "root_hermite_floor_at_beta": 1.0039573874851397
+    },
+    {
+     "eps": 0.03,
+     "beta_floor": 401,
+     "minimality": "certified: every beta in the range decided rigorously (exact dual, arb enclosures)",
+     "range": [
+      400,
+      415
+     ],
+     "root_hermite_floor_at_beta": 1.0039567132743252
+    }
+   ]
+  },
+  {
+   "d": 1424,
+   "beta_spec": 625,
+   "rhf_floor_at_spec": 1.0029592,
+   "pure_gsa_delta": 1.0028984,
+   "kappa_log": -0.08619,
+   "dual_min": 1.25e-06,
+   "floors": [
+    {
+     "eps": 0.0,
+     "beta_floor": 645,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "range": [
+      622,
+      685
+     ],
+     "root_hermite_floor_at_beta": 1.002896947826562
+    },
+    {
+     "d": 1424,
+     "target": 1.0028984290510434,
+     "eps": 0.01,
+     "beta_floor": 640,
+     "root_hermite_floor_at_beta": 1.0028960052202363,
+     "dual_exact": true,
+     "dual_min": 1.142709344500295e-06,
+     "exact_checks_in_band": 5,
+     "root_hermite_floor_at_beta_minus_1": 1.0028990636042692,
+     "predecessor_fails_rigorous": true,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "max_float_rigorous_discrepancy": 0.0,
+     "seconds": 405.6059057712555,
+     "range": [
+      622,
+      685
+     ]
+    },
+    {
+     "d": 1424,
+     "target": 1.0028984290510434,
+     "eps": 0.03,
+     "beta_floor": 629,
+     "root_hermite_floor_at_beta": 1.0028969495920308,
+     "dual_exact": true,
+     "dual_min": 1.2218876263548692e-06,
+     "exact_checks_in_band": 4,
+     "root_hermite_floor_at_beta_minus_1": 1.0029000313979943,
+     "predecessor_fails_rigorous": true,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "max_float_rigorous_discrepancy": 0.0,
+     "seconds": 345.2367675304413,
+     "range": [
+      622,
+      685
+     ]
+    }
+   ]
+  },
+  {
+   "d": 1885,
+   "beta_spec": 877,
+   "rhf_floor_at_spec": 1.0023122317446433,
+   "rhf_floor_ball": "[1.002312231744643423309023031595023319316977509296955545941549661524254232768 +/- 1.26e-76]",
+   "pure_gsa_delta": 1.002255772487831,
+   "kappa_log": -0.10612684592210453,
+   "dual_min": 5.653430067882074e-07,
+   "dual_sum": 2.2351147977723813,
+   "seconds": 152.0192563533783,
+   "floors": [
+    {
+     "d": 1885,
+     "target": 1.002255772487831,
+     "eps": 0.0,
+     "beta_floor": 908,
+     "root_hermite_floor_at_beta": 1.002255036180177,
+     "dual_exact": true,
+     "dual_min": 4.845413974399218e-07,
+     "exact_checks_in_band": 6,
+     "root_hermite_floor_at_beta_minus_1": 1.0022568682008426,
+     "predecessor_fails_rigorous": true,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "max_float_rigorous_discrepancy": 2.220446049250313e-16,
+     "seconds": 1264.3512585163116,
+     "range": [
+      874,
+      937
+     ]
+    },
+    {
+     "d": 1885,
+     "target": 1.002255772487831,
+     "eps": 0.01,
+     "beta_floor": 902,
+     "root_hermite_floor_at_beta": 1.0022544530159845,
+     "dual_exact": true,
+     "dual_min": 4.994683104157385e-07,
+     "exact_checks_in_band": 7,
+     "root_hermite_floor_at_beta_minus_1": 1.0022562758790168,
+     "predecessor_fails_rigorous": true,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "max_float_rigorous_discrepancy": 0.0,
+     "seconds": 1382.5088613033295,
+     "range": [
+      874,
+      937
+     ]
+    },
+    {
+     "d": 1885,
+     "target": 1.002255772487831,
+     "eps": 0.03,
+     "beta_floor": 889,
+     "root_hermite_floor_at_beta": 1.0022547350736173,
+     "dual_exact": true,
+     "dual_min": 5.329778945665715e-07,
+     "exact_checks_in_band": 7,
+     "root_hermite_floor_at_beta_minus_1": 1.002256545941413,
+     "predecessor_fails_rigorous": true,
+     "minimality": "double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)",
+     "max_float_rigorous_discrepancy": 0.0,
+     "seconds": 1482.1723680496216,
+     "range": [
+      874,
+      937
+     ]
+    }
+   ]
+  }
+ ]
+}

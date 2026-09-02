@@ -1,0 +1,11 @@
+d=1003: passing below 413: [2, 14] contiguous=True; every beta in [15, 412] fails rigorously; 413 passes; 412 decisions in 144s
+d=1424: passing below 645: [2, 14] contiguous=True; every beta in [15, 644] fails rigorously; 645 passes; 644 decisions in 518s
+d=1885: passing below 908: [2, 13] contiguous=True; every beta in [14, 907] fails rigorously; 908 passes; 907 decisions in 1439s
+FULL_SCAN_DONE
+eps=0.01 d=1003: passing below 409: [2, 15] contiguous=True; every beta in [16, 408] fails rigorously; 409 passes; 408 decisions in 95s
+eps=0.01 d=1424: passing below 640: [2, 14] contiguous=True; every beta in [15, 639] fails rigorously; 640 passes; 639 decisions in 352s
+eps=0.01 d=1885: passing below 902: [2, 14] contiguous=True; every beta in [15, 901] fails rigorously; 902 passes; 901 decisions in 1015s
+eps=0.03 d=1003: passing below 401: [2, 15] contiguous=True; every beta in [16, 400] fails rigorously; 401 passes; 400 decisions in 92s
+eps=0.03 d=1424: passing below 629: [2, 15] contiguous=True; every beta in [16, 628] fails rigorously; 629 passes; 628 decisions in 346s
+eps=0.03 d=1885: passing below 889: [2, 14] contiguous=True; every beta in [15, 888] fails rigorously; 889 passes; 888 decisions in 1143s
+FULL_SCAN_EPS_DONE

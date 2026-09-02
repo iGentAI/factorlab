@@ -1,0 +1,203 @@
+[
+ {
+  "r": 2048,
+  "K": 1.0,
+  "C": 4.0,
+  "cells_considered": 1453,
+  "kept": 133,
+  "distinct_a": 45,
+  "distinct_b": 89,
+  "forest_bound": 133,
+  "excess_over_forest": 0,
+  "K22_free": true,
+  "max_offset_deviation_in_w": 1.0,
+  "sep_window_coverage_share": 0.019114443519165508,
+  "lehman_window_coverage_share_kept": 0.13106927360297463,
+  "lehman_window_coverage_share_all": 1.0,
+  "kept_cells_sample": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "nbits": 60
+ },
+ {
+  "r": 4096,
+  "K": 1.0,
+  "C": 4.0,
+  "cells_considered": 2891,
+  "kept": 191,
+  "distinct_a": 64,
+  "distinct_b": 128,
+  "forest_bound": 191,
+  "excess_over_forest": 0,
+  "K22_free": true,
+  "max_offset_deviation_in_w": 1.0,
+  "sep_window_coverage_share": 0.011669740768204434,
+  "lehman_window_coverage_share_kept": 0.09862571429838372,
+  "lehman_window_coverage_share_all": 1.0,
+  "kept_cells_sample": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "nbits": 60
+ },
+ {
+  "r": 8192,
+  "K": 1.0,
+  "C": 4.0,
+  "cells_considered": 5750,
+  "kept": 269,
+  "distinct_a": 90,
+  "distinct_b": 180,
+  "forest_bound": 269,
+  "excess_over_forest": 0,
+  "K22_free": true,
+  "max_offset_deviation_in_w": 1.0,
+  "sep_window_coverage_share": 0.011679053536449555,
+  "lehman_window_coverage_share_kept": 0.07392428302942296,
+  "lehman_window_coverage_share_all": 1.0,
+  "kept_cells_sample": [
+   [
+    1,
+    1
+   ],
+   [
+    1,
+    2
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    1,
+    4
+   ],
+   [
+    2,
+    2
+   ],
+   [
+    2,
+    5
+   ],
+   [
+    2,
+    6
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    2,
+    8
+   ],
+   [
+    3,
+    3
+   ],
+   [
+    3,
+    9
+   ],
+   [
+    4,
+    4
+   ]
+  ],
+  "nbits": 60
+ }
+]

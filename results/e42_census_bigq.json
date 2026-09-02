@@ -1,0 +1,168 @@
+[
+ {
+  "r": 4194304,
+  "q_max": 1200,
+  "m_max": 16,
+  "families": 846117,
+  "max_sf": 78,
+  "sym_sf": 59,
+  "top": [
+   {
+    "A": "1365/11025",
+    "C": "22260/11025",
+    "q": 105,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 78,
+    "cluster_all": 183,
+    "members": 183,
+    "alpha": 1365,
+    "gamma": 22260
+   },
+   {
+    "A": "1155/53361",
+    "C": "616308/53361",
+    "q": 231,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 64,
+    "cluster_all": 153,
+    "members": 199,
+    "alpha": 1155,
+    "gamma": 616308
+   },
+   {
+    "A": "45/1",
+    "C": "0/1",
+    "q": 1,
+    "M": 1,
+    "n_classes": 1,
+    "cluster_sf": 59,
+    "cluster_all": 126,
+    "members": 126,
+    "alpha": 45,
+    "gamma": 0
+   },
+   {
+    "A": "1365/38025",
+    "C": "264810/38025",
+    "q": 195,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 57,
+    "cluster_all": 182,
+    "members": 182,
+    "alpha": 1365,
+    "gamma": 264810
+   },
+   {
+    "A": "39/1",
+    "C": "0/1",
+    "q": 1,
+    "M": 1,
+    "n_classes": 1,
+    "cluster_sf": 57,
+    "cluster_all": 132,
+    "members": 136,
+    "alpha": 39,
+    "gamma": 0
+   },
+   {
+    "A": "1155/44100",
+    "C": "420945/44100",
+    "q": 210,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 54,
+    "cluster_all": 163,
+    "members": 199,
+    "alpha": 1155,
+    "gamma": 420945
+   }
+  ],
+  "time_s": 358.9468171596527
+ },
+ {
+  "r": 16777216,
+  "q_max": 1200,
+  "m_max": 16,
+  "families": 874173,
+  "max_sf": 145,
+  "sym_sf": 89,
+  "top": [
+   {
+    "A": "1365/11025",
+    "C": "22260/11025",
+    "q": 105,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 145,
+    "cluster_all": 353,
+    "members": 367,
+    "alpha": 1365,
+    "gamma": 22260
+   },
+   {
+    "A": "1155/3025",
+    "C": "1980/3025",
+    "q": 55,
+    "M": 1,
+    "n_classes": 4,
+    "cluster_sf": 94,
+    "cluster_all": 198,
+    "members": 198,
+    "alpha": 1155,
+    "gamma": 1980
+   },
+   {
+    "A": "75/1",
+    "C": "0/1",
+    "q": 1,
+    "M": 1,
+    "n_classes": 1,
+    "cluster_sf": 89,
+    "cluster_all": 196,
+    "members": 196,
+    "alpha": 75,
+    "gamma": 0
+   },
+   {
+    "A": "1995/44100",
+    "C": "243705/44100",
+    "q": 210,
+    "M": 1,
+    "n_classes": 8,
+    "cluster_sf": 88,
+    "cluster_all": 271,
+    "members": 303,
+    "alpha": 1995,
+    "gamma": 243705
+   },
+   {
+    "A": "561/1089",
+    "C": "528/1089",
+    "q": 33,
+    "M": 1,
+    "n_classes": 4,
+    "cluster_sf": 88,
+    "cluster_all": 247,
+    "members": 287,
+    "alpha": 561,
+    "gamma": 528
+   },
+   {
+    "A": "69/1",
+    "C": "0/1",
+    "q": 1,
+    "M": 1,
+    "n_classes": 1,
+    "cluster_sf": 87,
+    "cluster_all": 204,
+    "members": 204,
+    "alpha": 69,
+    "gamma": 0
+   }
+  ],
+  "time_s": 426.36173963546753
+ }
+]

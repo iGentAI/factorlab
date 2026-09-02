@@ -1,0 +1,61 @@
+{
+ "note": "scipy HiGHS double precision; primal (A_i), dual (D_e): l_e <= avg_[e-n+1,e] l - log chat(n), n = min(beta, e); exploratory, not certified",
+ "rows": [
+  {
+   "d": 60,
+   "beta": 10,
+   "primal_floor": -0.6295060692333293,
+   "primal_plus_dual_l1": -0.6137033722381362,
+   "shift": 0.0158026969951931,
+   "dual_only_l1": -1.7765834350815097,
+   "status": [
+    0,
+    0
+   ],
+   "tight_profile_Dd_violation": 1.0772658269893491,
+   "closed_form_v_beta": 1.077265826989349
+  },
+  {
+   "d": 100,
+   "beta": 20,
+   "primal_floor": 0.9405403965957975,
+   "primal_plus_dual_l1": 0.9527743624830801,
+   "shift": 0.01223396588728265,
+   "dual_only_l1": -0.41416921784380517,
+   "status": [
+    0,
+    0
+   ],
+   "tight_profile_Dd_violation": 1.3136968419412274,
+   "closed_form_v_beta": 1.3136968419412276
+  },
+  {
+   "d": 200,
+   "beta": 40,
+   "primal_floor": 2.4759354817116543,
+   "primal_plus_dual_l1": 2.4821747582229046,
+   "shift": 0.006239276511250225,
+   "dual_only_l1": 1.083505882861186,
+   "status": [
+    0,
+    0
+   ],
+   "tight_profile_Dd_violation": 1.3767580172733231,
+   "closed_form_v_beta": 1.3767580172733231
+  },
+  {
+   "d": 300,
+   "beta": 50,
+   "primal_floor": 3.585247958649912,
+   "primal_plus_dual_l1": 3.600895589132687,
+   "shift": 0.015647630482774844,
+   "dual_only_l1": 2.2217345087088742,
+   "status": [
+    0,
+    0
+   ],
+   "tight_profile_Dd_violation": 1.35617309941196,
+   "closed_form_v_beta": 1.3561730994119596
+  }
+ ]
+}

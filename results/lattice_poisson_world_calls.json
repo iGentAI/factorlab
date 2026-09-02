@@ -1,0 +1,248 @@
+{
+ "1003,403": {
+  "rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.015783106916539325,
+    "uniform_blocks": 2.322315245825207,
+    "optimal_mass": 0.029013948304667254,
+    "optimal_blocks": 4.269091937716349,
+    "head_only_mass": 0.02246942539852068
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.04627887804578649,
+    "uniform_blocks": 6.80944155125705,
+    "optimal_mass": 0.05950971943391442,
+    "optimal_blocks": 8.756218243148194,
+    "head_only_mass": 0.033665854982869434
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.09319544901385905,
+    "uniform_blocks": 13.712712790382964,
+    "optimal_mass": 0.10642629040198699,
+    "optimal_blocks": 15.65948948227411,
+    "head_only_mass": 0.050891131266482904
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.14011201998193162,
+    "uniform_blocks": 20.61598402950888,
+    "optimal_mass": 0.15334286137005954,
+    "optimal_blocks": 22.56276072140002,
+    "head_only_mass": 0.06811640755009638
+   }
+  ],
+  "calls_log2_to_reach_kappa": 19.95529949661983,
+  "slope": 0.006796280972151559,
+  "kappa_abs": 0.0593,
+  "waterfilling_rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.015783106916540314,
+    "uniform_blocks": 2.3223152458253526,
+    "wf_mass": 0.029013948304667678,
+    "wf_blocks": 4.269091937716412,
+    "head_only_mass": 0.022244858988820438,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.04627887804578945,
+    "uniform_blocks": 6.809441551257486,
+    "wf_mass": 0.05950971943391671,
+    "wf_blocks": 8.756218243148531,
+    "head_only_mass": 0.033663481520901824,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.09319544901386491,
+    "uniform_blocks": 13.712712790383826,
+    "wf_mass": 0.10642629040199238,
+    "wf_blocks": 15.659489482274902,
+    "head_only_mass": 0.050891128949754325,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.14011201998194042,
+    "uniform_blocks": 20.615984029510173,
+    "wf_mass": 0.15334286137006753,
+    "wf_blocks": 22.562760721401197,
+    "head_only_mass": 0.06811640754783391,
+    "positions_at_floor": 0
+   }
+  ],
+  "calls_log2_to_reach_kappa_waterfilling": 19.95529949661933,
+  "mass_per_e_calls_constant_beta_approx": 0.006348808374798614,
+  "blocks_per_e_calls_constant_beta_approx": 0.9341591968921666,
+  "mass_per_e_calls": 0.00676863042711534,
+  "blocks_per_e_calls": 0.9959315182598365
+ },
+ "1424,625": {
+  "rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.008072945896407755,
+    "uniform_blocks": 1.685807160622128,
+    "optimal_mass": 0.017238216157597356,
+    "optimal_blocks": 3.599715470378756,
+    "head_only_mass": 0.014513006972782993
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.026433221166839313,
+    "uniform_blocks": 5.519833043993855,
+    "optimal_mass": 0.03559849142802891,
+    "optimal_blocks": 7.433741353750482,
+    "head_only_mass": 0.021728219680068824
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.05467979850596479,
+    "uniform_blocks": 11.418334403027282,
+    "optimal_mass": 0.06384506876715439,
+    "optimal_blocks": 13.33224271278391,
+    "head_only_mass": 0.032828546922047015
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.08292637584509027,
+    "uniform_blocks": 17.31683576206071,
+    "optimal_mass": 0.09209164610627986,
+    "optimal_blocks": 19.230744071817334,
+    "head_only_mass": 0.043928874164025224
+   }
+  ],
+  "calls_log2_to_reach_kappa": 37.91420884890039,
+  "slope": 0.004788771862511561,
+  "kappa_abs": 0.0862,
+  "waterfilling_rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.008072945896407124,
+    "uniform_blocks": 1.6858071606219962,
+    "wf_mass": 0.017238216157597193,
+    "wf_blocks": 3.599715470378722,
+    "head_only_mass": 0.014303291183025698,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.026433221166837308,
+    "uniform_blocks": 5.519833043993437,
+    "wf_mass": 0.035598491428027346,
+    "wf_blocks": 7.433741353750156,
+    "head_only_mass": 0.021726046455283213,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.05467979850596065,
+    "uniform_blocks": 11.418334403026417,
+    "wf_mass": 0.06384506876715085,
+    "wf_blocks": 13.33224271278317,
+    "head_only_mass": 0.032828544801195195,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.08292637584508394,
+    "uniform_blocks": 17.316835762059387,
+    "wf_mass": 0.09209164610627427,
+    "wf_blocks": 19.230744071816165,
+    "head_only_mass": 0.04392887416195412,
+    "positions_at_floor": 0
+   }
+  ],
+  "calls_log2_to_reach_kappa_waterfilling": 37.91420884890232,
+  "mass_per_e_calls_constant_beta_approx": 0.0037726620518244267,
+  "blocks_per_e_calls_constant_beta_approx": 0.7878141118724715,
+  "mass_per_e_calls": 0.004075119704924289,
+  "blocks_per_e_calls": 0.8509738659354334
+ },
+ "1885,877": {
+  "rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.004753236318239326,
+    "uniform_blocks": 1.3108546981270983,
+    "optimal_mass": 0.01162418682869948,
+    "optimal_blocks": 3.205735817896828,
+    "head_only_mass": 0.01035232566018845
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.017347604071058273,
+    "uniform_blocks": 4.784148478066591,
+    "optimal_mass": 0.02421855458151843,
+    "optimal_blocks": 6.679029597836321,
+    "head_only_mass": 0.01549281254483235
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.03672355446001051,
+    "uniform_blocks": 10.127677370281198,
+    "optimal_mass": 0.04359450497047066,
+    "optimal_blocks": 12.022558490050926,
+    "head_only_mass": 0.02340125390582297
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.056099504848962735,
+    "uniform_blocks": 15.471206262495802,
+    "optimal_mass": 0.06297045535942289,
+    "optimal_blocks": 17.36608738226553,
+    "head_only_mass": 0.03130969526681359
+   }
+  ],
+  "calls_log2_to_reach_kappa": 62.25931826557972,
+  "slope": 0.0036260588797755976,
+  "kappa_abs": 0.1061,
+  "waterfilling_rows": [
+   {
+    "log2_calls": 13.5,
+    "uniform_mass": 0.00475323631823996,
+    "uniform_blocks": 1.3108546981272733,
+    "wf_mass": 0.011624186828699493,
+    "wf_blocks": 3.205735817896831,
+    "head_only_mass": 0.010149950053969207,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 20,
+    "uniform_mass": 0.01734760407106052,
+    "uniform_blocks": 4.784148478067211,
+    "wf_mass": 0.024218554581520117,
+    "wf_blocks": 6.679029597836786,
+    "head_only_mass": 0.015490761826174166,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 30,
+    "uniform_mass": 0.0367235544600155,
+    "uniform_blocks": 10.127677370282575,
+    "wf_mass": 0.04359450497047495,
+    "wf_blocks": 12.02255849005211,
+    "head_only_mass": 0.023401251904964924,
+    "positions_at_floor": 0
+   },
+   {
+    "log2_calls": 40,
+    "uniform_mass": 0.05609950484897016,
+    "uniform_blocks": 15.47120626249785,
+    "wf_mass": 0.06297045535942976,
+    "wf_blocks": 17.366087382267423,
+    "head_only_mass": 0.031309695264859584,
+    "positions_at_floor": 0
+   }
+  ],
+  "calls_log2_to_reach_kappa_waterfilling": 62.25931826557326,
+  "mass_per_e_calls_constant_beta_approx": 0.0025485915596036276,
+  "blocks_per_e_calls_constant_beta_approx": 0.7028544334507193,
+  "mass_per_e_calls": 0.002795358753865197,
+  "blocks_per_e_calls": 0.7709082633644908
+ }
+}

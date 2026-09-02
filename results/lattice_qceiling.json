@@ -1,0 +1,1142 @@
+{
+ "Kyber512,qaware": {
+  "set": "Kyber512",
+  "b_range": [
+   391,
+   439
+  ],
+  "m_stride": 2,
+  "least_passing_qaware": {
+   "b": 417,
+   "m": 520,
+   "d": 1033,
+   "margin": 0.005184508342471084,
+   "clip_depth": 3
+  },
+  "per_b": [
+   {
+    "b": 391,
+    "best_qaware": {
+     "m": 556,
+     "d": 1069,
+     "margin": -0.20602121350783875,
+     "clip_depth": 61
+    },
+    "best_unclipped": {
+     "m": 496,
+     "d": 1009,
+     "margin": -0.20602204498019994
+    }
+   },
+   {
+    "b": 392,
+    "best_qaware": {
+     "m": 566,
+     "d": 1079,
+     "margin": -0.1976003309681067,
+     "clip_depth": 70
+    },
+    "best_unclipped": {
+     "m": 496,
+     "d": 1009,
+     "margin": -0.1976003309681218
+    }
+   },
+   {
+    "b": 393,
+    "best_qaware": {
+     "m": 506,
+     "d": 1019,
+     "margin": -0.18920442351706424,
+     "clip_depth": 9
+    },
+    "best_unclipped": {
+     "m": 498,
+     "d": 1011,
+     "margin": -0.18920754585740118
+    }
+   },
+   {
+    "b": 394,
+    "best_qaware": {
+     "m": 532,
+     "d": 1045,
+     "margin": -0.1808333602349319,
+     "clip_depth": 34
+    },
+    "best_unclipped": {
+     "m": 498,
+     "d": 1011,
+     "margin": -0.18083336023495988
+    }
+   },
+   {
+    "b": 395,
+    "best_qaware": {
+     "m": 554,
+     "d": 1067,
+     "margin": -0.17248701124497545,
+     "clip_depth": 55
+    },
+    "best_unclipped": {
+     "m": 498,
+     "d": 1011,
+     "margin": -0.17248946378508156
+    }
+   },
+   {
+    "b": 396,
+    "best_qaware": {
+     "m": 500,
+     "d": 1013,
+     "margin": -0.16416524770302843,
+     "clip_depth": 0
+    },
+    "best_unclipped": {
+     "m": 500,
+     "d": 1013,
+     "margin": -0.16416524770302843
+    }
+   },
+   {
+    "b": 397,
+    "best_qaware": {
+     "m": 532,
+     "d": 1045,
+     "margin": -0.15586794178819918,
+     "clip_depth": 31
+    },
+    "best_unclipped": {
+     "m": 500,
+     "d": 1013,
+     "margin": -0.155868012185441
+    }
+   },
+   {
+    "b": 398,
+    "best_qaware": {
+     "m": 572,
+     "d": 1085,
+     "margin": -0.14759383883589594,
+     "clip_depth": 71
+    },
+    "best_unclipped": {
+     "m": 502,
+     "d": 1015,
+     "margin": -0.1475949666924512
+    }
+   },
+   {
+    "b": 399,
+    "best_qaware": {
+     "m": 504,
+     "d": 1017,
+     "margin": -0.1393438658572408,
+     "clip_depth": 2
+    },
+    "best_unclipped": {
+     "m": 502,
+     "d": 1015,
+     "margin": -0.13934386585724434
+    }
+   },
+   {
+    "b": 400,
+    "best_qaware": {
+     "m": 532,
+     "d": 1045,
+     "margin": -0.1311179685459778,
+     "clip_depth": 29
+    },
+    "best_unclipped": {
+     "m": 504,
+     "d": 1017,
+     "margin": -0.13112150673299805
+    }
+   },
+   {
+    "b": 401,
+    "best_qaware": {
+     "m": 562,
+     "d": 1075,
+     "margin": -0.12291602318172057,
+     "clip_depth": 58
+    },
+    "best_unclipped": {
+     "m": 504,
+     "d": 1017,
+     "margin": -0.12291602318174544
+    }
+   },
+   {
+    "b": 402,
+    "best_qaware": {
+     "m": 558,
+     "d": 1071,
+     "margin": -0.1147379070178105,
+     "clip_depth": 53
+    },
+    "best_unclipped": {
+     "m": 504,
+     "d": 1017,
+     "margin": -0.11473967777701732
+    }
+   },
+   {
+    "b": 403,
+    "best_qaware": {
+     "m": 506,
+     "d": 1019,
+     "margin": -0.10658349827157654,
+     "clip_depth": 0
+    },
+    "best_unclipped": {
+     "m": 506,
+     "d": 1019,
+     "margin": -0.10658349827157654
+    }
+   },
+   {
+    "b": 404,
+    "best_qaware": {
+     "m": 570,
+     "d": 1083,
+     "margin": -0.09845195359983938,
+     "clip_depth": 64
+    },
+    "best_unclipped": {
+     "m": 506,
+     "d": 1019,
+     "margin": -0.09845195359986425
+    }
+   },
+   {
+    "b": 405,
+    "best_qaware": {
+     "m": 582,
+     "d": 1095,
+     "margin": -0.09034334561163782,
+     "clip_depth": 75
+    },
+    "best_unclipped": {
+     "m": 508,
+     "d": 1021,
+     "margin": -0.09034532066710987
+    }
+   },
+   {
+    "b": 406,
+    "best_qaware": {
+     "m": 556,
+     "d": 1069,
+     "margin": -0.08225808158741721,
+     "clip_depth": 48
+    },
+    "best_unclipped": {
+     "m": 508,
+     "d": 1021,
+     "margin": -0.08225808158744119
+    }
+   },
+   {
+    "b": 407,
+    "best_qaware": {
+     "m": 556,
+     "d": 1069,
+     "margin": -0.07419604360989096,
+     "clip_depth": 47
+    },
+    "best_unclipped": {
+     "m": 508,
+     "d": 1021,
+     "margin": -0.07419919094784122
+    }
+   },
+   {
+    "b": 408,
+    "best_qaware": {
+     "m": 558,
+     "d": 1071,
+     "margin": -0.06615711467968177,
+     "clip_depth": 48
+    },
+    "best_unclipped": {
+     "m": 510,
+     "d": 1023,
+     "margin": -0.06615711467969287
+    }
+   },
+   {
+    "b": 409,
+    "best_qaware": {
+     "m": 512,
+     "d": 1025,
+     "margin": -0.05814117870548996,
+     "clip_depth": 1
+    },
+    "best_unclipped": {
+     "m": 510,
+     "d": 1023,
+     "margin": -0.05814174786647941
+    }
+   },
+   {
+    "b": 410,
+    "best_qaware": {
+     "m": 584,
+     "d": 1097,
+     "margin": -0.05014739558630055,
+     "clip_depth": 73
+    },
+    "best_unclipped": {
+     "m": 512,
+     "d": 1025,
+     "margin": -0.050148120495918214
+    }
+   },
+   {
+    "b": 411,
+    "best_qaware": {
+     "m": 540,
+     "d": 1053,
+     "margin": -0.0421758035791,
+     "clip_depth": 28
+    },
+    "best_unclipped": {
+     "m": 512,
+     "d": 1025,
+     "margin": -0.04217580357911732
+    }
+   },
+   {
+    "b": 412,
+    "best_qaware": {
+     "m": 546,
+     "d": 1059,
+     "margin": -0.03422685852315066,
+     "clip_depth": 33
+    },
+    "best_unclipped": {
+     "m": 514,
+     "d": 1027,
+     "margin": -0.034230181049736075
+    }
+   },
+   {
+    "b": 413,
+    "best_qaware": {
+     "m": 542,
+     "d": 1055,
+     "margin": -0.026300447969542784,
+     "clip_depth": 28
+    },
+    "best_unclipped": {
+     "m": 514,
+     "d": 1027,
+     "margin": -0.026300447969553886
+    }
+   },
+   {
+    "b": 414,
+    "best_qaware": {
+     "m": 540,
+     "d": 1053,
+     "margin": -0.018396460333408804,
+     "clip_depth": 25
+    },
+    "best_unclipped": {
+     "m": 514,
+     "d": 1027,
+     "margin": -0.01839802428707138
+    }
+   },
+   {
+    "b": 415,
+    "best_qaware": {
+     "m": 532,
+     "d": 1045,
+     "margin": -0.010514784885755635,
+     "clip_depth": 16
+    },
+    "best_unclipped": {
+     "m": 516,
+     "d": 1029,
+     "margin": -0.010514784885778727
+    }
+   },
+   {
+    "b": 416,
+    "best_qaware": {
+     "m": 530,
+     "d": 1043,
+     "margin": -0.0026542088017809107,
+     "clip_depth": 14
+    },
+    "best_unclipped": {
+     "m": 516,
+     "d": 1029,
+     "margin": -0.002654208801796454
+    }
+   },
+   {
+    "b": 417,
+    "best_qaware": {
+     "m": 520,
+     "d": 1033,
+     "margin": 0.005184508342471084,
+     "clip_depth": 3
+    },
+    "best_unclipped": {
+     "m": 518,
+     "d": 1031,
+     "margin": 0.005182068130912931
+    }
+   },
+   {
+    "b": 418,
+    "best_qaware": {
+     "m": 530,
+     "d": 1043,
+     "margin": 0.013001242858046602,
+     "clip_depth": 12
+    },
+    "best_unclipped": {
+     "m": 518,
+     "d": 1031,
+     "margin": 0.013001242858042161
+    }
+   },
+   {
+    "b": 419,
+    "best_qaware": {
+     "m": 526,
+     "d": 1039,
+     "margin": 0.02079610204301474,
+     "clip_depth": 7
+    },
+    "best_unclipped": {
+     "m": 518,
+     "d": 1031,
+     "margin": 0.020793821100734355
+    }
+   }
+  ],
+  "note": "clipped extremal = k entries at log q then the tight profile of the rest; margins are the floor-side reading in double precision"
+ },
+ "Kyber512,dual": {
+  "set": "Kyber512",
+  "b_range": [
+   300,
+   1100
+  ],
+  "m_stride": 2,
+  "best": {
+   "gsa": {
+    "b": 403,
+    "m": 513,
+    "d": 1025,
+    "log_l": 8.099860014523234,
+    "l": 3294.0069298772146,
+    "tau": 1.2118708602269366,
+    "log2_eps": -41.82317178439105,
+    "log2_R": 0.01628746409510029,
+    "cost_bits": 117.88623135940803,
+    "head_minus_log_q": 0.04651138309404956
+   },
+   "floor": {
+    "b": 410,
+    "m": 531,
+    "d": 1043,
+    "log_l": 8.109787418022206,
+    "l": 3326.8707219581665,
+    "tau": 1.2239615063085303,
+    "log2_eps": -42.66186124519822,
+    "log2_R": 0.2410351382334852,
+    "cost_bits": 120.15834778607046,
+    "head_minus_log_q": -0.0006398195528181105
+   },
+   "floor_capped": {
+    "b": 300,
+    "m": 1,
+    "d": 513,
+    "log_l": 8.110427237575024,
+    "l": 3328.9999999999973,
+    "tau": 1.224744871391588,
+    "log2_eps": -42.71648797496244,
+    "log2_R": 23.17735105809833,
+    "cost_bits": 110.92172616627172,
+    "head_minus_log_q": 2.525616835470375
+   }
+  },
+  "note": "the script's LWE_dual_cost (classical core-SVP 0.292 b, sieve reuse 0.2075 b) with the first length from the unclipped GSA, the class head floor, and the floor capped at log q; the floor's cost is a lower bound over admissible profiles; double precision"
+ },
+ "Kyber768,qaware": {
+  "set": "Kyber768",
+  "b_range": [
+   613,
+   661
+  ],
+  "m_stride": 2,
+  "least_passing_qaware": {
+   "b": 642,
+   "m": 706,
+   "d": 1475,
+   "margin": 0.004428889351127729,
+   "clip_depth": 8
+  },
+  "per_b": [
+   {
+    "b": 613,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.16122439976817793,
+     "clip_depth": 349
+    },
+    "best_unclipped": {
+     "m": 676,
+     "d": 1445,
+     "margin": -0.16122636792173894
+    }
+   },
+   {
+    "b": 614,
+    "best_qaware": {
+     "m": 676,
+     "d": 1445,
+     "margin": -0.15535725573950732,
+     "clip_depth": 0
+    },
+    "best_unclipped": {
+     "m": 676,
+     "d": 1445,
+     "margin": -0.15535725573950732
+    }
+   },
+   {
+    "b": 615,
+    "best_qaware": {
+     "m": 1018,
+     "d": 1787,
+     "margin": -0.14950167841474382,
+     "clip_depth": 341
+    },
+    "best_unclipped": {
+     "m": 676,
+     "d": 1445,
+     "margin": -0.14950220305832396
+    }
+   },
+   {
+    "b": 616,
+    "best_qaware": {
+     "m": 684,
+     "d": 1453,
+     "margin": -0.14365738371920056,
+     "clip_depth": 7
+    },
+    "best_unclipped": {
+     "m": 678,
+     "d": 1447,
+     "margin": -0.14365762878894683
+    }
+   },
+   {
+    "b": 617,
+    "best_qaware": {
+     "m": 1020,
+     "d": 1789,
+     "margin": -0.1378240530602759,
+     "clip_depth": 342
+    },
+    "best_unclipped": {
+     "m": 678,
+     "d": 1447,
+     "margin": -0.13782405306029633
+    }
+   },
+   {
+    "b": 618,
+    "best_qaware": {
+     "m": 1020,
+     "d": 1789,
+     "margin": -0.13200217251190605,
+     "clip_depth": 341
+    },
+    "best_unclipped": {
+     "m": 680,
+     "d": 1449,
+     "margin": -0.13200395764779183
+    }
+   },
+   {
+    "b": 619,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.1261917037085425,
+     "clip_depth": 344
+    },
+    "best_unclipped": {
+     "m": 680,
+     "d": 1449,
+     "margin": -0.12619170370856736
+    }
+   },
+   {
+    "b": 620,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.12039260848772315,
+     "clip_depth": 343
+    },
+    "best_unclipped": {
+     "m": 680,
+     "d": 1449,
+     "margin": -0.12039326308675147
+    }
+   },
+   {
+    "b": 621,
+    "best_qaware": {
+     "m": 1004,
+     "d": 1773,
+     "margin": -0.11460472453024018,
+     "clip_depth": 323
+    },
+    "best_unclipped": {
+     "m": 682,
+     "d": 1451,
+     "margin": -0.11460484888805045
+    }
+   },
+   {
+    "b": 622,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.10882748375331719,
+     "clip_depth": 342
+    },
+    "best_unclipped": {
+     "m": 682,
+     "d": 1451,
+     "margin": -0.10882748375332607
+    }
+   },
+   {
+    "b": 623,
+    "best_qaware": {
+     "m": 1000,
+     "d": 1769,
+     "margin": -0.10306150321456364,
+     "clip_depth": 317
+    },
+    "best_unclipped": {
+     "m": 684,
+     "d": 1453,
+     "margin": -0.10306318570488981
+    }
+   },
+   {
+    "b": 624,
+    "best_qaware": {
+     "m": 998,
+     "d": 1767,
+     "margin": -0.09730674556949959,
+     "clip_depth": 314
+    },
+    "best_unclipped": {
+     "m": 684,
+     "d": 1453,
+     "margin": -0.09730674556951557
+    }
+   },
+   {
+    "b": 625,
+    "best_qaware": {
+     "m": 996,
+     "d": 1765,
+     "margin": -0.09156317366923039,
+     "clip_depth": 311
+    },
+    "best_unclipped": {
+     "m": 684,
+     "d": 1453,
+     "margin": -0.09156388014560557
+    }
+   },
+   {
+    "b": 626,
+    "best_qaware": {
+     "m": 996,
+     "d": 1765,
+     "margin": -0.08583066966273734,
+     "clip_depth": 311
+    },
+    "best_unclipped": {
+     "m": 686,
+     "d": 1455,
+     "margin": -0.08583075055888534
+    }
+   },
+   {
+    "b": 627,
+    "best_qaware": {
+     "m": 998,
+     "d": 1767,
+     "margin": -0.08010857126342463,
+     "clip_depth": 312
+    },
+    "best_unclipped": {
+     "m": 686,
+     "d": 1455,
+     "margin": -0.08010857126343174
+    }
+   },
+   {
+    "b": 628,
+    "best_qaware": {
+     "m": 1000,
+     "d": 1769,
+     "margin": -0.07439754839748325,
+     "clip_depth": 313
+    },
+    "best_unclipped": {
+     "m": 688,
+     "d": 1457,
+     "margin": -0.07439920385300391
+    }
+   },
+   {
+    "b": 629,
+    "best_qaware": {
+     "m": 688,
+     "d": 1457,
+     "margin": -0.06869756470509714,
+     "clip_depth": 0
+    },
+    "best_unclipped": {
+     "m": 688,
+     "d": 1457,
+     "margin": -0.06869756470509714
+    }
+   },
+   {
+    "b": 630,
+    "best_qaware": {
+     "m": 998,
+     "d": 1767,
+     "margin": -0.06300858401522502,
+     "clip_depth": 309
+    },
+    "best_unclipped": {
+     "m": 688,
+     "d": 1457,
+     "margin": -0.06300926899180359
+    }
+   },
+   {
+    "b": 631,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.057330460332301936,
+     "clip_depth": 335
+    },
+    "best_unclipped": {
+     "m": 690,
+     "d": 1459,
+     "margin": -0.0573305703441247
+    }
+   },
+   {
+    "b": 632,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": -0.05166258307912219,
+     "clip_depth": 334
+    },
+    "best_unclipped": {
+     "m": 690,
+     "d": 1459,
+     "margin": -0.051662583079127966
+    }
+   },
+   {
+    "b": 633,
+    "best_qaware": {
+     "m": 1012,
+     "d": 1781,
+     "margin": -0.046005601638781535,
+     "clip_depth": 321
+    },
+    "best_unclipped": {
+     "m": 692,
+     "d": 1461,
+     "margin": -0.0460073010529638
+    }
+   },
+   {
+    "b": 634,
+    "best_qaware": {
+     "m": 1022,
+     "d": 1791,
+     "margin": -0.04035948060119665,
+     "clip_depth": 330
+    },
+    "best_unclipped": {
+     "m": 692,
+     "d": 1461,
+     "margin": -0.04035948060122374
+    }
+   },
+   {
+    "b": 635,
+    "best_qaware": {
+     "m": 996,
+     "d": 1765,
+     "margin": -0.03472418473886263,
+     "clip_depth": 303
+    },
+    "best_unclipped": {
+     "m": 692,
+     "d": 1461,
+     "margin": -0.03472477939707863
+    }
+   },
+   {
+    "b": 636,
+    "best_qaware": {
+     "m": 998,
+     "d": 1767,
+     "margin": -0.02909947183139394,
+     "clip_depth": 305
+    },
+    "best_unclipped": {
+     "m": 694,
+     "d": 1463,
+     "margin": -0.02909967900472843
+    }
+   },
+   {
+    "b": 637,
+    "best_qaware": {
+     "m": 1010,
+     "d": 1779,
+     "margin": -0.02348491983640466,
+     "clip_depth": 316
+    },
+    "best_unclipped": {
+     "m": 694,
+     "d": 1463,
+     "margin": -0.0234849198364131
+    }
+   },
+   {
+    "b": 638,
+    "best_qaware": {
+     "m": 1000,
+     "d": 1769,
+     "margin": -0.01788108874186367,
+     "clip_depth": 305
+    },
+    "best_unclipped": {
+     "m": 696,
+     "d": 1465,
+     "margin": -0.0178828986303885
+    }
+   },
+   {
+    "b": 639,
+    "best_qaware": {
+     "m": 1002,
+     "d": 1771,
+     "margin": -0.012287944054641287,
+     "clip_depth": 306
+    },
+    "best_unclipped": {
+     "m": 696,
+     "d": 1465,
+     "margin": -0.012287944054659494
+    }
+   },
+   {
+    "b": 640,
+    "best_qaware": {
+     "m": 1012,
+     "d": 1781,
+     "margin": -0.006705451457013734,
+     "clip_depth": 315
+    },
+    "best_unclipped": {
+     "m": 696,
+     "d": 1465,
+     "margin": -0.0067058913994504366
+    }
+   },
+   {
+    "b": 641,
+    "best_qaware": {
+     "m": 1002,
+     "d": 1771,
+     "margin": -0.001133208820457643,
+     "clip_depth": 305
+    },
+    "best_unclipped": {
+     "m": 698,
+     "d": 1467,
+     "margin": -0.0011335768062266105
+    }
+   },
+   {
+    "b": 642,
+    "best_qaware": {
+     "m": 706,
+     "d": 1475,
+     "margin": 0.004428889351127729,
+     "clip_depth": 8
+    },
+    "best_unclipped": {
+     "m": 698,
+     "d": 1467,
+     "margin": 0.00442888935111263
+    }
+   },
+   {
+    "b": 643,
+    "best_qaware": {
+     "m": 1014,
+     "d": 1783,
+     "margin": 0.009980436894792,
+     "clip_depth": 315
+    },
+    "best_unclipped": {
+     "m": 698,
+     "d": 1467,
+     "margin": 0.009978583602618052
+    }
+   },
+   {
+    "b": 644,
+    "best_qaware": {
+     "m": 1024,
+     "d": 1793,
+     "margin": 0.01552146741916971,
+     "clip_depth": 324
+    },
+    "best_unclipped": {
+     "m": 700,
+     "d": 1469,
+     "margin": 0.015521467419133295
+    }
+   }
+  ],
+  "note": "clipped extremal = k entries at log q then the tight profile of the rest; margins are the floor-side reading in double precision"
+ },
+ "Kyber768,dual": {
+  "set": "Kyber768",
+  "b_range": [
+   300,
+   1100
+  ],
+  "m_stride": 2,
+  "best": {
+   "gsa": {
+    "b": 620,
+    "m": 651,
+    "d": 1419,
+    "log_l": 8.51765018547992,
+    "l": 5002.285492506887,
+    "tau": 1.5026390785541865,
+    "log2_eps": -64.300394636457,
+    "log2_R": 0.0,
+    "cost_bits": 181.33837522355836,
+    "head_minus_log_q": 0.4924741428590096
+   },
+   "floor": {
+    "b": 634,
+    "m": 703,
+    "d": 1471,
+    "log_l": 8.528924801164532,
+    "l": 5059.003474889656,
+    "tau": 1.519676622075595,
+    "log2_eps": -65.76679002262023,
+    "log2_R": 0.0,
+    "cost_bits": 185.43311272860643,
+    "head_minus_log_q": 0.41849756358950785
+   },
+   "floor_capped": {
+    "b": 300,
+    "m": 1,
+    "d": 769,
+    "log_l": 8.110427237575024,
+    "l": 3328.9999999999973,
+    "tau": 0.9999999999999992,
+    "log2_eps": -28.477658649974963,
+    "log2_R": 0.0,
+    "cost_bits": 87.7443751081734,
+    "head_minus_log_q": 3.746967827641349
+   }
+  },
+  "note": "the script's LWE_dual_cost (classical core-SVP 0.292 b, sieve reuse 0.2075 b) with the first length from the unclipped GSA, the class head floor, and the floor capped at log q; the floor's cost is a lower bound over admissible profiles; double precision"
+ },
+ "Kyber1024,qaware": {
+  "set": "Kyber1024",
+  "b_range": [
+   897,
+   910
+  ],
+  "m_stride": 2,
+  "least_passing_qaware": {
+   "b": 900,
+   "m": 1064,
+   "d": 2089,
+   "margin": 0.003960743899422248,
+   "clip_depth": 174,
+   "n_above_ceiling": 0
+  },
+  "per_b": [
+   {
+    "b": 897,
+    "best_qaware": {
+     "m": 1078,
+     "d": 2103,
+     "margin": -0.008518367365373702,
+     "clip_depth": 190,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 888,
+     "d": 1913,
+     "margin": -0.008518367365383916
+    }
+   },
+   {
+    "b": 898,
+    "best_qaware": {
+     "m": 988,
+     "d": 2013,
+     "margin": -0.004352956276854947,
+     "clip_depth": 99,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 888,
+     "d": 1913,
+     "margin": -0.00435360446198052
+    }
+   },
+   {
+    "b": 899,
+    "best_qaware": {
+     "m": 988,
+     "d": 2013,
+     "margin": -0.00019339304137933055,
+     "clip_depth": 98,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 890,
+     "d": 1915,
+     "margin": -0.00019339304139887048
+    }
+   },
+   {
+    "b": 900,
+    "best_qaware": {
+     "m": 1064,
+     "d": 2089,
+     "margin": 0.003960743899422248,
+     "clip_depth": 174,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 890,
+     "d": 1915,
+     "margin": 0.00396074389940404
+    }
+   },
+   {
+    "b": 901,
+    "best_qaware": {
+     "m": 1086,
+     "d": 2111,
+     "margin": 0.008109177678841561,
+     "clip_depth": 195,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 892,
+     "d": 1917,
+     "margin": 0.008108242224944107
+    }
+   },
+   {
+    "b": 902,
+    "best_qaware": {
+     "m": 1114,
+     "d": 2139,
+     "margin": 0.012251801874309631,
+     "clip_depth": 222,
+     "n_above_ceiling": 0
+    },
+    "best_unclipped": {
+     "m": 892,
+     "d": 1917,
+     "margin": 0.012251801874287427
+    }
+   }
+  ],
+  "note": "clipped extremal = k entries at log q then the tight profile of the rest; margins are the floor-side reading in double precision; Kyber1024 was rescanned on b in [897, 910] after the full scan was stopped at b = 881 (per-b margins for b <= 881 in lattice_qceiling.log); its dual route used m stride 4"
+ },
+ "Kyber1024,dual": {
+  "set": "Kyber1024",
+  "b_range": [
+   300,
+   1100
+  ],
+  "m_stride": 4,
+  "best": {
+   "gsa": {
+    "b": 868,
+    "m": 841,
+    "d": 1865,
+    "log_l": 8.685746883418819,
+    "l": 5917.958872757282,
+    "tau": 1.7776986700983124,
+    "log2_eps": -89.99545459258167,
+    "log2_R": 0.0,
+    "cost_bits": 253.8737253129817,
+    "head_minus_log_q": 0.6810471579614799
+   },
+   "floor": {
+    "b": 892,
+    "m": 933,
+    "d": 1957,
+    "log_l": 8.700303676443053,
+    "l": 6004.735437111565,
+    "tau": 1.8037655263176826,
+    "log2_eps": -92.65405795921248,
+    "log2_R": 0.2013912400607012,
+    "cost_bits": 261.0946665616963,
+    "head_minus_log_q": 0.5898764388680284
+   },
+   "floor_capped": {
+    "b": 300,
+    "m": 1,
+    "d": 1025,
+    "log_l": 8.110427237575024,
+    "l": 3328.9999999999973,
+    "tau": 0.9999999999999992,
+    "log2_eps": -28.477658649974963,
+    "log2_R": 0.0,
+    "cost_bits": 87.7443751081734,
+    "head_minus_log_q": 4.975021981595663
+   }
+  },
+  "note": "the script's LWE_dual_cost (classical core-SVP 0.292 b, sieve reuse 0.2075 b) with the first length from the unclipped GSA, the class head floor, and the floor capped at log q; the floor's cost is a lower bound over admissible profiles; double precision"
+ }
+}

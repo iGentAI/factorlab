@@ -1,0 +1,1053 @@
+{
+ "note": "Kyber round-3 primal chain (spec 5.1.2, condition (9), m optimised over the full range): least blocksize with the Chen-Nguyen delta and with the profile floor in its place; see certification_scope for what is rigorous",
+ "rows": [
+  {
+   "set": "Kyber512",
+   "k": 2,
+   "eta1": 3,
+   "sigma2": "3/2",
+   "printed_d_beta": [
+    1003,
+    403
+   ],
+   "eps": "0",
+   "gsa_chain": {
+    "b": 406,
+    "m": 513,
+    "d": 1026,
+    "n_admissible_m": 61,
+    "m_range": [
+     0,
+     768
+    ]
+   },
+   "floor_chain_float": {
+    "b": 408,
+    "m": 509,
+    "d": 1022,
+    "n_admissible_m": 90,
+    "m_range": [
+     0,
+     768
+    ],
+    "best_m_per_b": {
+     "406": {
+      "m": 518,
+      "d": 1031,
+      "margin": -3.9359182477863644e-05
+     },
+     "407": {
+      "m": 513,
+      "d": 1026,
+      "margin": -2.012770444364577e-06
+     },
+     "408": {
+      "m": 509,
+      "d": 1022,
+      "margin": 3.652170995582533e-05
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 118.55199999999999,
+    "floor": 119.136
+   },
+   "certification": {
+    "b_star": 408,
+    "m_star": 509,
+    "d_star": 1022,
+    "crossing": "passes",
+    "earlier_b": {
+     "403": {
+      "n_decided_fail": 476,
+      "n_skipped_direction": 293,
+      "first_non_failing": null
+     },
+     "404": {
+      "n_decided_fail": 474,
+      "n_skipped_direction": 295,
+      "first_non_failing": null
+     },
+     "405": {
+      "n_decided_fail": 472,
+      "n_skipped_direction": 297,
+      "first_non_failing": null
+     },
+     "406": {
+      "n_decided_fail": 470,
+      "n_skipped_direction": 299,
+      "first_non_failing": null
+     },
+     "407": {
+      "n_decided_fail": 468,
+      "n_skipped_direction": 301,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 403,
+    "m_range": [
+     0,
+     768
+    ],
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact rational dual, arb balls, directed comparisons): the crossing (b*=408, m*=509, d=1022) passes and every (b, m) with b in [403, 407] and m in [0, 768] (2b < d + 1) fails, so 408 is the least blocksize of the floor chain within [403, 408] x [0, 768]. NOT certified: b < 403, excluded by the double-precision screen only (the floor is not monotone in b and the target moves with b and d)."
+   },
+   "seconds": 957.6481282711029
+  },
+  {
+   "set": "Kyber768",
+   "k": 3,
+   "eta1": 2,
+   "sigma2": "1",
+   "printed_d_beta": [
+    1424,
+    625
+   ],
+   "eps": "0",
+   "gsa_chain": {
+    "b": 624,
+    "m": 694,
+    "d": 1463,
+    "n_admissible_m": 83,
+    "m_range": [
+     0,
+     1024
+    ]
+   },
+   "floor_chain_float": {
+    "b": 626,
+    "m": 688,
+    "d": 1457,
+    "n_admissible_m": 77,
+    "m_range": [
+     0,
+     1024
+    ],
+    "best_m_per_b": {
+     "624": {
+      "m": 700,
+      "d": 1469,
+      "margin": -4.008428923312282e-05
+     },
+     "625": {
+      "m": 694,
+      "d": 1463,
+      "margin": -1.3784174921481138e-05
+     },
+     "626": {
+      "m": 688,
+      "d": 1457,
+      "margin": 1.3659149364920239e-05
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 182.208,
+    "floor": 182.792
+   },
+   "certification": {
+    "b_star": 626,
+    "m_star": 688,
+    "d_star": 1457,
+    "crossing": "passes",
+    "earlier_b": {
+     "621": {
+      "n_decided_fail": 552,
+      "n_skipped_direction": 473,
+      "first_non_failing": null
+     },
+     "622": {
+      "n_decided_fail": 550,
+      "n_skipped_direction": 475,
+      "first_non_failing": null
+     },
+     "623": {
+      "n_decided_fail": 548,
+      "n_skipped_direction": 477,
+      "first_non_failing": null
+     },
+     "624": {
+      "n_decided_fail": 546,
+      "n_skipped_direction": 479,
+      "first_non_failing": null
+     },
+     "625": {
+      "n_decided_fail": 544,
+      "n_skipped_direction": 481,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 621,
+    "m_range": [
+     0,
+     1024
+    ],
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact rational dual, arb balls, directed comparisons): the crossing (b*=626, m*=688, d=1457) passes and every (b, m) with b in [621, 625] and m in [0, 1024] (2b < d + 1) fails, so 626 is the least blocksize of the floor chain within [621, 626] x [0, 1024]. NOT certified: b < 621, excluded by the double-precision screen only (the floor is not monotone in b and the target moves with b and d)."
+   },
+   "seconds": 2084.5749850273132
+  },
+  {
+   "set": "Kyber1024",
+   "k": 4,
+   "eta1": 2,
+   "sigma2": "1",
+   "printed_d_beta": [
+    1885,
+    877
+   ],
+   "eps": "0",
+   "gsa_chain": {
+    "b": 874,
+    "m": 885,
+    "d": 1910,
+    "n_admissible_m": 105,
+    "m_range": [
+     0,
+     1280
+    ]
+   },
+   "floor_chain_float": {
+    "b": 876,
+    "m": 866,
+    "d": 1891,
+    "n_admissible_m": 105,
+    "m_range": [
+     0,
+     1280
+    ],
+    "best_m_per_b": {
+     "874": {
+      "m": 889,
+      "d": 1914,
+      "margin": -3.4944596357898254e-05
+     },
+     "875": {
+      "m": 878,
+      "d": 1903,
+      "margin": -8.110392619858041e-06
+     },
+     "876": {
+      "m": 866,
+      "d": 1891,
+      "margin": 2.1435285473453674e-05
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 255.20799999999997,
+    "floor": 255.79199999999997
+   },
+   "certification": {
+    "b_star": 876,
+    "m_star": 866,
+    "d_star": 1891,
+    "crossing": "passes",
+    "earlier_b": {
+     "871": {
+      "n_decided_fail": 564,
+      "n_skipped_direction": 717,
+      "first_non_failing": null
+     },
+     "872": {
+      "n_decided_fail": 562,
+      "n_skipped_direction": 719,
+      "first_non_failing": null
+     },
+     "873": {
+      "n_decided_fail": 560,
+      "n_skipped_direction": 721,
+      "first_non_failing": null
+     },
+     "874": {
+      "n_decided_fail": 558,
+      "n_skipped_direction": 723,
+      "first_non_failing": null
+     },
+     "875": {
+      "n_decided_fail": 556,
+      "n_skipped_direction": 725,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 871,
+    "m_range": [
+     0,
+     1280
+    ],
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact rational dual, arb balls, directed comparisons): the crossing (b*=876, m*=866, d=1891) passes and every (b, m) with b in [871, 875] and m in [0, 1280] (2b < d + 1) fails, so 876 is the least blocksize of the floor chain within [871, 876] x [0, 1280]. NOT certified: b < 871, excluded by the double-precision screen only (the floor is not monotone in b and the target moves with b and d)."
+   },
+   "seconds": 3398.9862229824066
+  }
+ ],
+ "detection_rows": [
+  {
+   "set": "Kyber512",
+   "k": 2,
+   "eta1": 3,
+   "sigma2": "3/2",
+   "printed_d_beta": [
+    1003,
+    403
+   ],
+   "eps": "0",
+   "gsa_detection": {
+    "b": 406,
+    "m": 515,
+    "d": 1028,
+    "n_admissible_m": 61
+   },
+   "tight_detection_float": {
+    "b": 417,
+    "m": 517,
+    "d": 1030,
+    "n_admissible_m": 75,
+    "best_m_per_b": {
+     "406": {
+      "m": 508,
+      "d": 1021,
+      "margin": -0.08225808158740122
+     },
+     "407": {
+      "m": 509,
+      "d": 1022,
+      "margin": -0.07419604360993892
+     },
+     "408": {
+      "m": 510,
+      "d": 1023,
+      "margin": -0.06615711467970087
+     },
+     "409": {
+      "m": 511,
+      "d": 1024,
+      "margin": -0.05814117870553481
+     },
+     "410": {
+      "m": 511,
+      "d": 1024,
+      "margin": -0.05014739558631254
+     },
+     "411": {
+      "m": 512,
+      "d": 1025,
+      "margin": -0.04217580357909956
+     },
+     "412": {
+      "m": 513,
+      "d": 1026,
+      "margin": -0.034226858523163095
+     },
+     "413": {
+      "m": 514,
+      "d": 1027,
+      "margin": -0.026300447969533458
+     },
+     "414": {
+      "m": 515,
+      "d": 1028,
+      "margin": -0.018396460333404363
+     },
+     "415": {
+      "m": 516,
+      "d": 1029,
+      "margin": -0.01051478488578983
+     },
+     "416": {
+      "m": 516,
+      "d": 1029,
+      "margin": -0.0026542088017995624
+     },
+     "417": {
+      "m": 517,
+      "d": 1030,
+      "margin": 0.00518450834243378
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 118.55199999999999,
+    "tight": 121.764
+   },
+   "certification": {
+    "b_star": 417,
+    "m_star": 517,
+    "d_star": 1030,
+    "crossing": "passes",
+    "earlier_b": {
+     "403": {
+      "n_decided_fail": 476,
+      "n_skipped_direction": 293,
+      "first_non_failing": null
+     },
+     "404": {
+      "n_decided_fail": 474,
+      "n_skipped_direction": 295,
+      "first_non_failing": null
+     },
+     "405": {
+      "n_decided_fail": 472,
+      "n_skipped_direction": 297,
+      "first_non_failing": null
+     },
+     "406": {
+      "n_decided_fail": 470,
+      "n_skipped_direction": 299,
+      "first_non_failing": null
+     },
+     "407": {
+      "n_decided_fail": 468,
+      "n_skipped_direction": 301,
+      "first_non_failing": null
+     },
+     "408": {
+      "n_decided_fail": 466,
+      "n_skipped_direction": 303,
+      "first_non_failing": null
+     },
+     "409": {
+      "n_decided_fail": 464,
+      "n_skipped_direction": 305,
+      "first_non_failing": null
+     },
+     "410": {
+      "n_decided_fail": 462,
+      "n_skipped_direction": 307,
+      "first_non_failing": null
+     },
+     "411": {
+      "n_decided_fail": 460,
+      "n_skipped_direction": 309,
+      "first_non_failing": null
+     },
+     "412": {
+      "n_decided_fail": 458,
+      "n_skipped_direction": 311,
+      "first_non_failing": null
+     },
+     "413": {
+      "n_decided_fail": 456,
+      "n_skipped_direction": 313,
+      "first_non_failing": null
+     },
+     "414": {
+      "n_decided_fail": 454,
+      "n_skipped_direction": 315,
+      "first_non_failing": null
+     },
+     "415": {
+      "n_decided_fail": 452,
+      "n_skipped_direction": 317,
+      "first_non_failing": null
+     },
+     "416": {
+      "n_decided_fail": 450,
+      "n_skipped_direction": 319,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 403,
+    "m_range": [
+     0,
+     768
+    ],
+    "m_stride": 1,
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact linear certificate of the tight entry, arb balls, directed comparisons): the crossing (b*=417, m*=517, d=1030) passes and every (b, m) with b in [403, 416] and m in [0, 768] (2b < d + 1) fails, so 417 is the least blocksize of the detection chain within [403, 417] x [0, 768]. NOT certified: b < 403."
+   },
+   "seconds": 1433.970727443695
+  },
+  {
+   "set": "Kyber768",
+   "k": 3,
+   "eta1": 2,
+   "sigma2": "1",
+   "printed_d_beta": [
+    1424,
+    625
+   ],
+   "eps": "0",
+   "gsa_detection": {
+    "b": 624,
+    "m": 698,
+    "d": 1467,
+    "n_admissible_m": 83
+   },
+   "tight_detection_float": {
+    "b": 642,
+    "m": 698,
+    "d": 1467,
+    "n_admissible_m": 97,
+    "best_m_per_b": {
+     "624": {
+      "m": 684,
+      "d": 1453,
+      "margin": -0.09730674556954044
+     },
+     "625": {
+      "m": 685,
+      "d": 1454,
+      "margin": -0.0915631736691922
+     },
+     "626": {
+      "m": 685,
+      "d": 1454,
+      "margin": -0.08583066966279373
+     },
+     "627": {
+      "m": 686,
+      "d": 1455,
+      "margin": -0.080108571263386
+     },
+     "628": {
+      "m": 687,
+      "d": 1456,
+      "margin": -0.07439754839744461
+     },
+     "629": {
+      "m": 688,
+      "d": 1457,
+      "margin": -0.06869756470510424
+     },
+     "630": {
+      "m": 689,
+      "d": 1458,
+      "margin": -0.06300858401524767
+     },
+     "631": {
+      "m": 689,
+      "d": 1458,
+      "margin": -0.0573304603323761
+     },
+     "632": {
+      "m": 690,
+      "d": 1459,
+      "margin": -0.05166258307913507
+     },
+     "633": {
+      "m": 691,
+      "d": 1460,
+      "margin": -0.04600560163872203
+     },
+     "634": {
+      "m": 692,
+      "d": 1461,
+      "margin": -0.04035948060121752
+     },
+     "635": {
+      "m": 693,
+      "d": 1462,
+      "margin": -0.03472418473882799
+     },
+     "636": {
+      "m": 693,
+      "d": 1462,
+      "margin": -0.029099471831326884
+     },
+     "637": {
+      "m": 694,
+      "d": 1463,
+      "margin": -0.023484919836409546
+     },
+     "638": {
+      "m": 695,
+      "d": 1464,
+      "margin": -0.0178810887419516
+     },
+     "639": {
+      "m": 696,
+      "d": 1465,
+      "margin": -0.01228794405461997
+     },
+     "640": {
+      "m": 697,
+      "d": 1466,
+      "margin": -0.006705451457009737
+     },
+     "641": {
+      "m": 697,
+      "d": 1466,
+      "margin": -0.0011332088205238122
+     },
+     "642": {
+      "m": 698,
+      "d": 1467,
+      "margin": 0.004428889351039356
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 182.208,
+    "tight": 187.464
+   },
+   "certification": {
+    "b_star": 642,
+    "m_star": 698,
+    "d_star": 1467,
+    "crossing": "passes",
+    "earlier_b": {
+     "621": {
+      "n_decided_fail": 552,
+      "n_skipped_direction": 473,
+      "first_non_failing": null
+     },
+     "622": {
+      "n_decided_fail": 550,
+      "n_skipped_direction": 475,
+      "first_non_failing": null
+     },
+     "623": {
+      "n_decided_fail": 548,
+      "n_skipped_direction": 477,
+      "first_non_failing": null
+     },
+     "624": {
+      "n_decided_fail": 546,
+      "n_skipped_direction": 479,
+      "first_non_failing": null
+     },
+     "625": {
+      "n_decided_fail": 544,
+      "n_skipped_direction": 481,
+      "first_non_failing": null
+     },
+     "626": {
+      "n_decided_fail": 542,
+      "n_skipped_direction": 483,
+      "first_non_failing": null
+     },
+     "627": {
+      "n_decided_fail": 540,
+      "n_skipped_direction": 485,
+      "first_non_failing": null
+     },
+     "628": {
+      "n_decided_fail": 538,
+      "n_skipped_direction": 487,
+      "first_non_failing": null
+     },
+     "629": {
+      "n_decided_fail": 536,
+      "n_skipped_direction": 489,
+      "first_non_failing": null
+     },
+     "630": {
+      "n_decided_fail": 534,
+      "n_skipped_direction": 491,
+      "first_non_failing": null
+     },
+     "631": {
+      "n_decided_fail": 532,
+      "n_skipped_direction": 493,
+      "first_non_failing": null
+     },
+     "632": {
+      "n_decided_fail": 530,
+      "n_skipped_direction": 495,
+      "first_non_failing": null
+     },
+     "633": {
+      "n_decided_fail": 528,
+      "n_skipped_direction": 497,
+      "first_non_failing": null
+     },
+     "634": {
+      "n_decided_fail": 526,
+      "n_skipped_direction": 499,
+      "first_non_failing": null
+     },
+     "635": {
+      "n_decided_fail": 524,
+      "n_skipped_direction": 501,
+      "first_non_failing": null
+     },
+     "636": {
+      "n_decided_fail": 522,
+      "n_skipped_direction": 503,
+      "first_non_failing": null
+     },
+     "637": {
+      "n_decided_fail": 520,
+      "n_skipped_direction": 505,
+      "first_non_failing": null
+     },
+     "638": {
+      "n_decided_fail": 518,
+      "n_skipped_direction": 507,
+      "first_non_failing": null
+     },
+     "639": {
+      "n_decided_fail": 516,
+      "n_skipped_direction": 509,
+      "first_non_failing": null
+     },
+     "640": {
+      "n_decided_fail": 514,
+      "n_skipped_direction": 511,
+      "first_non_failing": null
+     },
+     "641": {
+      "n_decided_fail": 512,
+      "n_skipped_direction": 513,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 621,
+    "m_range": [
+     0,
+     1024
+    ],
+    "m_stride": 1,
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact linear certificate of the tight entry, arb balls, directed comparisons): the crossing (b*=642, m*=698, d=1467) passes and every (b, m) with b in [621, 641] and m in [0, 1024] (2b < d + 1) fails, so 642 is the least blocksize of the detection chain within [621, 642] x [0, 1024]. NOT certified: b < 621."
+   },
+   "seconds": 5345.8842232227325
+  },
+  {
+   "set": "Kyber1024",
+   "k": 4,
+   "eta1": 2,
+   "sigma2": "1",
+   "printed_d_beta": [
+    1885,
+    877
+   ],
+   "eps": "0",
+   "gsa_detection": {
+    "b": 874,
+    "m": 893,
+    "d": 1918,
+    "n_admissible_m": 105
+   },
+   "tight_detection_float": {
+    "b": 900,
+    "m": 890,
+    "d": 1915,
+    "n_admissible_m": 117,
+    "best_m_per_b": {
+     "874": {
+      "m": 870,
+      "d": 1895,
+      "margin": -0.10593580687763637
+     },
+     "875": {
+      "m": 871,
+      "d": 1896,
+      "margin": -0.1016348566333316
+     },
+     "876": {
+      "m": 872,
+      "d": 1897,
+      "margin": -0.09734006561533404
+     },
+     "877": {
+      "m": 872,
+      "d": 1897,
+      "margin": -0.09305141066105582
+     },
+     "878": {
+      "m": 873,
+      "d": 1898,
+      "margin": -0.0887683662060641
+     },
+     "879": {
+      "m": 874,
+      "d": 1899,
+      "margin": -0.08449143899473599
+     },
+     "880": {
+      "m": 875,
+      "d": 1900,
+      "margin": -0.08022061490167554
+     },
+     "881": {
+      "m": 876,
+      "d": 1901,
+      "margin": -0.07595587985408114
+     },
+     "882": {
+      "m": 876,
+      "d": 1901,
+      "margin": -0.07169693891298401
+     },
+     "883": {
+      "m": 877,
+      "d": 1902,
+      "margin": -0.0674438111955058
+     },
+     "884": {
+      "m": 878,
+      "d": 1903,
+      "margin": -0.06319673138099091
+     },
+     "885": {
+      "m": 879,
+      "d": 1904,
+      "margin": -0.05895568560955455
+     },
+     "886": {
+      "m": 879,
+      "d": 1904,
+      "margin": -0.05472062547293399
+     },
+     "887": {
+      "m": 880,
+      "d": 1905,
+      "margin": -0.050491077418709285
+     },
+     "888": {
+      "m": 881,
+      "d": 1906,
+      "margin": -0.04626752292768632
+     },
+     "889": {
+      "m": 882,
+      "d": 1907,
+      "margin": -0.04204994834870046
+     },
+     "890": {
+      "m": 883,
+      "d": 1908,
+      "margin": -0.0378383400810014
+     },
+     "891": {
+      "m": 883,
+      "d": 1908,
+      "margin": -0.03363235731924874
+     },
+     "892": {
+      "m": 884,
+      "d": 1909,
+      "margin": -0.02943211281850644
+     },
+     "893": {
+      "m": 885,
+      "d": 1910,
+      "margin": -0.025237794953609782
+     },
+     "894": {
+      "m": 886,
+      "d": 1911,
+      "margin": -0.021049390327625872
+     },
+     "895": {
+      "m": 886,
+      "d": 1911,
+      "margin": -0.016866785744288126
+     },
+     "896": {
+      "m": 887,
+      "d": 1912,
+      "margin": -0.012689639455600421
+     },
+     "897": {
+      "m": 888,
+      "d": 1913,
+      "margin": -0.008518367365444757
+     },
+     "898": {
+      "m": 889,
+      "d": 1914,
+      "margin": -0.004352956276887365
+     },
+     "899": {
+      "m": 890,
+      "d": 1915,
+      "margin": -0.00019339304131893442
+     },
+     "900": {
+      "m": 890,
+      "d": 1915,
+      "margin": 0.003960743899324104
+     }
+    }
+   },
+   "classical_bits_0.292": {
+    "gsa": 255.20799999999997,
+    "tight": 262.8
+   },
+   "certification": {
+    "b_star": 900,
+    "m_star": 890,
+    "d_star": 1915,
+    "crossing": "passes",
+    "earlier_b": {
+     "871": {
+      "n_decided_fail": 564,
+      "n_skipped_direction": 717,
+      "first_non_failing": null
+     },
+     "872": {
+      "n_decided_fail": 562,
+      "n_skipped_direction": 719,
+      "first_non_failing": null
+     },
+     "873": {
+      "n_decided_fail": 560,
+      "n_skipped_direction": 721,
+      "first_non_failing": null
+     },
+     "874": {
+      "n_decided_fail": 558,
+      "n_skipped_direction": 723,
+      "first_non_failing": null
+     },
+     "875": {
+      "n_decided_fail": 556,
+      "n_skipped_direction": 725,
+      "first_non_failing": null
+     },
+     "876": {
+      "n_decided_fail": 554,
+      "n_skipped_direction": 727,
+      "first_non_failing": null
+     },
+     "877": {
+      "n_decided_fail": 552,
+      "n_skipped_direction": 729,
+      "first_non_failing": null
+     },
+     "878": {
+      "n_decided_fail": 550,
+      "n_skipped_direction": 731,
+      "first_non_failing": null
+     },
+     "879": {
+      "n_decided_fail": 548,
+      "n_skipped_direction": 733,
+      "first_non_failing": null
+     },
+     "880": {
+      "n_decided_fail": 546,
+      "n_skipped_direction": 735,
+      "first_non_failing": null
+     },
+     "881": {
+      "n_decided_fail": 544,
+      "n_skipped_direction": 737,
+      "first_non_failing": null
+     },
+     "882": {
+      "n_decided_fail": 542,
+      "n_skipped_direction": 739,
+      "first_non_failing": null
+     },
+     "883": {
+      "n_decided_fail": 540,
+      "n_skipped_direction": 741,
+      "first_non_failing": null
+     },
+     "884": {
+      "n_decided_fail": 538,
+      "n_skipped_direction": 743,
+      "first_non_failing": null
+     },
+     "885": {
+      "n_decided_fail": 536,
+      "n_skipped_direction": 745,
+      "first_non_failing": null
+     },
+     "886": {
+      "n_decided_fail": 534,
+      "n_skipped_direction": 747,
+      "first_non_failing": null
+     },
+     "887": {
+      "n_decided_fail": 532,
+      "n_skipped_direction": 749,
+      "first_non_failing": null
+     },
+     "888": {
+      "n_decided_fail": 530,
+      "n_skipped_direction": 751,
+      "first_non_failing": null
+     },
+     "889": {
+      "n_decided_fail": 528,
+      "n_skipped_direction": 753,
+      "first_non_failing": null
+     },
+     "890": {
+      "n_decided_fail": 526,
+      "n_skipped_direction": 755,
+      "first_non_failing": null
+     },
+     "891": {
+      "n_decided_fail": 524,
+      "n_skipped_direction": 757,
+      "first_non_failing": null
+     },
+     "892": {
+      "n_decided_fail": 522,
+      "n_skipped_direction": 759,
+      "first_non_failing": null
+     },
+     "893": {
+      "n_decided_fail": 520,
+      "n_skipped_direction": 761,
+      "first_non_failing": null
+     },
+     "894": {
+      "n_decided_fail": 518,
+      "n_skipped_direction": 763,
+      "first_non_failing": null
+     },
+     "895": {
+      "n_decided_fail": 516,
+      "n_skipped_direction": 765,
+      "first_non_failing": null
+     },
+     "896": {
+      "n_decided_fail": 514,
+      "n_skipped_direction": 767,
+      "first_non_failing": null
+     },
+     "897": {
+      "n_decided_fail": 512,
+      "n_skipped_direction": 769,
+      "first_non_failing": null
+     },
+     "898": {
+      "n_decided_fail": 510,
+      "n_skipped_direction": 771,
+      "first_non_failing": null
+     },
+     "899": {
+      "n_decided_fail": 508,
+      "n_skipped_direction": 773,
+      "first_non_failing": null
+     }
+    },
+    "prec": 256,
+    "eps": "0",
+    "b_lo": 871,
+    "m_range": [
+     0,
+     1280
+    ],
+    "m_stride": 1,
+    "certified": true,
+    "all_earlier_b_fail_all_m": true,
+    "certification_scope": "rigorous (exact linear certificate of the tight entry, arb balls, directed comparisons): the crossing (b*=900, m*=890, d=1915) passes and every (b, m) with b in [871, 899] and m in [0, 1280] (2b < d + 1) fails, so 900 is the least blocksize of the detection chain within [871, 900] x [0, 1280]. NOT certified: b < 871."
+   },
+   "seconds": 12224.840633392334
+  }
+ ],
+ "note_detection": "detection chain: the prefix-volume floor's form of the primal attack's condition -- log(sigma sqrt b) <= l^tight_{d-b+1}(d, b, eps), the tight profile's entry at the detection position (an upper bound on the detection block's log GH over all admissible profiles) -- against the GSA-line control in the same form; see certification_scope"
+}

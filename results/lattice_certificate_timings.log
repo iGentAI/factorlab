@@ -1,0 +1,5 @@
+1003 403 {'certificate_s': 0.121, 'verify_s': 0.062, 'decision_s': 0.173, 'verified': True, 'decision': 'False'}
+1424 625 {'certificate_s': 0.155, 'verify_s': 0.09, 'decision_s': 0.284, 'verified': True, 'decision': 'False'}
+1885 877 {'certificate_s': 0.359, 'verify_s': 0.228, 'decision_s': 0.684, 'verified': True, 'decision': 'False'}
+{'entry_s': 0.08, 'value': '[3.2244601732959162719649200439687042704329997819500655554212147522643368841 +/- 1.34e-74]'}
+TIMINGS_DONE

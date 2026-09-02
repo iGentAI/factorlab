@@ -1,0 +1,69 @@
+{
+ "nbits": 48,
+ "count": 100,
+ "samples_per_modulus": 200,
+ "c": 0.16666666666666666,
+ "B_bits": 8.0,
+ "classes": {
+  "dixon": {
+   "n": 20000,
+   "mean_log2_r": 46.12061666774901,
+   "mean_log2_r_over_log2_N": 0.9608461805781044,
+   "smooth_obs": 5e-05,
+   "smooth_pred_plain": 3.956202194989536e-05,
+   "smooth_pred_shift": 3.956202194989536e-05,
+   "semismooth_obs": 0.00145,
+   "semismooth_pred_plain": 0.0019905696053293433,
+   "semismooth_pred_shift": 0.0019905696053293433,
+   "mean_shift_nats": 0.0
+  },
+  "vallee_k_le_N": {
+   "n": 20000,
+   "mean_log2_r": 32.24791935194219,
+   "mean_log2_r_over_log2_N": 0.6718316531654622,
+   "smooth_obs": 0.0048,
+   "smooth_pred_plain": 0.004547704782156467,
+   "smooth_pred_shift": 0.004547704782156467,
+   "semismooth_obs": 0.08545,
+   "semismooth_pred_plain": 0.09106731210428799,
+   "semismooth_pred_shift": 0.09106731210428799,
+   "mean_shift_nats": 0.0
+  },
+  "lehman_k_le_N13": {
+   "n": 20000,
+   "mean_log2_r": 32.26937245391049,
+   "mean_log2_r_over_log2_N": 0.672278592789802,
+   "smooth_obs": 0.00545,
+   "smooth_pred_plain": 0.004517512157809165,
+   "smooth_pred_shift": 0.004517512157809165,
+   "semismooth_obs": 0.0858,
+   "semismooth_pred_plain": 0.0906184122399535,
+   "semismooth_pred_shift": 0.0906184122399535,
+   "mean_shift_nats": 0.0
+  },
+  "qs_M_N16": {
+   "n": 20000,
+   "mean_log2_r": 31.31716452246581,
+   "mean_log2_r_over_log2_N": 0.6524409275513711,
+   "smooth_obs": 0.006,
+   "smooth_pred_plain": 0.006059244771362871,
+   "smooth_pred_shift": 0.005804414640596218,
+   "semismooth_obs": 0.0994,
+   "semismooth_pred_plain": 0.11250821774871257,
+   "semismooth_pred_shift": 0.10902666213218319,
+   "mean_shift_nats": -0.09717569901001456
+  },
+  "qs_M_N112": {
+   "n": 20000,
+   "mean_log2_r": 27.36866798167652,
+   "mean_log2_r_over_log2_N": 0.5701805829515942,
+   "smooth_obs": 0.0216,
+   "smooth_pred_plain": 0.01942522121382546,
+   "smooth_pred_shift": 0.01866940554131546,
+   "semismooth_obs": 0.2234,
+   "semismooth_pred_plain": 0.25195606004560006,
+   "semismooth_pred_shift": 0.24549734218446104,
+   "mean_shift_nats": -0.09717569901001456
+  }
+ }
+}

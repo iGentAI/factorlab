@@ -1,0 +1,124 @@
+{
+ "set": "kyber512",
+ "eps1": "1",
+ "prec": 256,
+ "b_range": [
+  403,
+  416
+ ],
+ "rows": [
+  {
+   "b": 403,
+   "admissible_m": 476,
+   "rigorous_fail": 476,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 59.8
+  },
+  {
+   "b": 404,
+   "admissible_m": 474,
+   "rigorous_fail": 474,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 63.5
+  },
+  {
+   "b": 405,
+   "admissible_m": 472,
+   "rigorous_fail": 472,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 54.7
+  },
+  {
+   "b": 406,
+   "admissible_m": 470,
+   "rigorous_fail": 470,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 63.6
+  },
+  {
+   "b": 407,
+   "admissible_m": 468,
+   "rigorous_fail": 468,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 59.2
+  },
+  {
+   "b": 408,
+   "admissible_m": 466,
+   "rigorous_fail": 466,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 62.4
+  },
+  {
+   "b": 409,
+   "admissible_m": 464,
+   "rigorous_fail": 464,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 49.5
+  },
+  {
+   "b": 410,
+   "admissible_m": 462,
+   "rigorous_fail": 462,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 62.9
+  },
+  {
+   "b": 411,
+   "admissible_m": 460,
+   "rigorous_fail": 460,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 58.6
+  },
+  {
+   "b": 412,
+   "admissible_m": 458,
+   "rigorous_fail": 458,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 62.2
+  },
+  {
+   "b": 413,
+   "admissible_m": 456,
+   "rigorous_fail": 456,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 53.6
+  },
+  {
+   "b": 414,
+   "admissible_m": 454,
+   "rigorous_fail": 454,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 62.3
+  },
+  {
+   "b": 415,
+   "admissible_m": 452,
+   "rigorous_fail": 452,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 57.9
+  },
+  {
+   "b": 416,
+   "admissible_m": 450,
+   "rigorous_fail": 450,
+   "n_non_failing": 0,
+   "non_failing_m": [],
+   "seconds": 60.3
+  }
+ ],
+ "all_fail": true
+}

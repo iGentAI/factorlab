@@ -1,0 +1,2646 @@
+{
+ "points": [
+  {
+   "N_bits": 40,
+   "r": 991,
+   "log_r_over_log_N": 0.24999745410185867,
+   "R": 300,
+   "W": 12,
+   "D_max": 4,
+   "t": 696697,
+   "null": [
+    4,
+    4
+   ],
+   "cap_symmetric": 3.7885656279671807,
+   "resonance_members_limited": 3.2820392357267587,
+   "resonance_range_limited": 12.891831195095394,
+   "pairs_at_max": [
+    [
+     635,
+     653
+    ],
+    [
+     785,
+     805
+    ],
+    [
+     866,
+     887
+    ],
+    [
+     951,
+     973
+    ]
+   ],
+   "family": {
+    "support": 4,
+    "of": 4,
+    "A": "4",
+    "B": "-1",
+    "C": "10",
+    "drift_free": false,
+    "delta_d": "-159/4",
+    "speed": 0.35355339059327373,
+    "tau_sq": 0.125,
+    "capacity_d": null,
+    "d_min": 18,
+    "d_max": 22,
+    "d_density": 0.8,
+    "u_dv_dd_minus_1": -11.654090225812254,
+    "d_median": 21,
+    "detuning_at_d_min": 27.16388327413572,
+    "detuning_at_d_max": -18.49606178869305,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 5
+  },
+  {
+   "N_bits": 40,
+   "r": 1856,
+   "log_r_over_log_N": 0.2727356753332258,
+   "R": 563,
+   "W": 5,
+   "D_max": 4,
+   "t": 336890,
+   "null": [
+    5,
+    4
+   ],
+   "cap_symmetric": 4.669921575042488,
+   "resonance_members_limited": 7.190749592660085,
+   "resonance_range_limited": 11.919322499346528,
+   "pairs_at_max": [
+    [
+     1023,
+     1034
+    ],
+    [
+     1218,
+     1230
+    ],
+    [
+     1430,
+     1443
+    ],
+    [
+     1659,
+     1673
+    ]
+   ],
+   "family": {
+    "support": 4,
+    "of": 4,
+    "A": "17",
+    "B": "0",
+    "C": "0",
+    "drift_free": true,
+    "delta_d": "1/4",
+    "speed": 0.17149858514250882,
+    "tau_sq": 0.029411764705882353,
+    "capacity_d": 96.16652224137046,
+    "d_min": 11,
+    "d_max": 14,
+    "d_density": 1.0,
+    "u_dv_dd_minus_1": -1.1326535130637119,
+    "d_median": 13,
+    "detuning_at_d_min": -1.2189645680439227,
+    "detuning_at_d_max": -1.106209566070223,
+    "sign_delta_d": 1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 6
+  },
+  {
+   "N_bits": 40,
+   "r": 3938,
+   "log_r_over_log_N": 0.2999958874172564,
+   "R": 1200,
+   "W": 2,
+   "D_max": 7,
+   "t": 4392226,
+   "null": [
+    5,
+    4
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 18.41392374114439,
+   "resonance_range_limited": 10.849615640140435,
+   "pairs_at_max": [
+    [
+     2785,
+     3026
+    ],
+    [
+     2977,
+     3226
+    ],
+    [
+     3026,
+     3277
+    ],
+    [
+     3226,
+     3485
+    ],
+    [
+     3277,
+     3538
+    ],
+    [
+     3485,
+     3754
+    ],
+    [
+     3538,
+     3809
+    ]
+   ],
+   "family": {
+    "support": 7,
+    "of": 7,
+    "A": "1/10",
+    "B": "0",
+    "C": "29/10",
+    "drift_free": true,
+    "delta_d": "-1/25",
+    "speed": 2.23606797749979,
+    "tau_sq": 5.0,
+    "capacity_d": 3.5355339059327373,
+    "d_min": 241,
+    "d_max": 271,
+    "d_density": 0.22580645161290322,
+    "u_dv_dd_minus_1": 0.011972964187489499,
+    "d_median": 259,
+    "detuning_at_d_min": 0.25620703725574234,
+    "detuning_at_d_max": -0.11664421518306778,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 8
+  },
+  {
+   "N_bits": 40,
+   "r": 9881,
+   "log_r_over_log_N": 0.33333294492689675,
+   "R": 3005,
+   "W": 1,
+   "D_max": 8,
+   "t": 1964167,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 58.150415819650554,
+   "resonance_range_limited": 9.671051692869407,
+   "pairs_at_max": [
+    [
+     7311,
+     7483
+    ],
+    [
+     7657,
+     7833
+    ],
+    [
+     7833,
+     8011
+    ],
+    [
+     8011,
+     8191
+    ],
+    [
+     8191,
+     8373
+    ],
+    [
+     8373,
+     8557
+    ],
+    [
+     8557,
+     8743
+    ],
+    [
+     8743,
+     8931
+    ]
+   ],
+   "family": {
+    "support": 8,
+    "of": 8,
+    "A": "1/2",
+    "B": "0",
+    "C": "2",
+    "drift_free": true,
+    "delta_d": "-3/4",
+    "speed": 1.0,
+    "tau_sq": 1.0,
+    "capacity_d": 0.9428090415820632,
+    "d_min": 172,
+    "d_max": 188,
+    "d_density": 0.47058823529411764,
+    "u_dv_dd_minus_1": -0.02250929275288127,
+    "d_median": 182,
+    "detuning_at_d_min": 0.15807727070675703,
+    "detuning_at_d_max": -0.11313949900776832,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 10
+  },
+  {
+   "N_bits": 40,
+   "r": 991,
+   "log_r_over_log_N": 0.24999745410185867,
+   "R": 73,
+   "W": 12,
+   "D_max": 2,
+   "t": 1159397,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 3.7885656279671807,
+   "resonance_members_limited": 3.2820392357267587,
+   "resonance_range_limited": 12.891831195095394,
+   "pairs_at_max": [
+    [
+     631,
+     661
+    ],
+    [
+     719,
+     751
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 1856,
+   "log_r_over_log_N": 0.2727356753332258,
+   "R": 126,
+   "W": 5,
+   "D_max": 2,
+   "t": 608845,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4.669921575042488,
+   "resonance_members_limited": 7.190749592660085,
+   "resonance_range_limited": 11.919322499346528,
+   "pairs_at_max": [
+    [
+     1031,
+     1051
+    ],
+    [
+     1487,
+     1511
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 3938,
+   "log_r_over_log_N": 0.2999958874172564,
+   "R": 249,
+   "W": 2,
+   "D_max": 2,
+   "t": 395121,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 18.41392374114439,
+   "resonance_range_limited": 10.849615640140435,
+   "pairs_at_max": [
+    [
+     1993,
+     2011
+    ],
+    [
+     3547,
+     3571
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 9881,
+   "log_r_over_log_N": 0.33333294492689675,
+   "R": 558,
+   "W": 1,
+   "D_max": 2,
+   "t": 83589,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 58.150415819650554,
+   "resonance_range_limited": 9.671051692869407,
+   "pairs_at_max": [
+    [
+     4967,
+     4973
+    ],
+    [
+     8831,
+     8839
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 987,
+   "log_r_over_log_N": 0.2499955389755127,
+   "R": 299,
+   "W": 12,
+   "D_max": 4,
+   "t": 5336929,
+   "null": [
+    4,
+    4
+   ],
+   "cap_symmetric": 3.783461457922755,
+   "resonance_members_limited": 3.278549328759662,
+   "resonance_range_limited": 12.872632845479353,
+   "pairs_at_max": [
+    [
+     658,
+     806
+    ],
+    [
+     745,
+     902
+    ],
+    [
+     755,
+     913
+    ],
+    [
+     806,
+     969
+    ]
+   ],
+   "family": {
+    "support": 4,
+    "of": 4,
+    "A": "1/15",
+    "B": "0",
+    "C": "56/15",
+    "drift_free": true,
+    "delta_d": "1/900",
+    "speed": 2.7386127875258306,
+    "tau_sq": 7.5,
+    "capacity_d": 84.85281374238569,
+    "d_min": 148,
+    "d_max": 163,
+    "d_density": 0.25,
+    "u_dv_dd_minus_1": -1.3398102416059936,
+    "d_median": 158,
+    "detuning_at_d_min": -1.4137114855125958,
+    "detuning_at_d_max": -1.3094040718947952,
+    "sign_delta_d": 1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 5
+  },
+  {
+   "N_bits": 40,
+   "r": 1848,
+   "log_r_over_log_N": 0.2727369471051009,
+   "R": 561,
+   "W": 5,
+   "D_max": 4,
+   "t": 334211,
+   "null": [
+    5,
+    4
+   ],
+   "cap_symmetric": 4.663202254143088,
+   "resonance_members_limited": 7.180633157768277,
+   "resonance_range_limited": 11.901981768121118,
+   "pairs_at_max": [
+    [
+     1023,
+     1034
+    ],
+    [
+     1218,
+     1230
+    ],
+    [
+     1430,
+     1443
+    ],
+    [
+     1659,
+     1673
+    ]
+   ],
+   "family": {
+    "support": 4,
+    "of": 4,
+    "A": "17",
+    "B": "0",
+    "C": "0",
+    "drift_free": true,
+    "delta_d": "1/4",
+    "speed": 0.17149858514250882,
+    "tau_sq": 0.029411764705882353,
+    "capacity_d": 96.16652224137046,
+    "d_min": 11,
+    "d_max": 14,
+    "d_density": 1.0,
+    "u_dv_dd_minus_1": -1.1315986983711677,
+    "d_median": 13,
+    "detuning_at_d_min": -1.2172234378002904,
+    "detuning_at_d_max": -1.1053650244656157,
+    "sign_delta_d": 1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 6
+  },
+  {
+   "N_bits": 40,
+   "r": 3920,
+   "log_r_over_log_N": 0.30000345361448405,
+   "R": 1194,
+   "W": 2,
+   "D_max": 7,
+   "t": 4357299,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 18.38200438407187,
+   "resonance_range_limited": 10.834185523868022,
+   "pairs_at_max": [
+    [
+     2785,
+     3026
+    ],
+    [
+     2977,
+     3226
+    ],
+    [
+     3026,
+     3277
+    ],
+    [
+     3226,
+     3485
+    ],
+    [
+     3277,
+     3538
+    ],
+    [
+     3485,
+     3754
+    ],
+    [
+     3538,
+     3809
+    ]
+   ],
+   "family": {
+    "support": 7,
+    "of": 7,
+    "A": "1/10",
+    "B": "0",
+    "C": "29/10",
+    "drift_free": true,
+    "delta_d": "-1/25",
+    "speed": 2.23606797749979,
+    "tau_sq": 5.0,
+    "capacity_d": 3.5355339059327373,
+    "d_min": 241,
+    "d_max": 271,
+    "d_density": 0.22580645161290322,
+    "u_dv_dd_minus_1": 0.003926106426778375,
+    "d_median": 259,
+    "detuning_at_d_min": 0.246218114918358,
+    "detuning_at_d_max": -0.12366835377577279,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 8
+  },
+  {
+   "N_bits": 40,
+   "r": 9829,
+   "log_r_over_log_N": 0.3333346042503053,
+   "R": 2990,
+   "W": 1,
+   "D_max": 9,
+   "t": 1948547,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 57.99919294229727,
+   "resonance_range_limited": 9.658136957604752,
+   "pairs_at_max": [
+    [
+     7141,
+     7311
+    ],
+    [
+     7483,
+     7657
+    ],
+    [
+     7657,
+     7833
+    ],
+    [
+     8011,
+     8191
+    ],
+    [
+     8191,
+     8373
+    ],
+    [
+     8373,
+     8557
+    ],
+    [
+     8557,
+     8743
+    ],
+    [
+     8743,
+     8931
+    ],
+    [
+     9121,
+     9313
+    ]
+   ],
+   "family": {
+    "support": 9,
+    "of": 9,
+    "A": "1/2",
+    "B": "0",
+    "C": "2",
+    "drift_free": true,
+    "delta_d": "-3/4",
+    "speed": 1.0,
+    "tau_sq": 1.0,
+    "capacity_d": 0.9428090415820632,
+    "d_min": 170,
+    "d_max": 192,
+    "d_density": 0.391304347826087,
+    "u_dv_dd_minus_1": -0.03028195957501334,
+    "d_median": 182,
+    "detuning_at_d_min": 0.18989347641322118,
+    "detuning_at_d_max": -0.17403949910250727,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 10
+  },
+  {
+   "N_bits": 40,
+   "r": 987,
+   "log_r_over_log_N": 0.2499955389755127,
+   "R": 72,
+   "W": 12,
+   "D_max": 2,
+   "t": 1150179,
+   "null": [
+    3,
+    2
+   ],
+   "cap_symmetric": 3.783461457922755,
+   "resonance_members_limited": 3.278549328759662,
+   "resonance_range_limited": 12.872632845479353,
+   "pairs_at_max": [
+    [
+     631,
+     661
+    ],
+    [
+     719,
+     751
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 1848,
+   "log_r_over_log_N": 0.2727369471051009,
+   "R": 126,
+   "W": 5,
+   "D_max": 2,
+   "t": 604004,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4.663202254143088,
+   "resonance_members_limited": 7.180633157768277,
+   "resonance_range_limited": 11.901981768121118,
+   "pairs_at_max": [
+    [
+     1031,
+     1051
+    ],
+    [
+     1487,
+     1511
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 3920,
+   "log_r_over_log_N": 0.30000345361448405,
+   "R": 246,
+   "W": 2,
+   "D_max": 2,
+   "t": 391979,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 18.38200438407187,
+   "resonance_range_limited": 10.834185523868022,
+   "pairs_at_max": [
+    [
+     1993,
+     2011
+    ],
+    [
+     3547,
+     3571
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 40,
+   "r": 9829,
+   "log_r_over_log_N": 0.3333346042503053,
+   "R": 556,
+   "W": 1,
+   "D_max": 2,
+   "t": 82925,
+   "null": [
+    3,
+    2
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 57.99919294229727,
+   "resonance_range_limited": 9.658136957604752,
+   "pairs_at_max": [
+    [
+     4967,
+     4973
+    ],
+    [
+     8831,
+     8839
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 48,
+   "r": 3632,
+   "log_r_over_log_N": 0.25000165009856906,
+   "R": 1105,
+   "W": 22,
+   "D_max": 6,
+   "t": 72244395,
+   "null": [
+    4,
+    4
+   ],
+   "cap_symmetric": 5.841156960996649,
+   "resonance_members_limited": 4.541672606850225,
+   "resonance_range_limited": 20.98044401759837,
+   "pairs_at_max": [
+    [
+     2530,
+     2813
+    ],
+    [
+     2698,
+     2990
+    ],
+    [
+     2717,
+     3010
+    ],
+    [
+     2813,
+     3111
+    ],
+    [
+     2990,
+     3297
+    ],
+    [
+     3010,
+     3318
+    ]
+   ],
+   "family": {
+    "support": 6,
+    "of": 6,
+    "A": "1/15",
+    "B": "0",
+    "C": "56/15",
+    "drift_free": true,
+    "delta_d": "1/900",
+    "speed": 2.7386127875258306,
+    "tau_sq": 7.5,
+    "capacity_d": 84.85281374238569,
+    "d_min": 283,
+    "d_max": 308,
+    "d_density": 0.23076923076923078,
+    "u_dv_dd_minus_1": -1.683358685013851,
+    "d_median": 298,
+    "detuning_at_d_min": -1.797991587569201,
+    "detuning_at_d_max": -1.6188851696173228,
+    "sign_delta_d": 1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 8
+  },
+  {
+   "N_bits": 48,
+   "r": 7652,
+   "log_r_over_log_N": 0.2727276332565886,
+   "R": 2327,
+   "W": 7,
+   "D_max": 7,
+   "t": 11081712,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 7.488162327245352,
+   "resonance_members_limited": 11.527953768917923,
+   "resonance_range_limited": 19.114416056988798,
+   "pairs_at_max": [
+    [
+     3953,
+     4006
+    ],
+    [
+     4258,
+     4313
+    ],
+    [
+     5241,
+     5302
+    ],
+    [
+     5953,
+     6018
+    ],
+    [
+     6326,
+     6393
+    ],
+    [
+     7106,
+     7177
+    ],
+    [
+     7513,
+     7586
+    ]
+   ],
+   "family": {
+    "support": 7,
+    "of": 7,
+    "A": "17/6",
+    "B": "0",
+    "C": "1/6",
+    "drift_free": true,
+    "delta_d": "-2/9",
+    "speed": 0.42008402520840293,
+    "tau_sq": 0.17647058823529413,
+    "capacity_d": 18.031222920256962,
+    "d_min": 53,
+    "d_max": 73,
+    "d_density": 0.3333333333333333,
+    "u_dv_dd_minus_1": 0.11703055576219601,
+    "d_median": 65,
+    "detuning_at_d_min": 1.06052833450818,
+    "detuning_at_d_max": -0.21143752913928637,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 9
+  },
+  {
+   "N_bits": 48,
+   "r": 18713,
+   "log_r_over_log_N": 0.2999997617796434,
+   "R": 5690,
+   "W": 2,
+   "D_max": 9,
+   "t": 69794009,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 35.25435686954011,
+   "resonance_range_limited": 17.092869538631795,
+   "pairs_at_max": [
+    [
+     11001,
+     11563
+    ],
+    [
+     11401,
+     11973
+    ],
+    [
+     11563,
+     12139
+    ],
+    [
+     11973,
+     12559
+    ],
+    [
+     12139,
+     12729
+    ],
+    [
+     13159,
+     13773
+    ],
+    [
+     13333,
+     13951
+    ],
+    [
+     13773,
+     14401
+    ],
+    [
+     13951,
+     14583
+    ]
+   ],
+   "family": {
+    "support": 9,
+    "of": 9,
+    "A": "1/14",
+    "B": "0",
+    "C": "26/7",
+    "drift_free": true,
+    "delta_d": "-3/196",
+    "speed": 2.6457513110645907,
+    "tau_sq": 7.0,
+    "capacity_d": 6.599663291074442,
+    "d_min": 562,
+    "d_max": 632,
+    "d_density": 0.1267605633802817,
+    "u_dv_dd_minus_1": 0.019777855508162023,
+    "d_median": 590,
+    "detuning_at_d_min": 0.1799526487884242,
+    "detuning_at_d_max": -0.1703491040945202,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 11
+  },
+  {
+   "N_bits": 48,
+   "r": 55825,
+   "log_r_over_log_N": 0.33333325910083617,
+   "R": 16968,
+   "W": 1,
+   "D_max": 11,
+   "t": 26379349,
+   "null": [
+    6,
+    7
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 138.21953867512528,
+   "resonance_range_limited": 14.910057339428148,
+   "pairs_at_max": [
+    [
+     43473,
+     43891
+    ],
+    [
+     43891,
+     44311
+    ],
+    [
+     44311,
+     44733
+    ],
+    [
+     44733,
+     45157
+    ],
+    [
+     45157,
+     45583
+    ],
+    [
+     46441,
+     46873
+    ],
+    [
+     46873,
+     47307
+    ],
+    [
+     47307,
+     47743
+    ],
+    [
+     47743,
+     48181
+    ],
+    [
+     48181,
+     48621
+    ],
+    [
+     49063,
+     49507
+    ]
+   ],
+   "family": {
+    "support": 11,
+    "of": 11,
+    "A": "1/2",
+    "B": "0",
+    "C": "2",
+    "drift_free": true,
+    "delta_d": "-3/4",
+    "speed": 1.0,
+    "tau_sq": 1.0,
+    "capacity_d": 0.9428090415820632,
+    "d_min": 418,
+    "d_max": 444,
+    "d_density": 0.4074074074074074,
+    "u_dv_dd_minus_1": -0.01839022289375558,
+    "d_median": 432,
+    "detuning_at_d_min": 0.0835797334755608,
+    "detuning_at_d_max": -0.09584785752249325,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": null
+  },
+  {
+   "N_bits": 48,
+   "r": 3632,
+   "log_r_over_log_N": 0.25000165009856906,
+   "R": 228,
+   "W": 22,
+   "D_max": 2,
+   "t": 3038804,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 5.841156960996649,
+   "resonance_members_limited": 4.541672606850225,
+   "resonance_range_limited": 20.98044401759837,
+   "pairs_at_max": [
+    [
+     1879,
+     1889
+    ],
+    [
+     2707,
+     2719
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 48,
+   "r": 7652,
+   "log_r_over_log_N": 0.2727276332565886,
+   "R": 440,
+   "W": 7,
+   "D_max": 3,
+   "t": 69078416,
+   "null": [
+    3,
+    2
+   ],
+   "cap_symmetric": 7.488162327245352,
+   "resonance_members_limited": 11.527953768917923,
+   "resonance_range_limited": 19.114416056988798,
+   "pairs_at_max": [
+    [
+     4243,
+     4591
+    ],
+    [
+     4861,
+     5233
+    ],
+    [
+     6967,
+     7411
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 48,
+   "r": 18713,
+   "log_r_over_log_N": 0.2999997617796434,
+   "R": 978,
+   "W": 2,
+   "D_max": 2,
+   "t": 1352118,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 35.25435686954011,
+   "resonance_range_limited": 17.092869538631795,
+   "pairs_at_max": [
+    [
+     9511,
+     9521
+    ],
+    [
+     13697,
+     13709
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 48,
+   "r": 55825,
+   "log_r_over_log_N": 0.33333325910083617,
+   "R": 2621,
+   "W": 1,
+   "D_max": 3,
+   "t": 644710054,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 138.21953867512528,
+   "resonance_range_limited": 14.910057339428148,
+   "pairs_at_max": [
+    [
+     40351,
+     50767
+    ],
+    [
+     40763,
+     51229
+    ],
+    [
+     43313,
+     54083
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 48,
+   "r": 3849,
+   "log_r_over_log_N": 0.24999926795659602,
+   "R": 1173,
+   "W": 22,
+   "D_max": 5,
+   "t": 3355062,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 5.955244092665009,
+   "resonance_members_limited": 4.607680374253237,
+   "resonance_range_limited": 21.442847168009916,
+   "pairs_at_max": [
+    [
+     1945,
+     1955
+    ],
+    [
+     2354,
+     2365
+    ],
+    [
+     2802,
+     2814
+    ],
+    [
+     3289,
+     3302
+    ],
+    [
+     3815,
+     3829
+    ]
+   ],
+   "family": {
+    "support": 5,
+    "of": 5,
+    "A": "39",
+    "B": "0",
+    "C": "0",
+    "drift_free": true,
+    "delta_d": "1/4",
+    "speed": 0.11322770341445956,
+    "tau_sq": 0.01282051282051282,
+    "capacity_d": 220.61731573020282,
+    "d_min": 10,
+    "d_max": 14,
+    "d_density": 1.0,
+    "u_dv_dd_minus_1": -1.3191305057062823,
+    "d_median": 12,
+    "detuning_at_d_min": -1.5514584951928192,
+    "detuning_at_d_max": -1.2009682516208113,
+    "sign_delta_d": 1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 9
+  },
+  {
+   "N_bits": 48,
+   "r": 8153,
+   "log_r_over_log_N": 0.2727284831413605,
+   "R": 2480,
+   "W": 8,
+   "D_max": 8,
+   "t": 112830737,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 7.6481443717166435,
+   "resonance_members_limited": 11.774548403062772,
+   "resonance_range_limited": 19.52253718891728,
+   "pairs_at_max": [
+    [
+     4319,
+     4834
+    ],
+    [
+     4834,
+     5378
+    ],
+    [
+     5093,
+     5651
+    ],
+    [
+     5378,
+     5951
+    ],
+    [
+     5651,
+     6238
+    ],
+    [
+     5951,
+     6553
+    ],
+    [
+     6238,
+     6854
+    ],
+    [
+     6854,
+     7499
+    ]
+   ],
+   "family": {
+    "support": 8,
+    "of": 8,
+    "A": "1/29",
+    "B": "0",
+    "C": "212/29",
+    "drift_free": true,
+    "delta_d": "-7/3364",
+    "speed": 3.8078865529319543,
+    "tau_sq": 14.5,
+    "capacity_d": 23.43553903361129,
+    "d_min": 515,
+    "d_max": 645,
+    "d_density": 0.061068702290076333,
+    "u_dv_dd_minus_1": -0.022579584384393114,
+    "d_median": 587,
+    "detuning_at_d_min": 0.44787707833527546,
+    "detuning_at_d_max": -0.26340960190449225,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 9
+  },
+  {
+   "N_bits": 48,
+   "r": 20065,
+   "log_r_over_log_N": 0.30000063260719245,
+   "R": 6098,
+   "W": 2,
+   "D_max": 7,
+   "t": 8064450,
+   "null": [
+    5,
+    5
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 36.29496747230277,
+   "resonance_range_limited": 17.443998617450838,
+   "pairs_at_max": [
+    [
+     10182,
+     10237
+    ],
+    [
+     10937,
+     10994
+    ],
+    [
+     11719,
+     11778
+    ],
+    [
+     16034,
+     16103
+    ],
+    [
+     16978,
+     17049
+    ],
+    [
+     17949,
+     18022
+    ],
+    [
+     18947,
+     19022
+    ]
+   ],
+   "family": {
+    "support": 7,
+    "of": 7,
+    "A": "27/4",
+    "B": "0",
+    "C": "1/4",
+    "drift_free": true,
+    "delta_d": "-23/16",
+    "speed": 0.2721655269759087,
+    "tau_sq": 0.07407407407407407,
+    "capacity_d": 6.640654988534533,
+    "d_min": 55,
+    "d_max": 75,
+    "d_density": 0.3333333333333333,
+    "u_dv_dd_minus_1": -0.22548532708164704,
+    "d_median": 69,
+    "detuning_at_d_min": 0.5292797951650998,
+    "detuning_at_d_max": -0.39689401384107903,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": 11
+  },
+  {
+   "N_bits": 48,
+   "r": 60322,
+   "log_r_over_log_N": 0.3333331836118137,
+   "R": 18333,
+   "W": 1,
+   "D_max": 11,
+   "t": 29630365,
+   "null": [
+    6,
+    6
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 143.67861132392773,
+   "resonance_range_limited": 15.201676019781454,
+   "pairs_at_max": [
+    [
+     46873,
+     47307
+    ],
+    [
+     47307,
+     47743
+    ],
+    [
+     47743,
+     48181
+    ],
+    [
+     48181,
+     48621
+    ],
+    [
+     48621,
+     49063
+    ],
+    [
+     49063,
+     49507
+    ],
+    [
+     49507,
+     49953
+    ],
+    [
+     49953,
+     50401
+    ],
+    [
+     50401,
+     50851
+    ],
+    [
+     51757,
+     52213
+    ],
+    [
+     52671,
+     53131
+    ]
+   ],
+   "family": {
+    "support": 11,
+    "of": 11,
+    "A": "1/2",
+    "B": "0",
+    "C": "2",
+    "drift_free": true,
+    "delta_d": "-3/4",
+    "speed": 1.0,
+    "tau_sq": 1.0,
+    "capacity_d": 0.9428090415820632,
+    "d_min": 434,
+    "d_max": 460,
+    "d_density": 0.4074074074074074,
+    "u_dv_dd_minus_1": 0.015578859090640496,
+    "d_median": 444,
+    "detuning_at_d_min": 0.08740948558191453,
+    "detuning_at_d_max": -0.08675050046767241,
+    "sign_delta_d": -1
+   },
+   "family_name": "squarefree",
+   "D_star_free": null
+  },
+  {
+   "N_bits": 48,
+   "r": 3849,
+   "log_r_over_log_N": 0.24999926795659602,
+   "R": 240,
+   "W": 22,
+   "D_max": 2,
+   "t": 1947223,
+   "null": [
+    3,
+    2
+   ],
+   "cap_symmetric": 5.955244092665009,
+   "resonance_members_limited": 4.607680374253237,
+   "resonance_range_limited": 21.442847168009916,
+   "pairs_at_max": [
+    [
+     2081,
+     2087
+    ],
+    [
+     3701,
+     3709
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 48,
+   "r": 8153,
+   "log_r_over_log_N": 0.2727284831413605,
+   "R": 462,
+   "W": 8,
+   "D_max": 3,
+   "t": 58193714,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 7.6481443717166435,
+   "resonance_members_limited": 11.774548403062772,
+   "resonance_range_limited": 19.52253718891728,
+   "pairs_at_max": [
+    [
+     4591,
+     4861
+    ],
+    [
+     5233,
+     5521
+    ],
+    [
+     7411,
+     7753
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 2
+  },
+  {
+   "N_bits": 48,
+   "r": 20065,
+   "log_r_over_log_N": 0.30000063260719245,
+   "R": 1038,
+   "W": 2,
+   "D_max": 3,
+   "t": 451812271,
+   "null": [
+    2,
+    2
+   ],
+   "cap_symmetric": 4,
+   "resonance_members_limited": 36.29496747230277,
+   "resonance_range_limited": 17.443998617450838,
+   "pairs_at_max": [
+    [
+     10477,
+     13831
+    ],
+    [
+     11777,
+     15319
+    ],
+    [
+     12049,
+     15629
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 48,
+   "r": 60322,
+   "log_r_over_log_N": 0.3333331836118137,
+   "R": 2824,
+   "W": 1,
+   "D_max": 3,
+   "t": 20721820,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 143.67861132392773,
+   "resonance_range_limited": 15.201676019781454,
+   "pairs_at_max": [
+    [
+     47711,
+     48017
+    ],
+    [
+     56857,
+     57191
+    ],
+    [
+     58229,
+     58567
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 56,
+   "r": 15880,
+   "log_r_over_log_N": 0.2499997711845428,
+   "R": 846,
+   "W": 45,
+   "D_max": 3,
+   "t": 3097320928,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 9.551401382390093,
+   "resonance_members_limited": 6.5669641546145705,
+   "resonance_range_limited": 36.48317223600392,
+   "pairs_at_max": [
+    [
+     10663,
+     11969
+    ],
+    [
+     11731,
+     13099
+    ],
+    [
+     13147,
+     14593
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 56,
+   "r": 38260,
+   "log_r_over_log_N": 0.27272696168086663,
+   "R": 1867,
+   "W": 12,
+   "D_max": 3,
+   "t": 789899786,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 12.80457746440015,
+   "resonance_members_limited": 19.712092581038856,
+   "resonance_range_limited": 32.68554908190258,
+   "pairs_at_max": [
+    [
+     20233,
+     20681
+    ],
+    [
+     24029,
+     24517
+    ],
+    [
+     30781,
+     31333
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 56,
+   "r": 109907,
+   "log_r_over_log_N": 0.30000000845329444,
+   "R": 4861,
+   "W": 3,
+   "D_max": 6,
+   "t": 1594916400,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 6,
+   "resonance_members_limited": 73.71964159401705,
+   "resonance_range_limited": 28.64644516410042,
+   "pairs_at_max": [
+    [
+     83357,
+     85193
+    ],
+    [
+     84089,
+     85933
+    ],
+    [
+     85193,
+     87049
+    ],
+    [
+     85933,
+     87797
+    ],
+    [
+     87797,
+     89681
+    ],
+    [
+     90821,
+     92737
+    ]
+   ],
+   "family": {
+    "support": 6,
+    "of": 6,
+    "A": "1/20",
+    "B": "0",
+    "C": "26/5",
+    "drift_free": true,
+    "delta_d": "-1/100",
+    "speed": 3.162277660168379,
+    "tau_sq": 10.0,
+    "capacity_d": 7.071067811865475,
+    "d_min": 1836,
+    "d_max": 1916,
+    "d_density": 0.07407407407407407,
+    "u_dv_dd_minus_1": -0.01488893396399582,
+    "d_median": 1864,
+    "detuning_at_d_min": 0.030874106112052324,
+    "detuning_at_d_max": -0.09294188565459005,
+    "sign_delta_d": -1
+   },
+   "family_name": "prime",
+   "D_star_free": 3
+  },
+  {
+   "N_bits": 56,
+   "r": 399153,
+   "log_r_over_log_N": 0.33333334962621664,
+   "R": 15845,
+   "W": 1,
+   "D_max": 3,
+   "t": 31332343,
+   "null": [
+    3,
+    3
+   ],
+   "cap_symmetric": 2,
+   "resonance_members_limited": 369.59473020144014,
+   "resonance_range_limited": 24.381278821079096,
+   "pairs_at_max": [
+    [
+     203117,
+     203173
+    ],
+    [
+     299501,
+     299569
+    ],
+    [
+     354689,
+     354763
+    ]
+   ],
+   "family": null,
+   "family_name": "prime",
+   "D_star_free": null
+  }
+ ],
+ "peel": [
+  {
+   "N_bits": 40,
+   "idx": 0,
+   "r": 3938,
+   "exponent": 0.3,
+   "W": 2,
+   "null": 5,
+   "rows": [
+    {
+     "round": 0,
+     "R": 1200,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "1/10",
+      "B": "0",
+      "C": "29/10",
+      "drift_free": true,
+      "delta_d": "-1/25",
+      "speed": 2.23606797749979,
+      "tau_sq": 5.0,
+      "capacity_d": 3.5355339059327373,
+      "d_min": 241,
+      "d_max": 271,
+      "d_density": 0.22580645161290322,
+      "u_dv_dd_minus_1": 0.011972964187489499,
+      "d_median": 259,
+      "detuning_at_d_min": 0.25620703725574234,
+      "detuning_at_d_max": -0.11664421518306778,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 1,
+     "R": 1193,
+     "D_max": 5,
+     "family": {
+      "support": 5,
+      "of": 5,
+      "A": "7/10",
+      "B": "0",
+      "C": "7/10",
+      "drift_free": true,
+      "delta_d": "-6/25",
+      "speed": 0.8451542547285166,
+      "tau_sq": 0.7142857142857143,
+      "capacity_d": 4.1247895569215265,
+      "d_min": 83,
+      "d_max": 103,
+      "d_density": 0.23809523809523808,
+      "u_dv_dd_minus_1": 0.0110088744257415,
+      "d_median": 93,
+      "detuning_at_d_min": 0.42224101626483956,
+      "detuning_at_d_max": -0.2558003011136333,
+      "sign_delta_d": -1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 40,
+   "idx": 0,
+   "r": 9881,
+   "exponent": 0.3333333333333333,
+   "W": 1,
+   "null": 5,
+   "rows": [
+    {
+     "round": 0,
+     "R": 3005,
+     "D_max": 8,
+     "family": {
+      "support": 8,
+      "of": 8,
+      "A": "1/2",
+      "B": "0",
+      "C": "2",
+      "drift_free": true,
+      "delta_d": "-3/4",
+      "speed": 1.0,
+      "tau_sq": 1.0,
+      "capacity_d": 0.9428090415820632,
+      "d_min": 172,
+      "d_max": 188,
+      "d_density": 0.47058823529411764,
+      "u_dv_dd_minus_1": -0.02250929275288127,
+      "d_median": 182,
+      "detuning_at_d_min": 0.15807727070675703,
+      "detuning_at_d_max": -0.11313949900776832,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 8
+    },
+    {
+     "round": 1,
+     "R": 2997,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "1/6",
+      "B": "0",
+      "C": "17/6",
+      "drift_free": true,
+      "delta_d": "-2/9",
+      "speed": 1.7320508075688774,
+      "tau_sq": 3.0,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 289,
+      "d_max": 307,
+      "d_density": 0.3157894736842105,
+      "u_dv_dd_minus_1": -0.0017985302539976766,
+      "d_median": 301,
+      "detuning_at_d_min": 0.12778574206614834,
+      "detuning_at_d_max": -0.05919102247386221,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 6
+    },
+    {
+     "round": 2,
+     "R": 2991,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "3/275",
+      "B": "2/275",
+      "C": "5492/275",
+      "drift_free": false,
+      "delta_d": "9721/302500",
+      "speed": 6.7700320038633,
+      "tau_sq": 45.833333333333336,
+      "capacity_d": null,
+      "d_min": 1083,
+      "d_max": 1248,
+      "d_density": 0.03614457831325301,
+      "u_dv_dd_minus_1": 0.006755571234132729,
+      "d_median": 1193,
+      "detuning_at_d_min": -0.037874378877947534,
+      "detuning_at_d_max": 0.004748537637802475,
+      "sign_delta_d": 1
+     },
+     "exhausted": false,
+     "removed": 6
+    },
+    {
+     "round": 3,
+     "R": 2985,
+     "D_max": 5,
+     "family": {
+      "support": 5,
+      "of": 5,
+      "A": "66",
+      "B": "1",
+      "C": "-6",
+      "drift_free": false,
+      "delta_d": "1585/4",
+      "speed": 0.08703882797784893,
+      "tau_sq": 0.007575757575757576,
+      "capacity_d": null,
+      "d_min": 13,
+      "d_max": 17,
+      "d_density": 1.0,
+      "u_dv_dd_minus_1": 0.1474481382534354,
+      "d_median": 15,
+      "detuning_at_d_min": -0.4154273642955374,
+      "detuning_at_d_max": 0.3151253984555167,
+      "sign_delta_d": 1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 40,
+   "idx": 1,
+   "r": 3920,
+   "exponent": 0.3,
+   "W": 2,
+   "null": 5,
+   "rows": [
+    {
+     "round": 0,
+     "R": 1194,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "1/10",
+      "B": "0",
+      "C": "29/10",
+      "drift_free": true,
+      "delta_d": "-1/25",
+      "speed": 2.23606797749979,
+      "tau_sq": 5.0,
+      "capacity_d": 3.5355339059327373,
+      "d_min": 241,
+      "d_max": 271,
+      "d_density": 0.22580645161290322,
+      "u_dv_dd_minus_1": 0.003926106426778375,
+      "d_median": 259,
+      "detuning_at_d_min": 0.246218114918358,
+      "detuning_at_d_max": -0.12366835377577279,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 1,
+     "R": 1187,
+     "D_max": 5,
+     "family": {
+      "support": 5,
+      "of": 5,
+      "A": "7/10",
+      "B": "0",
+      "C": "7/10",
+      "drift_free": true,
+      "delta_d": "-6/25",
+      "speed": 0.8451542547285166,
+      "tau_sq": 0.7142857142857143,
+      "capacity_d": 4.1247895569215265,
+      "d_min": 83,
+      "d_max": 103,
+      "d_density": 0.23809523809523808,
+      "u_dv_dd_minus_1": 0.0029696827721852337,
+      "d_median": 93,
+      "detuning_at_d_min": 0.410931849355898,
+      "detuning_at_d_max": -0.26171791881136586,
+      "sign_delta_d": -1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 40,
+   "idx": 1,
+   "r": 9829,
+   "exponent": 0.3333333333333333,
+   "W": 1,
+   "null": 5,
+   "rows": [
+    {
+     "round": 0,
+     "R": 2990,
+     "D_max": 9,
+     "family": {
+      "support": 9,
+      "of": 9,
+      "A": "1/2",
+      "B": "0",
+      "C": "2",
+      "drift_free": true,
+      "delta_d": "-3/4",
+      "speed": 1.0,
+      "tau_sq": 1.0,
+      "capacity_d": 0.9428090415820632,
+      "d_min": 170,
+      "d_max": 192,
+      "d_density": 0.391304347826087,
+      "u_dv_dd_minus_1": -0.03028195957501334,
+      "d_median": 182,
+      "detuning_at_d_min": 0.18989347641322118,
+      "detuning_at_d_max": -0.17403949910250727,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 9
+    },
+    {
+     "round": 1,
+     "R": 2981,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "3/2",
+      "B": "0",
+      "C": "3/2",
+      "drift_free": true,
+      "delta_d": "-2",
+      "speed": 0.5773502691896258,
+      "tau_sq": 0.3333333333333333,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 95,
+      "d_max": 107,
+      "d_density": 0.46153846153846156,
+      "u_dv_dd_minus_1": -0.029385913361754,
+      "d_median": 101,
+      "detuning_at_d_min": 0.16636299335771887,
+      "detuning_at_d_max": -0.18367229780145355,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 6
+    },
+    {
+     "round": 2,
+     "R": 2975,
+     "D_max": 5,
+     "family": {
+      "support": 5,
+      "of": 5,
+      "A": "66",
+      "B": "1",
+      "C": "-6",
+      "drift_free": false,
+      "delta_d": "1585/4",
+      "speed": 0.08703882797784893,
+      "tau_sq": 0.007575757575757576,
+      "capacity_d": null,
+      "d_min": 13,
+      "d_max": 17,
+      "d_density": 1.0,
+      "u_dv_dd_minus_1": 0.13832402893127393,
+      "d_median": 15,
+      "detuning_at_d_min": -0.4200756829925638,
+      "detuning_at_d_max": 0.3046679777601258,
+      "sign_delta_d": 1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 48,
+   "idx": 0,
+   "r": 18713,
+   "exponent": 0.3,
+   "W": 2,
+   "null": 6,
+   "rows": [
+    {
+     "round": 0,
+     "R": 5690,
+     "D_max": 9,
+     "family": {
+      "support": 9,
+      "of": 9,
+      "A": "1/14",
+      "B": "0",
+      "C": "26/7",
+      "drift_free": true,
+      "delta_d": "-3/196",
+      "speed": 2.6457513110645907,
+      "tau_sq": 7.0,
+      "capacity_d": 6.599663291074442,
+      "d_min": 562,
+      "d_max": 632,
+      "d_density": 0.1267605633802817,
+      "u_dv_dd_minus_1": 0.019777855508162023,
+      "d_median": 590,
+      "detuning_at_d_min": 0.1799526487884242,
+      "detuning_at_d_max": -0.1703491040945202,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 9
+    },
+    {
+     "round": 1,
+     "R": 5681,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "27/4",
+      "B": "0",
+      "C": "1/4",
+      "drift_free": true,
+      "delta_d": "-23/16",
+      "speed": 0.2721655269759087,
+      "tau_sq": 0.07407407407407407,
+      "capacity_d": 6.640654988534533,
+      "d_min": 53,
+      "d_max": 71,
+      "d_density": 0.3157894736842105,
+      "u_dv_dd_minus_1": 0.10292894402557118,
+      "d_median": 59,
+      "detuning_at_d_min": 0.5215102168002563,
+      "detuning_at_d_max": -0.36710753594506607,
+      "sign_delta_d": -1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 48,
+   "idx": 0,
+   "r": 55825,
+   "exponent": 0.3333333333333333,
+   "W": 1,
+   "null": 7,
+   "rows": [
+    {
+     "round": 0,
+     "R": 16968,
+     "D_max": 11,
+     "family": {
+      "support": 11,
+      "of": 11,
+      "A": "1/2",
+      "B": "0",
+      "C": "2",
+      "drift_free": true,
+      "delta_d": "-3/4",
+      "speed": 1.0,
+      "tau_sq": 1.0,
+      "capacity_d": 0.9428090415820632,
+      "d_min": 418,
+      "d_max": 444,
+      "d_density": 0.4074074074074074,
+      "u_dv_dd_minus_1": -0.01839022289375558,
+      "d_median": 432,
+      "detuning_at_d_min": 0.0835797334755608,
+      "detuning_at_d_max": -0.09584785752249325,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 11
+    },
+    {
+     "round": 1,
+     "R": 16957,
+     "D_max": 10,
+     "family": {
+      "support": 10,
+      "of": 10,
+      "A": "1/4",
+      "B": "0",
+      "C": "11/4",
+      "drift_free": true,
+      "delta_d": "-7/16",
+      "speed": 1.414213562373095,
+      "tau_sq": 2.0,
+      "capacity_d": 0.8081220356417685,
+      "d_min": 619,
+      "d_max": 657,
+      "d_density": 0.2564102564102564,
+      "u_dv_dd_minus_1": -0.008458296099010165,
+      "d_median": 641,
+      "detuning_at_d_min": 0.10106494454194803,
+      "detuning_at_d_max": -0.07914957701767,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 10
+    },
+    {
+     "round": 2,
+     "R": 16947,
+     "D_max": 8,
+     "family": {
+      "support": 8,
+      "of": 8,
+      "A": "1/6",
+      "B": "0",
+      "C": "17/6",
+      "drift_free": true,
+      "delta_d": "-2/9",
+      "speed": 1.7320508075688774,
+      "tau_sq": 3.0,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 703,
+      "d_max": 731,
+      "d_density": 0.27586206896551724,
+      "u_dv_dd_minus_1": -0.024730793837169474,
+      "d_median": 721,
+      "detuning_at_d_min": 0.052118338073008585,
+      "detuning_at_d_max": -0.06421077853216062,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 8
+    },
+    {
+     "round": 3,
+     "R": 16939,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "3/2",
+      "B": "0",
+      "C": "3/2",
+      "drift_free": true,
+      "delta_d": "-2",
+      "speed": 0.5773502691896258,
+      "tau_sq": 0.3333333333333333,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 221,
+      "d_max": 257,
+      "d_density": 0.1891891891891892,
+      "u_dv_dd_minus_1": 0.1573763236927408,
+      "d_median": 227,
+      "detuning_at_d_min": 0.2542231963380297,
+      "detuning_at_d_max": -0.20245562865081856,
+      "sign_delta_d": -1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 48,
+   "idx": 1,
+   "r": 20065,
+   "exponent": 0.3,
+   "W": 2,
+   "null": 5,
+   "rows": [
+    {
+     "round": 0,
+     "R": 6098,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "27/4",
+      "B": "0",
+      "C": "1/4",
+      "drift_free": true,
+      "delta_d": "-23/16",
+      "speed": 0.2721655269759087,
+      "tau_sq": 0.07407407407407407,
+      "capacity_d": 6.640654988534533,
+      "d_min": 55,
+      "d_max": 75,
+      "d_density": 0.3333333333333333,
+      "u_dv_dd_minus_1": -0.22548532708164704,
+      "d_median": 69,
+      "detuning_at_d_min": 0.5292797951650998,
+      "detuning_at_d_max": -0.39689401384107903,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 1,
+     "R": 6091,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "7/5",
+      "B": "0",
+      "C": "2/5",
+      "drift_free": true,
+      "delta_d": "-31/100",
+      "speed": 0.5976143046671968,
+      "tau_sq": 0.35714285714285715,
+      "capacity_d": 6.386770926846235,
+      "d_min": 127,
+      "d_max": 153,
+      "d_density": 0.25925925925925924,
+      "u_dv_dd_minus_1": 0.08921129028027841,
+      "d_median": 137,
+      "detuning_at_d_min": 0.36729661521607215,
+      "detuning_at_d_max": -0.21801312907502446,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 2,
+     "R": 6084,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "7/8",
+      "B": "0",
+      "C": "1/2",
+      "drift_free": true,
+      "delta_d": "-3/16",
+      "speed": 0.7559289460184544,
+      "tau_sq": 0.5714285714285714,
+      "capacity_d": 6.599663291074442,
+      "d_min": 162,
+      "d_max": 190,
+      "d_density": 0.2413793103448276,
+      "u_dv_dd_minus_1": 0.04128427879491614,
+      "d_median": 174,
+      "detuning_at_d_min": 0.29024635582346425,
+      "detuning_at_d_max": -0.2002475275259099,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 3,
+     "R": 6077,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "8/1815",
+      "B": "1/1815",
+      "C": "6806/121",
+      "drift_free": false,
+      "delta_d": "1823/878460",
+      "speed": 10.650704202070397,
+      "tau_sq": 113.4375,
+      "capacity_d": null,
+      "d_min": 2268,
+      "d_max": 2730,
+      "d_density": 0.01511879049676026,
+      "u_dv_dd_minus_1": 0.00927235060979803,
+      "d_median": 2598,
+      "detuning_at_d_min": -0.0406469306917554,
+      "detuning_at_d_max": -0.0023064059138218074,
+      "sign_delta_d": 1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 4,
+     "R": 6070,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "7/12",
+      "B": "0",
+      "C": "2/3",
+      "drift_free": true,
+      "delta_d": "-5/36",
+      "speed": 0.9258200997725514,
+      "tau_sq": 0.8571428571428571,
+      "capacity_d": 5.939696961966999,
+      "d_min": 208,
+      "d_max": 236,
+      "d_density": 0.20689655172413793,
+      "u_dv_dd_minus_1": -0.003744574359294539,
+      "d_median": 224,
+      "detuning_at_d_min": 0.2443023887915312,
+      "detuning_at_d_max": -0.1481208086847754,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 6
+    },
+    {
+     "round": 5,
+     "R": 6064,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "1/20",
+      "B": "0",
+      "C": "26/5",
+      "drift_free": true,
+      "delta_d": "-1/100",
+      "speed": 3.162277660168379,
+      "tau_sq": 10.0,
+      "capacity_d": 7.071067811865475,
+      "d_min": 696,
+      "d_max": 744,
+      "d_density": 0.12244897959183673,
+      "u_dv_dd_minus_1": -0.01201157841719147,
+      "d_median": 724,
+      "detuning_at_d_min": 0.11212353109623097,
+      "detuning_at_d_max": -0.0895832898796699,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 6
+    },
+    {
+     "round": 6,
+     "R": 6058,
+     "D_max": 5,
+     "family": {
+      "support": 5,
+      "of": 5,
+      "A": "19/4",
+      "B": "0",
+      "C": "1/4",
+      "drift_free": true,
+      "delta_d": "-15/16",
+      "speed": 0.3244428422615251,
+      "tau_sq": 0.10526315789473684,
+      "capacity_d": 7.165348716023681,
+      "d_min": 69,
+      "d_max": 85,
+      "d_density": 0.29411764705882354,
+      "u_dv_dd_minus_1": -0.18981350222439175,
+      "d_median": 79,
+      "detuning_at_d_min": 0.21595676480279002,
+      "detuning_at_d_max": -0.349556043896076,
+      "sign_delta_d": -1
+     },
+     "exhausted": false
+    }
+   ]
+  },
+  {
+   "N_bits": 48,
+   "idx": 1,
+   "r": 60322,
+   "exponent": 0.3333333333333333,
+   "W": 1,
+   "null": 6,
+   "rows": [
+    {
+     "round": 0,
+     "R": 18333,
+     "D_max": 11,
+     "family": {
+      "support": 11,
+      "of": 11,
+      "A": "1/2",
+      "B": "0",
+      "C": "2",
+      "drift_free": true,
+      "delta_d": "-3/4",
+      "speed": 1.0,
+      "tau_sq": 1.0,
+      "capacity_d": 0.9428090415820632,
+      "d_min": 434,
+      "d_max": 460,
+      "d_density": 0.4074074074074074,
+      "u_dv_dd_minus_1": 0.015578859090640496,
+      "d_median": 444,
+      "detuning_at_d_min": 0.08740948558191453,
+      "detuning_at_d_max": -0.08675050046767241,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 11
+    },
+    {
+     "round": 1,
+     "R": 18322,
+     "D_max": 10,
+     "family": {
+      "support": 10,
+      "of": 10,
+      "A": "1/6",
+      "B": "0",
+      "C": "17/6",
+      "drift_free": true,
+      "delta_d": "-2/9",
+      "speed": 1.7320508075688774,
+      "tau_sq": 3.0,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 721,
+      "d_max": 757,
+      "d_density": 0.2702702702702703,
+      "u_dv_dd_minus_1": 0.025651365476086374,
+      "d_median": 737,
+      "detuning_at_d_min": 0.09546031156556434,
+      "detuning_at_d_max": -0.053513687792756226,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 10
+    },
+    {
+     "round": 2,
+     "R": 18312,
+     "D_max": 9,
+     "family": {
+      "support": 9,
+      "of": 9,
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "drift_free": true,
+      "delta_d": "-7/4",
+      "speed": 0.7071067811865475,
+      "tau_sq": 0.5,
+      "capacity_d": 0.8081220356417685,
+      "d_min": 320,
+      "d_max": 344,
+      "d_density": 0.36,
+      "u_dv_dd_minus_1": -0.02472470523487169,
+      "d_median": 335,
+      "detuning_at_d_min": 0.11895061123946138,
+      "detuning_at_d_max": -0.09928635820504361,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 9
+    },
+    {
+     "round": 3,
+     "R": 18303,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "29/3",
+      "B": "0",
+      "C": "4/3",
+      "drift_free": true,
+      "delta_d": "-455/36",
+      "speed": 0.22742941307367104,
+      "tau_sq": 0.05172413793103448,
+      "capacity_d": 1.0816402630897515,
+      "d_min": 94,
+      "d_max": 106,
+      "d_density": 0.5384615384615384,
+      "u_dv_dd_minus_1": -0.03158458703344402,
+      "d_median": 98,
+      "detuning_at_d_min": 0.0973763233311915,
+      "detuning_at_d_max": -0.23471425423939674,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 4,
+     "R": 18296,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "1/6",
+      "B": "0",
+      "C": "17/6",
+      "drift_free": true,
+      "delta_d": "-2/9",
+      "speed": 1.7320508075688774,
+      "tau_sq": 3.0,
+      "capacity_d": 1.0606601717798212,
+      "d_min": 701,
+      "d_max": 791,
+      "d_density": 0.07692307692307693,
+      "u_dv_dd_minus_1": -0.13811643539368212,
+      "d_median": 781,
+      "detuning_at_d_min": 0.19192431011874755,
+      "detuning_at_d_max": -0.1703935060436117,
+      "sign_delta_d": -1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 5,
+     "R": 18289,
+     "D_max": 7,
+     "family": {
+      "support": 7,
+      "of": 7,
+      "A": "5/1444",
+      "B": "1/722",
+      "C": "25252/361",
+      "drift_free": false,
+      "delta_d": "4061/521284",
+      "speed": 12.016655108639842,
+      "tau_sq": 144.4,
+      "capacity_d": null,
+      "d_min": 4518,
+      "d_max": 5126,
+      "d_density": 0.011494252873563218,
+      "u_dv_dd_minus_1": 0.003087168530524931,
+      "d_median": 4784,
+      "detuning_at_d_min": -0.014449846996941296,
+      "detuning_at_d_max": -0.0038381502429880587,
+      "sign_delta_d": 1
+     },
+     "exhausted": false,
+     "removed": 7
+    },
+    {
+     "round": 6,
+     "R": 18282,
+     "D_max": 6,
+     "family": {
+      "support": 6,
+      "of": 6,
+      "A": "142/9",
+      "B": "1/9",
+      "C": "-26/9",
+      "drift_free": false,
+      "delta_d": "14849/324",
+      "speed": 0.17801724872907798,
+      "tau_sq": 0.03169014084507042,
+      "capacity_d": null,
+      "d_min": 67,
+      "d_max": 85,
+      "d_density": 0.3157894736842105,
+      "u_dv_dd_minus_1": 0.006288531221213756,
+      "d_median": 79,
+      "detuning_at_d_min": -0.0913867517672704,
+      "detuning_at_d_max": -0.010670848997914373,
+      "sign_delta_d": 1
+     },
+     "exhausted": false
+    }
+   ]
+  }
+ ]
+}

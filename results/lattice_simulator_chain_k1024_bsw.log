@@ -1,0 +1,9 @@
+Kyber1024 bsw b=896: gh margin -0.01284 at m=1024; entry margin -0.01257 at m=896  [82s]
+Kyber1024 bsw b=897: gh margin -0.00866 at m=1024; entry margin -0.00726 at m=1024  [166s]
+Kyber1024 bsw b=898: gh margin -0.00451 at m=1024; entry margin -0.00345 at m=1088  [247s]
+Kyber1024 bsw b=899: gh margin -0.00035 at m=1024; entry margin +0.00147 at m=1216  [330s]
+Kyber1024 bsw b=900: gh margin +0.00381 at m=1024; entry margin +0.00389 at m=896  [413s]
+Kyber1024 bsw b=901: gh margin +0.00796 at m=1024; entry margin +0.00854 at m=1024  [496s]
+Kyber1024 bsw b=902: gh margin +0.01210 at m=1024; entry margin +0.01444 at m=1216  [582s]
+== Kyber1024 bsw: least passing b (gh) = {'b': 900, 'm': 1024, 'd': 2049, 'margin': 0.0038101448517218195, 'tours': 50}, (entry) = {'b': 899, 'm': 1216, 'd': 2241, 'margin': 0.0014677152558553175, 'tours': 50}
+wrote results/lattice_simulator_chain_k1024_bsw.json

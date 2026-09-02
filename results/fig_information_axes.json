@@ -1,0 +1,187 @@
+{
+  "data": [
+    {
+      "line": {
+        "color": "#333333",
+        "dash": "dash",
+        "width": 3
+      },
+      "mode": "lines",
+      "name": "Coppersmith subdivision (either axis): 1/4 \u2212 \u03ba",
+      "x": [
+        0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "y": [
+        0.25,
+        0.2,
+        0.15,
+        0.1,
+        0.05,
+        0
+      ],
+      "type": "scatter"
+    },
+    {
+      "line": {
+        "color": "#0072B2",
+        "width": 3
+      },
+      "mode": "lines",
+      "name": "Cells, leading bits (localised Harvey; M1-sharp): 1/5 \u2212 3\u03ba/5",
+      "x": [
+        0,
+        0.05,
+        0.1,
+        0.125,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "y": [
+        0.2,
+        0.17,
+        0.14,
+        0.125,
+        0.11,
+        0.08,
+        0.05
+      ],
+      "type": "scatter"
+    },
+    {
+      "line": {
+        "color": "#D55E00",
+        "width": 3
+      },
+      "mode": "lines",
+      "name": "Cells, trailing bits (residue-class Harvey; \u03b8-floor): 1/5 \u2212 2\u03ba/5",
+      "x": [
+        0,
+        0.05,
+        0.0833,
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "y": [
+        0.2,
+        0.18,
+        0.1667,
+        0.16,
+        0.14,
+        0.12,
+        0.1
+      ],
+      "type": "scatter"
+    },
+    {
+      "line": {
+        "color": "#999999",
+        "dash": "dot",
+        "width": 2
+      },
+      "mode": "lines",
+      "name": "Hittmeir Thm 3.1, trailing bits (Strassen on a class): 1/4 \u2212 \u03ba/2",
+      "x": [
+        0,
+        0.05,
+        0.1,
+        0.15,
+        0.2,
+        0.25
+      ],
+      "y": [
+        0.25,
+        0.225,
+        0.2,
+        0.175,
+        0.15,
+        0.125
+      ],
+      "type": "scatter"
+    },
+    {
+      "line": {
+        "color": "#009E73",
+        "dash": "dashdot",
+        "width": 2
+      },
+      "mode": "lines",
+      "name": "Harvey, no information: 1/5",
+      "x": [
+        0,
+        0.25
+      ],
+      "y": [
+        0.2,
+        0.2
+      ],
+      "type": "scatter"
+    },
+    {
+      "marker": {
+        "color": [
+          "#0072B2",
+          "#D55E00"
+        ],
+        "size": 10
+      },
+      "mode": "markers+text",
+      "name": "crossovers",
+      "text": [
+        "\u03bb = 3/8",
+        "\u03bc = 1/12"
+      ],
+      "textposition": "top right",
+      "x": [
+        0.125,
+        0.0833
+      ],
+      "y": [
+        0.125,
+        0.1667
+      ],
+      "type": "scatter"
+    }
+  ],
+  "layout": {
+    "annotations": [
+      {
+        "font": {
+          "size": 11
+        },
+        "showarrow": false,
+        "text": "polynomial time at \u03ba = 1/4 (Coppersmith)",
+        "x": 0.2,
+        "y": 0.06
+      }
+    ],
+    "height": 620,
+    "legend": {
+      "x": 0.35,
+      "y": 0.98
+    },
+    "title": "Deterministic factoring exponent versus known information about p (balanced N = pq)",
+    "width": 1000,
+    "xaxis": {
+      "range": [
+        0,
+        0.25
+      ],
+      "title": "\u03ba = exponent of known information (leading bits: \u03ba = 1/2 \u2212 \u03bb; trailing bits: \u03ba = \u03bc)"
+    },
+    "yaxis": {
+      "range": [
+        0,
+        0.27
+      ],
+      "title": "cost exponent (N^y, up to N^{o(1)})"
+    }
+  }
+}

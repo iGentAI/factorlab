@@ -1,0 +1,90 @@
+[
+ {
+  "log2_r": 14,
+  "j": 9,
+  "float_D_sym": 8,
+  "mpfr_sf": 8,
+  "mpfr_all": 18,
+  "members": 18
+ },
+ {
+  "log2_r": 15,
+  "j": 9,
+  "float_D_sym": 14,
+  "mpfr_sf": 14,
+  "mpfr_all": 25,
+  "members": 25
+ },
+ {
+  "log2_r": 16,
+  "j": 15,
+  "float_D_sym": 14,
+  "mpfr_sf": 14,
+  "mpfr_all": 27,
+  "members": 27
+ },
+ {
+  "log2_r": 18,
+  "j": 15,
+  "float_D_sym": 25,
+  "mpfr_sf": 25,
+  "mpfr_all": 52,
+  "members": 54
+ },
+ {
+  "log2_r": 20,
+  "j": 21,
+  "float_D_sym": 36,
+  "mpfr_sf": 36,
+  "mpfr_all": 77,
+  "members": 92
+ },
+ {
+  "log2_r": 22,
+  "j": 45,
+  "float_D_sym": 59,
+  "mpfr_sf": 59,
+  "mpfr_all": 126,
+  "members": 126
+ },
+ {
+  "log2_r": 24,
+  "j": 75,
+  "float_D_sym": 89,
+  "mpfr_sf": 89,
+  "mpfr_all": 196,
+  "members": 196
+ },
+ {
+  "log2_r": 26,
+  "j": 105,
+  "float_D_sym": 157,
+  "mpfr_sf": 157,
+  "mpfr_all": 331,
+  "members": 331
+ },
+ {
+  "log2_r": 28,
+  "j": 165,
+  "float_D_sym": 245,
+  "mpfr_sf": 245,
+  "mpfr_all": 528,
+  "members": 528
+ },
+ {
+  "log2_r": 30,
+  "j": 255,
+  "float_D_sym": 388,
+  "mpfr_sf": 388,
+  "mpfr_all": 847,
+  "members": 849
+ },
+ {
+  "log2_r": 32,
+  "j": 405,
+  "float_D_sym": 616,
+  "mpfr_sf": 616,
+  "mpfr_all": 1345,
+  "members": 1349
+ }
+]

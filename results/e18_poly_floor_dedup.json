@@ -1,0 +1,10 @@
+{
+ "d": 3,
+ "note": "OLS of log2 P_min on log2 N over the 42 distinct moduli of e18_poly_floor.json (two duplicated instances removed)",
+ "n_instances": 44,
+ "n_distinct": 42,
+ "slope": 0.4603339565599227,
+ "slope_se": 0.013745534719764724,
+ "intercept": -0.539312757169349,
+ "slope_all_instances": 0.45948371108069325
+}

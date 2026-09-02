@@ -1,0 +1,1092 @@
+{
+ "note": "two-sided floor (primal + full-size dual family) blocksize scan: every failing beta excluded by the exact two-family dual bound (arb ball above the pure-GSA target ball); the passing beta attained by a rigorously feasible primal witness (latticelab.dual_floor.primal_witness) whose root-Hermite ball lies below the target ball",
+ "rows": [
+  {
+   "d": 1003,
+   "beta_spec": 403,
+   "dual_mode": "full",
+   "beta_lo": 410,
+   "beta_hi": 430,
+   "decisions": [
+    {
+     "beta": 410,
+     "reaches": false,
+     "rhf_two_sided": 1.0040108751461805,
+     "shift_l1": 0.03441865330011105,
+     "seconds": 26.993353366851807,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 411,
+     "reaches": false,
+     "rhf_two_sided": 1.0040045996319549,
+     "shift_l1": 0.03440080978003583,
+     "seconds": 26.442559480667114,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 412,
+     "reaches": false,
+     "rhf_two_sided": 1.0039983490593698,
+     "shift_l1": 0.034380685333850455,
+     "seconds": 23.621721029281616,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 413,
+     "reaches": false,
+     "rhf_two_sided": 1.00399212428058,
+     "shift_l1": 0.03435944792660039,
+     "seconds": 23.38803791999817,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 414,
+     "reaches": false,
+     "rhf_two_sided": 1.0039859245923886,
+     "shift_l1": 0.034336714082085856,
+     "seconds": 23.735445976257324,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 415,
+     "reaches": false,
+     "rhf_two_sided": 1.003979749950549,
+     "shift_l1": 0.03431275871528171,
+     "seconds": 22.668571710586548,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 416,
+     "reaches": false,
+     "rhf_two_sided": 1.0039736005500732,
+     "shift_l1": 0.0342880962372778,
+     "seconds": 30.311661958694458,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 417,
+     "reaches": false,
+     "rhf_two_sided": 1.0039674754563075,
+     "shift_l1": 0.03426211427494005,
+     "seconds": 19.85219097137451,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 418,
+     "reaches": true,
+     "rhf_two_sided": 1.0039613757564119,
+     "shift_l1": 0.034236218918750484,
+     "seconds": 23.464898586273193,
+     "certified_by": "primal witness"
+    }
+   ],
+   "complete": true,
+   "beta_floor_two_sided": 418,
+   "witness": {
+    "beta": 418,
+    "rhf_two_sided_lower": 1.0039613757564119,
+    "rhf_witness": 1.0039613757564119,
+    "witness_t": 7.888609052215527e-31,
+    "witness_head_shift": 3.9521931351599794e-28,
+    "max_violation_before_shift": 6.095432819694683e-42,
+    "enclosure_width_l1": 0.0,
+    "pass_certified_by_primal_witness": true,
+    "seconds": 36.84942173957825
+   }
+  },
+  {
+   "d": 1424,
+   "beta_spec": 625,
+   "dual_mode": "full",
+   "beta_lo": 640,
+   "beta_hi": 670,
+   "decisions": [
+    {
+     "beta": 640,
+     "reaches": false,
+     "rhf_two_sided": 1.0029400731726348,
+     "shift_l1": 0.039450722898206565,
+     "seconds": 87.20731210708618,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 641,
+     "reaches": false,
+     "rhf_two_sided": 1.0029370283225505,
+     "shift_l1": 0.039494550517391175,
+     "seconds": 59.839558839797974,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 642,
+     "reaches": false,
+     "rhf_two_sided": 1.0029339914676567,
+     "shift_l1": 0.03954139590858733,
+     "seconds": 78.12647843360901,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 643,
+     "reaches": false,
+     "rhf_two_sided": 1.0029309633931922,
+     "shift_l1": 0.039592515302624164,
+     "seconds": 74.20856857299805,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 644,
+     "reaches": false,
+     "rhf_two_sided": 1.00292794316733,
+     "shift_l1": 0.039646729174865364,
+     "seconds": 80.41901278495789,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 645,
+     "reaches": false,
+     "rhf_two_sided": 1.0029249316623923,
+     "shift_l1": 0.03970541830908144,
+     "seconds": 71.37938857078552,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 646,
+     "reaches": false,
+     "rhf_two_sided": 1.0029219280157138,
+     "shift_l1": 0.03976750233907479,
+     "seconds": 84.30043506622314,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 647,
+     "reaches": false,
+     "rhf_two_sided": 1.0029189328691464,
+     "shift_l1": 0.03983403614040343,
+     "seconds": 74.57524275779724,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 648,
+     "reaches": false,
+     "rhf_two_sided": 1.0029159456718375,
+     "shift_l1": 0.03990438289960413,
+     "seconds": 85.65954542160034,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 649,
+     "reaches": false,
+     "rhf_two_sided": 1.0029129667552528,
+     "shift_l1": 0.039979158299492876,
+     "seconds": 82.56327486038208,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 650,
+     "reaches": false,
+     "rhf_two_sided": 1.0029099958788896,
+     "shift_l1": 0.040058167123835316,
+     "seconds": 76.24877095222473,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 651,
+     "reaches": false,
+     "rhf_two_sided": 1.0029070330652745,
+     "shift_l1": 0.04014158803129156,
+     "seconds": 84.69526648521423,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 652,
+     "reaches": false,
+     "rhf_two_sided": 1.002904078382804,
+     "shift_l1": 0.04022966547311449,
+     "seconds": 77.59011459350586,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 653,
+     "reaches": false,
+     "rhf_two_sided": 1.0029011315465022,
+     "shift_l1": 0.04032214324839382,
+     "seconds": 75.37119579315186,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 654,
+     "reaches": true,
+     "rhf_two_sided": 1.0028981929322236,
+     "shift_l1": 0.04041970357280505,
+     "seconds": 75.85950756072998,
+     "certified_by": "primal witness"
+    }
+   ],
+   "complete": true,
+   "beta_floor_two_sided": 654,
+   "witness": {
+    "beta": 654,
+    "rhf_two_sided_lower": 1.0028981929322236,
+    "rhf_witness": 1.0028981929322236,
+    "witness_t": 7.88860905222176e-31,
+    "witness_head_shift": 5.612745340655781e-28,
+    "max_violation_before_shift": 1.0587830929259897e-41,
+    "enclosure_width_l1": 0.0,
+    "pass_certified_by_primal_witness": true,
+    "seconds": 115.99142813682556
+   }
+  },
+  {
+   "d": 1885,
+   "beta_spec": 877,
+   "dual_mode": "full",
+   "beta_lo": 905,
+   "beta_hi": 940,
+   "complete": true,
+   "decisions": [
+    {
+     "beta": 905,
+     "reaches": false,
+     "rhf_two_sided": 1.0022874393080325,
+     "shift_l1": 0.05057568483107748,
+     "seconds": 180.4275918006897,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 906,
+     "reaches": false,
+     "rhf_two_sided": 1.0022857362839759,
+     "shift_l1": 0.05081976346385144,
+     "seconds": 198.53530359268188,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 907,
+     "reaches": false,
+     "rhf_two_sided": 1.0022840365792478,
+     "shift_l1": 0.051069274562162315,
+     "seconds": 201.32351803779602,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 908,
+     "reaches": false,
+     "rhf_two_sided": 1.00228234041188,
+     "shift_l1": 0.05132473271084873,
+     "seconds": 207.12384128570557,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 909,
+     "reaches": false,
+     "rhf_two_sided": 1.002280647478462,
+     "shift_l1": 0.051585674003921084,
+     "seconds": 184.4344997406006,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 910,
+     "reaches": false,
+     "rhf_two_sided": 1.0022789581287377,
+     "shift_l1": 0.051852864019697124,
+     "seconds": 196.50691318511963,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 911,
+     "reaches": false,
+     "rhf_two_sided": 1.0022772719509967,
+     "shift_l1": 0.05212563885385155,
+     "seconds": 192.6604506969452,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 912,
+     "reaches": false,
+     "rhf_two_sided": 1.0022755893571447,
+     "shift_l1": 0.052404884687960715,
+     "seconds": 194.32929396629333,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 913,
+     "reaches": false,
+     "rhf_two_sided": 1.0022739099393627,
+     "shift_l1": 0.05268994887278171,
+     "seconds": 175.5230414867401,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 914,
+     "reaches": false,
+     "rhf_two_sided": 1.0022722340202987,
+     "shift_l1": 0.05298155395519871,
+     "seconds": 196.95135378837585,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 915,
+     "reaches": false,
+     "rhf_two_sided": 1.0022705613241845,
+     "shift_l1": 0.05327929985980705,
+     "seconds": 191.32770204544067,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 916,
+     "reaches": false,
+     "rhf_two_sided": 1.0022688920419938,
+     "shift_l1": 0.053583666209362626,
+     "seconds": 197.6271550655365,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 917,
+     "reaches": false,
+     "rhf_two_sided": 1.0022672260295524,
+     "shift_l1": 0.053894505116968736,
+     "seconds": 184.2440950870514,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 918,
+     "reaches": false,
+     "rhf_two_sided": 1.0022655633466144,
+     "shift_l1": 0.054212054638087495,
+     "seconds": 200.90077590942383,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 919,
+     "reaches": false,
+     "rhf_two_sided": 1.002263903980145,
+     "shift_l1": 0.05453641876049741,
+     "seconds": 201.57690453529358,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 920,
+     "reaches": false,
+     "rhf_two_sided": 1.0022622478591303,
+     "shift_l1": 0.054867595396281145,
+     "seconds": 201.59179067611694,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 921,
+     "reaches": false,
+     "rhf_two_sided": 1.0022605951012225,
+     "shift_l1": 0.05520594017530525,
+     "seconds": 179.39418148994446,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 922,
+     "reaches": false,
+     "rhf_two_sided": 1.0022589455050896,
+     "shift_l1": 0.05555121236696616,
+     "seconds": 201.20367002487183,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 923,
+     "reaches": false,
+     "rhf_two_sided": 1.0022572993186212,
+     "shift_l1": 0.0559040191008764,
+     "seconds": 210.44805645942688,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 924,
+     "reaches": true,
+     "rhf_two_sided": 1.0022556562106142,
+     "shift_l1": 0.05626388258884467,
+     "seconds": 194.6012990474701,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor_two_sided": 924,
+   "witness": {
+    "beta": 924,
+    "rhf_two_sided_lower": 1.0022556562106142,
+    "rhf_witness": 1.0022556562106142,
+    "witness_t": 7.888609052229664e-31,
+    "witness_head_shift": 7.431069727200344e-28,
+    "max_violation_before_shift": 3.0326997318898623e-40,
+    "enclosure_width_l1": 0.0,
+    "pass_certified_by_primal_witness": true,
+    "seconds": 249.4856104850769
+   }
+  },
+  {
+   "d": 1003,
+   "eps": "0.01",
+   "dual_mode": "full",
+   "beta_lo": 409,
+   "beta_hi": 421,
+   "decisions": [
+    {
+     "beta": 409,
+     "rhf_two_sided_lower": 1.0039915624696285,
+     "shift": 0.034107773966754525,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 410,
+     "rhf_two_sided_lower": 1.0039853188458896,
+     "shift": 0.03409194586339753,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 411,
+     "rhf_two_sided_lower": 1.003979100169906,
+     "shift": 0.03407385057792744,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 412,
+     "rhf_two_sided_lower": 1.003972907446632,
+     "shift": 0.034054804253087295,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 413,
+     "rhf_two_sided_lower": 1.0039667389264118,
+     "shift": 0.034033374712006716,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 414,
+     "rhf_two_sided_lower": 1.0039605965057499,
+     "shift": 0.03401176958441897,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.0039605965057499,
+     "witness_head_shift": 3.952193135163402e-28,
+     "witness_t": 7.88860905222236e-31,
+     "enclosure_width_l1": 3.9521931351633775e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 414,
+   "minimality": "certified within [409, 414]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 409 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 403,
+   "seconds": 133.57678127288818
+  },
+  {
+   "d": 1003,
+   "eps": "0.03",
+   "dual_mode": "full",
+   "beta_lo": 401,
+   "beta_hi": 413,
+   "decisions": [
+    {
+     "beta": 401,
+     "rhf_two_sided_lower": 1.0039902729039034,
+     "shift": 0.03349366200591015,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 402,
+     "rhf_two_sided_lower": 1.0039839412720697,
+     "shift": 0.033498439506256146,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 403,
+     "rhf_two_sided_lower": 1.0039776345056841,
+     "shift": 0.033499105784959446,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 404,
+     "rhf_two_sided_lower": 1.0039713548636529,
+     "shift": 0.03349821203049417,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 405,
+     "rhf_two_sided_lower": 1.0039650999287772,
+     "shift": 0.033493644021504176,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 406,
+     "rhf_two_sided_lower": 1.0039588713591872,
+     "shift": 0.03348735624425576,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.0039588713591872,
+     "witness_head_shift": 3.952193135161982e-28,
+     "witness_t": 7.888609052219524e-31,
+     "enclosure_width_l1": 3.9521931351619e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 406,
+   "minimality": "certified within [401, 406]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 401 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 403,
+   "seconds": 130.9251651763916
+  },
+  {
+   "d": 1424,
+   "eps": "0.01",
+   "dual_mode": "full",
+   "beta_lo": 640,
+   "beta_hi": 658,
+   "decisions": [
+    {
+     "beta": 640,
+     "rhf_two_sided_lower": 1.002923594488895,
+     "shift": 0.039145623374679465,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 641,
+     "rhf_two_sided_lower": 1.0029205729206674,
+     "shift": 0.039189600702213605,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 642,
+     "rhf_two_sided_lower": 1.0029175595048119,
+     "shift": 0.03923690731812913,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 643,
+     "rhf_two_sided_lower": 1.0029145544036628,
+     "shift": 0.03928791438494171,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 644,
+     "rhf_two_sided_lower": 1.0029115575449334,
+     "shift": 0.03934266064773537,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 645,
+     "rhf_two_sided_lower": 1.0029085687810906,
+     "shift": 0.03940107858562331,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 646,
+     "rhf_two_sided_lower": 1.0029055883496887,
+     "shift": 0.03946364759338647,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 647,
+     "rhf_two_sided_lower": 1.002902615794775,
+     "shift": 0.03952986361501215,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 648,
+     "rhf_two_sided_lower": 1.0028996516622934,
+     "shift": 0.0396006447432215,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 649,
+     "rhf_two_sided_lower": 1.0028966951893081,
+     "shift": 0.03967505252911349,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.0028966951893081,
+     "witness_head_shift": 5.612745340648635e-28,
+     "witness_t": 7.888609052211716e-31,
+     "enclosure_width_l1": 5.612745340648631e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 649,
+   "minimality": "certified within [640, 649]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 640 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 625,
+   "seconds": 769.7093994617462
+  },
+  {
+   "d": 1424,
+   "eps": "0.03",
+   "dual_mode": "full",
+   "beta_lo": 629,
+   "beta_hi": 647,
+   "decisions": [
+    {
+     "beta": 629,
+     "rhf_two_sided_lower": 1.0029239096091223,
+     "shift": 0.03825277232253599,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 630,
+     "rhf_two_sided_lower": 1.002920842983966,
+     "shift": 0.038264738156811355,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 631,
+     "rhf_two_sided_lower": 1.0029177847362079,
+     "shift": 0.03827903345623473,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 632,
+     "rhf_two_sided_lower": 1.0029147351528862,
+     "shift": 0.03829619991926667,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 633,
+     "rhf_two_sided_lower": 1.0029116937234026,
+     "shift": 0.03831564777663873,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 634,
+     "rhf_two_sided_lower": 1.0029086610464262,
+     "shift": 0.03833836144420693,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 635,
+     "rhf_two_sided_lower": 1.0029056362891409,
+     "shift": 0.03836329454503274,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 636,
+     "rhf_two_sided_lower": 1.0029026203965523,
+     "shift": 0.03839192351996009,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 637,
+     "rhf_two_sided_lower": 1.0028996123460476,
+     "shift": 0.03842293333002093,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 638,
+     "rhf_two_sided_lower": 1.002896612938141,
+     "shift": 0.03845759608341232,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.002896612938141,
+     "witness_head_shift": 5.61274534065298e-28,
+     "witness_t": 7.888609052217822e-31,
+     "enclosure_width_l1": 5.6127453406529795e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 638,
+   "minimality": "certified within [629, 638]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 629 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 625,
+   "seconds": 926.1246495246887
+  },
+  {
+   "d": 1885,
+   "eps": "0.01",
+   "dual_mode": "full",
+   "beta_lo": 902,
+   "beta_hi": 926,
+   "decisions": [
+    {
+     "beta": 902,
+     "rhf_two_sided_lower": 1.0022808141622277,
+     "shift": 0.04955203366907683,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 903,
+     "rhf_two_sided_lower": 1.0022791123374617,
+     "shift": 0.04977844472085692,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 904,
+     "rhf_two_sided_lower": 1.0022774141305433,
+     "shift": 0.05001055831407431,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 905,
+     "rhf_two_sided_lower": 1.0022757191669458,
+     "shift": 0.05024776968894179,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 906,
+     "rhf_two_sided_lower": 1.0022740277352995,
+     "shift": 0.050490722060797646,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 907,
+     "rhf_two_sided_lower": 1.0022723395937267,
+     "shift": 0.050739062933076,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 908,
+     "rhf_two_sided_lower": 1.0022706548985922,
+     "shift": 0.050993189959821515,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 909,
+     "rhf_two_sided_lower": 1.0022689735402053,
+     "shift": 0.051253002321631755,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 910,
+     "rhf_two_sided_lower": 1.0022672955431249,
+     "shift": 0.051518653269300725,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 911,
+     "rhf_two_sided_lower": 1.0022656209293876,
+     "shift": 0.051790293114611495,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 912,
+     "rhf_two_sided_lower": 1.002263949592203,
+     "shift": 0.05206783189652309,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 913,
+     "rhf_two_sided_lower": 1.002262281684879,
+     "shift": 0.05235167055775213,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 914,
+     "rhf_two_sided_lower": 1.0022606169697288,
+     "shift": 0.05264147715639022,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 915,
+     "rhf_two_sided_lower": 1.0022589557308774,
+     "shift": 0.052937902818151535,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 916,
+     "rhf_two_sided_lower": 1.0022572975921227,
+     "shift": 0.05324035972628482,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 917,
+     "rhf_two_sided_lower": 1.0022556429921683,
+     "shift": 0.053549794316374695,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.0022556429921683,
+     "witness_head_shift": 7.431069727225456e-28,
+     "witness_t": 7.888609052256322e-31,
+     "enclosure_width_l1": 7.431069727225626e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 917,
+   "minimality": "certified within [902, 917]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 902 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 877,
+   "seconds": 3079.5453963279724
+  },
+  {
+   "d": 1885,
+   "eps": "0.03",
+   "dual_mode": "full",
+   "beta_lo": 889,
+   "beta_hi": 913,
+   "decisions": [
+    {
+     "beta": 889,
+     "rhf_two_sided_lower": 1.0022794350128852,
+     "shift": 0.04642942612578868,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 890,
+     "rhf_two_sided_lower": 1.002277711988355,
+     "shift": 0.04659231403851009,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 891,
+     "rhf_two_sided_lower": 1.0022759923951434,
+     "shift": 0.046759418855218615,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 892,
+     "rhf_two_sided_lower": 1.0022742763123895,
+     "shift": 0.04693097314041541,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 893,
+     "rhf_two_sided_lower": 1.002272563707337,
+     "shift": 0.04710699993281544,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 894,
+     "rhf_two_sided_lower": 1.002270854526159,
+     "shift": 0.047287483501920205,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 895,
+     "rhf_two_sided_lower": 1.0022691488689914,
+     "shift": 0.04747269840148229,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 896,
+     "rhf_two_sided_lower": 1.0022674465495056,
+     "shift": 0.04766238161488123,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 897,
+     "rhf_two_sided_lower": 1.002265747800266,
+     "shift": 0.047857058479578905,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 898,
+     "rhf_two_sided_lower": 1.0022640523029045,
+     "shift": 0.04805621971066391,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 899,
+     "rhf_two_sided_lower": 1.0022623604219496,
+     "shift": 0.048260640717444264,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 900,
+     "rhf_two_sided_lower": 1.002260671740694,
+     "shift": 0.04846962945576179,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 901,
+     "rhf_two_sided_lower": 1.0022589866554539,
+     "shift": 0.04868402327522991,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 902,
+     "rhf_two_sided_lower": 1.0022573047839116,
+     "shift": 0.04890319705314841,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "reaches": false,
+     "certified_by": "dual bound"
+    },
+    {
+     "beta": 903,
+     "rhf_two_sided_lower": 1.002255626422806,
+     "shift": 0.04912780333872865,
+     "shift_certified_positive": true,
+     "prec": 256,
+     "rhf_witness": 1.002255626422806,
+     "witness_head_shift": 7.431069727376019e-28,
+     "witness_t": 7.888609052416156e-31,
+     "enclosure_width_l1": 7.431069727375122e-28,
+     "reaches": true,
+     "certified_by": "primal witness"
+    }
+   ],
+   "beta_floor": 903,
+   "minimality": "certified within [889, 903]: every failing beta excluded by the exact two-family dual bound and the passing beta attained by a rigorously feasible primal witness (arb enclosures, directed comparisons); exclusion below 889 rests on the primal floor, which the two-sided floor dominates",
+   "beta_spec": 877,
+   "seconds": 4583.848873376846
+  }
+ ]
+}

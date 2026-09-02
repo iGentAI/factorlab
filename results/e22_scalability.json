@@ -1,0 +1,2232 @@
+{
+ "fixed_u3": [
+  {
+   "nbits": 72,
+   "index": 0,
+   "N": "3429929554496112252889",
+   "B1": 3460,
+   "B2": 11969750,
+   "stage2_degree": 3460,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 135526,
+   "poly_deg": 44563,
+   "gcd": 183,
+   "wall": 0.0652992120012641,
+   "peak_rss_kb": 52940,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 80,
+   "index": 0,
+   "N": "880683799203936466799239",
+   "B1": 8722,
+   "B2": 76078745,
+   "stage2_degree": 8723,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 343592,
+   "poly_deg": 129160,
+   "gcd": 8,
+   "wall": 0.20188040798529983,
+   "peak_rss_kb": 65752,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 88,
+   "index": 0,
+   "N": "170800236347133744361606703",
+   "B1": 20985,
+   "B2": 440371790,
+   "stage2_degree": 20986,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 816155,
+   "poly_deg": 329639,
+   "gcd": 4,
+   "wall": 0.5802916209213436,
+   "peak_rss_kb": 96348,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 96,
+   "index": 0,
+   "N": "74842169144594838892893990047",
+   "B1": 57834,
+   "B2": 3344815164,
+   "stage2_degree": 57835,
+   "found": true,
+   "curve": 2,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 4481851,
+   "poly_deg": 1908668,
+   "gcd": 23,
+   "wall": 3.9955254551023245,
+   "peak_rss_kb": 130624,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 104,
+   "index": 0,
+   "N": "17629332368248702397511227036021",
+   "B1": 143726,
+   "B2": 20657065345,
+   "stage2_degree": 143726,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 5500819,
+   "poly_deg": 2613408,
+   "gcd": 19,
+   "wall": 8.112900896929204,
+   "peak_rss_kb": 248084,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 112,
+   "index": 0,
+   "N": "3309819170085910824757991040313999",
+   "B1": 343924,
+   "B2": 118283660781,
+   "stage2_degree": 343924,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 13023669,
+   "poly_deg": 6424246,
+   "gcd": 4,
+   "wall": 6.131943121086806,
+   "peak_rss_kb": 526776,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 120,
+   "index": 1,
+   "N": "973490488060353702803657289568331219",
+   "B1": 886918,
+   "B2": 786624083782,
+   "stage2_degree": 886919,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 33566154,
+   "poly_deg": 17639092,
+   "gcd": 5,
+   "wall": 20.705438600387424,
+   "peak_rss_kb": 1346644,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 124,
+   "index": 0,
+   "N": "14595353532290217932258574457225838063",
+   "B1": 1392721,
+   "B2": 1939671603299,
+   "stage2_degree": 1392721,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 52718924,
+   "poly_deg": 28808016,
+   "gcd": 4,
+   "wall": 31.00718390988186,
+   "peak_rss_kb": 1965372,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 128,
+   "index": 0,
+   "N": "185190948374687077492436195300219179831",
+   "B1": 2126988,
+   "B2": 4524076291614,
+   "stage2_degree": 2126988,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 80417498,
+   "poly_deg": 46637802,
+   "gcd": 9,
+   "wall": 95.73899357020855,
+   "peak_rss_kb": 3157232,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 136,
+   "index": 0,
+   "N": "60598222248126593939281649249778812932829",
+   "B1": 5583480,
+   "B2": 31175251277014,
+   "stage2_degree": 5583481,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 211364342,
+   "poly_deg": 126588552,
+   "gcd": 4,
+   "wall": 203.39544697711244,
+   "peak_rss_kb": 8154132,
+   "u": 3.0,
+   "C": 2.0,
+   "family": "rsa"
+  }
+ ],
+ "tuned_u": [
+  {
+   "nbits": 144,
+   "index": 0,
+   "N": "17142628764843845649777916009165719147919409",
+   "B1": 232611,
+   "B2": 54108046696,
+   "stage2_degree": 232612,
+   "found": true,
+   "curve": 3,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 27204247,
+   "poly_deg": 13000080,
+   "gcd": 126,
+   "wall": 128.6921291919425,
+   "peak_rss_kb": 414700,
+   "u": 4.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 160,
+   "index": 0,
+   "N": "1074770175935048263687984380237859997409912837469",
+   "B1": 925307,
+   "B2": 856192467490,
+   "stage2_degree": 925307,
+   "found": true,
+   "curve": 1,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 35056582,
+   "poly_deg": 18527912,
+   "gcd": 16,
+   "wall": 80.92774370592088,
+   "peak_rss_kb": 1512896,
+   "u": 4.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 176,
+   "index": 0,
+   "N": "72686736624755997879272391774803791022696926043199553",
+   "B1": 3715807,
+   "B2": 13807221558416,
+   "stage2_degree": 3715807,
+   "found": true,
+   "curve": 1,
+   "stage": "1",
+   "two_sided": 0,
+   "mulmod": 58804286,
+   "poly_deg": 0,
+   "gcd": 2,
+   "wall": 10.41598341288045,
+   "peak_rss_kb": 56620,
+   "u": 4.0,
+   "C": 2.0,
+   "family": "rsa"
+  },
+  {
+   "nbits": 180,
+   "index": 0,
+   "N": "1074769445690233971050272171076590721830722342821084939",
+   "B1": 236063,
+   "B2": 55725896394,
+   "stage2_degree": 236064,
+   "found": true,
+   "curve": 10,
+   "stage": "2",
+   "two_sided": 0,
+   "mulmod": 92791989,
+   "poly_deg": 44479565,
+   "gcd": 562,
+   "wall": 671.4754511089996,
+   "peak_rss_kb": 431636,
+   "u": 5.0,
+   "C": 2.0,
+   "family": "rsa"
+  }
+ ],
+ "unblocked_128": {
+  "nbits": 128,
+  "index": 0,
+  "N": "185190948374687077492436195300219179831",
+  "B1": 2126988,
+  "B2": 4524076291614,
+  "stage2_degree": 2126988,
+  "found": true,
+  "curve": 1,
+  "stage": "2",
+  "two_sided": 0,
+  "mulmod": 82986367,
+  "poly_deg": 48740212,
+  "gcd": 4,
+  "wall": 178.73520993208513,
+  "peak_rss_kb": 6772496,
+  "u": 3.0,
+  "C": 2.0,
+  "family": "rsa"
+ },
+ "blocking_memory_fit": {
+  "kb_per_B1": 1.4584809632396698,
+  "intercept_kb": 13249.77994315706,
+  "rows_bits": [
+   120,
+   124,
+   128,
+   136
+  ]
+ },
+ "failed_or_incomplete": [
+  {
+   "nbits": 144,
+   "u": 3.0,
+   "B1_approx": 14305660,
+   "status": "stage-2 process killed on 32 GB; two stage-1 instances completed"
+  },
+  {
+   "nbits": 176,
+   "u": 4.0,
+   "status": "index 0 stage-1 success; stage-2 index did not complete before sandbox recycle"
+  },
+  {
+   "nbits": 200,
+   "u": 5.0,
+   "status": "stage-2 probe did not complete before sandbox recycle"
+  }
+ ],
+ "strategy": {
+  "modeled_random_input": [
+   {
+    "nbits": 96,
+    "best_u": 4.25,
+    "best": {
+     "u": 4.25,
+     "G": 0.06021884564852599,
+     "binary_one_sided_probability": 0.11318507255456998,
+     "log2_B1": 11.294117647058824,
+     "log2_expected_work": 14.437362041475659,
+     "expected_binary_curves": 8.835087325829733
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 19.2,
+      "log2_expected_work": 20.54382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 17.454545454545453,
+      "log2_expected_work": 18.500860888703386,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 16.0,
+      "log2_expected_work": 17.016108105006136,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 14.76923076923077,
+      "log2_expected_work": 15.965541613496878,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 13.714285714285714,
+      "log2_expected_work": 15.239414209501545,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 12.8,
+      "log2_expected_work": 14.772807893341275,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 12.0,
+      "log2_expected_work": 14.521080860847162,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 11.294117647058824,
+      "log2_expected_work": 14.437362041475659,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 10.666666666666666,
+      "log2_expected_work": 14.493496777955247,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 10.105263157894736,
+      "log2_expected_work": 14.670818055272251,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 9.6,
+      "log2_expected_work": 14.949977694711365,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 9.142857142857142,
+      "log2_expected_work": 15.315106571342696,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 8.727272727272727,
+      "log2_expected_work": 15.757537278743644,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 8.347826086956522,
+      "log2_expected_work": 16.268646367611208,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 8.0,
+      "log2_expected_work": 16.840122967885982,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 7.68,
+      "log2_expected_work": 17.46653221255419,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 7.384615384615385,
+      "log2_expected_work": 18.14357559111862,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 7.111111111111111,
+      "log2_expected_work": 18.8666837603617,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 6.857142857142857,
+      "log2_expected_work": 19.63222776288893,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 128,
+    "best_u": 4.75,
+    "best": {
+     "u": 4.75,
+     "G": 0.021581233279270057,
+     "binary_one_sided_probability": 0.042230967298831565,
+     "log2_B1": 13.473684210526315,
+     "log2_expected_work": 18.039239107903832,
+     "expected_binary_curves": 23.67930606286794
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 25.6,
+      "log2_expected_work": 26.943829700163782,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 23.272727272727273,
+      "log2_expected_work": 24.319042706885206,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 21.333333333333332,
+      "log2_expected_work": 22.34944143833947,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 19.692307692307693,
+      "log2_expected_work": 20.8886185365738,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 18.285714285714285,
+      "log2_expected_work": 19.810842780930116,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 17.066666666666666,
+      "log2_expected_work": 19.039474560007942,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 16.0,
+      "log2_expected_work": 18.521080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 15.058823529411764,
+      "log2_expected_work": 18.202067923828597,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 14.222222222222221,
+      "log2_expected_work": 18.0490523335108,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 13.473684210526315,
+      "log2_expected_work": 18.039239107903832,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 12.8,
+      "log2_expected_work": 18.149977694711364,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 12.19047619047619,
+      "log2_expected_work": 18.362725618961743,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 11.636363636363637,
+      "log2_expected_work": 18.666628187834554,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 11.130434782608695,
+      "log2_expected_work": 19.051255063263383,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 10.666666666666666,
+      "log2_expected_work": 19.506789634552646,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 10.24,
+      "log2_expected_work": 20.026532212554187,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 9.846153846153847,
+      "log2_expected_work": 20.60511405265708,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 9.481481481481481,
+      "log2_expected_work": 21.23705413073207,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 9.142857142857142,
+      "log2_expected_work": 21.917942048603216,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 160,
+    "best_u": 5.0,
+    "best": {
+     "u": 5.0,
+     "G": 0.012413408785263006,
+     "binary_one_sided_probability": 0.024518632135185923,
+     "log2_B1": 16.0,
+     "log2_expected_work": 21.349977694711363,
+     "expected_binary_curves": 40.785309493873896
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 32.0,
+      "log2_expected_work": 33.34382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 29.09090909090909,
+      "log2_expected_work": 30.137224525067023,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 26.666666666666668,
+      "log2_expected_work": 27.682774771672804,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 24.615384615384617,
+      "log2_expected_work": 25.811695459650725,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 22.857142857142858,
+      "log2_expected_work": 24.38227135235869,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 21.333333333333332,
+      "log2_expected_work": 23.306141226674608,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 20.0,
+      "log2_expected_work": 22.521080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 18.823529411764707,
+      "log2_expected_work": 21.96677380618154,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 17.77777777777778,
+      "log2_expected_work": 21.604607889066358,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 16.842105263157894,
+      "log2_expected_work": 21.407660160535407,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 16.0,
+      "log2_expected_work": 21.349977694711363,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 15.238095238095237,
+      "log2_expected_work": 21.41034466658079,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 14.545454545454545,
+      "log2_expected_work": 21.57571909692546,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 13.91304347826087,
+      "log2_expected_work": 21.833863758915555,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 13.333333333333334,
+      "log2_expected_work": 22.173456301219318,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 12.8,
+      "log2_expected_work": 22.58653221255419,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 12.307692307692308,
+      "log2_expected_work": 23.06665251419554,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 11.851851851851851,
+      "log2_expected_work": 23.60742450110244,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 11.428571428571429,
+      "log2_expected_work": 24.203656334317504,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 180,
+    "best_u": 5.25,
+    "best": {
+     "u": 5.25,
+     "G": 0.006982013281591001,
+     "binary_one_sided_probability": 0.013866529544253376,
+     "log2_B1": 17.142857142857142,
+     "log2_expected_work": 23.315106571342696,
+     "expected_binary_curves": 72.11609774519422
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 36.0,
+      "log2_expected_work": 37.34382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 32.72727272727273,
+      "log2_expected_work": 33.77358816143066,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 30.0,
+      "log2_expected_work": 31.016108105006136,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 27.692307692307693,
+      "log2_expected_work": 28.8886185365738,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 25.714285714285715,
+      "log2_expected_work": 27.239414209501547,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 24.0,
+      "log2_expected_work": 25.972807893341276,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 22.5,
+      "log2_expected_work": 25.021080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 21.176470588235293,
+      "log2_expected_work": 24.319714982652126,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 20.0,
+      "log2_expected_work": 23.82683011128858,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 18.94736842105263,
+      "log2_expected_work": 23.512923318430147,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 18.0,
+      "log2_expected_work": 23.349977694711363,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 17.142857142857142,
+      "log2_expected_work": 23.315106571342696,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 16.363636363636363,
+      "log2_expected_work": 23.39390091510728,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 15.652173913043478,
+      "log2_expected_work": 23.572994193698165,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 15.0,
+      "log2_expected_work": 23.840122967885982,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 14.4,
+      "log2_expected_work": 24.18653221255419,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 13.846153846153847,
+      "log2_expected_work": 24.60511405265708,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 13.333333333333334,
+      "log2_expected_work": 25.088905982583924,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 12.857142857142858,
+      "log2_expected_work": 25.63222776288893,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 200,
+    "best_u": 5.5,
+    "best": {
+     "u": 5.5,
+     "G": 0.0038399039038286907,
+     "binary_one_sided_probability": 0.007650318083676104,
+     "log2_B1": 18.181818181818183,
+     "log2_expected_work": 25.2120827332891,
+     "expected_binary_curves": 130.71351923703068
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 40.0,
+      "log2_expected_work": 41.34382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 36.36363636363637,
+      "log2_expected_work": 37.4099517977943,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 33.333333333333336,
+      "log2_expected_work": 34.34944143833947,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 30.76923076923077,
+      "log2_expected_work": 31.965541613496878,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 28.571428571428573,
+      "log2_expected_work": 30.096557066644404,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 26.666666666666668,
+      "log2_expected_work": 28.639474560007944,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 25.0,
+      "log2_expected_work": 27.521080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 23.529411764705884,
+      "log2_expected_work": 26.672656159122717,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 22.22222222222222,
+      "log2_expected_work": 26.0490523335108,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 21.05263157894737,
+      "log2_expected_work": 25.618186476324887,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 20.0,
+      "log2_expected_work": 25.349977694711363,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 19.047619047619047,
+      "log2_expected_work": 25.2198684761046,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 18.181818181818183,
+      "log2_expected_work": 25.2120827332891,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 17.391304347826086,
+      "log2_expected_work": 25.312124628480774,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 16.666666666666668,
+      "log2_expected_work": 25.50678963455265,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 16.0,
+      "log2_expected_work": 25.78653221255419,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 15.384615384615385,
+      "log2_expected_work": 26.14357559111862,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 14.814814814814815,
+      "log2_expected_work": 26.570387464065405,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 14.285714285714286,
+      "log2_expected_work": 27.06079919146036,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 240,
+    "best_u": 5.75,
+    "best": {
+     "u": 5.75,
+     "G": 0.0020675898047805875,
+     "binary_one_sided_probability": 0.0041266297543595095,
+     "log2_B1": 20.869565217391305,
+     "log2_expected_work": 28.790385498045993,
+     "expected_binary_curves": 242.32850038062335
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 48.0,
+      "log2_expected_work": 49.34382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 43.63636363636363,
+      "log2_expected_work": 44.682679070521566,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 40.0,
+      "log2_expected_work": 41.01610810500613,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 36.92307692307692,
+      "log2_expected_work": 38.11938776734303,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 34.285714285714285,
+      "log2_expected_work": 35.810842780930116,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 32.0,
+      "log2_expected_work": 33.972807893341276,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 30.0,
+      "log2_expected_work": 32.521080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 28.235294117647058,
+      "log2_expected_work": 31.37853851206389,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 26.666666666666668,
+      "log2_expected_work": 30.49349677795525,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 25.263157894736842,
+      "log2_expected_work": 29.82871279211436,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 24.0,
+      "log2_expected_work": 29.349977694711363,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 22.857142857142858,
+      "log2_expected_work": 29.02939228562841,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 21.818181818181817,
+      "log2_expected_work": 28.848446369652734,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 20.869565217391305,
+      "log2_expected_work": 28.790385498045993,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 20.0,
+      "log2_expected_work": 28.840122967885982,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 19.2,
+      "log2_expected_work": 28.986532212554188,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 18.46153846153846,
+      "log2_expected_work": 29.220498668041692,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 17.77777777777778,
+      "log2_expected_work": 29.533350427028367,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 17.142857142857142,
+      "log2_expected_work": 29.917942048603216,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   },
+   {
+    "nbits": 300,
+    "best_u": 6.25,
+    "best": {
+     "u": 6.25,
+     "G": 0.0005664692490044919,
+     "binary_one_sided_probability": 0.0011322967231888485,
+     "log2_B1": 24.0,
+     "log2_expected_work": 33.78653221255419,
+     "expected_binary_curves": 883.160729445312
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "G": 0.7302461226287416,
+      "binary_one_sided_probability": 0.39397344602886103,
+      "log2_B1": 60.0,
+      "log2_expected_work": 61.34382970016378,
+      "expected_binary_curves": 2.538242133016101
+     },
+     {
+      "u": 2.75,
+      "G": 0.5888728987500572,
+      "binary_one_sided_probability": 0.48420321573552416,
+      "log2_B1": 54.54545454545455,
+      "log2_expected_work": 55.59176997961248,
+      "expected_binary_curves": 2.0652485722982235
+     },
+     {
+      "u": 3.0,
+      "G": 0.44731416916271677,
+      "binary_one_sided_probability": 0.4944484064579704,
+      "log2_B1": 50.0,
+      "log2_expected_work": 51.01610810500613,
+      "expected_binary_curves": 2.0224557040513043
+     },
+     {
+      "u": 3.25,
+      "G": 0.32166010056393346,
+      "binary_one_sided_probability": 0.43638976053826734,
+      "log2_B1": 46.15384615384615,
+      "log2_expected_work": 47.35015699811226,
+      "expected_binary_curves": 2.2915294776086053
+     },
+     {
+      "u": 3.5,
+      "G": 0.2238194500794662,
+      "binary_one_sided_probability": 0.3474486076911831,
+      "log2_B1": 42.857142857142854,
+      "log2_expected_work": 44.382271352358686,
+      "expected_binary_curves": 2.878123491831095
+     },
+     {
+      "u": 3.75,
+      "G": 0.14982627157304929,
+      "binary_one_sided_probability": 0.25475671983913634,
+      "log2_B1": 40.0,
+      "log2_expected_work": 41.972807893341276,
+      "expected_binary_curves": 3.925313532971536
+     },
+     {
+      "u": 4.0,
+      "G": 0.09639895331198163,
+      "binary_one_sided_probability": 0.17421239022467203,
+      "log2_B1": 37.5,
+      "log2_expected_work": 40.021080860847164,
+      "expected_binary_curves": 5.740119854336168
+     },
+     {
+      "u": 4.25,
+      "G": 0.06021884564852599,
+      "binary_one_sided_probability": 0.11318507255456998,
+      "log2_B1": 35.294117647058826,
+      "log2_expected_work": 38.43736204147566,
+      "expected_binary_curves": 8.835087325829733
+     },
+     {
+      "u": 4.5,
+      "G": 0.03657299591273469,
+      "binary_one_sided_probability": 0.07047082376540356,
+      "log2_B1": 33.333333333333336,
+      "log2_expected_work": 37.160163444621915,
+      "expected_binary_curves": 14.19026976793952
+     },
+     {
+      "u": 4.75,
+      "G": 0.021581233279270057,
+      "binary_one_sided_probability": 0.042230967298831565,
+      "log2_B1": 31.57894736842105,
+      "log2_expected_work": 36.144502265798565,
+      "expected_binary_curves": 23.67930606286794
+     },
+     {
+      "u": 5.0,
+      "G": 0.012413408785263006,
+      "binary_one_sided_probability": 0.024518632135185923,
+      "log2_B1": 30.0,
+      "log2_expected_work": 35.34997769471136,
+      "expected_binary_curves": 40.785309493873896
+     },
+     {
+      "u": 5.25,
+      "G": 0.006982013281591001,
+      "binary_one_sided_probability": 0.013866529544253376,
+      "log2_B1": 28.571428571428573,
+      "log2_expected_work": 34.74367799991413,
+      "expected_binary_curves": 72.11609774519422
+     },
+     {
+      "u": 5.5,
+      "G": 0.0038399039038286907,
+      "binary_one_sided_probability": 0.007650318083676104,
+      "log2_B1": 27.272727272727273,
+      "log2_expected_work": 34.30299182419819,
+      "expected_binary_curves": 130.71351923703068
+     },
+     {
+      "u": 5.75,
+      "G": 0.0020675898047805875,
+      "binary_one_sided_probability": 0.0041266297543595095,
+      "log2_B1": 26.08695652173913,
+      "log2_expected_work": 34.00777680239381,
+      "expected_binary_curves": 242.32850038062335
+     },
+     {
+      "u": 6.0,
+      "G": 0.0010922006271477497,
+      "binary_one_sided_probability": 0.0021820154498756157,
+      "log2_B1": 25.0,
+      "log2_expected_work": 33.84012296788598,
+      "expected_binary_curves": 458.29189708854
+     },
+     {
+      "u": 6.25,
+      "G": 0.0005664692490044919,
+      "binary_one_sided_probability": 0.0011322967231888485,
+      "log2_B1": 24.0,
+      "log2_expected_work": 33.78653221255419,
+      "expected_binary_curves": 883.160729445312
+     },
+     {
+      "u": 6.5,
+      "G": 0.00028861946941015554,
+      "binary_one_sided_probability": 0.0005770723364240659,
+      "log2_B1": 23.076923076923077,
+      "log2_expected_work": 33.83588328342631,
+      "expected_binary_curves": 1732.8850074440973
+     },
+     {
+      "u": 6.75,
+      "G": 0.00014462815181895663,
+      "binary_one_sided_probability": 0.00028921446903331613,
+      "log2_B1": 22.22222222222222,
+      "log2_expected_work": 33.97779487147281,
+      "expected_binary_curves": 3457.6416710493304
+     },
+     {
+      "u": 7.0,
+      "G": 7.133739282598437e-05,
+      "binary_one_sided_probability": 0.00014266460760473833,
+      "log2_B1": 21.428571428571427,
+      "log2_expected_work": 34.2036563343175,
+      "expected_binary_curves": 7009.446959476913
+     }
+    ],
+    "qualification": "random-integer semismooth model; exact curve-order labels and fixed-family correlations omitted"
+   }
+  ],
+  "exact_label_entropy": [
+   {
+    "log2_x": 14,
+    "n_primes": 1612,
+    "max_curves": 500,
+    "best_observed_u": 3.0,
+    "best": {
+     "u": 3.0,
+     "B1": 25,
+     "B2": 645,
+     "first_curve_exposed_rate": 0.8064516129032258,
+     "R_label": 0.060697777223277315,
+     "information_bits_label": 4.042212504392137,
+     "information_per_B1": 0.16168850017568548,
+     "R_binary": 0.6876314050579684,
+     "information_bits_binary": 0.5402926587294207,
+     "K_cov": 5,
+     "K_sep_label": 6,
+     "K_sep_binary": 79,
+     "separation_work_proxy": 150,
+     "coverage_work_proxy": 125
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "B1": 49,
+      "B2": 2353,
+      "first_curve_exposed_rate": 0.9813895781637717,
+      "R_label": 0.09694901522257802,
+      "information_bits_label": 3.3666299458079867,
+      "information_per_B1": 0.0687067335879181,
+      "R_binary": 0.9634491777220197,
+      "information_bits_binary": 0.053719529022546855,
+      "K_cov": 5,
+      "K_sep_label": 6,
+      "K_sep_binary": null,
+      "separation_work_proxy": 294,
+      "coverage_work_proxy": 245
+     },
+     {
+      "u": 3.0,
+      "B1": 25,
+      "B2": 645,
+      "first_curve_exposed_rate": 0.8064516129032258,
+      "R_label": 0.060697777223277315,
+      "information_bits_label": 4.042212504392137,
+      "information_per_B1": 0.16168850017568548,
+      "R_binary": 0.6876314050579684,
+      "information_bits_binary": 0.5402926587294207,
+      "K_cov": 5,
+      "K_sep_label": 6,
+      "K_sep_binary": 79,
+      "separation_work_proxy": 150,
+      "coverage_work_proxy": 125
+     },
+     {
+      "u": 3.5,
+      "B1": 16,
+      "B2": 256,
+      "first_curve_exposed_rate": 0.5719602977667494,
+      "R_label": 0.1906203165889596,
+      "information_bits_label": 2.3912262029212545,
+      "information_per_B1": 0.1494516376825784,
+      "R_binary": 0.5100526313357454,
+      "information_bits_binary": 0.9712819712358637,
+      "K_cov": 8,
+      "K_sep_label": 11,
+      "K_sep_binary": 23,
+      "separation_work_proxy": 176,
+      "coverage_work_proxy": 128
+     },
+     {
+      "u": 4.0,
+      "B1": 11,
+      "B2": 128,
+      "first_curve_exposed_rate": 0.40694789081885857,
+      "R_label": 0.3553485420488484,
+      "information_bits_label": 1.4926933147753736,
+      "information_per_B1": 0.13569939225230668,
+      "R_binary": 0.5170177732801629,
+      "information_bits_binary": 0.951714218636486,
+      "K_cov": 20,
+      "K_sep_label": 19,
+      "K_sep_binary": 27,
+      "separation_work_proxy": 209,
+      "coverage_work_proxy": 220
+     },
+     {
+      "u": 4.5,
+      "B1": 9,
+      "B2": 75,
+      "first_curve_exposed_rate": 0.2642679900744417,
+      "R_label": 0.5431601597577449,
+      "information_bits_label": 0.8805504316298816,
+      "information_per_B1": 0.09783893684776462,
+      "R_binary": 0.6108977824602262,
+      "information_bits_binary": 0.7109970913974104,
+      "K_cov": 43,
+      "K_sep_label": 37,
+      "K_sep_binary": 37,
+      "separation_work_proxy": 333,
+      "coverage_work_proxy": 387
+     },
+     {
+      "u": 5.0,
+      "B1": 7,
+      "B2": 49,
+      "first_curve_exposed_rate": 0.13337468982630274,
+      "R_label": 0.751517559951512,
+      "information_bits_label": 0.412121280354519,
+      "information_per_B1": 0.05887446862207414,
+      "R_binary": 0.7686847403012478,
+      "information_bits_binary": 0.3795360660882296,
+      "K_cov": 77,
+      "K_sep_label": 77,
+      "K_sep_binary": 80,
+      "separation_work_proxy": 539,
+      "coverage_work_proxy": 539
+     }
+    ]
+   },
+   {
+    "log2_x": 16,
+    "n_primes": 5709,
+    "max_curves": 500,
+    "best_observed_u": 3.5,
+    "best": {
+     "u": 3.5,
+     "B1": 24,
+     "B2": 565,
+     "first_curve_exposed_rate": 0.5449290593799264,
+     "R_label": 0.21104556753539422,
+     "information_bits_label": 2.2443735653399584,
+     "information_per_B1": 0.09351556522249826,
+     "R_binary": 0.5039503516926949,
+     "information_bits_binary": 0.988646485953685,
+     "K_cov": 13,
+     "K_sep_label": 11,
+     "K_sep_binary": 25,
+     "separation_work_proxy": 264,
+     "coverage_work_proxy": 312
+    },
+    "rows": [
+     {
+      "u": 2.5,
+      "B1": 84,
+      "B2": 7132,
+      "first_curve_exposed_rate": 0.9586617621299702,
+      "R_label": 0.0807058108989077,
+      "information_bits_label": 3.6311836370495496,
+      "information_per_B1": 0.043228376631542255,
+      "R_binary": 0.920727338520437,
+      "information_bits_binary": 0.11915411077920329,
+      "K_cov": 4,
+      "K_sep_label": 8,
+      "K_sep_binary": null,
+      "separation_work_proxy": 672,
+      "coverage_work_proxy": 336
+     },
+     {
+      "u": 3.0,
+      "B1": 40,
+      "B2": 1625,
+      "first_curve_exposed_rate": 0.7691364512173761,
+      "R_label": 0.07014042298867167,
+      "information_bits_label": 3.8336100588444086,
+      "information_per_B1": 0.09584025147111022,
+      "R_binary": 0.6448066423600204,
+      "information_bits_binary": 0.6330614892806279,
+      "K_cov": 7,
+      "K_sep_label": 7,
+      "K_sep_binary": 51,
+      "separation_work_proxy": 280,
+      "coverage_work_proxy": 280
+     },
+     {
+      "u": 3.5,
+      "B1": 24,
+      "B2": 565,
+      "first_curve_exposed_rate": 0.5449290593799264,
+      "R_label": 0.21104556753539422,
+      "information_bits_label": 2.2443735653399584,
+      "information_per_B1": 0.09351556522249826,
+      "R_binary": 0.5039503516926949,
+      "information_bits_binary": 0.988646485953685,
+      "K_cov": 13,
+      "K_sep_label": 11,
+      "K_sep_binary": 25,
+      "separation_work_proxy": 264,
+      "coverage_work_proxy": 312
+     },
+     {
+      "u": 4.0,
+      "B1": 16,
+      "B2": 256,
+      "first_curve_exposed_rate": 0.3242249080399369,
+      "R_label": 0.45799769306580557,
+      "information_bits_label": 1.126587763401178,
+      "information_per_B1": 0.07041173521257363,
+      "R_binary": 0.5617169953685786,
+      "information_bits_binary": 0.8320846409773622,
+      "K_cov": 33,
+      "K_sep_label": 31,
+      "K_sep_binary": 34,
+      "separation_work_proxy": 496,
+      "coverage_work_proxy": 528
+     },
+     {
+      "u": 4.5,
+      "B1": 12,
+      "B2": 138,
+      "first_curve_exposed_rate": 0.18724820458924504,
+      "R_label": 0.661069521893596,
+      "information_bits_label": 0.597126093022877,
+      "information_per_B1": 0.049760507751906415,
+      "R_binary": 0.695574047198985,
+      "information_bits_binary": 0.523723990126442,
+      "K_cov": 58,
+      "K_sep_label": 54,
+      "K_sep_binary": 58,
+      "separation_work_proxy": 648,
+      "coverage_work_proxy": 696
+     },
+     {
+      "u": 5.0,
+      "B1": 9,
+      "B2": 84,
+      "first_curve_exposed_rate": 0.09721492380451918,
+      "R_label": 0.8152019770354852,
+      "information_bits_label": 0.2947705445418402,
+      "information_per_B1": 0.03275228272687113,
+      "R_binary": 0.8244408839213413,
+      "information_bits_binary": 0.278512045167803,
+      "K_cov": 105,
+      "K_sep_label": 105,
+      "K_sep_binary": 122,
+      "separation_work_proxy": 945,
+      "coverage_work_proxy": 945
+     }
+    ]
+   }
+  ],
+  "greedy_multi_u": [
+   {
+    "log2_x": 14,
+    "n_primes": 1612,
+    "us": [
+     2.5,
+     3.0,
+     3.5,
+     4.0,
+     4.5
+    ],
+    "curves_per_u": 12,
+    "separated": true,
+    "termination": "separated",
+    "n_steps": 12,
+    "total_cost_proxy": 152,
+    "unresolved_pairs": 0,
+    "steps": [
+     {
+      "step": 1,
+      "u": 4.0,
+      "sigma": 11,
+      "B1": 11,
+      "B2": 128,
+      "gain": 920776,
+      "gain_per_B1": 83706.90909090909,
+      "unresolved_pairs": 377690,
+      "classes": 96,
+      "cumulative_cost": 11
+     },
+     {
+      "step": 2,
+      "u": 4.0,
+      "sigma": 6,
+      "B1": 11,
+      "B2": 128,
+      "gain": 244215,
+      "gain_per_B1": 22201.363636363636,
+      "unresolved_pairs": 133475,
+      "classes": 443,
+      "cumulative_cost": 22
+     },
+     {
+      "step": 3,
+      "u": 4.0,
+      "sigma": 15,
+      "B1": 11,
+      "B2": 128,
+      "gain": 85245,
+      "gain_per_B1": 7749.545454545455,
+      "unresolved_pairs": 48230,
+      "classes": 790,
+      "cumulative_cost": 33
+     },
+     {
+      "step": 4,
+      "u": 4.0,
+      "sigma": 13,
+      "B1": 11,
+      "B2": 128,
+      "gain": 31769,
+      "gain_per_B1": 2888.090909090909,
+      "unresolved_pairs": 16461,
+      "classes": 1091,
+      "cumulative_cost": 44
+     },
+     {
+      "step": 5,
+      "u": 4.0,
+      "sigma": 17,
+      "B1": 11,
+      "B2": 128,
+      "gain": 10942,
+      "gain_per_B1": 994.7272727272727,
+      "unresolved_pairs": 5519,
+      "classes": 1304,
+      "cumulative_cost": 55
+     },
+     {
+      "step": 6,
+      "u": 4.0,
+      "sigma": 16,
+      "B1": 11,
+      "B2": 128,
+      "gain": 3595,
+      "gain_per_B1": 326.8181818181818,
+      "unresolved_pairs": 1924,
+      "classes": 1442,
+      "cumulative_cost": 66
+     },
+     {
+      "step": 7,
+      "u": 4.0,
+      "sigma": 9,
+      "B1": 11,
+      "B2": 128,
+      "gain": 1165,
+      "gain_per_B1": 105.9090909090909,
+      "unresolved_pairs": 759,
+      "classes": 1525,
+      "cumulative_cost": 77
+     },
+     {
+      "step": 8,
+      "u": 4.0,
+      "sigma": 14,
+      "B1": 11,
+      "B2": 128,
+      "gain": 430,
+      "gain_per_B1": 39.09090909090909,
+      "unresolved_pairs": 329,
+      "classes": 1560,
+      "cumulative_cost": 88
+     },
+     {
+      "step": 9,
+      "u": 3.5,
+      "sigma": 8,
+      "B1": 16,
+      "B2": 256,
+      "gain": 258,
+      "gain_per_B1": 16.125,
+      "unresolved_pairs": 71,
+      "classes": 1596,
+      "cumulative_cost": 104
+     },
+     {
+      "step": 10,
+      "u": 3.5,
+      "sigma": 7,
+      "B1": 16,
+      "B2": 256,
+      "gain": 54,
+      "gain_per_B1": 3.375,
+      "unresolved_pairs": 17,
+      "classes": 1605,
+      "cumulative_cost": 120
+     },
+     {
+      "step": 11,
+      "u": 3.5,
+      "sigma": 11,
+      "B1": 16,
+      "B2": 256,
+      "gain": 13,
+      "gain_per_B1": 0.8125,
+      "unresolved_pairs": 4,
+      "classes": 1609,
+      "cumulative_cost": 136
+     },
+     {
+      "step": 12,
+      "u": 3.5,
+      "sigma": 13,
+      "B1": 16,
+      "B2": 256,
+      "gain": 4,
+      "gain_per_B1": 0.25,
+      "unresolved_pairs": 0,
+      "classes": 1612,
+      "cumulative_cost": 152
+     }
+    ],
+    "fixed_u_baselines": [
+     {
+      "u": 2.5,
+      "separated": true,
+      "steps": 6,
+      "cost_proxy": 294,
+      "unresolved_pairs": 0,
+      "B1": 49
+     },
+     {
+      "u": 3.0,
+      "separated": true,
+      "steps": 6,
+      "cost_proxy": 150,
+      "unresolved_pairs": 0,
+      "B1": 25
+     },
+     {
+      "u": 3.5,
+      "separated": true,
+      "steps": 11,
+      "cost_proxy": 176,
+      "unresolved_pairs": 0,
+      "B1": 16
+     },
+     {
+      "u": 4.0,
+      "separated": false,
+      "steps": 12,
+      "cost_proxy": 132,
+      "unresolved_pairs": 66,
+      "B1": 11
+     },
+     {
+      "u": 4.5,
+      "separated": false,
+      "steps": 12,
+      "cost_proxy": 108,
+      "unresolved_pairs": 2978,
+      "B1": 9
+     }
+    ],
+    "best_fixed_u": {
+     "u": 3.0,
+     "separated": true,
+     "steps": 6,
+     "cost_proxy": 150,
+     "unresolved_pairs": 0,
+     "B1": 25
+    },
+    "greedy_over_best_fixed_cost": 1.0133333333333334
+   },
+   {
+    "log2_x": 16,
+    "n_primes": 5709,
+    "us": [
+     2.5,
+     3.0,
+     3.5,
+     4.0,
+     4.5
+    ],
+    "curves_per_u": 12,
+    "separated": true,
+    "termination": "separated",
+    "n_steps": 16,
+    "total_cost_proxy": 324,
+    "unresolved_pairs": 0,
+    "steps": [
+     {
+      "step": 1,
+      "u": 4.0,
+      "sigma": 11,
+      "B1": 16,
+      "B2": 256,
+      "gain": 9354006,
+      "gain_per_B1": 584625.375,
+      "unresolved_pairs": 6939480,
+      "classes": 181,
+      "cumulative_cost": 16
+     },
+     {
+      "step": 2,
+      "u": 4.0,
+      "sigma": 8,
+      "B1": 16,
+      "B2": 256,
+      "gain": 3817337,
+      "gain_per_B1": 238583.5625,
+      "unresolved_pairs": 3122143,
+      "classes": 989,
+      "cumulative_cost": 32
+     },
+     {
+      "step": 3,
+      "u": 4.0,
+      "sigma": 17,
+      "B1": 16,
+      "B2": 256,
+      "gain": 1711281,
+      "gain_per_B1": 106955.0625,
+      "unresolved_pairs": 1410862,
+      "classes": 1928,
+      "cumulative_cost": 48
+     },
+     {
+      "step": 4,
+      "u": 4.0,
+      "sigma": 10,
+      "B1": 16,
+      "B2": 256,
+      "gain": 772558,
+      "gain_per_B1": 48284.875,
+      "unresolved_pairs": 638304,
+      "classes": 2802,
+      "cumulative_cost": 64
+     },
+     {
+      "step": 5,
+      "u": 4.0,
+      "sigma": 12,
+      "B1": 16,
+      "B2": 256,
+      "gain": 347866,
+      "gain_per_B1": 21741.625,
+      "unresolved_pairs": 290438,
+      "classes": 3554,
+      "cumulative_cost": 80
+     },
+     {
+      "step": 6,
+      "u": 4.0,
+      "sigma": 7,
+      "B1": 16,
+      "B2": 256,
+      "gain": 158521,
+      "gain_per_B1": 9907.5625,
+      "unresolved_pairs": 131917,
+      "classes": 4206,
+      "cumulative_cost": 96
+     },
+     {
+      "step": 7,
+      "u": 4.0,
+      "sigma": 13,
+      "B1": 16,
+      "B2": 256,
+      "gain": 69784,
+      "gain_per_B1": 4361.5,
+      "unresolved_pairs": 62133,
+      "classes": 4692,
+      "cumulative_cost": 112
+     },
+     {
+      "step": 8,
+      "u": 3.5,
+      "sigma": 15,
+      "B1": 24,
+      "B2": 565,
+      "gain": 49307,
+      "gain_per_B1": 2054.4583333333335,
+      "unresolved_pairs": 12826,
+      "classes": 5231,
+      "cumulative_cost": 136
+     },
+     {
+      "step": 9,
+      "u": 4.0,
+      "sigma": 9,
+      "B1": 16,
+      "B2": 256,
+      "gain": 7059,
+      "gain_per_B1": 441.1875,
+      "unresolved_pairs": 5767,
+      "classes": 5414,
+      "cumulative_cost": 152
+     },
+     {
+      "step": 10,
+      "u": 3.5,
+      "sigma": 6,
+      "B1": 24,
+      "B2": 565,
+      "gain": 4439,
+      "gain_per_B1": 184.95833333333334,
+      "unresolved_pairs": 1328,
+      "classes": 5592,
+      "cumulative_cost": 176
+     },
+     {
+      "step": 11,
+      "u": 3.5,
+      "sigma": 14,
+      "B1": 24,
+      "B2": 565,
+      "gain": 980,
+      "gain_per_B1": 40.833333333333336,
+      "unresolved_pairs": 348,
+      "classes": 5666,
+      "cumulative_cost": 200
+     },
+     {
+      "step": 12,
+      "u": 3.5,
+      "sigma": 11,
+      "B1": 24,
+      "B2": 565,
+      "gain": 243,
+      "gain_per_B1": 10.125,
+      "unresolved_pairs": 105,
+      "classes": 5684,
+      "cumulative_cost": 224
+     },
+     {
+      "step": 13,
+      "u": 3.5,
+      "sigma": 12,
+      "B1": 24,
+      "B2": 565,
+      "gain": 67,
+      "gain_per_B1": 2.7916666666666665,
+      "unresolved_pairs": 38,
+      "classes": 5694,
+      "cumulative_cost": 248
+     },
+     {
+      "step": 14,
+      "u": 3.0,
+      "sigma": 6,
+      "B1": 40,
+      "B2": 1625,
+      "gain": 36,
+      "gain_per_B1": 0.9,
+      "unresolved_pairs": 2,
+      "classes": 5707,
+      "cumulative_cost": 288
+     },
+     {
+      "step": 15,
+      "u": 4.5,
+      "sigma": 16,
+      "B1": 12,
+      "B2": 138,
+      "gain": 1,
+      "gain_per_B1": 0.08333333333333333,
+      "unresolved_pairs": 1,
+      "classes": 5708,
+      "cumulative_cost": 300
+     },
+     {
+      "step": 16,
+      "u": 3.5,
+      "sigma": 9,
+      "B1": 24,
+      "B2": 565,
+      "gain": 1,
+      "gain_per_B1": 0.041666666666666664,
+      "unresolved_pairs": 0,
+      "classes": 5709,
+      "cumulative_cost": 324
+     }
+    ],
+    "fixed_u_baselines": [
+     {
+      "u": 2.5,
+      "separated": true,
+      "steps": 8,
+      "cost_proxy": 672,
+      "unresolved_pairs": 0,
+      "B1": 84
+     },
+     {
+      "u": 3.0,
+      "separated": true,
+      "steps": 7,
+      "cost_proxy": 280,
+      "unresolved_pairs": 0,
+      "B1": 40
+     },
+     {
+      "u": 3.5,
+      "separated": true,
+      "steps": 11,
+      "cost_proxy": 264,
+      "unresolved_pairs": 0,
+      "B1": 24
+     },
+     {
+      "u": 4.0,
+      "separated": false,
+      "steps": 12,
+      "cost_proxy": 192,
+      "unresolved_pairs": 1951,
+      "B1": 16
+     },
+     {
+      "u": 4.5,
+      "separated": false,
+      "steps": 12,
+      "cost_proxy": 144,
+      "unresolved_pairs": 116065,
+      "B1": 12
+     }
+    ],
+    "best_fixed_u": {
+     "u": 3.5,
+     "separated": true,
+     "steps": 11,
+     "cost_proxy": 264,
+     "unresolved_pairs": 0,
+     "B1": 24
+    },
+    "greedy_over_best_fixed_cost": 1.2272727272727273
+   }
+  ]
+ },
+ "environments": {
+  "default_memory_gb": 6,
+  "large_memory_gb": 32,
+  "poly_block": 4096
+ }
+}

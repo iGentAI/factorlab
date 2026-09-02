@@ -1,0 +1,56 @@
+[
+ {
+  "r": 256,
+  "ell": 1000003,
+  "linear_complexity": 128,
+  "generic_expectation": 128.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 128
+ },
+ {
+  "r": 256,
+  "ell": 998244353,
+  "linear_complexity": 128,
+  "generic_expectation": 128.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 128
+ },
+ {
+  "r": 1024,
+  "ell": 1000003,
+  "linear_complexity": 512,
+  "generic_expectation": 512.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 512
+ },
+ {
+  "r": 1024,
+  "ell": 998244353,
+  "linear_complexity": 512,
+  "generic_expectation": 512.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 512
+ },
+ {
+  "r": 4096,
+  "ell": 1000003,
+  "linear_complexity": 2048,
+  "generic_expectation": 2048.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 2048
+ },
+ {
+  "r": 4096,
+  "ell": 998244353,
+  "linear_complexity": 2048,
+  "generic_expectation": 2048.0,
+  "ratio": 1.0,
+  "control_lfsr_order2_complexity": 2,
+  "control_exact_quadratic_chirp_complexity": 2048
+ }
+]

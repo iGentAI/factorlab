@@ -1,0 +1,14 @@
+ML-KEM d=1003 beta=403: rhf floor=1.0040210 (ball [1.004020978806499232128341904913522543896520522133650007501617540796589202656 +/- 2.82e-76]) pure GSA=1.0039615 kappa=-0.05932 y_min=3.36e-06 (16s)
+   eps=0.0: beta_floor=413 [certified: every beta in the range decided rigorously (exact dual, arb enclosures)] rhf_at=1.0039576971112583 (225s)
+   eps=0.01: beta_floor=409 [certified: every beta in the range decided rigorously (exact dual, arb enclosures)] rhf_at=1.0039573874851397 (158s)
+   eps=0.03: beta_floor=401 [certified: every beta in the range decided rigorously (exact dual, arb enclosures)] rhf_at=1.0039567132743252 (30s)
+ML-KEM d=1424 beta=625: rhf floor=1.0029592 (ball [1.002959174659253808440667053359279994364871533582707906342660228593843339513 +/- 4.82e-76]) pure GSA=1.0028984 kappa=-0.08619 y_min=1.25e-06 (48s)
+   eps=0.0: beta_floor=645 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.002896947826562 (341s)
+--- resumed after sandbox recycle
+ML-KEM-768 eps=0.01: beta_floor=640 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.0028960052202363 (406s)
+ML-KEM-768 eps=0.03: beta_floor=629 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.0028969495920308 (345s)
+ML-KEM d=1885 beta=877: rhf floor=1.0023122 pure GSA=1.0022558 kappa=-0.10613 y_min=5.65e-07 (152s)
+ML-KEM-1024 eps=0.0: beta_floor=908 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.002255036180177 (1264s)
+ML-KEM-1024 eps=0.01: beta_floor=902 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.0022544530159845 (1383s)
+ML-KEM-1024 eps=0.03: beta_floor=889 [double-precision scan; beta and beta-1 decided rigorously (exact dual, arb enclosures)] rhf_at=1.0022547350736173 (1482s)
+MLKEM_SWEEP_DONE

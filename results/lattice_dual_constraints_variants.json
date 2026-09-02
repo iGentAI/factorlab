@@ -1,0 +1,29 @@
+{
+ "note": "LP floor with primal (A_i) plus dual constraints: 'primal_plus_all_dual' = every dual block incl. the shrinking head blocks [1,e]; 'primal_plus_full_dual' = full-size dual blocks only (e >= beta); double precision, exploratory",
+ "rows": [
+  {
+   "d": 100,
+   "beta": 20,
+   "primal": 0.9405403965957975,
+   "slope": 0.05427642523050635,
+   "primal_plus_full_dual": 0.9527743624830788,
+   "primal_plus_all_dual": 0.9527743624830801
+  },
+  {
+   "d": 300,
+   "beta": 50,
+   "primal": 3.585247958649912,
+   "slope": 0.017298198317485095,
+   "primal_plus_full_dual": 3.5886601712999764,
+   "primal_plus_all_dual": 3.600895589132687
+  },
+  {
+   "d": 1003,
+   "beta": 403,
+   "primal": 4.020942109385778,
+   "slope": 0.006796280972151559,
+   "primal_plus_full_dual": 4.055428798128049,
+   "primal_plus_all_dual": 4.195083941013212
+  }
+ ]
+}

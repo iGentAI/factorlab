@@ -1,0 +1,28 @@
+Kyber1024 q-aware b=897: margin -0.00852 at m=1078 (clip 190); unclipped best -0.00852 at m=888  [108s]
+Kyber1024 q-aware b=898: margin -0.00435 at m=988 (clip 99); unclipped best -0.00435 at m=888  [213s]
+Kyber1024 q-aware b=899: margin -0.00019 at m=988 (clip 98); unclipped best -0.00019 at m=890  [326s]
+Kyber1024 q-aware b=900: margin +0.00396 at m=1064 (clip 174); unclipped best +0.00396 at m=890  [432s]
+Kyber1024 q-aware b=901: margin +0.00811 at m=1086 (clip 195); unclipped best +0.00811 at m=892  [538s]
+Kyber1024 q-aware b=902: margin +0.01225 at m=1114 (clip 222); unclipped best +0.01225 at m=892  [666s]
+== Kyber1024 q-aware: {'b': 900, 'm': 1064, 'd': 2089, 'margin': 0.003960743899422248, 'clip_depth': 174, 'n_above_ceiling': 0}
+Kyber1024 dual b=300: gsa best 512803.04 (b=300), floor best 542898.47 (b=300)  [1s]
+Kyber1024 dual b=350: gsa best 142933.02 (b=350), floor best 153252.61 (b=350)  [26s]
+Kyber1024 dual b=400: gsa best 48755.61 (b=400), floor best 52870.99 (b=400)  [52s]
+Kyber1024 dual b=450: gsa best 19380.64 (b=450), floor best 21270.42 (b=450)  [79s]
+Kyber1024 dual b=500: gsa best 8686.68 (b=500), floor best 9665.94 (b=500)  [105s]
+Kyber1024 dual b=550: gsa best 4292.10 (b=550), floor best 4827.11 (b=550)  [131s]
+Kyber1024 dual b=600: gsa best 2302.27 (b=600), floor best 2603.73 (b=600)  [157s]
+Kyber1024 dual b=650: gsa best 1327.26 (b=650), floor best 1511.35 (b=650)  [182s]
+Kyber1024 dual b=700: gsa best 817.46 (b=700), floor best 938.72 (b=700)  [208s]
+Kyber1024 dual b=750: gsa best 536.27 (b=750), floor best 620.76 (b=750)  [234s]
+Kyber1024 dual b=800: gsa best 374.21 (b=800), floor best 435.34 (b=800)  [259s]
+Kyber1024 dual b=850: gsa best 277.45 (b=850), floor best 322.65 (b=850)  [285s]
+Kyber1024 dual b=900: gsa best 253.87 (b=868), floor best 261.09 (b=892)  [310s]
+Kyber1024 dual b=950: gsa best 253.87 (b=868), floor best 261.09 (b=892)  [334s]
+Kyber1024 dual b=1000: gsa best 253.87 (b=868), floor best 261.09 (b=892)  [358s]
+Kyber1024 dual b=1050: gsa best 253.87 (b=868), floor best 261.09 (b=892)  [381s]
+Kyber1024 dual b=1100: gsa best 253.87 (b=868), floor best 261.09 (b=892)  [402s]
+== Kyber1024 dual [gsa]: b=868 m=841 d=1865 l=5918.0 cost=253.87 bits (head - log q = +0.6810)
+== Kyber1024 dual [floor]: b=892 m=933 d=1957 l=6004.7 cost=261.09 bits (head - log q = +0.5899)
+== Kyber1024 dual [floor_capped]: b=300 m=1 d=1025 l=3329.0 cost=87.74 bits (head - log q = +4.9750)
+QCEIL1024_DONE
