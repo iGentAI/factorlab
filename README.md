@@ -9,7 +9,7 @@ as PDFs:
   additive structure of the window starts that any explicit difference cover must respect; a deterministic curve for moduli whose
   $p-1$ and $q-1$ share a large factor; exposure labels for a fixed list of elliptic curves; coefficient floors for number-field-sieve
   polynomial selection.
-- *Certified conditional profile optima for block lattice reduction, with the ML-KEM detection chain* — a linear programme over
+- *Certified conditional profile optima for block reduction, and the Kyber round-3 primal chain re-evaluated* — a linear programme over
   Gram–Schmidt profiles under the block Gaussian-heuristic inequalities, its exact dual certificates, the prefix-volume floor, the
   round-3 Kyber primal chain re-evaluated with certified crossings, and an audit of the class on real reduced bases.
 

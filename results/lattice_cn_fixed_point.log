@@ -1,0 +1,7 @@
+Kyber512:417:520: tours=58 fixed point=True entries at log q=3 deficits in [-4.4e-15, 0.0179] above tol at [0, 1, 2] |sim - clipped tight| <= 4.33e-03 (clip depth 3)
+Kyber768:642:700: tours=40 fixed point=True entries at log q=2 deficits in [-8.0e-15, 0.0074] above tol at [0, 1] |sim - clipped tight| <= 2.88e-03 (clip depth 2)
+Kyber512:417: passing m in [481, 555] (75, contiguous=True), max-margin m=517
+Kyber768:642: passing m in [651, 747] (97, contiguous=True), max-margin m=698
+Kyber1024:900: passing m in [833, 949] (117, contiguous=True), max-margin m=890
+Kyber512:416: no admissible m passes; best margin -0.0026542088017995624 at m=516
+wrote results/lattice_cn_fixed_point.json
