@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import argparse
 import json
-from typing import Dict, List, Sequence
+from typing import Dict, Sequence
 
 import numpy as np
 

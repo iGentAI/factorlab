@@ -12,12 +12,11 @@ that holds it, and the command that regenerates it. Section names refer to the r
 
 ## Environment
 
-Ubuntu 24.04, Python 3.12. System packages: `libfplll-dev fplll-tools libgmp-dev libmpfr-dev libqd-dev` (for `fpylll`), and TeX Live
-(`texlive-latex-base texlive-latex-extra texlive-fonts-recommended texlive-science`) with `poppler-utils` to build the papers. Python
+Ubuntu 24.04, Python 3.12. System packages: `libfplll-dev fplll-tools libgmp-dev libmpfr-dev libqd-dev` (for `fpylll`). Python
 packages are pinned in `requirements.txt` to the versions the archives were produced with; `cypari2 2.2.4` bundles PARI 2.17.2. If
 `fpylll` cannot find its strategy file, link `/usr/share/libfplll8/strategies/default.json` to
 `/project/local/share/fplll/strategies/default.json`. The system packages above must be present: without `libfplll` the pruned-BKZ tests
-crash inside the extension rather than fail. Run the tests with `python -m pytest -q` (338 tests, about a minute). All commands
+crash inside the extension rather than fail. Run the tests with `python -m pytest -q` (357 tests, about a minute; see `tests/README.md`). All commands
 below run from the repository root.
 
 All pseudorandom populations come from `factorlab.gen.make_semiprime(nbits, "rsa", seed, index)` (balanced semiprimes with $q/p <
@@ -183,13 +182,11 @@ EOF
 | balanced, unique-product, half-offset and excision censuses; the maximisers | `balanced_structure` | `results/e53_balanced_structure.json`, `results/e53_uniq_maximisers.json`, `results/e53_half_offset.json`, `results/e53_excision.json` | `python -m factorlab.experiments.balanced_structure --bits 30 32 34 36 38 40 42 44 46 48 --count 2 --out results/e53_balanced_structure.json`; `python -m factorlab.experiments.balanced_structure --maximisers --moduli 880634351 964728493 3722008519 3601086119 16577631001 14048619007 46551225037 51465965107 197762968751 187452546833 876190896151 680093802697 3890830613443 3072789281321 11427345574369 16247581009873 55862770399391 46686914783221 176552314063291 --out results/e53_uniq_maximisers.json`; `python -m factorlab.experiments.balanced_structure --half-offset --bits 42 48 --out results/e53_half_offset.json`; `python -m factorlab.experiments.balanced_structure --excision --bits 42 48 --out results/e53_excision.json` |
 | Theorem W and W$'$ checks; prime onset (seed 7, $\lambda = 0.8$) | `factorlab.experiments.theorem_checks.experiment` | `results/e56_theorem_checks.json` | `python -m factorlab.experiments.theorem_checks --w-bits 48 64 96 128 160 200 --wp-bits 64 96 128 --onset-bits 96 128 160 200 256 --seed 7 --lam 0.8 --out results/e56_theorem_checks.json` |
 
-## Building the reports
+## The reports
 
-```
-```
-
-Both build with no errors, no undefined references and no duplicated labels; the assembler refuses to write the report otherwise. The two
-PDFs are committed beside their sources.
+The two reports are distributed separately as PDFs. Their TeX sources and build tooling are not part of this repository, and nothing
+here needs a TeX installation; the tables above are the link from each statement in the reports to the code and archives in this
+repository.
 
 ## Added 2 September 2026: audit deficits at the detection position, simulator re-evaluation, part extracts
 

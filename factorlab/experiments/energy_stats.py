@@ -19,7 +19,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import math
 import os
 import time
 from typing import Dict
@@ -27,7 +26,7 @@ from typing import Dict
 import numpy as np
 
 from factorlab.experiments.planar_census import shell_starts
-from factorlab.experiments.sidon_bucketed import rho, squarefree_mask, squarefree_shell
+from factorlab.experiments.sidon_bucketed import rho, squarefree_shell
 from factorlab.experiments.sidon_scaling import lemma_d_window
 from factorlab.gen import make_semiprime
 

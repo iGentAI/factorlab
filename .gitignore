@@ -7,9 +7,29 @@ build/
 dist/
 cysignals_crash_logs/
 *.tmp
+# coverage and tool caches
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+# virtual environments
+.venv/
+venv/
+# editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+# holding area used by cleanup passes (see docs/cleanup-reports/)
+.cleanup-archive/
 # TeX artefacts, should any be produced alongside
 *.aux
 *.out
 *.toc
 *.synctex.gz
-# results/ is published: the archives are the certificates the reports cite
+# results/ is published: the archives are the certificates the reports cite.
+# Do not add *.log or *.json here; results/*.log and results/*.json are part of the release.

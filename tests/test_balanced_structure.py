@@ -122,7 +122,6 @@ def test_equal_product_lemma_and_unique_product_family():
     for (a, b), (a2, b2) in hits:
         assert a2 == a and b2 == b - 1 and 2 * b - 3 * a == 1
     # the half-offset increment: u sqrt(a)/(sqrt b + sqrt(b-1)) = (u/sqrt6)(1 + 1/(72 a^2) + O(a^-4)) on 2b = 3a + 1
-    from fractions import Fraction
     from math import sqrt
 
     for a in (77, 101, 201):

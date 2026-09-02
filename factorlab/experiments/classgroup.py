@@ -102,7 +102,7 @@ def _top_two(fac: dict) -> tuple[int, int]:
 def classgroup_experiment(nbits: int = 40, count: int = 1000, kcount: int = 30,
                           exponents: Sequence[float] = (1 / 8, 1 / 6, 1 / 5), seed: int = 41,
                           family: str = "rsa") -> dict:
-    from .smooth_profiles import dickman_rho, semismooth_G
+    from .smooth_profiles import semismooth_G
     insts = [make_semiprime(nbits, family, seed, i) for i in range(count)]
     records = []  # (i, k, D, h, v2, t, h_odd, l1, l2, method)
     for i, inst in enumerate(insts):
@@ -236,7 +236,6 @@ def actual_algorithm_experiment(nbits: int = 40, count: int = 400, ks: Sequence[
             D = disc_fn(k, N)
             h, _ = class_number(D)
             fac = {int(a): int(b) for a, b in factorint(h).items()}
-            h_odd = h >> fac.get(2, 0)
             l1, l2 = _top_two({a: b for a, b in fac.items() if a != 2})
             predicate = (l2 <= B1) and (l1 <= B2)
             rank = omega(D) - 1

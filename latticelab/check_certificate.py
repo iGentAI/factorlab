@@ -72,7 +72,7 @@ def log_chat(n: int, prec: int):
 
 def enclose_value(d: int, beta: int, w: List, z, eps, log_vol, prec: int):
     """arb ball of sum_i w_i (log chat(beta_i) - eps) + z log_vol."""
-    from flint import arb, ctx, fmpq
+    from flint import arb, ctx
 
     ctx.prec = prec
     bs = block_sizes(d, beta)

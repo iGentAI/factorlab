@@ -142,7 +142,7 @@ def union_effect(nbits: int = 48, count: int = 6000, c: float = 1 / 6, seed: int
     'some shifted prime is (N^c, N^{2c})-semismooth' and the sign of
     corr(p-1 semismooth, q-1 semismooth)?  Moduli are split at the median
     pairing score; the rates are compared with standard errors."""
-    from .smooth_profiles import _factor, _top_two_from, multiplicative_order, stage1_exponent, exact_success
+    from .smooth_profiles import _factor, _top_two_from, multiplicative_order, stage1_exponent
     insts = [make_semiprime(nbits, family, seed, i) for i in range(count)]
     B1 = 2.0 ** (c * nbits)
     B2 = B1 * B1

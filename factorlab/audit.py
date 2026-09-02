@@ -22,14 +22,12 @@ Checks
 from __future__ import annotations
 
 import math
-import random
 from typing import Iterable
 
 import gmpy2
 from scipy import stats
 
 from .gen import random_prime, random_odd, rng_from_seed, make_semiprime
-from .numth import mpz, small_primes
 
 __all__ = [
     "residue_uniformity", "bit_uniformity", "density_profile",
