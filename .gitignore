@@ -24,8 +24,6 @@ venv/
 *.swo
 .DS_Store
 Thumbs.db
-# holding area used by cleanup passes (see docs/cleanup-reports/)
-.cleanup-archive/
 # TeX artefacts, should any be produced alongside
 *.aux
 *.out

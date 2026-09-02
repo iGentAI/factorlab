@@ -20,7 +20,7 @@ skips one test when `results/lattice_l6_strict.json` is absent.
 
 From the repository root (`pytest.ini` sets `testpaths = tests` and `-q`):
 
-    python3 -m pytest            # the whole suite: 357 tests, about a minute
+    python3 -m pytest            # the whole suite: 361 tests, about a minute
     python3 -m pytest -m "not slow"   # skip the statistical audits (a few seconds each)
     python3 -m pytest tests/test_latticelab.py -k floor   # one file, one keyword
 
@@ -34,6 +34,11 @@ file at the path fpylll was built with; if a test crashes inside the extension (
 
     sudo mkdir -p /project/local/share/fplll/strategies
     sudo ln -s /usr/share/libfplll8/strategies/default.json /project/local/share/fplll/strategies/default.json
+
+On macOS the wheel's path is not fixable by a symlink; `README.md` describes rebuilding fpylll against Homebrew's fplll.
+
+A few tests run a driver as a subprocess (`python -m factorlab.experiments.energy_stats`, `pileup_certify`, `python -m factorlab`)
+to check its command-line guards; they write only under pytest's `tmp_path`, never into `results/`.
 
 ## Conventions
 

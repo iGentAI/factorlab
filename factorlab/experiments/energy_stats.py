@@ -139,18 +139,58 @@ def planar_top_mass(bits: int, r: int, index: int = 0, seed: int = 7, m_values=(
             "time_s": time.time() - t0}
 
 
-if __name__ == "__main__":
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--energy", type=int, nargs="*", default=[], help="log2 radii for the modulus-free energy")
-    ap.add_argument("--planar", type=int, nargs="*", default=[], help="bit sizes for the planar top-mass statistic")
+def _merge_rows(existing, new, key):
+    """Rows of ``new`` replace the rows of ``existing`` with the same key, in place; the rest are appended in order."""
+    out = list(existing)
+    index = {key(z): i for i, z in enumerate(out)}
+    for z in new:
+        k = key(z)
+        if k in index:
+            out[index[k]] = z
+        else:
+            index[k] = len(out)
+            out.append(z)
+    return out
+
+
+def update_archive(path: str, energy_rows=None, planar_rows=None) -> Dict:
+    """Merge new rows into the JSON archive at ``path`` (created if absent) and return the merged archive.  ``energy`` rows
+    are keyed by ``log2_r`` and ``planar`` rows by ``(bits, radius)``, so a rerun replaces its own rows and leaves the rest,
+    and other keys of an existing archive are preserved.  The file is written atomically."""
+    data: Dict = {}
+    if os.path.exists(path):
+        with open(path) as f:
+            data = json.load(f)
+    if energy_rows is not None:
+        data["energy"] = _merge_rows(data.get("energy", []), energy_rows, lambda z: int(z["log2_r"]))
+    if planar_rows is not None:
+        data["planar"] = _merge_rows(data.get("planar", []), planar_rows, lambda z: (int(z["bits"]), z.get("radius")))
+    d = os.path.dirname(path)
+    if d:
+        os.makedirs(d, exist_ok=True)
+    tmp = path + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(data, f, indent=1, default=str)
+    os.replace(tmp, path)
+    return data
+
+
+def main(argv=None) -> None:
+    """CLI.  ``--energy`` and ``--planar`` take explicit values (a bare flag is rejected, and so is a call selecting neither);
+    the rows are merged into ``--out`` by ``update_archive``, so the archive can be assembled from several runs."""
+    ap = argparse.ArgumentParser(description="E42: the additive energy of the Lehman speeds (--energy) and the planar top-mass "
+                                             "statistic (--planar); rows are merged into --out by log2 radius / (bits, radius)")
+    ap.add_argument("--energy", type=int, nargs="+", metavar="LOG2R", help="log2 radii for the modulus-free energy, e.g. 12 13 14 15")
+    ap.add_argument("--planar", type=int, nargs="+", metavar="BITS", help="bit sizes for the planar top-mass statistic, e.g. 40")
     ap.add_argument("--planar-r", type=str, default="third,crossing", help="comma list of radii: third|crossing|quarter")
     ap.add_argument("--out", default="results/e42_energy.json")
-    a = ap.parse_args()
-    out = {}
-    if a.energy:
-        out["energy"] = energy_experiment(tuple(a.energy))
+    a = ap.parse_args(argv)
+    if not a.energy and not a.planar:
+        ap.error("nothing to do: give --energy LOG2R [LOG2R ...] and/or --planar BITS [BITS ...]")
+    energy_rows = energy_experiment(tuple(a.energy)) if a.energy else None
+    planar_rows = None
     if a.planar:
-        rows = []
+        planar_rows = []
         for bits in a.planar:
             N = int(make_semiprime(bits, "rsa", 7, 0).N)
             for name in a.planar_r.split(","):
@@ -158,13 +198,12 @@ if __name__ == "__main__":
                      "quarter": int(round(N ** 0.25))}[name]
                 row = planar_top_mass(bits, r)
                 row["radius"] = name
-                rows.append(row)
+                planar_rows.append(row)
                 print(f"{bits} bits r={r} ({name}) W={row['W']} R={row['R']} D_max={row['D_max']} "
                       + " ".join(f"m={m}: mean={t['mean_top_m']:.2f} ratio={t['ratio_Dmax_over_mean']:.2f}"
                                  for m, t in row["top"].items()) + f" ({row['time_s']:.0f}s)", flush=True)
-        out["planar"] = rows
-    d = os.path.dirname(a.out)
-    if d:
-        os.makedirs(d, exist_ok=True)
-    with open(a.out, "w") as f:
-        json.dump(out, f, indent=1, default=str)
+    update_archive(a.out, energy_rows, planar_rows)
+
+
+if __name__ == "__main__":
+    main()
