@@ -37,7 +37,7 @@ from typing import Sequence
 import numpy as np
 
 from .lehman_cover import squarefree_flags
-from .sidon_scaling import rho, cluster_max, pair_speed, e1_chain_classes, omega
+from .sidon_scaling import rho, cluster_max, pair_speed
 
 
 def prime_flags(n: int) -> np.ndarray:

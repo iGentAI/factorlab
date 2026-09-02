@@ -13,7 +13,9 @@ from factorlab.experiments.balanced_structure import (
     energy_form_bound,
     equal_product_pairs,
     excision_census,
+    family_stats,
     lemma_d_bound,
+    merge_census_archive,
     primitive_cells,
     resonant_cells,
     shell_cells,
@@ -122,7 +124,6 @@ def test_equal_product_lemma_and_unique_product_family():
     for (a, b), (a2, b2) in hits:
         assert a2 == a and b2 == b - 1 and 2 * b - 3 * a == 1
     # the half-offset increment: u sqrt(a)/(sqrt b + sqrt(b-1)) = (u/sqrt6)(1 + 1/(72 a^2) + O(a^-4)) on 2b = 3a + 1
-    from fractions import Fraction
     from math import sqrt
 
     for a in (77, 101, 201):
@@ -225,3 +226,98 @@ def test_diagonal_ray_lemma():
         cells = balanced_cells(N, r, 2)
         Sb = exponent_set(N, cells, r, with_windows=False)
         assert dmax_tol(Sb, 2)[0] >= m_max - 1
+
+
+def test_family_stats_energy_budget_only_switches_off_the_energy_fields():
+    """Above the pair budget the energy form is not computed and its fields are None, while every other statistic is unchanged."""
+    import random
+    from gmpy2 import iroot
+
+    N = int(make_semiprime(30, "rsa", 5, 0).N)
+    r = int(iroot(mpz(N), 3)[0])
+    cells = balanced_cells(N, r, 2)
+    full = family_stats(N, cells, r, random.Random(5), 1, "balanced")
+    n_pairs = len(cells) * (len(cells) - 1) // 2
+    assert full["energy_computed"] and full["energy_pairs"] == n_pairs and full["energy_starts"] > 0 and len(full["spectrum_top"]) == 8
+    cut = family_stats(N, cells, r, random.Random(5), 1, "balanced", energy_pair_budget=n_pairs - 1)
+    assert not cut["energy_computed"] and cut["energy_starts"] is None and cut["energy_m"] is None and cut["spectrum_top"] is None
+    for key in ("cells", "n_prime", "W_max", "D_exact", "D_W", "t_star", "a_diff", "t_residual", "random_D_W", "lemma_d", "lemma_d_starts"):
+        assert cut[key] == full[key], key
+    assert set(cut) == set(full)
+
+
+def test_bucketed_difference_scans_equal_the_direct_ones_and_bound_the_bucket_occupancy():
+    """Above the pair budget dmax and dmax_tol scan the differences in value buckets.  Their (count, t) equals the direct computation
+    -- the same tie-break, the smallest maximising start difference -- on structured, random and real start sets, and every bucket
+    holds at most max(budget, n - 1) differences even when the values form a tight cluster with a distant outlier, where equal-width
+    ranges would put almost every pair into one bucket."""
+    import random
+
+    from gmpy2 import iroot
+
+    from factorlab.experiments.balanced_structure import _difference_buckets
+
+    rng = random.Random(11)
+    tiny = np.array([0, 1, 3, 4, 10, 11, 13], dtype=np.int64)
+    cluster_outlier = np.array(list(range(300)) + [10 ** 12], dtype=np.int64)
+    sets = [tiny, cluster_outlier,
+            np.array(sorted(rng.sample(range(10 ** 6), 400)), dtype=np.int64),
+            np.array(sorted(set(3 * k + (k % 7) for k in range(500))), dtype=np.int64)]
+    N = int(make_semiprime(30, "rsa", 5, 1).N)
+    r = int(iroot(mpz(N), 3)[0])
+    sets.append(exponent_set(N, balanced_cells(N, r, 2), r, with_windows=False))
+    for Z in sets:
+        n = len(Z)
+        n_pairs = n * (n - 1) // 2
+        for budget in (max(50, n_pairs // 40), n_pairs // 7 + 1, n_pairs - 1):
+            edges, occ = _difference_buckets(Z, budget)
+            assert int(occ.sum()) == n_pairs and int(occ.max()) <= max(budget, n - 1), (n, budget, int(occ.max()))
+            assert dmax(Z, pair_budget=budget) == dmax(Z)
+            for W in (1, 2, 5, 40):
+                try:
+                    got = dmax_tol(Z, W, pair_budget=budget)
+                except ValueError as exc:
+                    # only the documented refusal is acceptable: a bucket's halo (2W - 2 wide) alone exceeds the budget; never at W = 1
+                    assert "too wide for the bounded scan" in str(exc) and W > 1, (n, budget, W, str(exc))
+                    continue
+                assert got == dmax_tol(Z, W), (n, budget, W)
+    # the adversarial set: 44 850 intra-cluster differences lie in [1, 299]; with a budget of 1000 the first bucket must be split
+    edges, occ = _difference_buckets(cluster_outlier, 1000)
+    assert int(occ.max()) <= 1000 and len(edges) > 45
+    # the tiny set with a budget of one pair per bucket: every bucket is a single value
+    assert dmax(tiny, pair_budget=1) == dmax(tiny) == (3, 1) and dmax_tol(tiny, 1, pair_budget=1) == dmax(tiny)
+    # the documented tolerance tie-break: one difference 5 at W = 2 has centres 4, 5, 6 tied; the centre returned is 6 = v + W - 1
+    assert dmax_tol(np.array([0, 5], dtype=np.int64), 2) == (1, 6)
+    # a window covering the whole difference span counts every pair and needs no scan, at any budget
+    dense = np.arange(300, dtype=np.int64)
+    assert dmax_tol(dense, 300, pair_budget=1000) == dmax_tol(dense, 300) == (300 * 299 // 2, 300)
+    assert dmax_tol(cluster_outlier, 10 ** 12 + 5, pair_budget=1000) == dmax_tol(cluster_outlier, 10 ** 12 + 5)
+    # a window whose halo alone exceeds the budget is refused rather than materialised; the direct scan still answers
+    import pytest
+
+    with pytest.raises(ValueError, match="too wide for the bounded scan"):
+        dmax_tol(dense, 100, pair_budget=1000)
+    assert dmax_tol(dense, 100)[0] > 0
+    # both scans require distinct values (the n - 1 multiplicity bound of the bucket splitting needs it)
+    dup = np.array([0, 1, 1, 3, 4, 10], dtype=np.int64)
+    for f in (lambda: dmax(dup), lambda: dmax_tol(dup, 2), lambda: dmax(dup, pair_budget=1)):
+        with pytest.raises(ValueError):
+            f()
+
+
+def test_merge_census_archive_replaces_by_modulus_and_records_runs():
+    a = {"bits": [30, 32], "count": 2, "seed": 5, "rows": [{"N": 11, "v": "a"}, {"N": 13, "v": "a"}, {"N": 17, "v": "a"}]}
+    fresh = merge_census_archive(None, a)
+    assert fresh["rows"] == a["rows"] and fresh["runs"] == [{"bits": [30, 32], "count": 2}] and fresh["count"] == 2
+    b = {"bits": [32, 48], "count": 1, "seed": 5, "rows": [{"N": 13, "v": "b"}, {"N": 101, "v": "b"}]}
+    m = merge_census_archive(fresh, b)
+    assert [(row["N"], row["v"]) for row in m["rows"]] == [(11, "a"), (13, "b"), (17, "a"), (101, "b")]
+    assert m["bits"] == [30, 32, 48] and m["count"] == [2, 1] and len(m["runs"]) == 2 and m["seed"] == 5
+    # a legacy archive without a runs list is absorbed, and a different seed is refused
+    legacy = {"bits": [30], "count": 2, "seed": 5, "rows": [{"N": 11, "v": "old"}]}
+    m2 = merge_census_archive(legacy, a)
+    assert m2["rows"][0] == {"N": 11, "v": "a"} and m2["runs"][0] == {"bits": [30], "count": 2}
+    import pytest
+
+    with pytest.raises(ValueError):
+        merge_census_archive(legacy, dict(a, seed=7))

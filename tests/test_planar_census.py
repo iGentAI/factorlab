@@ -1,4 +1,3 @@
-import math
 from fractions import Fraction
 
 import numpy as np

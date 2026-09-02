@@ -23,7 +23,6 @@ This module checks the two identities exactly (naive evaluation of P; it does no
 from __future__ import annotations
 
 from fractions import Fraction
-from math import isqrt
 from typing import Dict, List, Tuple
 
 from gmpy2 import mpz, powmod

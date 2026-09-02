@@ -1,6 +1,5 @@
 import math
 
-import gmpy2
 from sympy import isprime, primerange
 
 from factorlab.experiments.average_case_pm1 import (

@@ -31,8 +31,8 @@ import json
 import math
 import random
 from fractions import Fraction
-from math import gcd, isqrt
-from typing import Dict, List, Sequence, Tuple
+from math import gcd
+from typing import Dict, List, Tuple
 
 from factorlab.gen import make_semiprime
 

@@ -79,39 +79,167 @@ def shell_cells(r: int) -> List[Tuple[int, int]]:
     return [(1, k) for k in range(r // 2 + 1, r + 1)]
 
 
-def dmax(Z: np.ndarray, chunk: int = 2000) -> Tuple[int, int]:
-    """(D_max, t*) : the maximal number of ordered pairs (z, z') with z' - z = t over t > 0, and a maximising t.  Exact; differences
-    are formed in chunks and aggregated with numpy."""
-    Z = np.asarray(Z, dtype=np.int64)
-    n = len(Z)
-    diffs = []
-    for s in range(0, n, chunk):
-        blk = Z[s : s + chunk]
-        d = Z[None, :] - blk[:, None]  # z' - z for z in blk
-        d = d[d > 0]
-        diffs.append(d)
-    alld = np.concatenate(diffs)
-    vals, counts = np.unique(alld, return_counts=True)
-    k = int(np.argmax(counts))
-    return int(counts[k]), int(vals[k])
+DIFF_PAIR_BUDGET = 100_000_000
+"""Largest number of pairs n(n-1)/2 for which dmax and dmax_tol materialise every positive difference at once (an int64 array of that
+length, sorted).  Above it the differences are scanned in value buckets built by `_difference_buckets`, each holding at most
+max(budget, n - 1) differences; dmax_tol's buckets carry in addition the differences within 2W - 2 above their range, which is checked
+to be at most the budget as well (see dmax_tol).  Both scans require Z to consist of distinct integers, which every start set of this
+module does; the results, including the tie-break, are those of the direct scan."""
 
 
-def dmax_tol(Z: np.ndarray, W: int, chunk: int = 2000) -> Tuple[int, int]:
-    """Lemma D's statistic: max over t of #{(z, z') : |z' - z - t| < W} over z' > z (exact; W = 1 is dmax).  Returns (count, t)."""
-    Z = np.asarray(Z, dtype=np.int64)
+def _check_distinct(Z: np.ndarray) -> None:
+    if len(Z) > 1 and not bool(np.all(np.diff(np.sort(Z)) > 0)):
+        raise ValueError("Z must consist of distinct integers")
+
+
+def _positive_differences(Z: np.ndarray, chunk: int, lo: int | None = None, hi: int | None = None) -> np.ndarray:
+    """All positive differences z' - z of the int64 array Z, optionally restricted to lo <= z' - z < hi, as one array."""
     n = len(Z)
-    diffs = []
+    parts = []
     for s in range(0, n, chunk):
         blk = Z[s : s + chunk]
         d = Z[None, :] - blk[:, None]
-        diffs.append(d[d > 0])
-    alld = np.sort(np.concatenate(diffs))
-    # for each difference v, count differences in [v, v + 2W - 2] (all within < W of t = v + W - 1)
-    hi = np.searchsorted(alld, alld + (2 * W - 2), side="right")
-    lo = np.arange(len(alld))
-    counts = hi - lo
-    k = int(np.argmax(counts))
-    return int(counts[k]), int(alld[k] + W - 1)
+        m = d > 0
+        if lo is not None:
+            m &= d >= lo
+        if hi is not None:
+            m &= d < hi
+        parts.append(d[m])
+    return np.concatenate(parts) if parts else np.zeros(0, dtype=np.int64)
+
+
+def _bucket_occupancy(Z: np.ndarray, chunk: int, edges: np.ndarray) -> np.ndarray:
+    """The exact number of positive differences of Z in each range [edges[b], edges[b+1]), counted chunk by chunk without
+    materialising more than one chunk of differences."""
+    n = len(Z)
+    counts = np.zeros(len(edges) - 1, dtype=np.int64)
+    for s in range(0, n, chunk):
+        blk = Z[s : s + chunk]
+        d = Z[None, :] - blk[:, None]
+        d = d[d > 0]
+        idx = np.searchsorted(edges, d, side="right") - 1
+        counts += np.bincount(idx, minlength=len(edges) - 1)[: len(edges) - 1]
+    return counts
+
+
+def _difference_buckets(Z: np.ndarray, budget: int, chunk: int = 2000, n_sample: int = 1_000_000, max_rounds: int = 64):
+    """Value ranges [edges[b], edges[b+1]) covering every positive difference of Z, each containing at most max(budget, n - 1)
+    of them.  The edges start at the quantiles of a sample of `n_sample` random pair differences (about budget/2 differences per
+    bucket in expectation); the occupancy of every bucket is then counted exactly, and any bucket over the budget that spans more than
+    one value is split at its midpoint, repeatedly.  This terminates: a single difference value t is realised by at most n - 1 pairs
+    (z, z + t), so a one-value bucket is always within max(budget, n - 1).  Requires distinct values.  Returns (edges, occupancy)."""
+    Zs = np.sort(np.asarray(Z, dtype=np.int64))
+    _check_distinct(Zs)
+    n = len(Zs)
+    span = int(Zs[-1] - Zs[0]) + 1
+    n_pairs = n * (n - 1) // 2
+    B = max(2, -(-n_pairs // max(1, budget // 2)))
+    rs = np.random.default_rng(0)
+    i, j = rs.integers(0, n, n_sample), rs.integers(0, n, n_sample)
+    samp = np.abs(Zs[i] - Zs[j])
+    samp = samp[samp > 0]
+    inner = np.floor(np.quantile(samp, np.linspace(0, 1, B + 1)[1:-1])).astype(np.int64) if samp.size else np.zeros(0, np.int64)
+    edges = np.unique(np.concatenate(([1], inner[(inner > 1) & (inner <= span)], [span + 1])).astype(np.int64))
+    occ = _bucket_occupancy(Zs, chunk, edges)
+    for _ in range(max_rounds):
+        over = [b for b in range(len(edges) - 1) if occ[b] > budget and edges[b + 1] - edges[b] > 1]
+        if not over:
+            break
+        edges = np.unique(np.concatenate((edges, [(int(edges[b]) + int(edges[b + 1])) // 2 for b in over])).astype(np.int64))
+        occ = _bucket_occupancy(Zs, chunk, edges)
+    assert int(occ.max()) <= max(budget, n - 1), "bucket splitting did not reach the occupancy bound"
+    return edges, occ
+
+
+def dmax(Z: np.ndarray, chunk: int = 2000, pair_budget: int = DIFF_PAIR_BUDGET) -> Tuple[int, int]:
+    """(D_max, t*) : the maximal number of ordered pairs (z, z') with z' - z = t over t > 0, and the smallest maximising t.  Exact;
+    differences are formed in chunks and aggregated with numpy, in value buckets (`_difference_buckets`) when the pair count exceeds
+    `pair_budget`.  Z must consist of distinct integers."""
+    Z = np.asarray(Z, dtype=np.int64)
+    _check_distinct(Z)
+    n = len(Z)
+    n_pairs = n * (n - 1) // 2
+    if n_pairs <= pair_budget:
+        diffs = []
+        for s in range(0, n, chunk):
+            blk = Z[s : s + chunk]
+            d = Z[None, :] - blk[:, None]  # z' - z for z in blk
+            d = d[d > 0]
+            diffs.append(d)
+        alld = np.concatenate(diffs)
+        vals, counts = np.unique(alld, return_counts=True)
+        k = int(np.argmax(counts))
+        return int(counts[k]), int(vals[k])
+    best = (0, 0)
+    edges, occ = _difference_buckets(Z, pair_budget, chunk)
+    for b in range(len(edges) - 1):
+        if occ[b] == 0:
+            continue
+        d = _positive_differences(Z, chunk, int(edges[b]), int(edges[b + 1]))
+        vals, counts = np.unique(d, return_counts=True)
+        k = int(np.argmax(counts))
+        if int(counts[k]) > best[0]:
+            best = (int(counts[k]), int(vals[k]))
+    return best
+
+
+def dmax_tol(Z: np.ndarray, W: int, chunk: int = 2000, pair_budget: int = DIFF_PAIR_BUDGET) -> Tuple[int, int]:
+    """Lemma D's statistic: max over t of #{(z, z') : |z' - z - t| < W} over z' > z (exact; W = 1 is dmax).  Returns (count, t) where
+    t = v + W - 1 is the centre of the window [v, v + 2W - 2] at the smallest difference v attaining the maximum (for W = 1 the smallest
+    maximising t; for W > 1 other centres can attain the same count).  Z must consist of distinct integers.
+
+    Above `pair_budget` pairs the scan runs in the value buckets of `_difference_buckets`; a bucket's array also holds its halo, the
+    differences within 2W - 2 above its range, which its windows need.  The halo of every bucket is counted exactly first and must not
+    exceed the budget, so at most max(budget, n - 1) + budget differences are ever materialised; a window so wide that a halo alone
+    exceeds the budget is refused with ValueError (raise `pair_budget`, or use the direct scan), except that a window covering the whole
+    difference span needs no scan: every pair lies in it and the answer is (n(n-1)/2, min difference + W - 1)."""
+    Z = np.asarray(Z, dtype=np.int64)
+    _check_distinct(Z)
+    n = len(Z)
+    n_pairs = n * (n - 1) // 2
+    ext = 2 * W - 2
+    if n_pairs <= pair_budget:
+        diffs = []
+        for s in range(0, n, chunk):
+            blk = Z[s : s + chunk]
+            d = Z[None, :] - blk[:, None]
+            diffs.append(d[d > 0])
+        alld = np.sort(np.concatenate(diffs))
+        # for each difference v, count differences in [v, v + 2W - 2] (all within < W of t = v + W - 1)
+        hi = np.searchsorted(alld, alld + ext, side="right")
+        lo = np.arange(len(alld))
+        counts = hi - lo
+        k = int(np.argmax(counts))
+        return int(counts[k]), int(alld[k] + W - 1)
+    Zs = np.sort(Z)
+    min_diff = int(np.min(np.diff(Zs)))
+    if ext >= int(Zs[-1] - Zs[0]) - min_diff:
+        # the window at the smallest difference reaches the largest one: every pair is counted, no scan is needed
+        return n_pairs, min_diff + W - 1
+    edges, occ = _difference_buckets(Z, pair_budget, chunk)
+    # exact halo occupancies: the differences in [hi_b, hi_b + ext) for every bucket b, from one histogram over the refined edges
+    fine = np.unique(np.concatenate((edges, np.minimum(edges[1:] + ext, edges[-1]))))
+    fine_occ = _bucket_occupancy(Zs, chunk, fine)
+    cum = np.concatenate(([0], np.cumsum(fine_occ)))
+    best = (0, 0)
+    for b in range(len(edges) - 1):
+        if occ[b] == 0:
+            continue
+        lo_v, hi_v = int(edges[b]), int(edges[b + 1])
+        i0, i1 = int(np.searchsorted(fine, hi_v)), int(np.searchsorted(fine, min(hi_v + ext, int(edges[-1]))))
+        halo = int(cum[i1] - cum[i0])
+        if halo > pair_budget:
+            raise ValueError(f"tolerance window 2W - 2 = {ext} too wide for the bounded scan at pair_budget = {pair_budget}: a bucket's "
+                             f"halo holds {halo} differences; raise pair_budget or use W = 1")
+        # the windows starting in [lo_v, hi_v) see differences up to hi_v + ext - 1
+        d = np.sort(_positive_differences(Z, chunk, lo_v, hi_v + ext))
+        m = int(np.searchsorted(d, hi_v, side="left"))  # the starts: differences below hi_v
+        starts = d[:m]
+        counts = np.searchsorted(d, starts + ext, side="right") - np.arange(m)
+        k = int(np.argmax(counts))
+        if int(counts[k]) > best[0]:
+            best = (int(counts[k]), int(starts[k] + W - 1))
+    return best
 
 
 def primitive_cells(cells: List[Tuple[int, int]], r: int, ab_min: int = 0) -> List[Tuple[int, int]]:
@@ -301,8 +429,18 @@ def excision_census(N: int, Ms=(3, 4, 6, 8), C: int = 2) -> Dict:
     return {"N": N, "r": r, "cells": len(uniq), "D_max": D0, "lemma_d_starts": lemma_d_bound(len(uniq), 1, D0), "rows": rows}
 
 
-def family_stats(N: int, cells: List[Tuple[int, int]], r: int, rng: random.Random, controls: int, label: str) -> Dict:
-    """Exact and tolerance-W cluster statistics of the start set of a cell family, its Lemma D floor, and random controls."""
+ENERGY_PAIR_BUDGET = 50_000_000
+"""Largest number of pairs n(n-1)/2 for which family_stats builds the per-difference cluster spectrum: the spectrum has one entry per
+distinct difference (nearly one per pair) and energy_form_bound takes several float64 copies of it, so beyond a few 10^7 pairs it does
+not fit in a few GB.  Above the budget the energy fields are recorded as not computed (None); the exact and tolerance-W statistics,
+the Lemma D floors and the controls are unaffected."""
+
+
+def family_stats(N: int, cells: List[Tuple[int, int]], r: int, rng: random.Random, controls: int, label: str,
+                 energy_pair_budget: int = ENERGY_PAIR_BUDGET) -> Dict:
+    """Exact and tolerance-W cluster statistics of the start set of a cell family, its Lemma D floor, and random controls.  The energy
+    form (cluster spectrum) is computed only when the family's pair count is at most `energy_pair_budget`; otherwise its fields are
+    None and `energy_computed` is False."""
     S = exponent_set(N, cells, r, with_windows=False)
     Wmax = max(window(N, r, a * b) for a, b in cells)
     n_prime = sum(window(N, r, a * b) for a, b in cells)
@@ -312,17 +450,24 @@ def family_stats(N: int, cells: List[Tuple[int, int]], r: int, rng: random.Rando
     k_star, t_res = divmod(tW, N)
     if t_res > N // 2:
         k_star, t_res = k_star + 1, t_res - N
-    spec = cluster_spectrum(S, 1)
-    K_e, m_e, sbar_e = energy_form_bound(len(cells), 1, spec)
+    n_pairs = len(S) * (len(S) - 1) // 2
+    if n_pairs <= energy_pair_budget:
+        spec = cluster_spectrum(S, 1)
+        K_e, m_e, sbar_e = energy_form_bound(len(cells), 1, spec)
+        spec_top = [int(x) for x in spec[:8]]
+        energy_computed = True
+    else:
+        K_e = m_e = sbar_e = spec_top = None
+        energy_computed = False
     return {"label": label, "cells": len(cells), "n_prime": n_prime, "W_max": Wmax, "D_exact": D1, "D_W": DW,
             "t_star": tW, "a_diff": k_star, "t_residual": t_res, "random_D_W": ctrl,
             "lemma_d": lemma_d_bound(n_prime, Wmax, DW), "trivial": 2 * n_prime ** 0.5,
             # singleton starts: keep only the first exponent of every cell (a cover of Z covers this subset), so W = 1
             "lemma_d_starts": lemma_d_bound(len(cells), 1, D1), "trivial_starts": 2 * len(cells) ** 0.5,
             # energy form on the singleton starts: mean of the m largest signed clusters, minimised over the unknown cover
-            # parameter m = min(|B|, |G|)
+            # parameter m = min(|B|, |G|); None when the pair count exceeds the budget
             "energy_starts": K_e, "energy_m": m_e, "energy_sigma_bar": sbar_e,
-            "spectrum_top": [int(x) for x in spec[:8]]}
+            "spectrum_top": spec_top, "energy_pairs": n_pairs, "energy_computed": energy_computed}
 
 
 def lemma_d_bound(n_windows: int, W: int, D: int) -> float:
@@ -401,6 +546,33 @@ def experiment(bits_list=(32, 36, 40), count: int = 2, seed: int = 5) -> Dict:
     return {"bits": list(bits_list), "count": count, "seed": seed, "rows": rows}
 
 
+def merge_census_archive(existing: Dict | None, res: Dict) -> Dict:
+    """Merge the census result `res` (as `experiment` returns it) into `existing` (a previous archive of the same form, or None).  Rows
+    are keyed by the modulus N: a rerun of a modulus replaces its row in place, new moduli are appended in order.  The top level keeps
+    `bits` as the sorted union, `count` when every run used the same count (otherwise the list of counts, one per run), `seed`, the
+    list `runs` of the (bits, count) pairs merged, and `rows`.  A census can thus be assembled from several runs, e.g. two moduli at each
+    of several sizes and one at another size."""
+    if existing is None or not existing.get("rows"):
+        runs = [{"bits": list(res["bits"]), "count": res["count"]}]
+        return {"bits": sorted(set(res["bits"])), "count": res["count"], "seed": res["seed"], "runs": runs, "rows": list(res["rows"])}
+    if existing.get("seed", res["seed"]) != res["seed"]:
+        raise ValueError(f"cannot merge censuses of different seeds ({existing.get('seed')} and {res['seed']})")
+    rows = list(existing["rows"])
+    index = {int(row["N"]): i for i, row in enumerate(rows)}
+    for row in res["rows"]:
+        N = int(row["N"])
+        if N in index:
+            rows[index[N]] = row
+        else:
+            index[N] = len(rows)
+            rows.append(row)
+    runs = list(existing.get("runs") or [{"bits": list(existing["bits"]), "count": existing["count"]}])
+    runs.append({"bits": list(res["bits"]), "count": res["count"]})
+    counts = [run["count"] for run in runs]
+    return {"bits": sorted(set(existing["bits"]) | set(res["bits"])), "count": counts[0] if len(set(counts)) == 1 else counts,
+            "seed": res["seed"], "runs": runs, "rows": rows}
+
+
 if __name__ == "__main__":
     import argparse
 
@@ -461,9 +633,20 @@ if __name__ == "__main__":
         P = row["N_pow"]
         print(f"N~2^{row['N'].bit_length()} r={row['r']}  N^(1/6)={P['1/6']:.0f} N^(1/5)={P['1/5']:.0f} N^(2/9)={P['2/9']:.0f}")
         for key, f in row["families"].items():
+            energy = (f"energy={f['energy_starts']:.1f} (m={f['energy_m']}, Sbar={f['energy_sigma_bar']:.2f}, top {f['spectrum_top']})"
+                      if f["energy_computed"] else f"energy not computed ({f['energy_pairs']} pairs exceed the budget)")
             print(f"   {key:16s} cells={f['cells']:6d} n'={f['n_prime']:6d} W={f['W_max']:3d} D_exact={f['D_exact']:4d} D_W={f['D_W']:4d} "
                   f"(random {f['random_D_W']}) a_diff={f['a_diff']} t_res={f['t_residual']}  LemmaD={f['lemma_d']:.1f} trivial={f['trivial']:.1f} "
-                  f"| singleton starts: LemmaD={f['lemma_d_starts']:.1f} trivial={f['trivial_starts']:.1f} "
-                  f"energy={f['energy_starts']:.1f} (m={f['energy_m']}, Sbar={f['energy_sigma_bar']:.2f}, top {f['spectrum_top']})")
-    with open(args.out, "w") as f:
-        json.dump(res, f, indent=1, default=int)
+                  f"| singleton starts: LemmaD={f['lemma_d_starts']:.1f} trivial={f['trivial_starts']:.1f} " + energy)
+    import os
+
+    existing = None
+    if os.path.exists(args.out):
+        with open(args.out) as f:
+            existing = json.load(f)
+    merged = merge_census_archive(existing, res)
+    tmp = args.out + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(merged, f, indent=1, default=int)
+    os.replace(tmp, args.out)
+    print(f"wrote {args.out}: {len(merged['rows'])} moduli over bits {merged['bits']} ({len(merged['runs'])} run(s) merged)")

@@ -45,7 +45,7 @@ import numpy as np
 from flint import fmpz_poly, nmod_poly
 
 from ..gen import make_semiprime, random_prime_in
-from ..numth import mpz, iroot, isqrt, invert, is_prime, sqrt_mod_prime
+from ..numth import mpz, iroot, isqrt, invert, sqrt_mod_prime
 from .root_lattice import pari, root_lattice_columns
 
 
@@ -176,7 +176,6 @@ def roots_mod_prime(coeffs: Sequence[int], p: int) -> list[int]:
 
 
 def roots_mod_N(coeffs: Sequence[int], p: int, q: int) -> list[int]:
-    N = p * q
     out = []
     rp = roots_mod_prime(coeffs, p)
     if not rp:

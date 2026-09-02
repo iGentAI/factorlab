@@ -1,12 +1,43 @@
 {
  "bits": [
   30,
+  32,
   34,
+  36,
   38,
-  42
+  40,
+  42,
+  44,
+  46,
+  48
  ],
- "count": 2,
+ "count": [
+  2,
+  1
+ ],
  "seed": 5,
+ "runs": [
+  {
+   "bits": [
+    30,
+    32,
+    34,
+    36,
+    38,
+    40,
+    42,
+    44,
+    46
+   ],
+   "count": 2
+  },
+  {
+   "bits": [
+    48
+   ],
+   "count": 1
+  }
+ ],
  "rows": [
   {
    "N": 880634351,
@@ -44,7 +75,9 @@
       27,
       26,
       26
-     ]
+     ],
+     "energy_pairs": 63546,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -77,7 +110,9 @@
       3,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 20706,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -110,7 +145,9 @@
       3,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 11325,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -143,7 +180,9 @@
       3,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 20100,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -176,7 +215,9 @@
       6,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 114481,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -227,7 +268,9 @@
       22,
       21,
       21
-     ]
+     ],
+     "energy_pairs": 67896,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -260,7 +303,9 @@
       3,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 21736,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -293,7 +338,9 @@
       2,
       2,
       2
-     ]
+     ],
+     "energy_pairs": 11781,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -326,7 +373,9 @@
       3,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 21115,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -359,7 +408,9 @@
       6,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 121771,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -372,6 +423,392 @@
     "1/6": 31.434087006219396,
     "1/5": 62.64422216471645,
     "2/9": 99.20520705653999
+   }
+  },
+  {
+   "N": 3722008519,
+   "r": 1549,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 569,
+     "n_prime": 639,
+     "W_max": 10,
+     "D_exact": 35,
+     "D_W": 47,
+     "t_star": 3721886495,
+     "a_diff": 1,
+     "t_residual": -122024,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 12.022033985280274,
+     "trivial": 50.556898639058154,
+     "lemma_d_starts": 26.44816189828817,
+     "trivial_starts": 47.70744176750625,
+     "energy_starts": 28.850434109786697,
+     "energy_m": 14,
+     "energy_sigma_bar": 27.0,
+     "spectrum_top": [
+      35,
+      35,
+      31,
+      31,
+      27,
+      27,
+      24,
+      24
+     ],
+     "energy_pairs": 161596,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 328,
+     "n_prime": 369,
+     "W_max": 10,
+     "D_exact": 4,
+     "D_W": 18,
+     "t_star": 7443718150,
+     "a_diff": 2,
+     "t_residual": -298888,
+     "random_D_W": [
+      1,
+      2,
+      1
+     ],
+     "lemma_d": 11.479863943965759,
+     "trivial": 38.41874542459709,
+     "lemma_d_starts": 37.749038760372486,
+     "trivial_starts": 36.22154055254967,
+     "energy_starts": 40.669429170985566,
+     "energy_m": 20,
+     "energy_sigma_bar": 3.2,
+     "spectrum_top": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+     ],
+     "energy_pairs": 53628,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 247,
+     "n_prime": 247,
+     "W_max": 1,
+     "D_exact": 4,
+     "D_W": 4,
+     "t_star": 49814,
+     "a_diff": 0,
+     "t_residual": 49814,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 31.245535362174664,
+     "trivial": 31.432467291003423,
+     "lemma_d_starts": 31.245535362174664,
+     "trivial_starts": 31.432467291003423,
+     "energy_starts": 33.51917779602676,
+     "energy_m": 16,
+     "energy_sigma_bar": 3.25,
+     "spectrum_top": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+     ],
+     "energy_pairs": 30381,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 322,
+     "n_prime": 363,
+     "W_max": 10,
+     "D_exact": 4,
+     "D_W": 18,
+     "t_star": 7443718150,
+     "a_diff": 2,
+     "t_residual": -298888,
+     "random_D_W": [
+      1,
+      1,
+      2
+     ],
+     "lemma_d": 11.355081270020037,
+     "trivial": 38.1051177665153,
+     "lemma_d_starts": 37.28726957646907,
+     "trivial_starts": 35.888716889852724,
+     "energy_starts": 40.166840037277076,
+     "energy_m": 20,
+     "energy_sigma_bar": 3.2,
+     "spectrum_top": [
+      4,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      3
+     ],
+     "energy_pairs": 51681,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 775,
+     "n_prime": 775,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 121909,
+     "a_diff": 0,
+     "t_residual": 121909,
+     "random_D_W": [
+      7,
+      5,
+      5
+     ],
+     "lemma_d": 58.500653396489376,
+     "trivial": 55.67764362830022,
+     "lemma_d_starts": 58.500653396489376,
+     "trivial_starts": 55.67764362830022,
+     "energy_starts": 63.09381713575268,
+     "energy_m": 30,
+     "energy_sigma_bar": 4.8,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+     ],
+     "energy_pairs": 299925,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 639,
+    "D_max": 70,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 6.274292776121404,
+    "1/6": 39.36674984048923,
+    "1/5": 82.0645273573091,
+    "2/9": 133.9181416095726
+   }
+  },
+  {
+   "N": 3601086119,
+   "r": 1532,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 564,
+     "n_prime": 631,
+     "W_max": 10,
+     "D_exact": 35,
+     "D_W": 48,
+     "t_star": 3600966093,
+     "a_diff": 1,
+     "t_residual": -120026,
+     "random_D_W": [
+      2,
+      1,
+      2
+     ],
+     "lemma_d": 11.838113301783062,
+     "trivial": 50.23942674832188,
+     "lemma_d_starts": 26.29299465273423,
+     "trivial_starts": 47.49736834815167,
+     "energy_starts": 28.150836987877945,
+     "energy_m": 13,
+     "energy_sigma_bar": 28.76923076923077,
+     "spectrum_top": [
+      35,
+      35,
+      31,
+      31,
+      29,
+      29,
+      27,
+      27
+     ],
+     "energy_pairs": 158766,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 324,
+     "n_prime": 364,
+     "W_max": 10,
+     "D_exact": 5,
+     "D_W": 18,
+     "t_star": 7201878245,
+     "a_diff": 2,
+     "t_residual": -293993,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 11.375925850565702,
+     "trivial": 38.157568056677825,
+     "lemma_d_starts": 34.75761784580266,
+     "trivial_starts": 36.0,
+     "energy_starts": 39.471983113332186,
+     "energy_m": 19,
+     "energy_sigma_bar": 3.4210526315789473,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3
+     ],
+     "energy_pairs": 52326,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 243,
+     "n_prime": 243,
+     "W_max": 1,
+     "D_exact": 5,
+     "D_W": 5,
+     "t_star": 48997,
+     "a_diff": 0,
+     "t_residual": 48997,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 28.691781367930496,
+     "trivial": 31.176914536239792,
+     "lemma_d_starts": 28.691781367930496,
+     "trivial_starts": 31.176914536239792,
+     "energy_starts": 32.293678111510204,
+     "energy_m": 15,
+     "energy_sigma_bar": 3.533333333333333,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3
+     ],
+     "energy_pairs": 29403,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 319,
+     "n_prime": 359,
+     "W_max": 10,
+     "D_exact": 5,
+     "D_W": 18,
+     "t_star": 7201878245,
+     "a_diff": 2,
+     "t_residual": -293993,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 11.271510741407004,
+     "trivial": 37.89459064299283,
+     "lemma_d_starts": 34.39910309541833,
+     "trivial_starts": 35.7211421989835,
+     "energy_starts": 39.05183605376775,
+     "energy_m": 19,
+     "energy_sigma_bar": 3.4210526315789473,
+     "spectrum_top": [
+      5,
+      5,
+      4,
+      4,
+      4,
+      4,
+      3,
+      3
+     ],
+     "energy_pairs": 50721,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 766,
+     "n_prime": 766,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 103628,
+     "a_diff": 0,
+     "t_residual": 103628,
+     "random_D_W": [
+      6,
+      6,
+      5
+     ],
+     "lemma_d": 58.04686396019184,
+     "trivial": 55.35341001239219,
+     "lemma_d_starts": 58.04686396019184,
+     "trivial_starts": 55.35341001239219,
+     "energy_starts": 61.156174900513356,
+     "energy_m": 30,
+     "energy_sigma_bar": 5.133333333333334,
+     "spectrum_top": [
+      6,
+      6,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5
+     ],
+     "energy_pairs": 292995,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 631,
+    "D_max": 67,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 6.257047601577577,
+    "1/6": 39.15064468840771,
+    "1/5": 81.52422923778546,
+    "2/9": 132.93884173924033
    }
   },
   {
@@ -410,7 +847,9 @@
       39,
       37,
       37
-     ]
+     ],
+     "energy_pairs": 428275,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -443,7 +882,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 144453,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -476,7 +917,9 @@
       4,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 81003,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -509,7 +952,9 @@
       4,
       3,
       3
-     ]
+     ],
+     "energy_pairs": 137550,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -542,7 +987,9 @@
       6,
       6,
       6
-     ]
+     ],
+     "energy_pairs": 812175,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -593,7 +1040,9 @@
       36,
       36,
       36
-     ]
+     ],
+     "energy_pairs": 385003,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -626,7 +1075,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 129286,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -659,7 +1110,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 72010,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -692,7 +1145,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 123256,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -725,7 +1180,9 @@
       6,
       6,
       6
-     ]
+     ],
+     "energy_pairs": 726615,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -738,6 +1195,392 @@
     "1/6": 49.121573777167704,
     "1/5": 107.03522515226832,
     "2/9": 179.8993924297267
+   }
+  },
+  {
+   "N": 46551225037,
+   "r": 3597,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 1296,
+     "n_prime": 1453,
+     "W_max": 15,
+     "D_exact": 55,
+     "D_W": 73,
+     "t_star": 46550793511,
+     "a_diff": 1,
+     "t_residual": -431526,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 15.681311010907807,
+     "trivial": 76.23647421018367,
+     "lemma_d_starts": 39.38151654668655,
+     "trivial_starts": 72.0,
+     "energy_starts": 43.05823748201361,
+     "energy_m": 20,
+     "energy_sigma_bar": 42.4,
+     "spectrum_top": [
+      55,
+      55,
+      51,
+      51,
+      47,
+      47,
+      43,
+      43
+     ],
+     "energy_pairs": 839160,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 758,
+     "n_prime": 848,
+     "W_max": 15,
+     "D_exact": 6,
+     "D_W": 27,
+     "t_star": 93101393069,
+     "a_diff": 2,
+     "t_residual": -1057005,
+     "random_D_W": [
+      1,
+      2,
+      1
+     ],
+     "lemma_d": 15.256522680239955,
+     "trivial": 58.240879114244144,
+     "lemma_d_starts": 57.64200147274666,
+     "trivial_starts": 55.06359959174482,
+     "energy_starts": 67.4984544339423,
+     "energy_m": 31,
+     "energy_sigma_bar": 3.774193548387097,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4
+     ],
+     "energy_pairs": 286903,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 568,
+     "n_prime": 568,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 176166,
+     "a_diff": 0,
+     "t_residual": 176166,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 47.55452034637993,
+     "trivial": 47.66550115125194,
+     "lemma_d_starts": 47.55452034637993,
+     "trivial_starts": 47.66550115125194,
+     "energy_starts": 55.241033387361966,
+     "energy_m": 25,
+     "energy_sigma_bar": 3.88,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4
+     ],
+     "energy_pairs": 161028,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 736,
+     "n_prime": 826,
+     "W_max": 15,
+     "D_exact": 6,
+     "D_W": 27,
+     "t_star": 93101393069,
+     "a_diff": 2,
+     "t_residual": -1057005,
+     "random_D_W": [
+      2,
+      1,
+      1
+     ],
+     "lemma_d": 14.99149769649343,
+     "trivial": 57.48043145279966,
+     "lemma_d_starts": 56.52121096039051,
+     "trivial_starts": 54.258639865002145,
+     "energy_starts": 66.09290217774884,
+     "energy_m": 31,
+     "energy_sigma_bar": 3.774193548387097,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4
+     ],
+     "energy_pairs": 270480,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 1799,
+     "n_prime": 1799,
+     "W_max": 1,
+     "D_exact": 10,
+     "D_W": 10,
+     "t_star": 792195,
+     "a_diff": 0,
+     "t_residual": 792195,
+     "random_D_W": [
+      7,
+      6,
+      6
+     ],
+     "lemma_d": 86.50292125966853,
+     "trivial": 84.82924024179398,
+     "lemma_d_starts": 86.50292125966853,
+     "trivial_starts": 84.82924024179398,
+     "energy_starts": 98.64372076774984,
+     "energy_m": 47,
+     "energy_sigma_bar": 6.76595744680851,
+     "spectrum_top": [
+      10,
+      10,
+      8,
+      8,
+      8,
+      8,
+      8,
+      8
+     ],
+     "energy_pairs": 1617301,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 1453,
+    "D_max": 157,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 7.7445156108879685,
+    "1/6": 59.97752204728745,
+    "1/5": 136.01481741491355,
+    "2/9": 234.77473485045485
+   }
+  },
+  {
+   "N": 51465965107,
+   "r": 3719,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 1340,
+     "n_prime": 1503,
+     "W_max": 16,
+     "D_exact": 52,
+     "D_W": 76,
+     "t_star": 51465511372,
+     "a_diff": 1,
+     "t_residual": -453735,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 15.488337156454401,
+     "trivial": 77.53708789992051,
+     "lemma_d_starts": 41.02784910658194,
+     "trivial_starts": 73.2120208708925,
+     "energy_starts": 43.6788892742573,
+     "energy_m": 21,
+     "energy_sigma_bar": 43.19047619047619,
+     "spectrum_top": [
+      52,
+      52,
+      48,
+      48,
+      47,
+      47,
+      46,
+      46
+     ],
+     "energy_pairs": 897130,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 785,
+     "n_prime": 878,
+     "W_max": 16,
+     "D_exact": 6,
+     "D_W": 28,
+     "t_star": 102930818812,
+     "a_diff": 2,
+     "t_residual": -1111402,
+     "random_D_W": [
+      1,
+      2,
+      2
+     ],
+     "lemma_d": 15.097800110158955,
+     "trivial": 59.262129560116215,
+     "lemma_d_starts": 59.002808765386305,
+     "trivial_starts": 56.0357029044876,
+     "energy_starts": 69.20620642862133,
+     "energy_m": 32,
+     "energy_sigma_bar": 3.75,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+     ],
+     "energy_pairs": 307720,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 587,
+     "n_prime": 587,
+     "W_max": 1,
+     "D_exact": 6,
+     "D_W": 6,
+     "t_star": 185232,
+     "a_diff": 0,
+     "t_residual": 185232,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 48.6091823512885,
+     "trivial": 48.45616575834287,
+     "lemma_d_starts": 48.6091823512885,
+     "trivial_starts": 48.45616575834287,
+     "energy_starts": 56.159183309054136,
+     "energy_m": 26,
+     "energy_sigma_bar": 3.923076923076923,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+     ],
+     "energy_pairs": 171991,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 763,
+     "n_prime": 856,
+     "W_max": 16,
+     "D_exact": 6,
+     "D_W": 28,
+     "t_star": 102930818812,
+     "a_diff": 2,
+     "t_residual": -1111402,
+     "random_D_W": [
+      2,
+      1,
+      2
+     ],
+     "lemma_d": 14.844531775208614,
+     "trivial": 58.51495535331117,
+     "lemma_d_starts": 57.8952064676032,
+     "trivial_starts": 55.24490926773253,
+     "energy_starts": 67.81981346302032,
+     "energy_m": 31,
+     "energy_sigma_bar": 3.774193548387097,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+     ],
+     "energy_pairs": 290703,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 1860,
+     "n_prime": 1860,
+     "W_max": 1,
+     "D_exact": 8,
+     "D_W": 8,
+     "t_star": 1520763,
+     "a_diff": 0,
+     "t_residual": 1520763,
+     "random_D_W": [
+      7,
+      6,
+      7
+     ],
+     "lemma_d": 95.27712249704604,
+     "trivial": 86.2554346113913,
+     "lemma_d_starts": 95.27712249704604,
+     "trivial_starts": 86.2554346113913,
+     "energy_starts": 105.7299999951582,
+     "energy_m": 50,
+     "energy_sigma_bar": 5.88,
+     "spectrum_top": [
+      8,
+      8,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+     ],
+     "energy_pairs": 1728870,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 1503,
+    "D_max": 163,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 7.80956199378017,
+    "1/6": 60.9892585346957,
+    "1/5": 138.77269556462227,
+    "2/9": 240.06995149335322
    }
   },
   {
@@ -776,7 +1619,9 @@
       67,
       64,
       64
-     ]
+     ],
+     "energy_pairs": 2168403,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -809,7 +1654,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 750925,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -842,7 +1689,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 420903,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -875,7 +1724,9 @@
       4,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 695610,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -908,7 +1759,9 @@
       8,
       7,
       7
-     ]
+     ],
+     "energy_pairs": 4241328,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -959,7 +1812,9 @@
       60,
       59,
       59
-     ]
+     ],
+     "energy_pairs": 2096128,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -992,7 +1847,9 @@
       5,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 729028,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -1025,7 +1882,9 @@
       5,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 409060,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -1058,7 +1917,9 @@
       5,
       4,
       4
-     ]
+     ],
+     "energy_pairs": 674541,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -1091,7 +1952,9 @@
       7,
       7,
       7
-     ]
+     ],
+     "energy_pairs": 4094091,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -1104,6 +1967,392 @@
     "1/6": 75.65109599188216,
     "1/5": 179.71249309993664,
     "2/9": 319.9535739065295
+   }
+  },
+  {
+   "N": 876190896151,
+   "r": 9568,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 3398,
+     "n_prime": 3798,
+     "W_max": 25,
+     "D_exact": 84,
+     "D_W": 123,
+     "t_star": 876189024029,
+     "a_diff": 1,
+     "t_residual": -1872122,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 21.09105311742247,
+     "trivial": 123.25583150504482,
+     "lemma_d_starts": 65.02282282986887,
+     "trivial_starts": 116.58473313431737,
+     "energy_starts": 68.89059985450159,
+     "energy_m": 33,
+     "energy_sigma_bar": 70.81818181818181,
+     "spectrum_top": [
+      84,
+      84,
+      84,
+      84,
+      82,
+      82,
+      80,
+      80
+     ],
+     "energy_pairs": 5771503,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 2018,
+     "n_prime": 2246,
+     "W_max": 25,
+     "D_exact": 7,
+     "D_W": 46,
+     "t_star": 1752377206580,
+     "a_diff": 2,
+     "t_residual": -4585722,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 20.62452173336347,
+     "trivial": 94.78396488858229,
+     "lemma_d_starts": 105.17796404512109,
+     "trivial_starts": 89.8443097808648,
+     "energy_starts": 124.09851666921,
+     "energy_m": 55,
+     "energy_sigma_bar": 4.345454545454546,
+     "spectrum_top": [
+      7,
+      7,
+      7,
+      7,
+      5,
+      5,
+      5,
+      5
+     ],
+     "energy_pairs": 2035153,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 1514,
+     "n_prime": 1514,
+     "W_max": 1,
+     "D_exact": 7,
+     "D_W": 7,
+     "t_star": 764283,
+     "a_diff": 0,
+     "t_residual": 764283,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 86.84161710522329,
+     "trivial": 77.82030583337487,
+     "lemma_d_starts": 86.84161710522329,
+     "trivial_starts": 77.82030583337487,
+     "energy_starts": 105.43963782855874,
+     "energy_m": 48,
+     "energy_sigma_bar": 3.9583333333333335,
+     "spectrum_top": [
+      7,
+      7,
+      7,
+      7,
+      4,
+      4,
+      4,
+      4
+     ],
+     "energy_pairs": 1145341,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 1930,
+     "n_prime": 2157,
+     "W_max": 25,
+     "D_exact": 7,
+     "D_W": 44,
+     "t_star": 1752377206580,
+     "a_diff": 2,
+     "t_residual": -4585722,
+     "random_D_W": [
+      1,
+      2,
+      2
+     ],
+     "lemma_d": 20.375699806137426,
+     "trivial": 92.88702815786498,
+     "lemma_d_starts": 102.09759794846426,
+     "trivial_starts": 87.86353054595519,
+     "energy_starts": 127.6628313530103,
+     "energy_m": 60,
+     "energy_sigma_bar": 3.6,
+     "spectrum_top": [
+      7,
+      7,
+      5,
+      5,
+      4,
+      4,
+      4,
+      4
+     ],
+     "energy_pairs": 1861485,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 4784,
+     "n_prime": 4784,
+     "W_max": 1,
+     "D_exact": 12,
+     "D_W": 12,
+     "t_star": 1323577,
+     "a_diff": 0,
+     "t_residual": 1323577,
+     "random_D_W": [
+      7,
+      7,
+      7
+     ],
+     "lemma_d": 156.24652379821862,
+     "trivial": 138.33293172632466,
+     "lemma_d_starts": 156.24652379821862,
+     "trivial_starts": 138.33293172632466,
+     "energy_starts": 183.37932718180684,
+     "energy_m": 85,
+     "energy_sigma_bar": 7.482352941176471,
+     "spectrum_top": [
+      12,
+      12,
+      11,
+      11,
+      10,
+      10,
+      10,
+      10
+     ],
+     "energy_pairs": 11440936,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 3798,
+    "D_max": 400,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 9.890461605511888,
+    "1/6": 97.82123077010478,
+    "1/5": 244.63565088838024,
+    "2/9": 450.72415200633526
+   }
+  },
+  {
+   "N": 680093802697,
+   "r": 8794,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 3126,
+     "n_prime": 3492,
+     "W_max": 24,
+     "D_exact": 92,
+     "D_W": 119,
+     "t_star": 680092153319,
+     "a_diff": 1,
+     "t_residual": -1649378,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 20.43964840104558,
+     "trivial": 118.18629362155326,
+     "lemma_d_starts": 59.66780181503013,
+     "trivial_starts": 111.82128598795491,
+     "energy_starts": 61.276016398344744,
+     "energy_m": 30,
+     "energy_sigma_bar": 85.0,
+     "spectrum_top": [
+      92,
+      92,
+      91,
+      91,
+      90,
+      90,
+      89,
+      89
+     ],
+     "energy_pairs": 4884375,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 1854,
+     "n_prime": 2063,
+     "W_max": 24,
+     "D_exact": 7,
+     "D_W": 44,
+     "t_star": 1360183565284,
+     "a_diff": 2,
+     "t_residual": -4040110,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 20.050329365248267,
+     "trivial": 90.84051959340611,
+     "lemma_d_starts": 99.39940965748755,
+     "trivial_starts": 86.11620056644394,
+     "energy_starts": 116.50395331675878,
+     "energy_m": 56,
+     "energy_sigma_bar": 4.357142857142857,
+     "spectrum_top": [
+      7,
+      7,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5
+     ],
+     "energy_pairs": 1717731,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 1391,
+     "n_prime": 1391,
+     "W_max": 1,
+     "D_exact": 7,
+     "D_W": 7,
+     "t_star": 673348,
+     "a_diff": 0,
+     "t_residual": 673348,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 82.07207339962909,
+     "trivial": 74.59222479588607,
+     "lemma_d_starts": 82.07207339962909,
+     "trivial_starts": 74.59222479588607,
+     "energy_starts": 98.34976804702302,
+     "energy_m": 44,
+     "energy_sigma_bar": 4.136363636363637,
+     "spectrum_top": [
+      7,
+      7,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5
+     ],
+     "energy_pairs": 966745,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 1777,
+     "n_prime": 1985,
+     "W_max": 24,
+     "D_exact": 6,
+     "D_W": 42,
+     "t_star": 1360183565284,
+     "a_diff": 2,
+     "t_residual": -4040110,
+     "random_D_W": [
+      1,
+      2,
+      2
+     ],
+     "lemma_d": 19.84708952036563,
+     "trivial": 89.10667763978185,
+     "lemma_d_starts": 101.72269717476748,
+     "trivial_starts": 84.30895563343196,
+     "energy_starts": 119.59725103850997,
+     "energy_m": 56,
+     "energy_sigma_bar": 3.7142857142857144,
+     "spectrum_top": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      4,
+      4
+     ],
+     "energy_pairs": 1577976,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 4397,
+     "n_prime": 4397,
+     "W_max": 1,
+     "D_exact": 10,
+     "D_W": 10,
+     "t_star": 1166080,
+     "a_diff": 0,
+     "t_residual": 1166080,
+     "random_D_W": [
+      7,
+      6,
+      7
+     ],
+     "lemma_d": 156.95710351180892,
+     "trivial": 132.61975720080324,
+     "lemma_d_starts": 156.95710351180892,
+     "trivial_starts": 132.61975720080324,
+     "energy_starts": 176.16252584526524,
+     "energy_m": 83,
+     "energy_sigma_bar": 7.108433734939759,
+     "spectrum_top": [
+      10,
+      10,
+      9,
+      9,
+      8,
+      8,
+      8,
+      8
+     ],
+     "energy_pairs": 9664606,
+     "energy_computed": true
+    }
+   },
+   "balanced_windowed": {
+    "size": 3492,
+    "D_max": 366,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 9.68383545557951,
+    "1/6": 93.77666913073884,
+    "1/5": 232.54861830340198,
+    "2/9": 426.0491833588233
    }
   },
   {
@@ -1142,7 +2391,9 @@
       106,
       105,
       105
-     ]
+     ],
+     "energy_pairs": 15420681,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -1175,7 +2426,9 @@
       7,
       7,
       7
-     ]
+     ],
+     "energy_pairs": 5492955,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -1208,7 +2461,9 @@
       6,
       6,
       6
-     ]
+     ],
+     "energy_pairs": 3088855,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -1241,7 +2496,9 @@
       5,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 4956526,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -1274,7 +2531,9 @@
       9,
       9,
       9
-     ]
+     ],
+     "energy_pairs": 30917316,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -1325,7 +2584,9 @@
       105,
       100,
       100
-     ]
+     ],
+     "energy_pairs": 13222653,
+     "energy_computed": true
     },
     "primitive": {
      "label": "balanced, gcd(a,b)=1",
@@ -1358,7 +2619,9 @@
       7,
       7,
       7
-     ]
+     ],
+     "energy_pairs": 4698645,
+     "energy_computed": true
     },
     "primitive_short": {
      "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
@@ -1391,7 +2654,9 @@
       6,
       6,
       6
-     ]
+     ],
+     "energy_pairs": 2643850,
+     "energy_computed": true
     },
     "unique_product": {
      "label": "balanced, gcd=1, one cell per product ab",
@@ -1424,7 +2689,9 @@
       5,
       5,
       5
-     ]
+     ],
+     "energy_pairs": 4250070,
+     "energy_computed": true
     },
     "shell": {
      "label": "a=1 shell r/2<k<=r",
@@ -1457,7 +2724,9 @@
       10,
       9,
       9
-     ]
+     ],
+     "energy_pairs": 26415546,
+     "energy_computed": true
     }
    },
    "balanced_windowed": {
@@ -1470,6 +2739,881 @@
     "1/6": 120.5744982080232,
     "1/5": 314.41738824403234,
     "2/9": 595.6721344506051
+   }
+  },
+  {
+   "N": 11427345574369,
+   "r": 22524,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 7935,
+     "n_prime": 8840,
+     "W_max": 38,
+     "D_exact": 137,
+     "D_W": 192,
+     "t_star": 11427338813462,
+     "a_diff": 1,
+     "t_residual": -6760907,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 27.7726017646247,
+     "trivial": 188.04254837669055,
+     "lemma_d_starts": 97.23018159949726,
+     "trivial_starts": 178.15723392554116,
+     "energy_starts": 104.51916030135456,
+     "energy_m": 50,
+     "energy_sigma_bar": 110.6,
+     "spectrum_top": [
+      137,
+      137,
+      134,
+      134,
+      130,
+      130,
+      124,
+      124
+     ],
+     "energy_pairs": 31478145,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 4745,
+     "n_prime": 5265,
+     "W_max": 38,
+     "D_exact": 13,
+     "D_W": 70,
+     "t_star": 22854674588007,
+     "a_diff": 2,
+     "t_residual": -16560731,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 27.519996227236888,
+     "trivial": 145.12063946937388,
+     "lemma_d_starts": 151.30491141910574,
+     "trivial_starts": 137.7679207943562,
+     "energy_starts": 195.72553692070963,
+     "energy_m": 85,
+     "energy_sigma_bar": 6.1647058823529415,
+     "spectrum_top": [
+      13,
+      13,
+      9,
+      9,
+      9,
+      9,
+      8,
+      8
+     ],
+     "energy_pairs": 11255140,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 3557,
+     "n_prime": 3557,
+     "W_max": 1,
+     "D_exact": 10,
+     "D_W": 10,
+     "t_star": 137128146892410,
+     "a_diff": 12,
+     "t_residual": -18,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 136.26968186341284,
+     "trivial": 119.28118040998756,
+     "lemma_d_starts": 136.26968186341284,
+     "trivial_starts": 119.28118040998756,
+     "energy_starts": 167.28262243190773,
+     "energy_m": 75,
+     "energy_sigma_bar": 5.493333333333333,
+     "spectrum_top": [
+      10,
+      10,
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+     ],
+     "energy_pairs": 6324346,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 4492,
+     "n_prime": 5007,
+     "W_max": 38,
+     "D_exact": 7,
+     "D_W": 64,
+     "t_star": 22854674588007,
+     "a_diff": 2,
+     "t_residual": -16560731,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 27.42040526813873,
+     "trivial": 141.5203165626759,
+     "lemma_d_starts": 179.30971362473463,
+     "trivial_starts": 134.0447686409283,
+     "energy_starts": 208.87493208593241,
+     "energy_m": 101,
+     "energy_sigma_bar": 4.435643564356436,
+     "spectrum_top": [
+      7,
+      7,
+      7,
+      7,
+      6,
+      6,
+      6,
+      6
+     ],
+     "energy_pairs": 10086786,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 11262,
+     "n_prime": 11262,
+     "W_max": 1,
+     "D_exact": 14,
+     "D_W": 14,
+     "t_star": 4780353,
+     "a_diff": 0,
+     "t_residual": 4780353,
+     "random_D_W": [
+      7,
+      8,
+      7
+     ],
+     "lemma_d": 262.6501593737835,
+     "trivial": 212.24514128714466,
+     "lemma_d_starts": 262.6501593737835,
+     "trivial_starts": 212.24514128714466,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 63410691,
+     "energy_computed": false
+    }
+   },
+   "balanced_windowed": {
+    "size": 8840,
+    "D_max": 905,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 12.250734092691918,
+    "1/6": 150.08048580984408,
+    "1/5": 408.8736019981419,
+    "2/9": 797.5641707759995
+   }
+  },
+  {
+   "N": 16247581009873,
+   "r": 25327,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 8914,
+     "n_prime": 9925,
+     "W_max": 40,
+     "D_exact": 148,
+     "D_W": 203,
+     "t_star": 16247572948178,
+     "a_diff": 1,
+     "t_residual": -8061695,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 28.94976209429715,
+     "trivial": 199.24858845171275,
+     "lemma_d_starts": 102.40107438618396,
+     "trivial_starts": 188.8279640307547,
+     "energy_starts": 110.79786960012598,
+     "energy_m": 52,
+     "energy_sigma_bar": 117.5,
+     "spectrum_top": [
+      148,
+      148,
+      139,
+      139,
+      137,
+      137,
+      135,
+      135
+     ],
+     "energy_pairs": 39725241,
+     "energy_computed": true
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 5338,
+     "n_prime": 5919,
+     "W_max": 40,
+     "D_exact": 15,
+     "D_W": 76,
+     "t_star": 32495142272746,
+     "a_diff": 2,
+     "t_residual": -19747000,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 28.45887298313021,
+     "trivial": 153.87007506334686,
+     "lemma_d_starts": 156.0385688842103,
+     "trivial_starts": 146.12323566086263,
+     "energy_starts": 208.2065869819561,
+     "energy_m": 94,
+     "energy_sigma_bar": 6.404255319148936,
+     "spectrum_top": [
+      15,
+      15,
+      10,
+      10,
+      10,
+      10,
+      9,
+      9
+     ],
+     "energy_pairs": 14244453,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 4003,
+     "n_prime": 4003,
+     "W_max": 1,
+     "D_exact": 11,
+     "D_W": 11,
+     "t_star": 194970972118458,
+     "a_diff": 12,
+     "t_residual": -18,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 142.82453876717148,
+     "trivial": 126.53853168106544,
+     "lemma_d_starts": 142.82453876717148,
+     "trivial_starts": 126.53853168106544,
+     "energy_starts": 178.80971273071626,
+     "energy_m": 79,
+     "energy_sigma_bar": 5.7215189873417724,
+     "spectrum_top": [
+      11,
+      11,
+      10,
+      10,
+      8,
+      8,
+      8,
+      8
+     ],
+     "energy_pairs": 8010003,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 5035,
+     "n_prime": 5610,
+     "W_max": 40,
+     "D_exact": 7,
+     "D_W": 68,
+     "t_star": 32495142272746,
+     "a_diff": 2,
+     "t_residual": -19747000,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 28.496767869844614,
+     "trivial": 149.79986648859204,
+     "lemma_d_starts": 193.48336644879237,
+     "trivial_starts": 141.91546779685433,
+     "energy_starts": 225.62342209533915,
+     "energy_m": 109,
+     "energy_sigma_bar": 4.422018348623853,
+     "spectrum_top": [
+      7,
+      7,
+      7,
+      7,
+      6,
+      6,
+      6,
+      6
+     ],
+     "energy_pairs": 12673095,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 12664,
+     "n_prime": 12664,
+     "W_max": 1,
+     "D_exact": 13,
+     "D_W": 13,
+     "t_star": 5700130,
+     "a_diff": 0,
+     "t_residual": 5700130,
+     "random_D_W": [
+      7,
+      8,
+      7
+     ],
+     "lemma_d": 291.1227526795801,
+     "trivial": 225.0688783461632,
+     "lemma_d_starts": 291.1227526795801,
+     "trivial_starts": 225.0688783461632,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 80182116,
+     "energy_computed": false
+    }
+   },
+   "balanced_windowed": {
+    "size": 9925,
+    "D_max": 1011,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 12.615342888324482,
+    "1/6": 159.1468761899991,
+    "1/5": 438.69000756591356,
+    "2/9": 862.4438401635014
+   }
+  },
+  {
+   "N": 55862770399391,
+   "r": 38227,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 13418,
+     "n_prime": 14921,
+     "W_max": 49,
+     "D_exact": 186,
+     "D_W": 250,
+     "t_star": 55862755451065,
+     "a_diff": 1,
+     "t_residual": -14948326,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 33.12556205816091,
+     "trivial": 244.3030904429987,
+     "lemma_d_starts": 124.6323762837705,
+     "trivial_starts": 231.67218218853984,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 90014653,
+     "energy_computed": false
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 8059,
+     "n_prime": 8927,
+     "W_max": 49,
+     "D_exact": 19,
+     "D_W": 92,
+     "t_star": 111725504183057,
+     "a_diff": 2,
+     "t_residual": -36615725,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 32.82104359164987,
+     "trivial": 188.9656053359976,
+     "lemma_d_starts": 189.792728237956,
+     "trivial_starts": 179.5438665062107,
+     "energy_starts": 263.9110772024155,
+     "energy_m": 117,
+     "energy_sigma_bar": 7.205128205128205,
+     "spectrum_top": [
+      19,
+      19,
+      14,
+      14,
+      13,
+      13,
+      12,
+      12
+     ],
+     "energy_pairs": 32469711,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 6044,
+     "n_prime": 6044,
+     "W_max": 1,
+     "D_exact": 13,
+     "D_W": 13,
+     "t_star": 1340706489585348,
+     "a_diff": 24,
+     "t_residual": -36,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 177.79185105826335,
+     "trivial": 155.48633380461447,
+     "lemma_d_starts": 177.79185105826335,
+     "trivial_starts": 155.48633380461447,
+     "energy_starts": 229.76791299111355,
+     "energy_m": 108,
+     "energy_sigma_bar": 6.055555555555555,
+     "spectrum_top": [
+      13,
+      13,
+      12,
+      12,
+      11,
+      11,
+      10,
+      10
+     ],
+     "energy_pairs": 18261946,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 7556,
+     "n_prime": 8411,
+     "W_max": 49,
+     "D_exact": 9,
+     "D_W": 82,
+     "t_star": 111725504183057,
+     "a_diff": 2,
+     "t_residual": -36615725,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 32.77719436146058,
+     "trivial": 183.42300837136,
+     "lemma_d_starts": 233.23324868638718,
+     "trivial_starts": 173.85051049680584,
+     "energy_starts": 296.11235134178537,
+     "energy_m": 143,
+     "energy_sigma_bar": 4.405594405594406,
+     "spectrum_top": [
+      9,
+      9,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5
+     ],
+     "energy_pairs": 28542790,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 19114,
+     "n_prime": 19114,
+     "W_max": 1,
+     "D_exact": 18,
+     "D_W": 18,
+     "t_star": 10569633,
+     "a_diff": 0,
+     "t_residual": 10569633,
+     "random_D_W": [
+      7,
+      8,
+      8
+     ],
+     "lemma_d": 343.67943942111015,
+     "trivial": 276.50678111033733,
+     "lemma_d_starts": 343.67943942111015,
+     "trivial_starts": 276.50678111033733,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 182662941,
+     "energy_computed": false
+    }
+   },
+   "balanced_windowed": {
+    "size": 14921,
+    "D_max": 1503,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 13.982780466196632,
+    "1/6": 195.51814956585008,
+    "1/5": 561.5966312035296,
+    "2/9": 1134.7915791635771
+   }
+  },
+  {
+   "N": 46686914783221,
+   "r": 36007,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 12639,
+     "n_prime": 14059,
+     "W_max": 48,
+     "D_exact": 174,
+     "D_W": 243,
+     "t_star": 46686901117611,
+     "a_diff": 1,
+     "t_residual": -13665610,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 32.36163452223177,
+     "trivial": 237.1413080844415,
+     "lemma_d_starts": 122.45280137967984,
+     "trivial_starts": 224.84661438411743,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 79865841,
+     "energy_computed": false
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 7588,
+     "n_prime": 8408,
+     "W_max": 48,
+     "D_exact": 19,
+     "D_W": 91,
+     "t_star": 93373796092718,
+     "a_diff": 2,
+     "t_residual": -33473724,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 31.869671772146358,
+     "trivial": 183.3902941815624,
+     "lemma_d_starts": 182.32393260526152,
+     "trivial_starts": 174.21825392306053,
+     "energy_starts": 253.508606404576,
+     "energy_m": 112,
+     "energy_sigma_bar": 7.214285714285714,
+     "spectrum_top": [
+      19,
+      19,
+      13,
+      13,
+      12,
+      12,
+      11,
+      11
+     ],
+     "energy_pairs": 28785078,
+     "energy_computed": true
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 5691,
+     "n_prime": 5691,
+     "W_max": 1,
+     "D_exact": 13,
+     "D_W": 13,
+     "t_star": 560242977398634,
+     "a_diff": 12,
+     "t_residual": -18,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 170.80002825267067,
+     "trivial": 150.87743370033837,
+     "lemma_d_starts": 170.80002825267067,
+     "trivial_starts": 150.87743370033837,
+     "energy_starts": 220.17418677379,
+     "energy_m": 103,
+     "energy_sigma_bar": 6.106796116504855,
+     "spectrum_top": [
+      13,
+      13,
+      12,
+      12,
+      10,
+      10,
+      9,
+      9
+     ],
+     "energy_pairs": 16190895,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 7120,
+     "n_prime": 7929,
+     "W_max": 48,
+     "D_exact": 6,
+     "D_W": 82,
+     "t_star": 93373796092718,
+     "a_diff": 2,
+     "t_residual": -33473724,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 31.73003714683287,
+     "trivial": 178.08986495586996,
+     "lemma_d_starts": 256.61354572405065,
+     "trivial_starts": 168.7601848778319,
+     "energy_starts": 286.185175388229,
+     "energy_m": 139,
+     "energy_sigma_bar": 4.330935251798561,
+     "spectrum_top": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6,
+      6
+     ],
+     "energy_pairs": 25343640,
+     "energy_computed": true
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 18004,
+     "n_prime": 18004,
+     "W_max": 1,
+     "D_exact": 17,
+     "D_W": 17,
+     "t_star": 9662628,
+     "a_diff": 0,
+     "t_residual": 9662628,
+     "random_D_W": [
+      8,
+      8,
+      8
+     ],
+     "lemma_d": 336.59399287225244,
+     "trivial": 268.3579698835121,
+     "lemma_d_starts": 336.59399287225244,
+     "trivial_starts": 268.3579698835121,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 162063006,
+     "energy_computed": false
+    }
+   },
+   "balanced_windowed": {
+    "size": 14059,
+    "D_max": 1420,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 13.7752534434042,
+    "1/6": 189.75760743001928,
+    "1/5": 541.8000428806953,
+    "2/9": 1090.4328535827267
+   }
+  },
+  {
+   "N": 176552314063291,
+   "r": 56099,
+   "C": 2,
+   "families": {
+    "balanced": {
+     "label": "balanced a<=b<=Ca, ab<=r",
+     "cells": 19640,
+     "n_prime": 21821,
+     "W_max": 60,
+     "D_exact": 224,
+     "D_W": 303,
+     "t_star": 176552287488637,
+     "a_diff": 1,
+     "t_residual": -26574654,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 37.41638323234905,
+     "trivial": 295.4386569154416,
+     "lemma_d_starts": 151.01554283108885,
+     "trivial_starts": 280.28556866167764,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 192854980,
+     "energy_computed": false
+    },
+    "primitive": {
+     "label": "balanced, gcd(a,b)=1",
+     "cells": 11820,
+     "n_prime": 13085,
+     "W_max": 60,
+     "D_exact": 25,
+     "D_W": 114,
+     "t_star": 353104563032297,
+     "a_diff": 2,
+     "t_residual": -65094285,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 36.85590806860897,
+     "trivial": 228.77936969928035,
+     "lemma_d_starts": 223.58447627182554,
+     "trivial_starts": 217.43964679883013,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 69850290,
+     "energy_computed": false
+    },
+    "primitive_short": {
+     "label": "balanced, gcd=1, ab>r/4 (W=1 here)",
+     "cells": 8866,
+     "n_prime": 8866,
+     "W_max": 1,
+     "D_exact": 16,
+     "D_W": 16,
+     "t_star": 2118627768759474,
+     "a_diff": 12,
+     "t_residual": -18,
+     "random_D_W": [
+      1,
+      1,
+      1
+     ],
+     "lemma_d": 214.18472200797362,
+     "trivial": 188.31887850133347,
+     "lemma_d_starts": 214.18472200797362,
+     "trivial_starts": 188.31887850133347,
+     "energy_starts": 282.992939896559,
+     "energy_m": 126,
+     "energy_sigma_bar": 7.063492063492063,
+     "spectrum_top": [
+      16,
+      16,
+      16,
+      16,
+      12,
+      12,
+      12,
+      12
+     ],
+     "energy_pairs": 39298545,
+     "energy_computed": true
+    },
+    "unique_product": {
+     "label": "balanced, gcd=1, one cell per product ab",
+     "cells": 11009,
+     "n_prime": 12249,
+     "W_max": 60,
+     "D_exact": 9,
+     "D_W": 98,
+     "t_star": 353104563032297,
+     "a_diff": 2,
+     "t_residual": -65094285,
+     "random_D_W": [
+      2,
+      2,
+      2
+     ],
+     "lemma_d": 37.09237538318559,
+     "trivial": 221.3504009483606,
+     "lemma_d_starts": 299.75130088201877,
+     "trivial_starts": 209.84756372185979,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 60593536,
+     "energy_computed": false
+    },
+    "shell": {
+     "label": "a=1 shell r/2<k<=r",
+     "cells": 28050,
+     "n_prime": 28050,
+     "W_max": 1,
+     "D_exact": 21,
+     "D_W": 21,
+     "t_star": 385314665,
+     "a_diff": 0,
+     "t_residual": 385314665,
+     "random_D_W": [
+      9,
+      8,
+      8
+     ],
+     "lemma_d": 421.59178914686447,
+     "trivial": 334.9626844888845,
+     "lemma_d_starts": 421.59178914686447,
+     "trivial_starts": 334.9626844888845,
+     "energy_starts": null,
+     "energy_m": null,
+     "energy_sigma_bar": null,
+     "spectrum_top": null,
+     "energy_pairs": 393387225,
+     "energy_computed": false
+    }
+   },
+   "balanced_windowed": {
+    "size": 21821,
+    "D_max": 2181,
+    "t_star": 1
+   },
+   "N_pow": {
+    "1/12": 15.390029460508448,
+    "1/6": 236.85300679531795,
+    "1/5": 706.9271849927085,
+    "2/9": 1465.4529173888684
    }
   }
  ]

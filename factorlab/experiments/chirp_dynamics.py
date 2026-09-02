@@ -31,8 +31,7 @@ from typing import Sequence
 import numpy as np
 
 from ..gen import make_semiprime
-from ..numth import mpz, isqrt
-from .lehman_cover import short_window_subfamily, approx_sidon, squarefree_flags, ceil_2sqrt, window_length
+from .lehman_cover import short_window_subfamily, approx_sidon, squarefree_flags
 
 
 def speed_census(r: int, squarefree: bool) -> dict:

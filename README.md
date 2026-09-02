@@ -23,7 +23,7 @@ attacking a deployed scheme; every floor is a theorem inside a stated model, and
 |---|---|
 | `factorlab/` | the factoring harness: `numth` (gmpy2 primitives), `gen` (seeded semiprime generation by rejection sampling), `result`/`registry`/`audit`/`bench` (work counters, factor validation, registration, benchmarks), `algorithms/` (trial division, Fermat, Lehman, Hart, SQUFOF, Pollard rho, Pollard–Strassen, babystep–giantstep on $p+q$, ECM, a quadratic sieve, Schnorr–Lenstra class groups, a deterministic fixed-list ECM), `experiments/` (one module per experiment of the factoring report; each has a `__main__` or a `run_*` driver) |
 | `latticelab/` | the lattice arm: `profile_floor` (the profile floor, its $O(d)$ exact dual certificate, interval-arithmetic decisions), `check_certificate` (an independent checker), `spec_chain` (the round-3 chain and the detection chain with certification), `head_slack`, `uniform_slack`, `qceiling` (the $q$-ary ceiling, the head-clipped extremal profile, the dual route), `simulator_chain` (the detection condition on Chen–Nguyen and Bai–Stehlé–Wen simulated profiles), `certify_audit` and `audit_detection` (exact certification of the audit bases and their weighted deficits), `dual_census`, `residual`, `insertion`, `schedule_game`, `poisson_world`, `lattices`, `sieve`, `profile` |
-| `tests/` | the test suite (`python -m pytest -q`; 357 tests, about a minute) |
+| `tests/` | the test suite (`python -m pytest -q`; 366 tests, about a minute) |
 | `results/` | the archives: JSON and JSONL outputs of every experiment and certification named in the reports, with the logs of the long runs; these are the datasets of the release |
 | `REPRODUCING.md` | statement → producing function → archive → command, for both reports |
 | `requirements.txt` | the pinned Python stack the archives were produced with |
@@ -44,6 +44,12 @@ link the system file into the path fpylll expects:
 
     sudo mkdir -p /project/local/share/fplll/strategies
     sudo ln -s /usr/share/libfplll8/strategies/default.json /project/local/share/fplll/strategies/default.json
+
+On macOS the binary wheel's strategies path points into its own build tree (`/Users/runner/work/fpylll/...`), so the symlink does not
+apply and exact-SVP calls raise `FileNotFoundError` (the suite crashes in `tests/test_schnorr_lattice.py`). Install fplll with
+Homebrew (`brew install fplll`) and reinstall fpylll from its source distribution against that library, e.g.
+`pip install --no-binary fpylll --force-reinstall fpylll==0.6.4` with Homebrew's include and lib directories on `CFLAGS`/`LDFLAGS` if
+the build does not find them; the suite then passes on arm64 with Python 3.12.
 
 Run the tests from the repository root:
 

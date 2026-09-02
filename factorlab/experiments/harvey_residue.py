@@ -22,7 +22,7 @@ import math
 import os
 from typing import Dict, List, Optional, Tuple
 
-from gmpy2 import gcd, invert, iroot, is_square, isqrt, mpz, powmod
+from gmpy2 import gcd, invert, is_square, isqrt, mpz, powmod
 
 from factorlab.experiments.order_selection import select_order_element
 from factorlab.gen import make_semiprime

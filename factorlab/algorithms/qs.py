@@ -25,7 +25,7 @@ import time
 
 import numpy as np
 
-from ..numth import mpz, isqrt, gcd, is_prime, jacobi, small_primes, sqrt_mod_prime
+from ..numth import mpz, isqrt, gcd, jacobi, small_primes, sqrt_mod_prime
 from ..registry import register
 from ..result import Work, success, failure
 

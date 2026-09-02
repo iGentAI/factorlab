@@ -1,6 +1,5 @@
 import random
 
-import gmpy2
 import pytest
 
 from factorlab import numth

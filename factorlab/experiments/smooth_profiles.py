@@ -25,7 +25,6 @@ from __future__ import annotations
 
 import math
 import random
-from collections import Counter
 from typing import Sequence
 
 import numpy as np

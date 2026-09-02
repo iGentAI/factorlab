@@ -16,7 +16,6 @@ left unchanged: repeated insertions make a basis SVP-tight up to that slack (R(B
 """
 from __future__ import annotations
 
-import math
 from typing import Dict, List
 
 import numpy as np
@@ -24,7 +23,7 @@ from fpylll import BKZ, GSO, IntegerMatrix
 from fpylll.algorithms.bkz import BKZReduction as BKZBase
 
 from latticelab.profile import block_gh_ratios, gs_profile
-from latticelab.profile_floor import block_sizes, dual_certificate, floor_l1_float, log_chat
+from latticelab.profile_floor import dual_certificate, floor_l1_float, log_chat
 
 
 def weighted_subgh_mass(A: IntegerMatrix, beta: int) -> Dict:

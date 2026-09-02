@@ -6,7 +6,7 @@ import json
 import math
 import os
 
-from ..bench import RESULTS_DIR, fit_exponent
+from ..bench import RESULTS_DIR
 from ..gen import make_semiprime
 from . import barrier
 

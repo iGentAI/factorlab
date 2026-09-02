@@ -22,7 +22,6 @@ from __future__ import annotations
 
 import math
 import random
-from typing import Sequence
 
 import numpy as np
 from sympy import factorint

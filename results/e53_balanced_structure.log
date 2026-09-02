@@ -1,0 +1,124 @@
+N~2^30 r=958  N^(1/6)=31 N^(1/5)=62 N^(2/9)=97
+   balanced         cells=   357 n'=   400 W=  8 D_exact=  29 D_W=  37 (random [2, 2, 2]) a_diff=1 t_res=-59357  LemmaD=10.3 trivial=40.0 | singleton starts: LemmaD=20.6 trivial=37.8 energy=21.2 (m=10, Sbar=27.00, top [29, 29, 28, 28, 27, 27, 26, 26])
+   primitive        cells=   204 n'=   230 W=  8 D_exact=   3 D_W=  14 (random [1, 1, 2]) a_diff=2 t_res=-145384  LemmaD=9.8 trivial=30.3 | singleton starts: LemmaD=30.3 trivial=28.6 energy=30.3 (m=15, Sbar=3.00, top [3, 3, 3, 3, 3, 3, 3, 3])
+   primitive_short  cells=   151 n'=   151 W=  1 D_exact=   3 D_W=   3 (random [1, 1, 1]) a_diff=0 t_res=24229  LemmaD=24.8 trivial=24.6 | singleton starts: LemmaD=24.8 trivial=24.6 energy=24.8 (m=12, Sbar=3.00, top [3, 3, 3, 3, 3, 3, 3, 3])
+   unique_product   cells=   201 n'=   227 W=  8 D_exact=   3 D_W=  14 (random [1, 1, 1]) a_diff=2 t_res=-145384  LemmaD=9.7 trivial=30.1 | singleton starts: LemmaD=30.0 trivial=28.4 energy=30.0 (m=15, Sbar=3.00, top [3, 3, 3, 3, 3, 3, 3, 3])
+   shell            cells=   479 n'=   479 W=  1 D_exact=   6 D_W=   6 (random [6, 5, 5]) a_diff=0 t_res=29499  LemmaD=42.4 trivial=43.8 | singleton starts: LemmaD=42.4 trivial=43.8 energy=44.3 (m=22, Sbar=5.27, top [6, 6, 6, 6, 6, 6, 5, 5])
+N~2^30 r=988  N^(1/6)=31 N^(1/5)=63 N^(2/9)=99
+   balanced         cells=   369 n'=   414 W=  8 D_exact=  26 D_W=  37 (random [2, 2, 2]) a_diff=1 t_res=-62125  LemmaD=10.5 trivial=40.7 | singleton starts: LemmaD=21.9 trivial=38.4 energy=23.1 (m=11, Sbar=22.18, top [26, 26, 24, 24, 22, 22, 21, 21])
+   primitive        cells=   209 n'=   236 W=  8 D_exact=   4 D_W=  14 (random [2, 1, 1]) a_diff=2 t_res=-152167  LemmaD=10.0 trivial=30.7 | singleton starts: LemmaD=28.0 trivial=28.9 energy=32.1 (m=15, Sbar=2.67, top [4, 4, 3, 3, 3, 3, 3, 3])
+   primitive_short  cells=   154 n'=   154 W=  1 D_exact=   4 D_W=   4 (random [1, 1, 1]) a_diff=0 t_res=25360  LemmaD=22.8 trivial=24.8 | singleton starts: LemmaD=22.8 trivial=24.8 energy=26.8 (m=12, Sbar=2.50, top [4, 4, 3, 3, 2, 2, 2, 2])
+   unique_product   cells=   206 n'=   233 W=  8 D_exact=   4 D_W=  14 (random [1, 1, 1]) a_diff=2 t_res=-152167  LemmaD=9.9 trivial=30.5 | singleton starts: LemmaD=27.7 trivial=28.7 energy=31.7 (m=14, Sbar=2.71, top [4, 4, 3, 3, 3, 3, 3, 3])
+   shell            cells=   494 n'=   494 W=  1 D_exact=   6 D_W=   6 (random [6, 6, 5]) a_diff=0 t_res=37919  LemmaD=43.3 trivial=44.5 | singleton starts: LemmaD=43.3 trivial=44.5 energy=46.7 (m=22, Sbar=4.82, top [6, 6, 6, 6, 6, 6, 5, 5])
+N~2^32 r=1549  N^(1/6)=39 N^(1/5)=82 N^(2/9)=134
+   balanced         cells=   569 n'=   639 W= 10 D_exact=  35 D_W=  47 (random [2, 2, 2]) a_diff=1 t_res=-122024  LemmaD=12.0 trivial=50.6 | singleton starts: LemmaD=26.4 trivial=47.7 energy=28.9 (m=14, Sbar=27.00, top [35, 35, 31, 31, 27, 27, 24, 24])
+   primitive        cells=   328 n'=   369 W= 10 D_exact=   4 D_W=  18 (random [1, 2, 1]) a_diff=2 t_res=-298888  LemmaD=11.5 trivial=38.4 | singleton starts: LemmaD=37.7 trivial=36.2 energy=40.7 (m=20, Sbar=3.20, top [4, 4, 4, 4, 3, 3, 3, 3])
+   primitive_short  cells=   247 n'=   247 W=  1 D_exact=   4 D_W=   4 (random [1, 1, 1]) a_diff=0 t_res=49814  LemmaD=31.2 trivial=31.4 | singleton starts: LemmaD=31.2 trivial=31.4 energy=33.5 (m=16, Sbar=3.25, top [4, 4, 4, 4, 3, 3, 3, 3])
+   unique_product   cells=   322 n'=   363 W= 10 D_exact=   4 D_W=  18 (random [1, 1, 2]) a_diff=2 t_res=-298888  LemmaD=11.4 trivial=38.1 | singleton starts: LemmaD=37.3 trivial=35.9 energy=40.2 (m=20, Sbar=3.20, top [4, 4, 4, 4, 3, 3, 3, 3])
+   shell            cells=   775 n'=   775 W=  1 D_exact=   6 D_W=   6 (random [7, 5, 5]) a_diff=0 t_res=121909  LemmaD=58.5 trivial=55.7 | singleton starts: LemmaD=58.5 trivial=55.7 energy=63.1 (m=30, Sbar=4.80, top [6, 6, 5, 5, 5, 5, 5, 5])
+N~2^32 r=1532  N^(1/6)=39 N^(1/5)=82 N^(2/9)=133
+   balanced         cells=   564 n'=   631 W= 10 D_exact=  35 D_W=  48 (random [2, 1, 2]) a_diff=1 t_res=-120026  LemmaD=11.8 trivial=50.2 | singleton starts: LemmaD=26.3 trivial=47.5 energy=28.2 (m=13, Sbar=28.77, top [35, 35, 31, 31, 29, 29, 27, 27])
+   primitive        cells=   324 n'=   364 W= 10 D_exact=   5 D_W=  18 (random [1, 1, 1]) a_diff=2 t_res=-293993  LemmaD=11.4 trivial=38.2 | singleton starts: LemmaD=34.8 trivial=36.0 energy=39.5 (m=19, Sbar=3.42, top [5, 5, 4, 4, 4, 4, 3, 3])
+   primitive_short  cells=   243 n'=   243 W=  1 D_exact=   5 D_W=   5 (random [1, 1, 1]) a_diff=0 t_res=48997  LemmaD=28.7 trivial=31.2 | singleton starts: LemmaD=28.7 trivial=31.2 energy=32.3 (m=15, Sbar=3.53, top [5, 5, 4, 4, 4, 4, 3, 3])
+   unique_product   cells=   319 n'=   359 W= 10 D_exact=   5 D_W=  18 (random [1, 1, 1]) a_diff=2 t_res=-293993  LemmaD=11.3 trivial=37.9 | singleton starts: LemmaD=34.4 trivial=35.7 energy=39.1 (m=19, Sbar=3.42, top [5, 5, 4, 4, 4, 4, 3, 3])
+   shell            cells=   766 n'=   766 W=  1 D_exact=   6 D_W=   6 (random [6, 6, 5]) a_diff=0 t_res=103628  LemmaD=58.0 trivial=55.4 | singleton starts: LemmaD=58.0 trivial=55.4 energy=61.2 (m=30, Sbar=5.13, top [6, 6, 6, 6, 5, 5, 5, 5])
+N~2^34 r=2549  N^(1/6)=50 N^(1/5)=111 N^(2/9)=187
+   balanced         cells=   926 n'=  1039 W= 13 D_exact=  42 D_W=  62 (random [2, 2, 2]) a_diff=1 t_res=-257519  LemmaD=13.9 trivial=64.5 | singleton starts: LemmaD=34.4 trivial=60.9 energy=36.3 (m=17, Sbar=36.00, top [42, 42, 40, 40, 39, 39, 37, 37])
+   primitive        cells=   538 n'=   603 W= 13 D_exact=   5 D_W=  24 (random [2, 1, 2]) a_diff=2 t_res=-630777  LemmaD=13.3 trivial=49.1 | singleton starts: LemmaD=48.7 trivial=46.4 energy=55.6 (m=27, Sbar=3.37, top [5, 5, 4, 4, 4, 4, 4, 4])
+   primitive_short  cells=   403 n'=   403 W=  1 D_exact=   5 D_W=   5 (random [1, 1, 1]) a_diff=0 t_res=105128  LemmaD=40.2 trivial=40.1 | singleton starts: LemmaD=40.2 trivial=40.1 energy=45.9 (m=22, Sbar=3.36, top [5, 5, 4, 4, 4, 4, 3, 3])
+   unique_product   cells=   525 n'=   590 W= 13 D_exact=   5 D_W=  24 (random [2, 2, 1]) a_diff=2 t_res=-630777  LemmaD=13.1 trivial=48.6 | singleton starts: LemmaD=48.0 trivial=45.8 energy=55.1 (m=27, Sbar=3.30, top [5, 5, 4, 4, 4, 4, 3, 3])
+   shell            cells=  1275 n'=  1275 W=  1 D_exact=   7 D_W=   7 (random [6, 6, 7]) a_diff=0 t_res=95043  LemmaD=77.4 trivial=71.4 | singleton starts: LemmaD=77.4 trivial=71.4 energy=83.8 (m=40, Sbar=5.55, top [7, 7, 7, 7, 6, 6, 6, 6])
+N~2^34 r=2412  N^(1/6)=49 N^(1/5)=107 N^(2/9)=180
+   balanced         cells=   878 n'=   988 W= 13 D_exact=  44 D_W=  61 (random [2, 2, 2]) a_diff=1 t_res=-237063  LemmaD=13.5 trivial=62.9 | singleton starts: LemmaD=32.7 trivial=59.3 energy=35.2 (m=17, Sbar=35.53, top [44, 44, 39, 39, 36, 36, 36, 36])
+   primitive        cells=   509 n'=   571 W= 13 D_exact=   6 D_W=  22 (random [2, 2, 1]) a_diff=2 t_res=-580671  LemmaD=13.2 trivial=47.8 | singleton starts: LemmaD=44.2 trivial=45.1 energy=52.7 (m=25, Sbar=3.56, top [6, 6, 4, 4, 4, 4, 4, 4])
+   primitive_short  cells=   380 n'=   380 W=  1 D_exact=   6 D_W=   6 (random [1, 1, 1]) a_diff=0 t_res=96777  LemmaD=36.4 trivial=39.0 | singleton starts: LemmaD=36.4 trivial=39.0 energy=42.8 (m=20, Sbar=3.70, top [6, 6, 4, 4, 4, 4, 4, 4])
+   unique_product   cells=   497 n'=   559 W= 13 D_exact=   6 D_W=  22 (random [2, 2, 2]) a_diff=2 t_res=-580671  LemmaD=13.0 trivial=47.3 | singleton starts: LemmaD=43.5 trivial=44.6 energy=51.8 (m=24, Sbar=3.58, top [6, 6, 4, 4, 4, 4, 4, 4])
+   shell            cells=  1206 n'=  1206 W=  1 D_exact=   6 D_W=   6 (random [6, 6, 6]) a_diff=0 t_res=91690  LemmaD=78.6 trivial=69.5 | singleton starts: LemmaD=78.6 trivial=69.5 energy=81.6 (m=40, Sbar=5.35, top [6, 6, 6, 6, 6, 6, 6, 6])
+N~2^36 r=3597  N^(1/6)=60 N^(1/5)=136 N^(2/9)=235
+   balanced         cells=  1296 n'=  1453 W= 15 D_exact=  55 D_W=  73 (random [2, 2, 2]) a_diff=1 t_res=-431526  LemmaD=15.7 trivial=76.2 | singleton starts: LemmaD=39.4 trivial=72.0 energy=43.1 (m=20, Sbar=42.40, top [55, 55, 51, 51, 47, 47, 43, 43])
+   primitive        cells=   758 n'=   848 W= 15 D_exact=   6 D_W=  27 (random [1, 2, 1]) a_diff=2 t_res=-1057005  LemmaD=15.3 trivial=58.2 | singleton starts: LemmaD=57.6 trivial=55.1 energy=67.5 (m=31, Sbar=3.77, top [6, 6, 5, 5, 5, 5, 4, 4])
+   primitive_short  cells=   568 n'=   568 W=  1 D_exact=   6 D_W=   6 (random [1, 1, 1]) a_diff=0 t_res=176166  LemmaD=47.6 trivial=47.7 | singleton starts: LemmaD=47.6 trivial=47.7 energy=55.2 (m=25, Sbar=3.88, top [6, 6, 5, 5, 5, 5, 4, 4])
+   unique_product   cells=   736 n'=   826 W= 15 D_exact=   6 D_W=  27 (random [2, 1, 1]) a_diff=2 t_res=-1057005  LemmaD=15.0 trivial=57.5 | singleton starts: LemmaD=56.5 trivial=54.3 energy=66.1 (m=31, Sbar=3.77, top [6, 6, 5, 5, 5, 5, 4, 4])
+   shell            cells=  1799 n'=  1799 W=  1 D_exact=  10 D_W=  10 (random [7, 6, 6]) a_diff=0 t_res=792195  LemmaD=86.5 trivial=84.8 | singleton starts: LemmaD=86.5 trivial=84.8 energy=98.6 (m=47, Sbar=6.77, top [10, 10, 8, 8, 8, 8, 8, 8])
+N~2^36 r=3719  N^(1/6)=61 N^(1/5)=139 N^(2/9)=240
+   balanced         cells=  1340 n'=  1503 W= 16 D_exact=  52 D_W=  76 (random [2, 2, 2]) a_diff=1 t_res=-453735  LemmaD=15.5 trivial=77.5 | singleton starts: LemmaD=41.0 trivial=73.2 energy=43.7 (m=21, Sbar=43.19, top [52, 52, 48, 48, 47, 47, 46, 46])
+   primitive        cells=   785 n'=   878 W= 16 D_exact=   6 D_W=  28 (random [1, 2, 2]) a_diff=2 t_res=-1111402  LemmaD=15.1 trivial=59.3 | singleton starts: LemmaD=59.0 trivial=56.0 energy=69.2 (m=32, Sbar=3.75, top [6, 6, 5, 5, 4, 4, 4, 4])
+   primitive_short  cells=   587 n'=   587 W=  1 D_exact=   6 D_W=   6 (random [1, 1, 1]) a_diff=0 t_res=185232  LemmaD=48.6 trivial=48.5 | singleton starts: LemmaD=48.6 trivial=48.5 energy=56.2 (m=26, Sbar=3.92, top [6, 6, 5, 5, 4, 4, 4, 4])
+   unique_product   cells=   763 n'=   856 W= 16 D_exact=   6 D_W=  28 (random [2, 1, 2]) a_diff=2 t_res=-1111402  LemmaD=14.8 trivial=58.5 | singleton starts: LemmaD=57.9 trivial=55.2 energy=67.8 (m=31, Sbar=3.77, top [6, 6, 5, 5, 4, 4, 4, 4])
+   shell            cells=  1860 n'=  1860 W=  1 D_exact=   8 D_W=   8 (random [7, 6, 7]) a_diff=0 t_res=1520763  LemmaD=95.3 trivial=86.3 | singleton starts: LemmaD=95.3 trivial=86.3 energy=105.7 (m=50, Sbar=5.88, top [8, 8, 7, 7, 7, 7, 7, 7])
+N~2^38 r=5826  N^(1/6)=76 N^(1/5)=182 N^(2/9)=324
+   balanced         cells=  2083 n'=  2333 W= 20 D_exact=  73 D_W=  96 (random [2, 2, 2]) a_diff=1 t_res=-889428  LemmaD=17.8 trivial=96.6 | singleton starts: LemmaD=49.2 trivial=91.3 energy=53.4 (m=25, Sbar=57.28, top [73, 73, 70, 70, 67, 67, 64, 64])
+   primitive        cells=  1226 n'=  1369 W= 20 D_exact=   5 D_W=  36 (random [1, 1, 2]) a_diff=2 t_res=-2178627  LemmaD=17.3 trivial=74.0 | singleton starts: LemmaD=84.4 trivial=70.0 energy=92.8 (m=43, Sbar=3.79, top [5, 5, 4, 4, 4, 4, 4, 4])
+   primitive_short  cells=   918 n'=   918 W=  1 D_exact=   5 D_W=   5 (random [1, 1, 2]) a_diff=0 t_res=363102  LemmaD=69.6 trivial=60.6 | singleton starts: LemmaD=69.6 trivial=60.6 energy=76.9 (m=36, Sbar=3.72, top [5, 5, 4, 4, 4, 4, 4, 4])
+   unique_product   cells=  1180 n'=  1323 W= 20 D_exact=   5 D_W=  34 (random [1, 1, 1]) a_diff=2 t_res=-2178627  LemmaD=17.3 trivial=72.7 | singleton starts: LemmaD=82.3 trivial=68.7 energy=92.8 (m=44, Sbar=3.50, top [5, 5, 4, 4, 4, 4, 4, 4])
+   shell            cells=  2913 n'=  2913 W=  1 D_exact=  12 D_W=  12 (random [7, 7, 7]) a_diff=0 t_res=7699127  LemmaD=112.2 trivial=107.9 | singleton starts: LemmaD=112.2 trivial=107.9 energy=137.7 (m=67, Sbar=6.51, top [12, 12, 8, 8, 8, 8, 7, 7])
+N~2^38 r=5723  N^(1/6)=76 N^(1/5)=180 N^(2/9)=320
+   balanced         cells=  2048 n'=  2290 W= 19 D_exact=  67 D_W=  94 (random [2, 2, 2]) a_diff=1 t_res=-865931  LemmaD=18.0 trivial=95.7 | singleton starts: LemmaD=50.0 trivial=90.5 energy=53.7 (m=25, Sbar=54.64, top [67, 67, 60, 60, 60, 60, 59, 59])
+   primitive        cells=  1208 n'=  1347 W= 19 D_exact=   5 D_W=  36 (random [2, 1, 2]) a_diff=2 t_res=-2121075  LemmaD=17.4 trivial=73.4 | singleton starts: LemmaD=83.6 trivial=69.5 energy=91.0 (m=42, Sbar=3.90, top [5, 5, 5, 5, 5, 5, 5, 5])
+   primitive_short  cells=   905 n'=   905 W=  1 D_exact=   5 D_W=   5 (random [1, 1, 1]) a_diff=0 t_res=353509  LemmaD=68.9 trivial=60.2 | singleton starts: LemmaD=68.9 trivial=60.2 energy=75.4 (m=35, Sbar=3.86, top [5, 5, 5, 5, 5, 5, 5, 5])
+   unique_product   cells=  1162 n'=  1301 W= 19 D_exact=   5 D_W=  34 (random [1, 1, 2]) a_diff=2 t_res=-2121075  LemmaD=17.4 trivial=72.1 | singleton starts: LemmaD=81.4 trivial=68.2 energy=91.0 (m=43, Sbar=3.60, top [5, 5, 5, 5, 5, 5, 4, 4])
+   shell            cells=  2862 n'=  2862 W=  1 D_exact=   9 D_W=   9 (random [7, 7, 6]) a_diff=0 t_res=612141  LemmaD=122.1 trivial=107.0 | singleton starts: LemmaD=122.1 trivial=107.0 energy=136.5 (m=67, Sbar=6.45, top [9, 9, 8, 8, 7, 7, 7, 7])
+N~2^40 r=9568  N^(1/6)=98 N^(1/5)=245 N^(2/9)=451
+   balanced         cells=  3398 n'=  3798 W= 25 D_exact=  84 D_W= 123 (random [2, 2, 2]) a_diff=1 t_res=-1872122  LemmaD=21.1 trivial=123.3 | singleton starts: LemmaD=65.0 trivial=116.6 energy=68.9 (m=33, Sbar=70.82, top [84, 84, 84, 84, 82, 82, 80, 80])
+   primitive        cells=  2018 n'=  2246 W= 25 D_exact=   7 D_W=  46 (random [2, 2, 2]) a_diff=2 t_res=-4585722  LemmaD=20.6 trivial=94.8 | singleton starts: LemmaD=105.2 trivial=89.8 energy=124.1 (m=55, Sbar=4.35, top [7, 7, 7, 7, 5, 5, 5, 5])
+   primitive_short  cells=  1514 n'=  1514 W=  1 D_exact=   7 D_W=   7 (random [1, 1, 1]) a_diff=0 t_res=764283  LemmaD=86.8 trivial=77.8 | singleton starts: LemmaD=86.8 trivial=77.8 energy=105.4 (m=48, Sbar=3.96, top [7, 7, 7, 7, 4, 4, 4, 4])
+   unique_product   cells=  1930 n'=  2157 W= 25 D_exact=   7 D_W=  44 (random [1, 2, 2]) a_diff=2 t_res=-4585722  LemmaD=20.4 trivial=92.9 | singleton starts: LemmaD=102.1 trivial=87.9 energy=127.7 (m=60, Sbar=3.60, top [7, 7, 5, 5, 4, 4, 4, 4])
+   shell            cells=  4784 n'=  4784 W=  1 D_exact=  12 D_W=  12 (random [7, 7, 7]) a_diff=0 t_res=1323577  LemmaD=156.2 trivial=138.3 | singleton starts: LemmaD=156.2 trivial=138.3 energy=183.4 (m=85, Sbar=7.48, top [12, 12, 11, 11, 10, 10, 10, 10])
+N~2^40 r=8794  N^(1/6)=94 N^(1/5)=233 N^(2/9)=426
+   balanced         cells=  3126 n'=  3492 W= 24 D_exact=  92 D_W= 119 (random [2, 2, 2]) a_diff=1 t_res=-1649378  LemmaD=20.4 trivial=118.2 | singleton starts: LemmaD=59.7 trivial=111.8 energy=61.3 (m=30, Sbar=85.00, top [92, 92, 91, 91, 90, 90, 89, 89])
+   primitive        cells=  1854 n'=  2063 W= 24 D_exact=   7 D_W=  44 (random [2, 2, 2]) a_diff=2 t_res=-4040110  LemmaD=20.1 trivial=90.8 | singleton starts: LemmaD=99.4 trivial=86.1 energy=116.5 (m=56, Sbar=4.36, top [7, 7, 6, 6, 5, 5, 5, 5])
+   primitive_short  cells=  1391 n'=  1391 W=  1 D_exact=   7 D_W=   7 (random [1, 1, 1]) a_diff=0 t_res=673348  LemmaD=82.1 trivial=74.6 | singleton starts: LemmaD=82.1 trivial=74.6 energy=98.3 (m=44, Sbar=4.14, top [7, 7, 6, 6, 5, 5, 5, 5])
+   unique_product   cells=  1777 n'=  1985 W= 24 D_exact=   6 D_W=  42 (random [1, 2, 2]) a_diff=2 t_res=-4040110  LemmaD=19.8 trivial=89.1 | singleton starts: LemmaD=101.7 trivial=84.3 energy=119.6 (m=56, Sbar=3.71, top [6, 6, 5, 5, 5, 5, 4, 4])
+   shell            cells=  4397 n'=  4397 W=  1 D_exact=  10 D_W=  10 (random [7, 6, 7]) a_diff=0 t_res=1166080  LemmaD=157.0 trivial=132.6 | singleton starts: LemmaD=157.0 trivial=132.6 energy=176.2 (m=83, Sbar=7.11, top [10, 10, 9, 9, 8, 8, 8, 8])
+N~2^42 r=15728  N^(1/6)=125 N^(1/5)=330 N^(2/9)=628
+   balanced         cells=  5554 n'=  6195 W= 32 D_exact= 115 D_W= 159 (random [2, 2, 2]) a_diff=1 t_res=-3945066  LemmaD=24.7 trivial=157.4 | singleton starts: LemmaD=81.3 trivial=149.1 energy=87.5 (m=42, Sbar=92.19, top [115, 115, 110, 110, 106, 106, 105, 105])
+   primitive        cells=  3315 n'=  3681 W= 32 D_exact=  10 D_W=  58 (random [2, 2, 2]) a_diff=2 t_res=-9663371  LemmaD=24.4 trivial=121.3 | singleton starts: LemmaD=130.0 trivial=115.2 energy=161.5 (m=74, Sbar=5.27, top [10, 10, 9, 9, 7, 7, 7, 7])
+   primitive_short  cells=  2486 n'=  2486 W=  1 D_exact=   9 D_W=   9 (random [1, 1, 1]) a_diff=0 t_res=1610557  LemmaD=111.2 trivial=99.7 | singleton starts: LemmaD=111.2 trivial=99.7 energy=136.6 (m=64, Sbar=4.88, top [9, 9, 9, 9, 6, 6, 6, 6])
+   unique_product   cells=  3149 n'=  3512 W= 32 D_exact=   7 D_W=  52 (random [2, 1, 2]) a_diff=2 t_res=-9663371  LemmaD=24.6 trivial=118.5 | singleton starts: LemmaD=141.5 trivial=112.2 energy=165.7 (m=78, Sbar=4.38, top [7, 7, 6, 6, 5, 5, 5, 5])
+   shell            cells=  7864 n'=  7864 W=  1 D_exact=  14 D_W=  14 (random [8, 7, 8]) a_diff=0 t_res=3873304  LemmaD=206.7 trivial=177.4 | singleton starts: LemmaD=206.7 trivial=177.4 energy=252.0 (m=122, Sbar=7.74, top [14, 14, 13, 13, 9, 9, 9, 9])
+N~2^42 r=14538  N^(1/6)=121 N^(1/5)=314 N^(2/9)=596
+   balanced         cells=  5143 n'=  5742 W= 31 D_exact= 115 D_W= 154 (random [2, 2, 2]) a_diff=1 t_res=-3505903  LemmaD=24.0 trivial=151.6 | singleton starts: LemmaD=77.2 trivial=143.4 energy=84.8 (m=41, Sbar=86.90, top [115, 115, 110, 110, 105, 105, 100, 100])
+   primitive        cells=  3066 n'=  3406 W= 31 D_exact=   9 D_W=  56 (random [2, 2, 2]) a_diff=2 t_res=-8587639  LemmaD=23.7 trivial=116.7 | singleton starts: LemmaD=127.8 trivial=110.7 energy=156.0 (m=72, Sbar=5.00, top [9, 9, 8, 8, 7, 7, 7, 7])
+   primitive_short  cells=  2300 n'=  2300 W=  1 D_exact=   8 D_W=   8 (random [1, 1, 1]) a_diff=0 t_res=1431269  LemmaD=109.8 trivial=95.9 | singleton starts: LemmaD=109.8 trivial=95.9 energy=130.8 (m=62, Sbar=4.74, top [8, 8, 8, 8, 6, 6, 6, 6])
+   unique_product   cells=  2916 n'=  3253 W= 31 D_exact=   6 D_W=  50 (random [2, 2, 2]) a_diff=2 t_res=-8587639  LemmaD=23.9 trivial=114.1 | singleton starts: LemmaD=141.5 trivial=108.0 energy=161.1 (m=72, Sbar=4.14, top [6, 6, 5, 5, 5, 5, 5, 5])
+   shell            cells=  7269 n'=  7269 W=  1 D_exact=  13 D_W=  13 (random [7, 7, 7]) a_diff=0 t_res=2478783  LemmaD=201.1 trivial=170.5 | singleton starts: LemmaD=201.1 trivial=170.5 energy=239.8 (m=116, Sbar=7.67, top [13, 13, 12, 12, 10, 10, 9, 9])
+N~2^44 r=22524  N^(1/6)=150 N^(1/5)=409 N^(2/9)=798
+   balanced         cells=  7935 n'=  8840 W= 38 D_exact= 137 D_W= 192 (random [2, 2, 2]) a_diff=1 t_res=-6760907  LemmaD=27.8 trivial=188.0 | singleton starts: LemmaD=97.2 trivial=178.2 energy=104.5 (m=50, Sbar=110.60, top [137, 137, 134, 134, 130, 130, 124, 124])
+   primitive        cells=  4745 n'=  5265 W= 38 D_exact=  13 D_W=  70 (random [2, 2, 2]) a_diff=2 t_res=-16560731  LemmaD=27.5 trivial=145.1 | singleton starts: LemmaD=151.3 trivial=137.8 energy=195.7 (m=85, Sbar=6.16, top [13, 13, 9, 9, 9, 9, 8, 8])
+   primitive_short  cells=  3557 n'=  3557 W=  1 D_exact=  10 D_W=  10 (random [1, 1, 1]) a_diff=12 t_res=-18  LemmaD=136.3 trivial=119.3 | singleton starts: LemmaD=136.3 trivial=119.3 energy=167.3 (m=75, Sbar=5.49, top [10, 10, 7, 7, 7, 7, 7, 7])
+   unique_product   cells=  4492 n'=  5007 W= 38 D_exact=   7 D_W=  64 (random [2, 2, 2]) a_diff=2 t_res=-16560731  LemmaD=27.4 trivial=141.5 | singleton starts: LemmaD=179.3 trivial=134.0 energy=208.9 (m=101, Sbar=4.44, top [7, 7, 7, 7, 6, 6, 6, 6])
+   shell            cells= 11262 n'= 11262 W=  1 D_exact=  14 D_W=  14 (random [7, 8, 7]) a_diff=0 t_res=4780353  LemmaD=262.7 trivial=212.2 | singleton starts: LemmaD=262.7 trivial=212.2 energy not computed (63410691 pairs exceed the budget)
+N~2^44 r=25327  N^(1/6)=159 N^(1/5)=439 N^(2/9)=862
+   balanced         cells=  8914 n'=  9925 W= 40 D_exact= 148 D_W= 203 (random [2, 2, 2]) a_diff=1 t_res=-8061695  LemmaD=28.9 trivial=199.2 | singleton starts: LemmaD=102.4 trivial=188.8 energy=110.8 (m=52, Sbar=117.50, top [148, 148, 139, 139, 137, 137, 135, 135])
+   primitive        cells=  5338 n'=  5919 W= 40 D_exact=  15 D_W=  76 (random [2, 2, 2]) a_diff=2 t_res=-19747000  LemmaD=28.5 trivial=153.9 | singleton starts: LemmaD=156.0 trivial=146.1 energy=208.2 (m=94, Sbar=6.40, top [15, 15, 10, 10, 10, 10, 9, 9])
+   primitive_short  cells=  4003 n'=  4003 W=  1 D_exact=  11 D_W=  11 (random [1, 1, 1]) a_diff=12 t_res=-18  LemmaD=142.8 trivial=126.5 | singleton starts: LemmaD=142.8 trivial=126.5 energy=178.8 (m=79, Sbar=5.72, top [11, 11, 10, 10, 8, 8, 8, 8])
+   unique_product   cells=  5035 n'=  5610 W= 40 D_exact=   7 D_W=  68 (random [2, 2, 2]) a_diff=2 t_res=-19747000  LemmaD=28.5 trivial=149.8 | singleton starts: LemmaD=193.5 trivial=141.9 energy=225.6 (m=109, Sbar=4.42, top [7, 7, 7, 7, 6, 6, 6, 6])
+   shell            cells= 12664 n'= 12664 W=  1 D_exact=  13 D_W=  13 (random [7, 8, 7]) a_diff=0 t_res=5700130  LemmaD=291.1 trivial=225.1 | singleton starts: LemmaD=291.1 trivial=225.1 energy not computed (80182116 pairs exceed the budget)
+N~2^46 r=38227  N^(1/6)=196 N^(1/5)=562 N^(2/9)=1135
+   balanced         cells= 13418 n'= 14921 W= 49 D_exact= 186 D_W= 250 (random [2, 2, 2]) a_diff=1 t_res=-14948326  LemmaD=33.1 trivial=244.3 | singleton starts: LemmaD=124.6 trivial=231.7 energy not computed (90014653 pairs exceed the budget)
+   primitive        cells=  8059 n'=  8927 W= 49 D_exact=  19 D_W=  92 (random [2, 2, 2]) a_diff=2 t_res=-36615725  LemmaD=32.8 trivial=189.0 | singleton starts: LemmaD=189.8 trivial=179.5 energy=263.9 (m=117, Sbar=7.21, top [19, 19, 14, 14, 13, 13, 12, 12])
+   primitive_short  cells=  6044 n'=  6044 W=  1 D_exact=  13 D_W=  13 (random [1, 1, 1]) a_diff=24 t_res=-36  LemmaD=177.8 trivial=155.5 | singleton starts: LemmaD=177.8 trivial=155.5 energy=229.8 (m=108, Sbar=6.06, top [13, 13, 12, 12, 11, 11, 10, 10])
+   unique_product   cells=  7556 n'=  8411 W= 49 D_exact=   9 D_W=  82 (random [2, 2, 2]) a_diff=2 t_res=-36615725  LemmaD=32.8 trivial=183.4 | singleton starts: LemmaD=233.2 trivial=173.9 energy=296.1 (m=143, Sbar=4.41, top [9, 9, 6, 6, 6, 6, 5, 5])
+   shell            cells= 19114 n'= 19114 W=  1 D_exact=  18 D_W=  18 (random [7, 8, 8]) a_diff=0 t_res=10569633  LemmaD=343.7 trivial=276.5 | singleton starts: LemmaD=343.7 trivial=276.5 energy not computed (182662941 pairs exceed the budget)
+N~2^46 r=36007  N^(1/6)=190 N^(1/5)=542 N^(2/9)=1090
+   balanced         cells= 12639 n'= 14059 W= 48 D_exact= 174 D_W= 243 (random [2, 2, 2]) a_diff=1 t_res=-13665610  LemmaD=32.4 trivial=237.1 | singleton starts: LemmaD=122.5 trivial=224.8 energy not computed (79865841 pairs exceed the budget)
+   primitive        cells=  7588 n'=  8408 W= 48 D_exact=  19 D_W=  91 (random [2, 2, 2]) a_diff=2 t_res=-33473724  LemmaD=31.9 trivial=183.4 | singleton starts: LemmaD=182.3 trivial=174.2 energy=253.5 (m=112, Sbar=7.21, top [19, 19, 13, 13, 12, 12, 11, 11])
+   primitive_short  cells=  5691 n'=  5691 W=  1 D_exact=  13 D_W=  13 (random [1, 1, 1]) a_diff=12 t_res=-18  LemmaD=170.8 trivial=150.9 | singleton starts: LemmaD=170.8 trivial=150.9 energy=220.2 (m=103, Sbar=6.11, top [13, 13, 12, 12, 10, 10, 9, 9])
+   unique_product   cells=  7120 n'=  7929 W= 48 D_exact=   6 D_W=  82 (random [2, 2, 2]) a_diff=2 t_res=-33473724  LemmaD=31.7 trivial=178.1 | singleton starts: LemmaD=256.6 trivial=168.8 energy=286.2 (m=139, Sbar=4.33, top [6, 6, 6, 6, 6, 6, 6, 6])
+   shell            cells= 18004 n'= 18004 W=  1 D_exact=  17 D_W=  17 (random [8, 8, 8]) a_diff=0 t_res=9662628  LemmaD=336.6 trivial=268.4 | singleton starts: LemmaD=336.6 trivial=268.4 energy not computed (162063006 pairs exceed the budget)
+wrote /tmp/e53_new.json: 18 moduli over bits [30, 32, 34, 36, 38, 40, 42, 44, 46] (1 run(s) merged)
+
+real	6m13.814s
+user	4m54.115s
+sys	1m19.001s
+N~2^48 r=56099  N^(1/6)=237 N^(1/5)=707 N^(2/9)=1465
+   balanced         cells= 19640 n'= 21821 W= 60 D_exact= 224 D_W= 303 (random [2, 2, 2]) a_diff=1 t_res=-26574654  LemmaD=37.4 trivial=295.4 | singleton starts: LemmaD=151.0 trivial=280.3 energy not computed (192854980 pairs exceed the budget)
+   primitive        cells= 11820 n'= 13085 W= 60 D_exact=  25 D_W= 114 (random [2, 2, 2]) a_diff=2 t_res=-65094285  LemmaD=36.9 trivial=228.8 | singleton starts: LemmaD=223.6 trivial=217.4 energy not computed (69850290 pairs exceed the budget)
+   primitive_short  cells=  8866 n'=  8866 W=  1 D_exact=  16 D_W=  16 (random [1, 1, 1]) a_diff=12 t_res=-18  LemmaD=214.2 trivial=188.3 | singleton starts: LemmaD=214.2 trivial=188.3 energy=283.0 (m=126, Sbar=7.06, top [16, 16, 16, 16, 12, 12, 12, 12])
+   unique_product   cells= 11009 n'= 12249 W= 60 D_exact=   9 D_W=  98 (random [2, 2, 2]) a_diff=2 t_res=-65094285  LemmaD=37.1 trivial=221.4 | singleton starts: LemmaD=299.8 trivial=209.8 energy not computed (60593536 pairs exceed the budget)
+   shell            cells= 28050 n'= 28050 W=  1 D_exact=  21 D_W=  21 (random [9, 8, 8]) a_diff=0 t_res=385314665  LemmaD=421.6 trivial=335.0 | singleton starts: LemmaD=421.6 trivial=335.0 energy not computed (393387225 pairs exceed the budget)
+wrote /tmp/e53_new.json: 19 moduli over bits [30, 32, 34, 36, 38, 40, 42, 44, 46, 48] (2 run(s) merged)
+
+real	6m32.422s
+user	4m46.997s
+sys	1m45.166s

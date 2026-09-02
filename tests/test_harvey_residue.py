@@ -1,8 +1,6 @@
 """Tests for E51 (Harvey's search on a residue class)."""
-import math
 
 import pytest
-from gmpy2 import mpz
 
 from factorlab.experiments.harvey_residue import decode, harvey_residue_factor, parameters, window_int
 from factorlab.experiments.order_selection import select_order_element
@@ -59,7 +57,6 @@ def test_preconditions():
 
 
 def test_common_factor_attack_on_constructed_moduli():
-    import math
 
     from gmpy2 import is_prime, powmod
     from sympy import n_order, primerange
