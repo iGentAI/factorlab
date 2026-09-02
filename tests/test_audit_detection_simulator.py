@@ -7,7 +7,7 @@ import pytest
 
 from latticelab.audit_detection import audit_archive, log_norms_from_rows, weighted_deficits
 from latticelab.profile_floor import tight_profile
-from latticelab.simulator_chain import detection_readings, point, zshape_profile
+from latticelab.simulator_chain import detection_readings, fixed_point_check, passing_interval, point, zshape_profile
 
 ARCHIVE = os.path.join(os.path.dirname(__file__), "..", "results", "lattice_l6_strict.json")
 
@@ -73,3 +73,30 @@ def test_simulator_point_runs_at_a_small_kyber_like_size():
     assert math.isfinite(p["margin_gh"]) and math.isfinite(p["margin_entry"])
     with pytest.raises(ValueError):
         point(2, 3, 400, 40, "cn")
+
+
+def test_converged_cn_profile_is_a_fixed_point_pinned_only_at_the_clipped_head():
+    r = fixed_point_check("Kyber512", 417, 520)
+    assert r["d"] == 1033 and r["stopped_by_criterion"]
+    # the fixed-point inequality holds everywhere (to rounding) and no entry exceeds log q
+    assert r["deficit_min"] > -1e-9 and r["max_excess_over_log_q"] <= 1e-12
+    # strict inequality exactly at the head entries pinned at log q, whose number is the q-aware clip depth
+    assert r["n_entries_at_log_q"] == r["clip_depth"] == 3
+    assert r["positions_deficit_above_tol"] == [0, 1, 2]
+    # the head-clipped tight profile has the same structure and lies within 5e-3 of the simulator's fixed point outside the tail
+    assert r["max_abs_diff_to_clipped_tight_first_d_minus_45"] < 5e-3
+    assert all(x > 1e-3 for x in r["clipped_tight_deficits_at_clipped_positions"])
+    assert abs(r["clipped_tight_deficit_max_elsewhere_first_d_minus_45"]) < 1e-9 and r["clipped_tight_deficit_min_first_d_minus_45"] > -1e-9
+    with pytest.raises(ValueError):
+        fixed_point_check("Kyber512", 800, 100)
+
+
+def test_passing_interval_at_the_kyber512_crossing():
+    r = passing_interval("Kyber512", 417)
+    assert (r["m_lo"], r["m_hi"], r["count"], r["contiguous"]) == (481, 555, 75, True)
+    assert r["passing"] == list(range(481, 556))
+    assert r["m_max_margin"] == 517 and r["d_max_margin"] == 1030 and r["margin_max"] > 0
+    # one blocksize below the certified crossing nothing passes, and the result keeps the same shape with a negative best margin
+    e = passing_interval("Kyber512", 416)
+    assert e["count"] == 0 and e["passing"] == [] and e["m_lo"] is None and e["m_hi"] is None and e["contiguous"] is True
+    assert set(e) == set(r) and e["margin_max"] < 0 and e["m_max_margin"] is not None

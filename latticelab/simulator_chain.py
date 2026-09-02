@@ -20,6 +20,14 @@ throughout (sense (iv) of the report).  The purpose is comparison with the GSA c
 crossings 417, 642, 900.
 
 CLI:  python -m latticelab.simulator_chain --sets Kyber512 Kyber768 Kyber1024 --models cn bsw --m-stride 4 --out results/lattice_simulator_chain.json
+      python -m latticelab.simulator_chain --fixed-point Kyber512:417:520 Kyber768:642:700 --intervals Kyber512:417 Kyber768:642 Kyber1024:900 \
+          --out results/lattice_cn_fixed_point.json
+
+The fixed-point mode (`fixed_point_check`) tests the converged CN11 output against the proposition that a profile is a fixed point of the
+tour iff l_k <= log GH(B_k) at every position, with fpylll's own constants (exact Gaussian heuristic above block dimension 45, its
+tabulated HKZ constants at or below), and compares it with the head-clipped tight profile of latticelab.qceiling over the first d - 45
+entries, where the two conventions' constants coincide.  `passing_interval` lists every admissible sample count passing the detection
+condition at a blocksize (double precision), with the maximum-margin count the certified witnesses use.
 """
 from __future__ import annotations
 
@@ -30,7 +38,7 @@ import time
 from typing import Dict, List, Optional, Sequence
 
 from fpylll import BKZ
-from fpylll.tools.bkz_simulator import simulate, simulate_prob
+from fpylll.tools.bkz_simulator import _lg_gh, simulate, simulate_prob
 
 from latticelab.profile_floor import log_chat
 from latticelab.spec_chain import KYBER, N_RING, Q
@@ -132,6 +140,77 @@ def simulator_chain(name: str, model: str, b_lo: int, b_hi: int, m_stride: int =
                     "'entry' reads l_{d-b+1} (2016 estimate); least_passing is over the scanned m only"}
 
 
+def block_gh_fpylll(ell: Sequence[float], k: int, b: int) -> float:
+    """log GH of the block starting at 0-based position k of the profile ell (natural log-norms), of dimension min(b, d - k), with the
+    constant fpylll's simulator uses for that dimension (exact GH above 45, the tabulated HKZ constant at or below)."""
+    d = len(ell)
+    f = min(k + b, d)
+    n = f - k
+    return sum(ell[k:f]) / n + _lg_gh(n) * math.log(2.0)
+
+
+def fixed_point_check(name: str, b: int, m: int, max_tours: int = 2000, tol: float = 1e-6) -> Dict:
+    """Run the CN11 simulator from the Z-shape start of the Kyber lattice at (b, m) and test its output against the fixed-point
+    condition  l_k <= log GH(B_k) for every k <= d - 1  (fpylll's constants).  Reports: the tour count and whether the run stopped by the
+    simulator's own criterion (a fixed point) rather than the budget; the number of entries equal to log q and the largest excess over it;
+    the deficits log GH(B_k) - l_k over all k <= d - 2 (min, max) and the positions where they exceed tol; and the comparison with the
+    head-clipped tight profile of latticelab.qceiling -- the largest entrywise difference over the first d - 45 entries (where the constants
+    of the two conventions agree) and that profile's own deficits over the same range.  Double precision."""
+    from latticelab.qceiling import clipped_tight_profile
+
+    k_set, eta1 = KYBER[name]["k"], KYBER[name]["eta1"]
+    d = m + k_set * N_RING + 1
+    if 2 * b >= d + 1:
+        raise ValueError("outside the condition's domain: need 2b < d + 1")
+    log_q = math.log(Q)
+    S = m * log_q
+    ell0 = zshape_profile(d, S, log_q)
+    sim = simulate_profile(ell0, b, "cn", max_tours)
+    ell = sim["ell"]
+    deficits = [block_gh_fpylll(ell, k, b) - ell[k] for k in range(d - 1)]
+    above = [k for k, x in enumerate(deficits) if x > tol]
+    n_at_q = sum(1 for x in ell if abs(x - log_q) < 1e-9)
+    k_clip, clip = clipped_tight_profile(d, b, S, log_q)
+    head = d - 45
+    diff_head = max(abs(ell[i] - clip[i]) for i in range(head))
+    clip_def = [block_gh_fpylll(list(clip), k, b) - float(clip[k]) for k in range(head)]
+    return {"set": name, "b": b, "m": m, "d": d, "tours": sim["tours"], "stopped_by_criterion": sim["tours"] < max_tours,
+            "max_tours": max_tours, "n_entries_at_log_q": n_at_q, "max_excess_over_log_q": max(ell) - log_q,
+            "deficit_min": min(deficits), "deficit_max": max(deficits), "positions_deficit_above_tol": above, "tol": tol,
+            "deficits_at_those_positions": [deficits[k] for k in above], "clip_depth": int(k_clip),
+            "max_abs_diff_to_clipped_tight_first_d_minus_45": diff_head,
+            "clipped_tight_deficits_at_clipped_positions": clip_def[: int(k_clip)],
+            "clipped_tight_deficit_max_elsewhere_first_d_minus_45": max(clip_def[int(k_clip):]) if k_clip < head else None,
+            "clipped_tight_deficit_min_first_d_minus_45": min(clip_def),
+            "note": "deficits are log GH(B_k) - l_k with fpylll's simulator constants; a fixed point has all deficits >= 0 (Proposition, "
+                    "fixed points of the Chen-Nguyen tour); the comparison with the head-clipped tight profile is over the first d - 45 "
+                    "entries, the tail constants of the two conventions differing"}
+
+
+def passing_interval(name: str, b: int, eps: float = 0.0, model: str = "tight") -> Dict:
+    """Every sample count m in [0, (k+1) n] with 2b < d + 1 at which the detection condition  log(sigma sqrt b) <= detection_entry(d, b,
+    m log q, model, eps)  holds, for the Kyber set `name` at blocksize b: the passing interval, its count and contiguity, and the
+    maximum-margin count (the certified witnesses' convention).  Double precision."""
+    from latticelab.spec_chain import detection_entry
+
+    k_set, eta1 = KYBER[name]["k"], KYBER[name]["eta1"]
+    lhs = 0.5 * math.log((eta1 / 2.0) * b)
+    rows = []
+    for mm in range(0, (k_set + 1) * N_RING + 1):
+        d = mm + k_set * N_RING + 1
+        if d + 1 - 2 * b <= 0:
+            continue
+        rows.append((mm, detection_entry(d, b, mm * math.log(Q), model, eps) - lhs))
+    passing = [mm for mm, mg in rows if mg >= 0]
+    best = max(rows, key=lambda r: r[1]) if rows else None
+    return {"set": name, "b": b, "eps": eps, "model": model, "passing": passing, "count": len(passing),
+            "m_lo": min(passing) if passing else None, "m_hi": max(passing) if passing else None,
+            "contiguous": passing == list(range(min(passing), max(passing) + 1)) if passing else True,
+            "m_max_margin": best[0] if best else None, "d_max_margin": best[0] + k_set * N_RING + 1 if best else None,
+            "margin_max": best[1] if best else None,
+            "note": "m_max_margin is the sample count of largest margin among all admissible m, passing or not; the certified witnesses use it"}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--sets", nargs="+", default=["Kyber512", "Kyber768", "Kyber1024"])
@@ -143,7 +222,31 @@ def main() -> None:
     ap.add_argument("--bsw-tours", type=int, default=50, help="tour budget for the BSW18 simulator, whose stopping rule does not fire")
     ap.add_argument("--bsw-m-stride", type=int, default=None, help="m stride for the BSW18 scan (default: --m-stride)")
     ap.add_argument("--out", default="results/lattice_simulator_chain.json")
+    ap.add_argument("--fixed-point", nargs="*", metavar="SET:B:M", default=None,
+                    help="fixed-point mode: run fixed_point_check at each SET:B:M and write the results to --out instead of the scan")
+    ap.add_argument("--intervals", nargs="*", metavar="SET:B", default=None,
+                    help="fixed-point mode: also record passing_interval at each SET:B")
     a = ap.parse_args()
+    if a.fixed_point is not None:
+        out = {"fixed_point": {}, "passing_intervals": {}}
+        for spec in a.fixed_point:
+            name, b, m = spec.split(":")
+            r = fixed_point_check(name, int(b), int(m), a.max_tours)
+            out["fixed_point"][spec] = r
+            print(f"{spec}: tours={r['tours']} fixed point={r['stopped_by_criterion']} entries at log q={r['n_entries_at_log_q']} "
+                  f"deficits in [{r['deficit_min']:.1e}, {r['deficit_max']:.4f}] above tol at {r['positions_deficit_above_tol']} "
+                  f"|sim - clipped tight| <= {r['max_abs_diff_to_clipped_tight_first_d_minus_45']:.2e} (clip depth {r['clip_depth']})")
+        for spec in a.intervals or []:
+            name, b = spec.split(":")
+            r = passing_interval(name, int(b))
+            out["passing_intervals"][spec] = r
+            if r["count"]:
+                print(f"{spec}: passing m in [{r['m_lo']}, {r['m_hi']}] ({r['count']}, contiguous={r['contiguous']}), max-margin m={r['m_max_margin']}")
+            else:
+                print(f"{spec}: no admissible m passes; best margin {r['margin_max']} at m={r['m_max_margin']}")
+        json.dump(out, open(a.out, "w"), indent=1)
+        print("wrote", a.out)
+        return
     results = {}
     for name in a.sets:
         b_print = KYBER[name]["printed"][1]

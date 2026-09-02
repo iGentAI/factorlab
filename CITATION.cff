@@ -29,7 +29,7 @@ references:
     institution:
       name: iGent AI
   - type: report
-    title: "Certified conditional profile optima for block lattice reduction, with the ML-KEM detection chain"
+    title: "Certified conditional profile optima for block reduction, and the Kyber round-3 primal chain re-evaluated"
     authors:
       - family-names: Ward
         given-names: Sean
